@@ -51,6 +51,26 @@ def validate():
     with (ROOT / 'data/risk-matches.csv').open(newline='') as source:
         assert list(csv.DictReader(source)) == matches, 'CSV download differs from JSON'
 
+    definitions = read('risk-definitions.json')
+    for source in definitions['sources'].values():
+        assert urlsplit(source['url']).scheme == 'https'
+        assert source['title'] and source['edition']
+    for kind, valid_ids in [('local', ids), ('national', nids)]:
+        assert set(definitions[kind]).issubset(valid_ids), f'Unknown {kind} definition ID'
+        for definition in definitions[kind].values():
+            assert definition['text'].strip() and definition['format'] == 'summary'
+            assert definition['source_id'] in definitions['sources']
+            assert isinstance(definition['pdf_page'], int) and definition['pdf_page'] > 0
+    for topic in definitions['topics'].values():
+        assert topic['text'].strip() and topic['national_ids']
+        assert all(nid in definitions['national'] for nid in topic['national_ids'])
+    for local_id, related in definitions['related'].items():
+        assert local_id in ids
+        if 'topic_id' in related: assert related['topic_id'] in definitions['topics']
+        else: assert related['national_ids'] and all(nid in definitions['national'] for nid in related['national_ids'])
+    covered = set(definitions['local']) | set(definitions['related']) | {m['local_id'] for m in matches if m['match_status']=='Direct' and m['national_id'] in definitions['national']}
+    print(f'Definitions: {len(definitions["local"])} local summaries, {len(definitions["national"])} national summaries; {len(covered)}/{len(risks)} local entries have definitions or labelled national background.')
+
     class Links(HTMLParser):
         def handle_starttag(self, tag, attrs):
             for name, value in attrs:
