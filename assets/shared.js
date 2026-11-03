@@ -17,3 +17,8 @@ export function rankDescription(risk) {
   if (Number.isFinite(risk.visualRating)) return `Approximate graphical position ${risk.visualRating}, rounded to navigation rank ${rank}/5. This is an interpretation of the source graphic, not a precise published table score.`;
   return 'Unranked: no usable individual rating has been transcribed. The original source may contain further detail.';
 }
+
+// The tools emit optional analytics signals without depending on the tracker loading.
+export function trackEvent(name, code = '') {
+  document.dispatchEvent(new CustomEvent('communityrisk:interaction', {detail:{name, code}}));
+}

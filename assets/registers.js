@@ -1,6 +1,6 @@
 import { loadData } from './data.js';
 import { ratingRank, calculatedPriority, commonRanking, priorityCompare } from './ranking.js';
-import { showLoadError } from './shared.js';
+import { showLoadError, trackEvent } from './shared.js';
 
 async function initialise(){
 const db=await loadData();
@@ -27,7 +27,7 @@ for(const category of nationalCategories){
 document.getElementById('expandNational').onclick=()=>nationalTree.querySelectorAll('details').forEach(d=>d.open=true);
 document.getElementById('collapseNational').onclick=()=>nationalTree.querySelectorAll('details').forEach(d=>d.open=false);
 function hideSuggestions(){nationalSuggestions.hidden=true;nationalSearch.setAttribute('aria-expanded','false');suggestIndex=-1}
-function selectNationalRisk(id){selectedNational=id;const n=NATIONAL_RISKS.find(x=>x.national_id===id);
+function selectNationalRisk(id){if(id)trackEvent('national-selected',id);selectedNational=id;const n=NATIONAL_RISKS.find(x=>x.national_id===id);
  nationalSearch.value='';hideSuggestions();
  nationalSelected.hidden=!n;
  nationalSelected.innerHTML=n?`<span>Selected: <strong>${esc(n.national_risk)}</strong></span><button type="button" id="clearNational" aria-label="Clear national risk filter">× Clear</button>`:'';
@@ -74,11 +74,11 @@ FEATURES.forEach(feature => {
   path.setAttribute('tabindex', '0');
   path.setAttribute('role', 'button');
   path.setAttribute('aria-label', feature.name);
-  path.addEventListener('click', () => selectRegion(feature.code));
+  path.addEventListener('click', () => selectRegion(feature.code,true));
   path.addEventListener('keydown', event => {
     if (event.key === 'Enter' || event.key === ' ') {
       event.preventDefault();
-      selectRegion(feature.code);
+      selectRegion(feature.code,true);
     }
   });
   path.addEventListener('mousemove', event => {
@@ -93,8 +93,8 @@ FEATURES.forEach(feature => {
 });
 function getData(code){return DATA[code]||null}
 
-function selectRegion(code){active=FEATURES.find(f=>f.code===code);sel.value=code;document.querySelectorAll('.region').forEach(p=>p.classList.toggle('active',p.dataset.code===code));document.getElementById('name').textContent='2. '+active.name;document.getElementById('code').textContent='Official LRF code: '+code;const reg=REGISTER_URLS[active.code];document.getElementById('registerLink').innerHTML=reg?`<a href="${reg}" target="_blank" rel="noopener noreferrer">↗ View Community Risk Register / risk information</a><small>Recorded source link; may lead to a PDF or website. Availability not guaranteed.</small>`:'<small>Register link not located.</small>';let d=getData(active.code),a=document.getElementById('riskArea');a.style.display=d?'block':'none';document.getElementById('notice').className='notice '+(d?'good':'');document.getElementById('notice').textContent=d?`Register: ${d.year} · ${d.scope}. ${d.note}`:'Boundary available; risk register not yet entered.';document.getElementById('sources').innerHTML=d?`<div class="sourcebox"><strong>Source information:</strong> ${esc(d.year)}. <br><span class="smalllink">Access the original PDF from the <a href="https://www.gov.uk/guidance/local-resilience-forums-contact-details" target="_blank">official LRF directory</a>.</span></div>`:'<p>Find this region’s register in the <a target="_blank" href="https://www.gov.uk/guidance/local-resilience-forums-contact-details">official LRF directory</a>.</p>';if(d)renderMatrix(d)}
-sel.addEventListener('change',()=>selectRegion(sel.value));
+function selectRegion(code,userInitiated=false){if(userInitiated)trackEvent('area-selected',code);document.getElementById('registerLink').dataset.analyticsEvent='register-source';document.getElementById('registerLink').dataset.analyticsCode=code;active=FEATURES.find(f=>f.code===code);sel.value=code;document.querySelectorAll('.region').forEach(p=>p.classList.toggle('active',p.dataset.code===code));document.getElementById('name').textContent='2. '+active.name;document.getElementById('code').textContent='Official LRF code: '+code;const reg=REGISTER_URLS[active.code];document.getElementById('registerLink').innerHTML=reg?`<a href="${reg}" target="_blank" rel="noopener noreferrer">↗ View Community Risk Register / risk information</a><small>Recorded source link; may lead to a PDF or website. Availability not guaranteed.</small>`:'<small>Register link not located.</small>';let d=getData(active.code),a=document.getElementById('riskArea');a.style.display=d?'block':'none';document.getElementById('notice').className='notice '+(d?'good':'');document.getElementById('notice').textContent=d?`Register: ${d.year} · ${d.scope}. ${d.note}`:'Boundary available; risk register not yet entered.';document.getElementById('sources').innerHTML=d?`<div class="sourcebox"><strong>Source information:</strong> ${esc(d.year)}. <br><span class="smalllink">Access the original PDF from the <a href="https://www.gov.uk/guidance/local-resilience-forums-contact-details" target="_blank">official LRF directory</a>.</span></div>`:'<p>Find this region’s register in the <a target="_blank" href="https://www.gov.uk/guidance/local-resilience-forums-contact-details">official LRF directory</a>.</p>';if(d)renderMatrix(d)}
+sel.addEventListener('change',()=>selectRegion(sel.value,true));
 
 let activeRiskIndex=-1, currentData=null, view='list', sortBy='priority', sortDir=-1, clusterPos=null;
 const searchInput=document.getElementById('riskSearch'),filterInput=document.getElementById('riskFilter');
@@ -128,10 +128,10 @@ function makePlot(){const svg=document.getElementById('riskPlot');svg.innerHTML=
  if(clusterPos&&groups.has(clusterPos))renderCluster(groups.get(clusterPos),clusterPos);}
 function renderCluster(items,key){const [l,i]=key.split('-');document.getElementById('clusterTitle').textContent=`Likelihood ${l}/5 · Impact ${i}/5`;document.getElementById('clusterHint').textContent=`${items.length} ${items.length===1?'risk':'risks'} at these exact published scores`;let container=document.getElementById('clusterRisks');container.innerHTML='';items.forEach(r=>{let b=document.createElement('button');b.className='cluster-item'+(r.idx===activeRiskIndex?' selected':'');b.textContent=r.name;b.onclick=()=>chooseRisk(r.idx);container.appendChild(b)})}
 function chooseCluster(key){clusterPos=key;activeRiskIndex=-1;makePlot();renderList();document.getElementById('detail').textContent='Select a risk name from the group to see its published information.'}
-function chooseRisk(idx){activeRiskIndex=idx;const r=currentData.risks[idx];clusterPos=Number.isFinite(r.likelihood)&&Number.isFinite(r.impact)?r.likelihood+'-'+r.impact:null;renderList();makePlot();document.getElementById('detail').innerHTML=riskDetailHTML(r);}
+function chooseRisk(idx){trackEvent('risk-opened',currentData.risks[idx].id);activeRiskIndex=idx;const r=currentData.risks[idx];clusterPos=Number.isFinite(r.likelihood)&&Number.isFinite(r.impact)?r.likelihood+'-'+r.impact:null;renderList();makePlot();document.getElementById('detail').innerHTML=riskDetailHTML(r);}
 function renderMatrix(d){currentData=d;activeRiskIndex=-1;clusterPos=null;sortBy='priority';sortDir=-1;searchInput.value='';filterInput.value='all';document.getElementById('detail').textContent='Select a risk to see how its single Climate Resilient UK ranking was derived and to view source information.';renderList();makePlot();switchView('list')}
-function switchView(which){view=which;document.getElementById('listView').hidden=which!=='list';document.getElementById('plotView').hidden=which!=='plot';for(const [id,active] of [['listTab',which==='list'],['plotTab',which==='plot']]){let b=document.getElementById(id);b.classList.toggle('active',active);b.setAttribute('aria-selected',String(active))}if(which==='plot')makePlot()}
-document.getElementById('listTab').onclick=()=>switchView('list');document.getElementById('plotTab').onclick=()=>switchView('plot');
+function switchView(which,userInitiated=false){if(userInitiated)trackEvent('view-changed',which);view=which;document.getElementById('listView').hidden=which!=='list';document.getElementById('plotView').hidden=which!=='plot';for(const [id,active] of [['listTab',which==='list'],['plotTab',which==='plot']]){let b=document.getElementById(id);b.classList.toggle('active',active);b.setAttribute('aria-selected',String(active))}if(which==='plot')makePlot()}
+document.getElementById('listTab').onclick=()=>switchView('list',true);document.getElementById('plotTab').onclick=()=>switchView('plot',true);
 for(const b of document.querySelectorAll('[data-sort]'))b.onclick=()=>{if(sortBy===b.dataset.sort)sortDir*=-1;else{sortBy=b.dataset.sort;sortDir=sortBy==='name'?1:-1}renderList()};
 searchInput.oninput=()=>{clusterPos=null;renderList();makePlot()};filterInput.onchange=()=>{clusterPos=null;renderList();makePlot()};
 document.getElementById('count').textContent=FEATURES.length+' official LRF areas';const initial=FEATURES.find(f=>f.name.includes('Devon, Cornwall'));const requested=new URLSearchParams(location.search).get('area');selectRegion(FEATURES.some(f=>f.code===requested)?requested:initial.code);

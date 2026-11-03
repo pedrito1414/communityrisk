@@ -1,6 +1,6 @@
 import { loadData } from './data.js';
 import { commonRanking, priorityCompare } from './ranking.js';
-import { esc, rankDescription } from './shared.js';
+import { esc, rankDescription, trackEvent } from './shared.js';
 import { findForumFeatures, drawFallbackMap } from './geometry.js';
 
 const $ = id => document.getElementById(id);
@@ -19,7 +19,7 @@ function render() {
   });
   $('riskRows').innerHTML = rows.map(r => {
     const rank = commonRanking(r);
-    return `<tr><td><strong>${esc(r.name)}</strong><details class="source-details"><summary>Rating and source details</summary><p>${esc(rankDescription(r))}</p>${r.rating ? `<p>Original rating: ${esc(r.rating)}</p>` : ''}<p>Reference: ${esc(r.code || 'Published topic')}<br>Source: ${esc(r.source || 'See forum source below')}</p>${r.note ? `<p>${esc(r.note)}</p>` : ''}</details></td><td>${rank === null ? '<span class="muted">Unranked</span>' : `<span class="score ${rank === 5 ? 'top' : rank === 4 ? 'high' : ''}" aria-label="Navigation rank ${rank} of 5">${rank}</span>`}</td></tr>`;
+    return `<tr><td><strong>${esc(r.name)}</strong><details class="source-details" data-analytics-risk="${esc(r.id)}"><summary>Rating and source details</summary><p>${esc(rankDescription(r))}</p>${r.rating ? `<p>Original rating: ${esc(r.rating)}</p>` : ''}<p>Reference: ${esc(r.code || 'Published topic')}<br>Source: ${esc(r.source || 'See forum source below')}</p>${r.note ? `<p>${esc(r.note)}</p>` : ''}</details></td><td>${rank === null ? '<span class="muted">Unranked</span>' : `<span class="score ${rank === 5 ? 'top' : rank === 4 ? 'high' : ''}" aria-label="Navigation rank ${rank} of 5">${rank}</span>`}</td></tr>`;
   }).join('');
   $('count').textContent = `${rows.length} of ${riskList.length} recorded entries`;
   $('empty').hidden = rows.length > 0;
@@ -77,7 +77,8 @@ $('form').addEventListener('submit', async event => {
   if (busy) return;
   $('error').hidden = true;
   const postcode = $('postcode').value.trim().toUpperCase();
-  if (!/^(GIR\s?0AA|[A-Z]{1,2}\d[A-Z\d]?\s?\d[A-Z]{2})$/i.test(postcode)) return showError('Please enter a valid UK postcode.');
+  if (!/^(GIR\s?0AA|[A-Z]{1,2}\d[A-Z\d]?\s?\d[A-Z]{2})$/i.test(postcode)) { trackEvent('postcode-invalid'); return showError('Please enter a valid UK postcode.'); }
+  trackEvent('postcode-started');
   busy = true; $('submit').disabled = true; $('submit').textContent = 'Looking up…';
   // Hide previous results so a failed search cannot leave the previous area's risks on screen.
   $('results').hidden = true; $('welcome').hidden = false;
@@ -89,6 +90,11 @@ $('form').addEventListener('submit', async event => {
     if (features.length !== 1) throw new Error('This postcode could not be assigned unambiguously using the current boundary data. Please use the full risk register dashboard.');
     const feature = features[0], forum = db.forums.find(f => f.code === feature.properties.code);
     if (!forum) throw new Error('The forum is missing from the shared data. Please use the full dashboard.');
+    trackEvent('postcode-succeeded', forum.code);
+    $('forumWebsite').dataset.analyticsEvent = 'forum-website';
+    $('forumWebsite').dataset.analyticsCode = forum.code;
+    $('source').dataset.analyticsEvent = 'register-source';
+    $('source').dataset.analyticsCode = forum.code;
     riskList = db.risks.filter(r => r.forum_code === forum.code);
     sortKey = 'rank'; sortDesc = true; $('riskSearch').value = '';
     $('forumName').textContent = `${locationData.postcode} is in the ${forum.name} resilience forum area`;
@@ -104,7 +110,7 @@ $('form').addEventListener('submit', async event => {
     history.replaceState(null, '', '?postcode=' + encodeURIComponent(locationData.postcode));
     $('forumName').tabIndex = -1; $('forumName').focus();
     $('results').scrollIntoView({behavior: 'smooth'});
-  } catch (error) { showError(error.message); }
+  } catch (error) { trackEvent('postcode-failed'); showError(error.message); }
   finally { busy = false; $('submit').disabled = false; $('submit').textContent = 'Find my risks →'; }
 });
 $('riskSearch').addEventListener('input', render);
