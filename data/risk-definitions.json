@@ -1,0 +1,1983 @@
+{
+  "sources": {
+    "nrr-2026": {
+      "title": "National Risk Register 2026",
+      "url": "https://assets.publishing.service.gov.uk/media/6a50d66b1228eb26a4cab76c/National_Risk_Register_2026.pdf",
+      "publication_url": "https://www.gov.uk/government/publications/national-risk-register-2026",
+      "edition": "2026",
+      "note": "Plain-English summaries based on the named national scenarios. PDF pages count from the first file page and may differ from printed page numbers."
+    },
+    "avon-somerset-2026": {
+      "title": "Avon and Somerset Community Risk Register 2026",
+      "url": "https://media.aspolice.net/uploads/production/20260907120559/Community-risk-register.pdf",
+      "publication_url": "https://www.avonandsomerset.police.uk/about/policies-and-procedures/community-risk-register/",
+      "edition": "2026",
+      "note": "Plain-English summaries checked against the local risk sections."
+    }
+  },
+  "local": {
+    "E48000001-001": {
+      "text": "Water flooding normally dry land from rivers, the sea, heavy rainfall, rising groundwater or reservoirs, potentially damaging homes and services.",
+      "source_id": "avon-somerset-2026",
+      "pdf_page": 9,
+      "format": "summary"
+    },
+    "E48000001-002": {
+      "text": "Severe weather such as high winds, heavy rain, snow, thunderstorms, heatwaves or extreme cold that threatens health and disrupts daily life.",
+      "source_id": "avon-somerset-2026",
+      "pdf_page": 12,
+      "format": "summary"
+    },
+    "E48000001-003": {
+      "text": "Diseases spreading between animals. Some can also infect people, with consequences for animal welfare, farming and public health.",
+      "source_id": "avon-somerset-2026",
+      "pdf_page": 15,
+      "format": "summary"
+    },
+    "E48000001-004": {
+      "text": "Illnesses spreading through people, animals, contaminated surfaces or food, or contact with infected bodily fluids.",
+      "source_id": "avon-somerset-2026",
+      "pdf_page": 17,
+      "format": "summary"
+    },
+    "E48000001-005": {
+      "text": "Serious incidents on roads, railways, in the air or at sea, caused by collisions, mechanical failures or extreme weather.",
+      "source_id": "avon-somerset-2026",
+      "pdf_page": 19,
+      "format": "summary"
+    },
+    "E48000001-006": {
+      "text": "Accidents at industrial sites that can harm people or the environment beyond the site boundary, including chemical and nuclear facilities.",
+      "source_id": "avon-somerset-2026",
+      "pdf_page": 22,
+      "format": "summary"
+    },
+    "E48000001-007": {
+      "text": "Disruption to electricity, gas, water, communications, fuel or food supplies, with knock-on effects because essential services depend on one another.",
+      "source_id": "avon-somerset-2026",
+      "pdf_page": 25,
+      "format": "summary"
+    },
+    "E48000001-008": {
+      "text": "Deliberate threats including terrorism and organised crime, considered in local emergency planning even where sensitive details are not published.",
+      "source_id": "avon-somerset-2026",
+      "pdf_page": 28,
+      "format": "summary"
+    },
+    "E48000001-009": {
+      "text": "Crimes exploiting digital systems, including hacking, data theft and online fraud, which can cause financial loss and interrupt services.",
+      "source_id": "avon-somerset-2026",
+      "pdf_page": 31,
+      "format": "summary"
+    }
+  },
+  "national": {
+    "NRR26-001": {
+      "text": "A terrorist attack overseas that affects British nationals, potentially causing deaths, injuries and a need for support or repatriation.",
+      "source_id": "nrr-2026",
+      "pdf_page": 30,
+      "format": "summary"
+    },
+    "NRR26-002": {
+      "text": "Terrorist violence linked to Northern Ireland, including attempts to destabilise the peace settlement and harm people or public services.",
+      "source_id": "nrr-2026",
+      "pdf_page": 32,
+      "format": "summary"
+    },
+    "NRR26-003": {
+      "text": "An attack using an explosive device carried by a person, placed at a location, or transported in a vehicle.",
+      "source_id": "nrr-2026",
+      "pdf_page": 34,
+      "format": "summary"
+    },
+    "NRR26-004": {
+      "text": "An attack in which perpetrators move through an area seeking victims, using methods such as vehicles, knives or firearms.",
+      "source_id": "nrr-2026",
+      "pdf_page": 36,
+      "format": "summary"
+    },
+    "NRR26-005": {
+      "text": "A deliberate attack affecting ships, ports or other maritime activity, with potential harm to people and disruption to transport.",
+      "source_id": "nrr-2026",
+      "pdf_page": 38,
+      "format": "summary"
+    },
+    "NRR26-006": {
+      "text": "A deliberate attack on the rail network or its passengers, potentially causing casualties and interrupting rail services.",
+      "source_id": "nrr-2026",
+      "pdf_page": 40,
+      "format": "summary"
+    },
+    "NRR26-007": {
+      "text": "An attack on aircraft or aviation infrastructure intended to cause harm and disruption to air travel.",
+      "source_id": "nrr-2026",
+      "pdf_page": 42,
+      "format": "summary"
+    },
+    "NRR26-008": {
+      "text": "An incident in which people are held or threatened to force demands, potentially for political or ideological purposes.",
+      "source_id": "nrr-2026",
+      "pdf_page": 44,
+      "format": "summary"
+    },
+    "NRR26-009": {
+      "text": "The deliberate killing or attempted killing of a prominent public figure.",
+      "source_id": "nrr-2026",
+      "pdf_page": 46,
+      "format": "summary"
+    },
+    "NRR26-010": {
+      "text": "An attack using chemical, biological, radioactive or nuclear material to harm people, contaminate an area or disrupt services.",
+      "source_id": "nrr-2026",
+      "pdf_page": 48,
+      "format": "summary"
+    },
+    "NRR26-011": {
+      "text": "A physical attack on gas infrastructure that interrupts operations or supplies and may endanger people nearby.",
+      "source_id": "nrr-2026",
+      "pdf_page": 50,
+      "format": "summary"
+    },
+    "NRR26-012": {
+      "text": "A cyber attack that damages or disrupts the digital systems used to operate gas infrastructure.",
+      "source_id": "nrr-2026",
+      "pdf_page": 52,
+      "format": "summary"
+    },
+    "NRR26-013": {
+      "text": "A physical attack on electricity infrastructure, potentially damaging equipment and interrupting power supplies.",
+      "source_id": "nrr-2026",
+      "pdf_page": 54,
+      "format": "summary"
+    },
+    "NRR26-014": {
+      "text": "A cyber attack on electricity systems that could disrupt the transmission network and cause a widespread power outage.",
+      "source_id": "nrr-2026",
+      "pdf_page": 56,
+      "format": "summary"
+    },
+    "NRR26-015": {
+      "text": "A physical attack on a civil nuclear facility or related infrastructure, with potential consequences for safety and energy supplies.",
+      "source_id": "nrr-2026",
+      "pdf_page": 58,
+      "format": "summary"
+    },
+    "NRR26-016": {
+      "text": "A physical attack on facilities used to produce, import, store or distribute fuel, potentially interrupting supplies and harming workers.",
+      "source_id": "nrr-2026",
+      "pdf_page": 60,
+      "format": "summary"
+    },
+    "NRR26-017": {
+      "text": "A cyber attack that interrupts the production or distribution of fuel by disrupting the systems used by fuel suppliers.",
+      "source_id": "nrr-2026",
+      "pdf_page": 62,
+      "format": "summary"
+    },
+    "NRR26-018": {
+      "text": "A physical attack on a government building or estate that threatens people, assets or the continuity of government services.",
+      "source_id": "nrr-2026",
+      "pdf_page": 63,
+      "format": "summary"
+    },
+    "NRR26-019": {
+      "text": "A cyber attack on health or social care systems that interrupts services, compromises information or limits access to essential systems.",
+      "source_id": "nrr-2026",
+      "pdf_page": 66,
+      "format": "summary"
+    },
+    "NRR26-020": {
+      "text": "A cyber attack on transport networks or operating systems that disrupts travel and the movement of people or goods.",
+      "source_id": "nrr-2026",
+      "pdf_page": 68,
+      "format": "summary"
+    },
+    "NRR26-021": {
+      "text": "A cyber attack on systems supporting fixed-line, mobile or internet communications, potentially disrupting essential connections.",
+      "source_id": "nrr-2026",
+      "pdf_page": 70,
+      "format": "summary"
+    },
+    "NRR26-022": {
+      "text": "A cyber attack on data centres or the infrastructure supporting digital services used by businesses, public services and individuals.",
+      "source_id": "nrr-2026",
+      "pdf_page": 72,
+      "format": "summary"
+    },
+    "NRR26-023": {
+      "text": "A cyber attack on digital systems controlling water treatment or distribution that could interrupt water supplies or wastewater services.",
+      "source_id": "nrr-2026",
+      "pdf_page": 74,
+      "format": "summary"
+    },
+    "NRR26-024": {
+      "text": "A cyber attack on policing systems that could interrupt police operations and the delivery of emergency services.",
+      "source_id": "nrr-2026",
+      "pdf_page": 76,
+      "format": "summary"
+    },
+    "NRR26-025": {
+      "text": "Malicious interference with civil nuclear systems, including digital systems, that threatens safe operations or essential services.",
+      "source_id": "nrr-2026",
+      "pdf_page": 79,
+      "format": "summary"
+    },
+    "NRR26-026": {
+      "text": "A malicious attack on financial infrastructure that supports transactions essential to the UK economy.",
+      "source_id": "nrr-2026",
+      "pdf_page": 81,
+      "format": "summary"
+    },
+    "NRR26-027": {
+      "text": "A malicious attack on a retail bank that could prevent customers from accessing accounts, payments or other banking services.",
+      "source_id": "nrr-2026",
+      "pdf_page": 83,
+      "format": "summary"
+    },
+    "NRR26-028": {
+      "text": "Major disruption to the undersea telecommunications cables carrying international internet and data traffic to and from the UK.",
+      "source_id": "nrr-2026",
+      "pdf_page": 84,
+      "format": "summary"
+    },
+    "NRR26-029": {
+      "text": "Disruption of international routes used to transport oil, potentially affecting supplies, energy prices, production and wider trade.",
+      "source_id": "nrr-2026",
+      "pdf_page": 87,
+      "format": "summary"
+    },
+    "NRR26-030": {
+      "text": "Interference intended to undermine or disrupt democratic processes in the UK, including the integrity of elections and public participation.",
+      "source_id": "nrr-2026",
+      "pdf_page": 89,
+      "format": "summary"
+    },
+    "NRR26-031": {
+      "text": "The failure of a major adult social care provider, putting the continuity of care for people with support needs at risk.",
+      "source_id": "nrr-2026",
+      "pdf_page": 91,
+      "format": "summary"
+    },
+    "NRR26-032": {
+      "text": "The insolvency of a major supplier whose failure could interrupt services essential to the public sector.",
+      "source_id": "nrr-2026",
+      "pdf_page": 93,
+      "format": "summary"
+    },
+    "NRR26-033": {
+      "text": "The insolvency of a fuel-sector business, potentially disrupting the supply of fuel while its operations are closed, sold or transferred.",
+      "source_id": "nrr-2026",
+      "pdf_page": 95,
+      "format": "summary"
+    },
+    "NRR26-034": {
+      "text": "A serious rail accident, such as a derailment, that could cause injuries, damage and disruption to train services.",
+      "source_id": "nrr-2026",
+      "pdf_page": 97,
+      "format": "summary"
+    },
+    "NRR26-035": {
+      "text": "A major accident involving a large passenger vessel, such as a cruise ship, potentially requiring rescue and emergency support.",
+      "source_id": "nrr-2026",
+      "pdf_page": 99,
+      "format": "summary"
+    },
+    "NRR26-036": {
+      "text": "A major release of pollutants into UK waters, for example oil spilled from a tanker, pipeline or offshore installation.",
+      "source_id": "nrr-2026",
+      "pdf_page": 101,
+      "format": "summary"
+    },
+    "NRR26-037": {
+      "text": "A vessel accident that obstructs a major UK port and interrupts the movement of imports and exports.",
+      "source_id": "nrr-2026",
+      "pdf_page": 103,
+      "format": "summary"
+    },
+    "NRR26-038": {
+      "text": "An accident involving dangerous materials whose release could seriously harm people, public safety or the environment.",
+      "source_id": "nrr-2026",
+      "pdf_page": 105,
+      "format": "summary"
+    },
+    "NRR26-039": {
+      "text": "A serious aircraft collision, with potential loss of life, injuries and disruption to aviation.",
+      "source_id": "nrr-2026",
+      "pdf_page": 107,
+      "format": "summary"
+    },
+    "NRR26-040": {
+      "text": "Malicious use of a drone that threatens safety or disrupts operations, including activity around an airport.",
+      "source_id": "nrr-2026",
+      "pdf_page": 109,
+      "format": "summary"
+    },
+    "NRR26-041": {
+      "text": "The loss or degradation of satellite communications, remote sensing or other space-based services that support activities on Earth.",
+      "source_id": "nrr-2026",
+      "pdf_page": 110,
+      "format": "summary"
+    },
+    "NRR26-042": {
+      "text": "The loss of positioning, navigation or precise timing services used by transport, communications and other critical systems.",
+      "source_id": "nrr-2026",
+      "pdf_page": 112,
+      "format": "summary"
+    },
+    "NRR26-043": {
+      "text": "A simultaneous loss of fixed and mobile communications, potentially disrupting broadband, telephone connections and access to essential services.",
+      "source_id": "nrr-2026",
+      "pdf_page": 115,
+      "format": "summary"
+    },
+    "NRR26-044": {
+      "text": "A failure of the national electricity transmission system causing widespread loss of power and disruption across other essential systems.",
+      "source_id": "nrr-2026",
+      "pdf_page": 117,
+      "format": "summary"
+    },
+    "NRR26-045": {
+      "text": "Failure of part of the electricity distribution network, causing a power outage across a region rather than the whole country.",
+      "source_id": "nrr-2026",
+      "pdf_page": 119,
+      "format": "summary"
+    },
+    "NRR26-046": {
+      "text": "A shortage of gas or electricity relative to national demand, requiring action to manage supplies and protect essential services.",
+      "source_id": "nrr-2026",
+      "pdf_page": 121,
+      "format": "summary"
+    },
+    "NRR26-047": {
+      "text": "An accident involving civil nuclear facilities or activities that could release radiation and require measures to protect the public.",
+      "source_id": "nrr-2026",
+      "pdf_page": 123,
+      "format": "summary"
+    },
+    "NRR26-048": {
+      "text": "A radioactive release from a nuclear facility outside the UK, with potential consequences for people or the environment in the UK.",
+      "source_id": "nrr-2026",
+      "pdf_page": 125,
+      "format": "summary"
+    },
+    "NRR26-049": {
+      "text": "Exposure to radioactive material while goods are being transported, or after a radioactive source has been lost or stolen.",
+      "source_id": "nrr-2026",
+      "pdf_page": 127,
+      "format": "summary"
+    },
+    "NRR26-050": {
+      "text": "A technological failure at a major retail bank that interrupts customers’ access to accounts, payments or banking services.",
+      "source_id": "nrr-2026",
+      "pdf_page": 129,
+      "format": "summary"
+    },
+    "NRR26-051": {
+      "text": "A technological failure in critical financial market infrastructure that interrupts the systems used to process financial transactions.",
+      "source_id": "nrr-2026",
+      "pdf_page": 131,
+      "format": "summary"
+    },
+    "NRR26-052": {
+      "text": "An accidental fire or explosion at a site handling significant quantities of flammable or explosive substances.",
+      "source_id": "nrr-2026",
+      "pdf_page": 133,
+      "format": "summary"
+    },
+    "NRR26-053": {
+      "text": "An accidental release of toxic gas or chemicals from a major hazard site, potentially affecting people and the surrounding environment.",
+      "source_id": "nrr-2026",
+      "pdf_page": 135,
+      "format": "summary"
+    },
+    "NRR26-054": {
+      "text": "An accidental fire or explosion on an offshore oil or gas installation that handles large volumes of flammable material.",
+      "source_id": "nrr-2026",
+      "pdf_page": 137,
+      "format": "summary"
+    },
+    "NRR26-055": {
+      "text": "An accidental release of flammable fuel from an onshore pipeline that leads to a fire or explosion.",
+      "source_id": "nrr-2026",
+      "pdf_page": 139,
+      "format": "summary"
+    },
+    "NRR26-056": {
+      "text": "An accidental release from a major hazard pipeline carrying flammable or toxic materials, potentially causing a fire, explosion or harmful exposure.",
+      "source_id": "nrr-2026",
+      "pdf_page": 141,
+      "format": "summary"
+    },
+    "NRR26-057": {
+      "text": "The accidental release of a dangerous disease-causing organism from a laboratory, potentially exposing people outside its containment arrangements.",
+      "source_id": "nrr-2026",
+      "pdf_page": 143,
+      "format": "summary"
+    },
+    "NRR26-058": {
+      "text": "The collapse or breach of a dam or reservoir, suddenly releasing large volumes of fast-flowing water into surrounding areas.",
+      "source_id": "nrr-2026",
+      "pdf_page": 145,
+      "format": "summary"
+    },
+    "NRR26-059": {
+      "text": "Failure of water infrastructure that leaves a large population without drinking water and may exceed the capacity for alternative supplies.",
+      "source_id": "nrr-2026",
+      "pdf_page": 147,
+      "format": "summary"
+    },
+    "NRR26-060": {
+      "text": "Food contamination by disease-causing organisms, potentially leading to widespread illness and the withdrawal of affected products.",
+      "source_id": "nrr-2026",
+      "pdf_page": 149,
+      "format": "summary"
+    },
+    "NRR26-061": {
+      "text": "A major fire that threatens people, property or infrastructure. It may result from accidents, deliberate acts or natural causes.",
+      "source_id": "nrr-2026",
+      "pdf_page": 151,
+      "format": "summary"
+    },
+    "NRR26-062": {
+      "text": "A major interruption to data infrastructure that makes digital services unavailable across multiple organisations or sectors.",
+      "source_id": "nrr-2026",
+      "pdf_page": 153,
+      "format": "summary"
+    },
+    "NRR26-063": {
+      "text": "A digital technology failure that disrupts services, potentially affecting multiple organisations or sectors at national scale.",
+      "source_id": "nrr-2026",
+      "pdf_page": 155,
+      "format": "summary"
+    },
+    "NRR26-064": {
+      "text": "Accidental damage to the high-pressure national gas transmission network that interrupts its operation or the delivery of gas.",
+      "source_id": "nrr-2026",
+      "pdf_page": 157,
+      "format": "summary"
+    },
+    "NRR26-065": {
+      "text": "An uncontrolled fire burning vegetation such as grass, heathland, woodland, crops or scrub, potentially threatening communities and infrastructure.",
+      "source_id": "nrr-2026",
+      "pdf_page": 160,
+      "format": "summary"
+    },
+    "NRR26-066": {
+      "text": "A volcanic eruption overseas whose ash or gases could affect the UK, including disruption to air travel.",
+      "source_id": "nrr-2026",
+      "pdf_page": 163,
+      "format": "summary"
+    },
+    "NRR26-067": {
+      "text": "Ground shaking caused by movement within the Earth, potentially damaging buildings and infrastructure. Damaging earthquakes are uncommon in the UK.",
+      "source_id": "nrr-2026",
+      "pdf_page": 165,
+      "format": "summary"
+    },
+    "NRR26-068": {
+      "text": "A natural disaster overseas, such as an earthquake, hurricane or tsunami, that creates humanitarian needs and affects British people or interests.",
+      "source_id": "nrr-2026",
+      "pdf_page": 167,
+      "format": "summary"
+    },
+    "NRR26-069": {
+      "text": "A major disaster affecting a UK Overseas Territory that requires assistance and a significant response from the UK.",
+      "source_id": "nrr-2026",
+      "pdf_page": 169,
+      "format": "summary"
+    },
+    "NRR26-070": {
+      "text": "Disturbances originating from the Sun that can damage or interrupt satellites, communications, navigation and other technologies.",
+      "source_id": "nrr-2026",
+      "pdf_page": 171,
+      "format": "summary"
+    },
+    "NRR26-071": {
+      "text": "A period of strong winds and storm conditions that can threaten people, damage property and disrupt transport or essential services.",
+      "source_id": "nrr-2026",
+      "pdf_page": 173,
+      "format": "summary"
+    },
+    "NRR26-072": {
+      "text": "A period of unusually high temperatures, potentially harming health and placing pressure on infrastructure and essential services.",
+      "source_id": "nrr-2026",
+      "pdf_page": 175,
+      "format": "summary"
+    },
+    "NRR26-073": {
+      "text": "Very cold conditions or heavy snowfall that threaten health and disrupt transport, energy supplies and other essential services.",
+      "source_id": "nrr-2026",
+      "pdf_page": 177,
+      "format": "summary"
+    },
+    "NRR26-074": {
+      "text": "Flooding of coastal land caused by high tides, low-pressure weather systems, large waves or storm surges.",
+      "source_id": "nrr-2026",
+      "pdf_page": 179,
+      "format": "summary"
+    },
+    "NRR26-075": {
+      "text": "Flooding when rivers, streams or brooks overflow into surrounding land, often following sustained or intense rainfall.",
+      "source_id": "nrr-2026",
+      "pdf_page": 181,
+      "format": "summary"
+    },
+    "NRR26-076": {
+      "text": "Flooding when rainfall exceeds the capacity of drains and water flows across the ground. It can occur far from rivers or the coast.",
+      "source_id": "nrr-2026",
+      "pdf_page": 183,
+      "format": "summary"
+    },
+    "NRR26-077": {
+      "text": "A shortage of water following an unusually dry period, potentially worsened by high demand during hot weather.",
+      "source_id": "nrr-2026",
+      "pdf_page": 185,
+      "format": "summary"
+    },
+    "NRR26-078": {
+      "text": "Air pollution at levels that can damage health, including short-term episodes when weather prevents pollutants from dispersing.",
+      "source_id": "nrr-2026",
+      "pdf_page": 187,
+      "format": "summary"
+    },
+    "NRR26-079": {
+      "text": "A new disease-causing organism spreading rapidly around the world where people have little existing immunity.",
+      "source_id": "nrr-2026",
+      "pdf_page": 190,
+      "format": "summary"
+    },
+    "NRR26-080": {
+      "text": "An outbreak of a newly recognised infectious disease that could cause many people to become ill and require an enhanced public-health response.",
+      "source_id": "nrr-2026",
+      "pdf_page": 193,
+      "format": "summary"
+    },
+    "NRR26-081": {
+      "text": "A highly infectious viral disease affecting animals including cattle, pigs, sheep, deer and goats, with serious consequences for farming.",
+      "source_id": "nrr-2026",
+      "pdf_page": 195,
+      "format": "summary"
+    },
+    "NRR26-082": {
+      "text": "A severe infectious influenza disease primarily affecting birds. Prolonged direct contact can also transmit infection to some mammals, including humans.",
+      "source_id": "nrr-2026",
+      "pdf_page": 197,
+      "format": "summary"
+    },
+    "NRR26-083": {
+      "text": "A viral disease spread by midges that can be fatal to horses, donkeys and mules. It does not affect humans.",
+      "source_id": "nrr-2026",
+      "pdf_page": 199,
+      "format": "summary"
+    },
+    "NRR26-084": {
+      "text": "A highly contagious disease of pigs and wild boar that can spread through infected animals, meat products or contaminated objects. It does not infect humans.",
+      "source_id": "nrr-2026",
+      "pdf_page": 201,
+      "format": "summary"
+    },
+    "NRR26-085": {
+      "text": "An outbreak of a plant-disease bacterium that can infect many plant species and damage agriculture or the natural environment.",
+      "source_id": "nrr-2026",
+      "pdf_page": 203,
+      "format": "summary"
+    },
+    "NRR26-086": {
+      "text": "An outbreak of emerald ash borer beetles whose larvae damage ash trees, weakening them and potentially causing them to die.",
+      "source_id": "nrr-2026",
+      "pdf_page": 205,
+      "format": "summary"
+    },
+    "NRR26-087": {
+      "text": "Serious disorder involving conflict or violence that can threaten public safety. It may develop from unrest or an incident that triggers wider tensions.",
+      "source_id": "nrr-2026",
+      "pdf_page": 208,
+      "format": "summary"
+    },
+    "NRR26-088": {
+      "text": "Action by workers in a dispute with employers, including strikes or working to rule, that can disrupt services or infrastructure.",
+      "source_id": "nrr-2026",
+      "pdf_page": 210,
+      "format": "summary"
+    },
+    "NRR26-089": {
+      "text": "A sudden return of British nationals from overseas following a crisis, creating a need for reception, accommodation and support in the UK.",
+      "source_id": "nrr-2026",
+      "pdf_page": 212,
+      "format": "summary"
+    },
+    "NRR26-090": {
+      "text": "A major interruption to the operation of the criminal justice system, including pressures that prevent its core functions from continuing normally.",
+      "source_id": "nrr-2026",
+      "pdf_page": 214,
+      "format": "summary"
+    },
+    "NRR26-091": {
+      "text": "Deliberate disruption of space systems or satellite services on which communications, navigation, infrastructure and defence operations depend.",
+      "source_id": "nrr-2026",
+      "pdf_page": 217,
+      "format": "summary"
+    },
+    "NRR26-092": {
+      "text": "An attack on a partner country outside NATO that leads to a request for UK assistance.",
+      "source_id": "nrr-2026",
+      "pdf_page": 219,
+      "format": "summary"
+    },
+    "NRR26-093": {
+      "text": "An attack on a NATO ally or qualifying deployed forces that triggers consideration of NATO’s collective-defence commitment under Article 5.",
+      "source_id": "nrr-2026",
+      "pdf_page": 220,
+      "format": "summary"
+    },
+    "NRR26-094": {
+      "text": "A conventional military attack on the UK mainland or its Overseas Territories, requiring a defence and wider emergency response.",
+      "source_id": "nrr-2026",
+      "pdf_page": 221,
+      "format": "summary"
+    },
+    "NRR26-095": {
+      "text": "A state misunderstanding another state’s intentions and responding with a nuclear strike, without the UK or its allies being directly involved.",
+      "source_id": "nrr-2026",
+      "pdf_page": 222,
+      "format": "summary"
+    }
+  },
+  "topics": {
+    "flooding": {
+      "text": "The national register distinguishes coastal flooding, rivers overflowing their banks, and heavy rainfall overwhelming drainage. These can affect people, buildings and essential services.",
+      "national_ids": [
+        "NRR26-074",
+        "NRR26-075",
+        "NRR26-076"
+      ]
+    },
+    "weather": {
+      "text": "Severe weather includes storms and strong winds, unusually high temperatures, and very cold conditions or snow. These can threaten health and disrupt services.",
+      "national_ids": [
+        "NRR26-071",
+        "NRR26-072",
+        "NRR26-073"
+      ]
+    },
+    "animal-disease": {
+      "text": "The national register describes serious animal disease outbreaks, including foot and mouth disease, avian influenza, African horse sickness and African swine fever. Their effects differ by disease.",
+      "national_ids": [
+        "NRR26-081",
+        "NRR26-082",
+        "NRR26-083",
+        "NRR26-084"
+      ]
+    },
+    "infectious-disease": {
+      "text": "Infectious disease emergencies include a new disease outbreak or a pandemic spreading internationally. They can affect many people and place pressure on health and other services.",
+      "national_ids": [
+        "NRR26-079",
+        "NRR26-080"
+      ]
+    },
+    "industrial": {
+      "text": "Industrial emergencies include fires, explosions or toxic releases at sites and pipelines handling hazardous materials. Consequences can extend beyond the immediate facility.",
+      "national_ids": [
+        "NRR26-052",
+        "NRR26-053",
+        "NRR26-055",
+        "NRR26-056"
+      ]
+    },
+    "transport": {
+      "text": "National transport scenarios include serious rail accidents, aircraft collisions and large passenger-vessel accidents, with potential casualties and major disruption.",
+      "national_ids": [
+        "NRR26-034",
+        "NRR26-035",
+        "NRR26-039"
+      ]
+    },
+    "utilities": {
+      "text": "Essential-service failures can interrupt electricity, gas, drinking water, communications or fuel supplies. Because these systems depend on one another, disruption can spread between services.",
+      "national_ids": [
+        "NRR26-043",
+        "NRR26-044",
+        "NRR26-045",
+        "NRR26-046",
+        "NRR26-059"
+      ]
+    },
+    "terrorism": {
+      "text": "The national register describes deliberate attacks on people, public places, transport and infrastructure. Different attack methods can cause casualties and wider disruption.",
+      "national_ids": [
+        "NRR26-003",
+        "NRR26-004",
+        "NRR26-005",
+        "NRR26-006",
+        "NRR26-007",
+        "NRR26-010"
+      ]
+    },
+    "cyber": {
+      "text": "Cyber attacks can compromise digital systems or information and interrupt services. National scenarios cover sectors including health, transport, communications, energy, water and policing.",
+      "national_ids": [
+        "NRR26-019",
+        "NRR26-020",
+        "NRR26-021",
+        "NRR26-022",
+        "NRR26-023",
+        "NRR26-024"
+      ]
+    },
+    "physical-infrastructure-attacks": {
+      "text": "Physical attacks on essential infrastructure can damage facilities and interrupt gas, electricity, fuel or other services.",
+      "national_ids": [
+        "NRR26-011",
+        "NRR26-013",
+        "NRR26-015",
+        "NRR26-016"
+      ]
+    },
+    "disruption": {
+      "text": "National societal risks include public disorder and industrial action. They can disrupt daily activities and the delivery of essential services.",
+      "national_ids": [
+        "NRR26-087",
+        "NRR26-088"
+      ]
+    }
+  },
+  "related": {
+    "E48000002-003": {
+      "national_ids": [
+        "NRR26-066"
+      ]
+    },
+    "E48000002-004": {
+      "topic_id": "cyber"
+    },
+    "E48000002-005": {
+      "national_ids": [
+        "NRR26-039"
+      ]
+    },
+    "E48000002-009": {
+      "national_ids": [
+        "NRR26-088"
+      ]
+    },
+    "E48000003-003": {
+      "national_ids": [
+        "NRR26-048"
+      ]
+    },
+    "E48000004-001": {
+      "topic_id": "flooding"
+    },
+    "E48000004-002": {
+      "topic_id": "weather"
+    },
+    "E48000004-003": {
+      "topic_id": "infectious-disease"
+    },
+    "E48000004-004": {
+      "topic_id": "utilities"
+    },
+    "E48000004-005": {
+      "topic_id": "cyber"
+    },
+    "E48000004-006": {
+      "topic_id": "transport"
+    },
+    "E48000004-007": {
+      "topic_id": "industrial"
+    },
+    "E48000004-008": {
+      "topic_id": "animal-disease"
+    },
+    "E48000004-009": {
+      "topic_id": "terrorism"
+    },
+    "E48000004-010": {
+      "topic_id": "disruption"
+    },
+    "E48000005-001": {
+      "topic_id": "flooding"
+    },
+    "E48000005-002": {
+      "topic_id": "weather"
+    },
+    "E48000005-003": {
+      "topic_id": "industrial"
+    },
+    "E48000005-004": {
+      "topic_id": "transport"
+    },
+    "E48000005-005": {
+      "topic_id": "infectious-disease"
+    },
+    "E48000005-006": {
+      "topic_id": "animal-disease"
+    },
+    "E48000005-007": {
+      "topic_id": "utilities"
+    },
+    "E48000006-001": {
+      "topic_id": "flooding"
+    },
+    "E48000006-002": {
+      "topic_id": "weather"
+    },
+    "E48000006-003": {
+      "topic_id": "infectious-disease"
+    },
+    "E48000006-004": {
+      "topic_id": "utilities"
+    },
+    "E48000006-005": {
+      "topic_id": "transport"
+    },
+    "E48000006-006": {
+      "topic_id": "animal-disease"
+    },
+    "E48000007-003": {
+      "topic_id": "weather"
+    },
+    "E48000007-006": {
+      "national_ids": [
+        "NRR26-079"
+      ]
+    },
+    "E48000007-007": {
+      "national_ids": [
+        "NRR26-080"
+      ]
+    },
+    "E48000007-008": {
+      "national_ids": [
+        "NRR26-044"
+      ]
+    },
+    "E48000007-009": {
+      "topic_id": "industrial"
+    },
+    "E48000007-010": {
+      "topic_id": "transport"
+    },
+    "E48000007-011": {
+      "topic_id": "animal-disease"
+    },
+    "E48000008-004": {
+      "national_ids": [
+        "NRR26-073"
+      ]
+    },
+    "E48000008-008": {
+      "national_ids": [
+        "NRR26-080"
+      ]
+    },
+    "E48000008-009": {
+      "topic_id": "utilities"
+    },
+    "E48000008-010": {
+      "national_ids": [
+        "NRR26-072"
+      ]
+    },
+    "E48000008-014": {
+      "national_ids": [
+        "NRR26-045"
+      ]
+    },
+    "E48000008-015": {
+      "topic_id": "utilities"
+    },
+    "E48000008-016": {
+      "national_ids": [
+        "NRR26-043"
+      ]
+    },
+    "E48000009-001": {
+      "national_ids": [
+        "NRR26-044"
+      ]
+    },
+    "E48000009-002": {
+      "topic_id": "utilities"
+    },
+    "E48000009-004": {
+      "national_ids": [
+        "NRR26-072"
+      ]
+    },
+    "E48000009-014": {
+      "national_ids": [
+        "NRR26-045"
+      ]
+    },
+    "E48000009-020": {
+      "national_ids": [
+        "NRR26-081"
+      ]
+    },
+    "E48000009-021": {
+      "national_ids": [
+        "NRR26-082"
+      ]
+    },
+    "E48000009-022": {
+      "national_ids": [
+        "NRR26-088"
+      ]
+    },
+    "E48000009-026": {
+      "national_ids": [
+        "NRR26-031"
+      ]
+    },
+    "E48000009-033": {
+      "national_ids": [
+        "NRR26-053"
+      ]
+    },
+    "E48000009-034": {
+      "national_ids": [
+        "NRR26-055"
+      ]
+    },
+    "E48000009-039": {
+      "national_ids": [
+        "NRR26-036"
+      ]
+    },
+    "E48000009-042": {
+      "national_ids": [
+        "NRR26-088"
+      ]
+    },
+    "E48000010-001": {
+      "topic_id": "weather"
+    },
+    "E48000010-002": {
+      "topic_id": "flooding"
+    },
+    "E48000010-003": {
+      "topic_id": "infectious-disease"
+    },
+    "E48000010-004": {
+      "topic_id": "industrial"
+    },
+    "E48000010-005": {
+      "topic_id": "transport"
+    },
+    "E48000010-006": {
+      "topic_id": "utilities"
+    },
+    "E48000010-007": {
+      "topic_id": "animal-disease"
+    },
+    "E48000011-001": {
+      "topic_id": "flooding"
+    },
+    "E48000011-002": {
+      "topic_id": "weather"
+    },
+    "E48000011-003": {
+      "topic_id": "infectious-disease"
+    },
+    "E48000011-004": {
+      "topic_id": "animal-disease"
+    },
+    "E48000011-005": {
+      "topic_id": "industrial"
+    },
+    "E48000011-006": {
+      "topic_id": "cyber"
+    },
+    "E48000011-007": {
+      "topic_id": "utilities"
+    },
+    "E48000011-008": {
+      "topic_id": "transport"
+    },
+    "E48000012-001": {
+      "topic_id": "infectious-disease"
+    },
+    "E48000012-002": {
+      "topic_id": "terrorism"
+    },
+    "E48000012-003": {
+      "national_ids": [
+        "NRR26-045"
+      ]
+    },
+    "E48000012-004": {
+      "topic_id": "flooding"
+    },
+    "E48000012-005": {
+      "topic_id": "utilities"
+    },
+    "E48000012-006": {
+      "topic_id": "weather"
+    },
+    "E48000012-007": {
+      "topic_id": "cyber"
+    },
+    "E48000013-001": {
+      "topic_id": "flooding"
+    },
+    "E48000013-002": {
+      "topic_id": "weather"
+    },
+    "E48000013-003": {
+      "national_ids": [
+        "NRR26-079"
+      ]
+    },
+    "E48000013-004": {
+      "topic_id": "industrial"
+    },
+    "E48000013-005": {
+      "topic_id": "transport"
+    },
+    "E48000013-006": {
+      "topic_id": "utilities"
+    },
+    "E48000013-007": {
+      "topic_id": "animal-disease"
+    },
+    "E48000014-003": {
+      "topic_id": "terrorism"
+    },
+    "E48000014-004": {
+      "topic_id": "terrorism"
+    },
+    "E48000014-006": {
+      "national_ids": [
+        "NRR26-009"
+      ]
+    },
+    "E48000014-007": {
+      "national_ids": [
+        "NRR26-010"
+      ]
+    },
+    "E48000014-008": {
+      "topic_id": "physical-infrastructure-attacks"
+    },
+    "E48000014-009": {
+      "topic_id": "cyber"
+    },
+    "E48000014-017": {
+      "national_ids": [
+        "NRR26-036"
+      ]
+    },
+    "E48000014-018": {
+      "national_ids": [
+        "NRR26-037"
+      ]
+    },
+    "E48000014-022": {
+      "national_ids": [
+        "NRR26-041"
+      ]
+    },
+    "E48000014-025": {
+      "national_ids": [
+        "NRR26-044"
+      ]
+    },
+    "E48000014-027": {
+      "topic_id": "utilities"
+    },
+    "E48000014-030": {
+      "national_ids": [
+        "NRR26-050"
+      ]
+    },
+    "E48000014-031": {
+      "national_ids": [
+        "NRR26-051"
+      ]
+    },
+    "E48000014-059": {
+      "national_ids": [
+        "NRR26-085"
+      ]
+    },
+    "E48000014-060": {
+      "national_ids": [
+        "NRR26-086"
+      ]
+    },
+    "E48000014-062": {
+      "national_ids": [
+        "NRR26-088"
+      ]
+    },
+    "E48000014-063": {
+      "national_ids": [
+        "NRR26-088"
+      ]
+    },
+    "E48000014-064": {
+      "national_ids": [
+        "NRR26-088"
+      ]
+    },
+    "E48000014-065": {
+      "national_ids": [
+        "NRR26-088"
+      ]
+    },
+    "E48000014-071": {
+      "national_ids": [
+        "NRR26-088"
+      ]
+    },
+    "E48000014-074": {
+      "national_ids": [
+        "NRR26-088"
+      ]
+    },
+    "E48000014-078": {
+      "national_ids": [
+        "NRR26-057"
+      ]
+    },
+    "E48000015-001": {
+      "topic_id": "infectious-disease"
+    },
+    "E48000015-002": {
+      "topic_id": "weather"
+    },
+    "E48000015-003": {
+      "topic_id": "transport"
+    },
+    "E48000015-004": {
+      "topic_id": "flooding"
+    },
+    "E48000015-005": {
+      "topic_id": "utilities"
+    },
+    "E48000016-001": {
+      "topic_id": "flooding"
+    },
+    "E48000016-002": {
+      "topic_id": "weather"
+    },
+    "E48000016-003": {
+      "national_ids": [
+        "NRR26-079"
+      ]
+    },
+    "E48000016-004": {
+      "national_ids": [
+        "NRR26-080"
+      ]
+    },
+    "E48000016-005": {
+      "topic_id": "industrial"
+    },
+    "E48000016-006": {
+      "topic_id": "transport"
+    },
+    "E48000016-007": {
+      "national_ids": [
+        "NRR26-045"
+      ]
+    },
+    "E48000016-008": {
+      "topic_id": "animal-disease"
+    },
+    "E48000017-001": {
+      "national_ids": [
+        "NRR26-044"
+      ]
+    },
+    "E48000017-002": {
+      "topic_id": "utilities"
+    },
+    "E48000017-004": {
+      "national_ids": [
+        "NRR26-074"
+      ]
+    },
+    "E48000017-011": {
+      "topic_id": "weather"
+    },
+    "E48000017-012": {
+      "topic_id": "flooding"
+    },
+    "E48000017-013": {
+      "topic_id": "flooding"
+    },
+    "E48000017-015": {
+      "national_ids": [
+        "NRR26-088"
+      ]
+    },
+    "E48000017-020": {
+      "national_ids": [
+        "NRR26-036"
+      ]
+    },
+    "E48000017-021": {
+      "national_ids": [
+        "NRR26-037"
+      ]
+    },
+    "E48000017-026": {
+      "topic_id": "industrial"
+    },
+    "E48000017-027": {
+      "national_ids": [
+        "NRR26-058"
+      ]
+    },
+    "E48000017-034": {
+      "national_ids": [
+        "NRR26-081"
+      ]
+    },
+    "E48000017-035": {
+      "national_ids": [
+        "NRR26-082"
+      ]
+    },
+    "E48000017-037": {
+      "national_ids": [
+        "NRR26-088"
+      ]
+    },
+    "E48000017-044": {
+      "national_ids": [
+        "NRR26-053"
+      ]
+    },
+    "E48000017-046": {
+      "national_ids": [
+        "NRR26-020"
+      ]
+    },
+    "E48000017-047": {
+      "national_ids": [
+        "NRR26-021"
+      ]
+    },
+    "E48000017-050": {
+      "national_ids": [
+        "NRR26-057"
+      ]
+    },
+    "E48000018-001": {
+      "topic_id": "flooding"
+    },
+    "E48000018-002": {
+      "topic_id": "weather"
+    },
+    "E48000018-003": {
+      "topic_id": "infectious-disease"
+    },
+    "E48000018-004": {
+      "topic_id": "utilities"
+    },
+    "E48000018-005": {
+      "topic_id": "transport"
+    },
+    "E48000018-006": {
+      "topic_id": "industrial"
+    },
+    "E48000019-001": {
+      "topic_id": "flooding"
+    },
+    "E48000019-002": {
+      "topic_id": "weather"
+    },
+    "E48000019-003": {
+      "topic_id": "utilities"
+    },
+    "E48000019-004": {
+      "topic_id": "infectious-disease"
+    },
+    "E48000019-005": {
+      "topic_id": "cyber"
+    },
+    "E48000019-006": {
+      "topic_id": "transport"
+    },
+    "E48000019-007": {
+      "topic_id": "terrorism"
+    },
+    "E48000020-002": {
+      "topic_id": "flooding"
+    },
+    "E48000020-003": {
+      "national_ids": [
+        "NRR26-080"
+      ]
+    },
+    "E48000020-004": {
+      "topic_id": "cyber"
+    },
+    "E48000020-005": {
+      "topic_id": "terrorism"
+    },
+    "E48000020-006": {
+      "national_ids": [
+        "NRR26-046"
+      ]
+    },
+    "E48000020-008": {
+      "national_ids": [
+        "NRR26-073"
+      ]
+    },
+    "E48000021-009": {
+      "national_ids": [
+        "NRR26-080"
+      ]
+    },
+    "E48000021-013": {
+      "national_ids": [
+        "NRR26-065"
+      ]
+    },
+    "E48000021-015": {
+      "national_ids": [
+        "NRR26-058"
+      ]
+    },
+    "E48000021-016": {
+      "national_ids": [
+        "NRR26-059"
+      ]
+    },
+    "E48000021-017": {
+      "topic_id": "utilities"
+    },
+    "E48000021-018": {
+      "national_ids": [
+        "NRR26-045"
+      ]
+    },
+    "E48000021-019": {
+      "national_ids": [
+        "NRR26-043"
+      ]
+    },
+    "E48000021-022": {
+      "national_ids": [
+        "NRR26-089"
+      ]
+    },
+    "E48000021-023": {
+      "national_ids": [
+        "NRR26-081"
+      ]
+    },
+    "E48000021-025": {
+      "national_ids": [
+        "NRR26-051"
+      ]
+    },
+    "E48000021-026": {
+      "national_ids": [
+        "NRR26-010"
+      ]
+    },
+    "E48000021-027": {
+      "topic_id": "physical-infrastructure-attacks"
+    },
+    "E48000021-028": {
+      "topic_id": "terrorism"
+    },
+    "E48000021-029": {
+      "topic_id": "terrorism"
+    },
+    "E48000021-030": {
+      "national_ids": [
+        "NRR26-010"
+      ]
+    },
+    "E48000021-031": {
+      "topic_id": "cyber"
+    },
+    "E48000021-032": {
+      "national_ids": [
+        "NRR26-010"
+      ]
+    },
+    "E48000022-001": {
+      "topic_id": "flooding"
+    },
+    "E48000022-002": {
+      "topic_id": "weather"
+    },
+    "E48000022-003": {
+      "national_ids": [
+        "NRR26-079"
+      ]
+    },
+    "E48000022-004": {
+      "topic_id": "industrial"
+    },
+    "E48000022-005": {
+      "topic_id": "transport"
+    },
+    "E48000022-006": {
+      "topic_id": "utilities"
+    },
+    "E48000023-001": {
+      "topic_id": "flooding"
+    },
+    "E48000023-002": {
+      "topic_id": "weather"
+    },
+    "E48000023-003": {
+      "topic_id": "infectious-disease"
+    },
+    "E48000023-004": {
+      "topic_id": "utilities"
+    },
+    "E48000024-001": {
+      "topic_id": "flooding"
+    },
+    "E48000024-002": {
+      "topic_id": "weather"
+    },
+    "E48000024-003": {
+      "national_ids": [
+        "NRR26-079"
+      ]
+    },
+    "E48000024-004": {
+      "topic_id": "utilities"
+    },
+    "E48000024-005": {
+      "topic_id": "industrial"
+    },
+    "E48000024-006": {
+      "topic_id": "transport"
+    },
+    "E48000024-007": {
+      "topic_id": "animal-disease"
+    },
+    "E48000025-001": {
+      "topic_id": "flooding"
+    },
+    "E48000025-002": {
+      "topic_id": "weather"
+    },
+    "E48000025-003": {
+      "national_ids": [
+        "NRR26-079"
+      ]
+    },
+    "E48000025-004": {
+      "topic_id": "industrial"
+    },
+    "E48000025-005": {
+      "topic_id": "transport"
+    },
+    "E48000025-006": {
+      "topic_id": "utilities"
+    },
+    "E48000025-007": {
+      "topic_id": "animal-disease"
+    },
+    "E48000026-001": {
+      "topic_id": "flooding"
+    },
+    "E48000026-002": {
+      "topic_id": "weather"
+    },
+    "E48000026-003": {
+      "topic_id": "utilities"
+    },
+    "E48000026-004": {
+      "topic_id": "infectious-disease"
+    },
+    "E48000026-005": {
+      "topic_id": "industrial"
+    },
+    "E48000026-006": {
+      "topic_id": "transport"
+    },
+    "E48000026-007": {
+      "topic_id": "animal-disease"
+    },
+    "E48000027-001": {
+      "topic_id": "flooding"
+    },
+    "E48000027-002": {
+      "topic_id": "weather"
+    },
+    "E48000027-003": {
+      "topic_id": "infectious-disease"
+    },
+    "E48000027-004": {
+      "topic_id": "utilities"
+    },
+    "E48000027-005": {
+      "topic_id": "industrial"
+    },
+    "E48000027-006": {
+      "topic_id": "transport"
+    },
+    "E48000027-007": {
+      "topic_id": "animal-disease"
+    },
+    "E48000028-001": {
+      "topic_id": "flooding"
+    },
+    "E48000028-002": {
+      "topic_id": "weather"
+    },
+    "E48000028-003": {
+      "topic_id": "infectious-disease"
+    },
+    "E48000029-001": {
+      "national_ids": [
+        "NRR26-001"
+      ]
+    },
+    "E48000029-003": {
+      "topic_id": "terrorism"
+    },
+    "E48000029-004": {
+      "topic_id": "terrorism"
+    },
+    "E48000029-006": {
+      "national_ids": [
+        "NRR26-009"
+      ]
+    },
+    "E48000029-007": {
+      "national_ids": [
+        "NRR26-010"
+      ]
+    },
+    "E48000029-008": {
+      "national_ids": [
+        "NRR26-010"
+      ]
+    },
+    "E48000029-009": {
+      "national_ids": [
+        "NRR26-010"
+      ]
+    },
+    "E48000029-010": {
+      "topic_id": "physical-infrastructure-attacks"
+    },
+    "E48000029-011": {
+      "topic_id": "cyber"
+    },
+    "E48000029-017": {
+      "national_ids": [
+        "NRR26-041"
+      ]
+    },
+    "E48000029-020": {
+      "national_ids": [
+        "NRR26-044"
+      ]
+    },
+    "E48000029-022": {
+      "topic_id": "utilities"
+    },
+    "E48000029-027": {
+      "national_ids": [
+        "NRR26-051"
+      ]
+    },
+    "E48000029-038": {
+      "national_ids": [
+        "NRR26-069"
+      ]
+    },
+    "E48000029-050": {
+      "national_ids": [
+        "NRR26-085"
+      ]
+    },
+    "E48000029-051": {
+      "national_ids": [
+        "NRR26-086"
+      ]
+    },
+    "E48000029-056": {
+      "national_ids": [
+        "NRR26-092"
+      ]
+    },
+    "E48000030-001": {
+      "topic_id": "flooding"
+    },
+    "E48000030-002": {
+      "topic_id": "weather"
+    },
+    "E48000030-003": {
+      "topic_id": "infectious-disease"
+    },
+    "E48000030-004": {
+      "topic_id": "industrial"
+    },
+    "E48000030-005": {
+      "topic_id": "transport"
+    },
+    "E48000030-006": {
+      "topic_id": "utilities"
+    },
+    "E48000031-001": {
+      "national_ids": [
+        "NRR26-031"
+      ]
+    },
+    "E48000031-008": {
+      "national_ids": [
+        "NRR26-044"
+      ]
+    },
+    "E48000031-009": {
+      "topic_id": "utilities"
+    },
+    "E48000031-033": {
+      "national_ids": [
+        "NRR26-081"
+      ]
+    },
+    "E48000031-034": {
+      "national_ids": [
+        "NRR26-082"
+      ]
+    },
+    "E48000031-035": {
+      "national_ids": [
+        "NRR26-083"
+      ]
+    },
+    "E48000031-036": {
+      "national_ids": [
+        "NRR26-084"
+      ]
+    },
+    "E48000031-037": {
+      "national_ids": [
+        "NRR26-085"
+      ]
+    },
+    "E48000031-038": {
+      "national_ids": [
+        "NRR26-086"
+      ]
+    },
+    "E48000031-040": {
+      "national_ids": [
+        "NRR26-088"
+      ]
+    },
+    "E48000031-041": {
+      "national_ids": [
+        "NRR26-088"
+      ]
+    },
+    "E48000031-042": {
+      "national_ids": [
+        "NRR26-088"
+      ]
+    },
+    "E48000031-043": {
+      "national_ids": [
+        "NRR26-088"
+      ]
+    },
+    "E48000031-046": {
+      "national_ids": [
+        "NRR26-063"
+      ]
+    },
+    "E48000031-047": {
+      "national_ids": [
+        "NRR26-090"
+      ]
+    },
+    "E48000032-002": {
+      "national_ids": [
+        "NRR26-080"
+      ]
+    },
+    "E48000032-003": {
+      "national_ids": [
+        "NRR26-082"
+      ]
+    },
+    "E48000032-004": {
+      "national_ids": [
+        "NRR26-081"
+      ]
+    },
+    "E48000032-005": {
+      "topic_id": "flooding"
+    },
+    "E48000032-010": {
+      "national_ids": [
+        "NRR26-036"
+      ]
+    },
+    "E48000032-011": {
+      "topic_id": "transport"
+    },
+    "E48000032-013": {
+      "topic_id": "utilities"
+    },
+    "E48000032-014": {
+      "topic_id": "utilities"
+    },
+    "E48000032-016": {
+      "topic_id": "industrial"
+    },
+    "E48000032-017": {
+      "topic_id": "cyber"
+    },
+    "E48000032-018": {
+      "topic_id": "terrorism"
+    },
+    "E48000033-008": {
+      "national_ids": [
+        "NRR26-050"
+      ]
+    },
+    "E48000033-015": {
+      "national_ids": [
+        "NRR26-088"
+      ]
+    },
+    "E48000033-019": {
+      "topic_id": "flooding"
+    },
+    "E48000033-021": {
+      "national_ids": [
+        "NRR26-052"
+      ]
+    },
+    "E48000033-025": {
+      "national_ids": [
+        "NRR26-057"
+      ]
+    },
+    "E48000033-027": {
+      "national_ids": [
+        "NRR26-032"
+      ]
+    },
+    "E48000033-036": {
+      "topic_id": "animal-disease"
+    },
+    "E48000033-037": {
+      "national_ids": [
+        "NRR26-089"
+      ]
+    },
+    "E48000034-001": {
+      "topic_id": "flooding"
+    },
+    "E48000034-004": {
+      "national_ids": [
+        "NRR26-079"
+      ]
+    },
+    "E48000034-005": {
+      "topic_id": "cyber"
+    },
+    "E48000034-006": {
+      "topic_id": "utilities"
+    },
+    "E48000034-007": {
+      "topic_id": "transport"
+    },
+    "E48000034-008": {
+      "topic_id": "industrial"
+    },
+    "E48000034-009": {
+      "topic_id": "animal-disease"
+    },
+    "E48000034-010": {
+      "topic_id": "terrorism"
+    },
+    "E48000035-001": {
+      "topic_id": "terrorism"
+    },
+    "E48000035-002": {
+      "topic_id": "cyber"
+    },
+    "E48000035-007": {
+      "topic_id": "disruption"
+    },
+    "E48000036-001": {
+      "topic_id": "industrial"
+    },
+    "E48000036-002": {
+      "national_ids": [
+        "NRR26-045"
+      ]
+    },
+    "E48000036-003": {
+      "topic_id": "weather"
+    },
+    "E48000036-004": {
+      "topic_id": "flooding"
+    },
+    "E48000036-005": {
+      "national_ids": [
+        "NRR26-061"
+      ]
+    },
+    "E48000036-007": {
+      "national_ids": [
+        "NRR26-073"
+      ]
+    },
+    "E48000036-008": {
+      "topic_id": "disruption"
+    },
+    "E48000036-009": {
+      "topic_id": "infectious-disease"
+    },
+    "E48000036-010": {
+      "topic_id": "transport"
+    },
+    "E48000036-011": {
+      "topic_id": "cyber"
+    },
+    "E48000036-012": {
+      "topic_id": "utilities"
+    },
+    "E48000036-013": {
+      "topic_id": "terrorism"
+    },
+    "E48000037-001": {
+      "topic_id": "flooding"
+    },
+    "E48000037-002": {
+      "topic_id": "weather"
+    },
+    "E48000037-003": {
+      "topic_id": "infectious-disease"
+    },
+    "E48000037-004": {
+      "topic_id": "utilities"
+    },
+    "E48000037-005": {
+      "topic_id": "transport"
+    },
+    "E48000037-006": {
+      "topic_id": "industrial"
+    },
+    "E48000037-007": {
+      "topic_id": "terrorism"
+    },
+    "E48000038-001": {
+      "national_ids": [
+        "NRR26-079"
+      ]
+    },
+    "E48000038-002": {
+      "topic_id": "flooding"
+    },
+    "E48000038-003": {
+      "topic_id": "weather"
+    },
+    "E48000038-004": {
+      "topic_id": "utilities"
+    },
+    "W41000001-002": {
+      "topic_id": "flooding"
+    },
+    "W41000001-003": {
+      "topic_id": "weather"
+    },
+    "W41000001-004": {
+      "topic_id": "utilities"
+    },
+    "W41000001-006": {
+      "topic_id": "animal-disease"
+    },
+    "W41000001-007": {
+      "topic_id": "industrial"
+    },
+    "W41000001-008": {
+      "topic_id": "transport"
+    },
+    "W41000002-001": {
+      "topic_id": "weather"
+    },
+    "W41000002-002": {
+      "topic_id": "flooding"
+    },
+    "W41000002-003": {
+      "topic_id": "infectious-disease"
+    },
+    "W41000002-004": {
+      "topic_id": "utilities"
+    },
+    "W41000002-005": {
+      "topic_id": "industrial"
+    },
+    "W41000002-006": {
+      "topic_id": "animal-disease"
+    },
+    "W41000002-007": {
+      "topic_id": "transport"
+    },
+    "W41000002-009": {
+      "topic_id": "terrorism"
+    },
+    "W41000003-001": {
+      "topic_id": "flooding"
+    },
+    "W41000003-002": {
+      "topic_id": "weather"
+    },
+    "W41000003-003": {
+      "national_ids": [
+        "NRR26-079"
+      ]
+    },
+    "W41000003-004": {
+      "topic_id": "terrorism"
+    },
+    "W41000003-005": {
+      "topic_id": "industrial"
+    },
+    "W41000003-006": {
+      "topic_id": "utilities"
+    },
+    "W41000003-007": {
+      "topic_id": "animal-disease"
+    },
+    "W41000003-009": {
+      "topic_id": "transport"
+    },
+    "W41000004-001": {
+      "topic_id": "infectious-disease"
+    },
+    "W41000004-003": {
+      "topic_id": "weather"
+    },
+    "W41000004-004": {
+      "topic_id": "flooding"
+    },
+    "W41000004-006": {
+      "topic_id": "industrial"
+    },
+    "W41000004-007": {
+      "topic_id": "utilities"
+    },
+    "W41000004-008": {
+      "topic_id": "animal-disease"
+    },
+    "W41000004-009": {
+      "topic_id": "terrorism"
+    }
+  },
+  "notes": "Local definitions take priority. National summaries use Direct crosswalk matches; related national background is separately curated and does not change or confirm the crosswalk. Unmatched entries remain explicitly unavailable."
+}
