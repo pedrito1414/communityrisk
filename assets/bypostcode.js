@@ -1,10 +1,11 @@
+import { riskDefinitionHTML } from './definitions.js';
 import { loadData } from './data.js';
 import { commonRanking, priorityCompare } from './ranking.js';
 import { esc, rankDescription, trackEvent } from './shared.js';
 import { findForumFeatures, drawFallbackMap } from './geometry.js';
 
 const $ = id => document.getElementById(id);
-let map, boundaryLayer, marker, riskList = [], sortKey = 'rank', sortDesc = true, busy = false;
+let map, boundaryLayer, marker, riskList = [], sortKey = 'rank', sortDesc = true, busy = false, riskData = null;
 function showError(message) { $('error').textContent = message; $('error').hidden = false; }
 function render() {
   const query = $('riskSearch').value.trim().toLowerCase();
@@ -19,7 +20,7 @@ function render() {
   });
   $('riskRows').innerHTML = rows.map(r => {
     const rank = commonRanking(r);
-    return `<tr><td><strong>${esc(r.name)}</strong><details class="source-details" data-analytics-risk="${esc(r.id)}"><summary>Rating and source details</summary><p>${esc(rankDescription(r))}</p>${r.rating ? `<p>Original rating: ${esc(r.rating)}</p>` : ''}<p>Reference: ${esc(r.code || 'Published topic')}<br>Source: ${esc(r.source || 'See forum source below')}</p>${r.note ? `<p>${esc(r.note)}</p>` : ''}</details></td><td>${rank === null ? '<span class="muted">Unranked</span>' : `<span class="score ${rank === 5 ? 'top' : rank === 4 ? 'high' : ''}" aria-label="Navigation rank ${rank} of 5">${rank}</span>`}</td></tr>`;
+    return `<tr><td><strong>${esc(r.name)}</strong><details class="source-details" data-analytics-risk="${esc(r.id)}"><summary>Risk definition</summary>${riskDefinitionHTML(r, riskData, false)}<details class="rating-source"><summary>Rating and source details</summary><p>${esc(rankDescription(r))}</p>${r.rating ? `<p>Original rating: ${esc(r.rating)}</p>` : ''}<p>Reference: ${esc(r.code || 'Published topic')}<br>Source: ${esc(r.source || 'See forum source below')}</p>${r.note ? `<p>${esc(r.note)}</p>` : ''}</details></details></td><td>${rank === null ? '<span class="muted">Unranked</span>' : `<span class="score ${rank === 5 ? 'top' : rank === 4 ? 'high' : ''}" aria-label="Navigation rank ${rank} of 5">${rank}</span>`}</td></tr>`;
   }).join('');
   $('count').textContent = `${rows.length} of ${riskList.length} recorded entries`;
   $('empty').hidden = rows.length > 0;
@@ -95,6 +96,7 @@ $('form').addEventListener('submit', async event => {
     $('forumWebsite').dataset.analyticsCode = forum.code;
     $('source').dataset.analyticsEvent = 'register-source';
     $('source').dataset.analyticsCode = forum.code;
+    riskData = db;
     riskList = db.risks.filter(r => r.forum_code === forum.code);
     sortKey = 'rank'; sortDesc = true; $('riskSearch').value = '';
     $('forumName').textContent = `${locationData.postcode} is in the ${forum.name} resilience forum area`;
