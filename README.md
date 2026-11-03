@@ -17,6 +17,7 @@ All internal links are relative. The same files also work under the current repo
 - `index.html`: project home page.
 - `registers/index.html`, `bypostcode/index.html`: interface markup.
 - `assets/`: page styling, interface code, shared data loading, ranking rules and geographic lookup.
+- `assets/definitions.js`: shared local-first definition selection and source rendering.
 - `data/`: the shared collection, documented in [data/README.md](data/README.md).
 - `tools/validate.py`: checks data references, ranges, identifiers and local file links.
 - `tests/`: browser checks using Python, Chromium and ChromeDriver; no Python packages required.
