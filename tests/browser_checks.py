@@ -25,11 +25,19 @@ def free_port():
         sock.bind(('127.0.0.1', 0)); return sock.getsockname()[1]
 
 class Site(http.server.SimpleHTTPRequestHandler):
+    production_analytics = False
     def do_GET(self):
         # Test a Pages-style subdirectory, not just domain-root hosting.
         if not self.path.startswith('/communityrisk/'):
             self.send_error(404); return
         self.path = self.path[len('/communityrisk'):]
+        if self.path == '/assets/analytics.js' and self.production_analytics:
+            source = (ROOT / 'assets/analytics.js').read_text()
+            original = "new Set(['communityrisk.climateresilient.org.uk', 'pedrito1414.github.io'])"
+            assert original in source
+            source = source.replace(original, "new Set(['127.0.0.1'])").encode()
+            self.send_response(200); self.send_header('Content-Type', 'text/javascript'); self.send_header('Cache-Control','no-store'); self.end_headers(); self.wfile.write(source)
+            return
         super().do_GET()
     def log_message(self, *args): pass
 
@@ -186,6 +194,94 @@ def main():
             unexpected = [x['message'] for x in logs if x['level']=='SEVERE' and not any(text in x['message'] for text in ['unpkg.com','tile.openstreetmap.org','favicon.ico'])]
             assert not unexpected, '\n'.join(unexpected)
             print('PASS: no unexpected browser errors')
+            # Simulate the public host only inside this test server. Never send test hits to GoatCounter.
+            request(f'/session/{session}/goog/cdp/execute', {'cmd':'Network.setCacheDisabled','params':{'cacheDisabled':True}})
+            capture_source = """
+              window.analyticsRequests=[];
+              const analyticsFetch=window.fetch;
+              window.fetch=(url,options)=>{
+                if(String(url).startsWith('https://climateresilient.goatcounter.com/count')){
+                  window.analyticsRequests.push({url:String(url),options});
+                  return Promise.resolve(new Response(null,{status:204}));
+                }
+                return analyticsFetch(url,options);
+              };
+            """
+            request(f'/session/{session}/goog/cdp/execute', {'cmd':'Page.addScriptToEvaluateOnNewDocument','params':{'source':capture_source}})
+            visit('bypostcode/?postcode=EX2%209AW#private-fragment')
+            assert execute("return window.analyticsRequests.length===0"), 'Local previews must not count'
+            Site.production_analytics = True
+            # Start a fresh browser so its module cache cannot reuse the local-only tracker.
+            request(f'/session/{session}', method='DELETE')
+            result = request('/session', {'capabilities':{'alwaysMatch':{'browserName':'chrome','goog:chromeOptions':{'binary':browser,'args':['--headless=new','--no-sandbox','--disable-dev-shm-usage','--no-proxy-server', *([] if '--live' in sys.argv else ['--host-resolver-rules=MAP * ~NOTFOUND, EXCLUDE 127.0.0.1']), f'--user-data-dir={profile}/analytics-checks']},'goog:loggingPrefs':{'browser':'ALL'}}}})
+            session = result['sessionId']
+            request(f'/session/{session}/timeouts', {'script':15000,'pageLoad':30000})
+            request(f'/session/{session}/goog/cdp/execute', {'cmd':'Page.addScriptToEvaluateOnNewDocument','params':{'source':capture_source}})
+            visit('bypostcode/?postcode=EX2%209AW&utm_campaign=PRIVATECAMPAIGN#private-fragment')
+            wait("window.analyticsRequests.length===1")
+            first_hit=execute("return window.analyticsRequests[0]")
+            from urllib.parse import parse_qs, urlsplit, unquote
+            first_params=parse_qs(urlsplit(first_hit['url']).query)
+            assert first_params['p']==['/bypostcode/'] and first_params['t']==['Postcode finder']
+            assert 'q' not in first_params
+            assert first_hit['options']['credentials']=='omit' and first_hit['options']['referrerPolicy']=='no-referrer'
+            execute("""
+              const beforeMock=window.fetch;
+              window.fetch=(url,options)=>String(url).includes('api.postcodes.io')
+                ? Promise.resolve(new Response(JSON.stringify({status:200,result:{postcode:'EX2 9AW',longitude:-3.5339,latitude:50.7184,country:'England',admin_district:'Exeter'}})))
+                : beforeMock(url,options);
+              document.getElementById('form').requestSubmit();
+            """)
+            wait("!document.getElementById('results').hidden && !document.getElementById('submit').disabled")
+            execute("document.getElementById('riskSearch').value='PRIVATESEARCHMARKER';document.getElementById('riskSearch').dispatchEvent(new Event('input'))")
+            execute("document.getElementById('riskSearch').value='';document.getElementById('riskSearch').dispatchEvent(new Event('input'));document.querySelector('.source-details').open=true")
+            wait("window.analyticsRequests.some(hit=>new URL(hit.url).searchParams.get('p').startsWith('risk-opened/'))")
+            execute("document.addEventListener('click',event=>event.preventDefault(),{once:true});document.getElementById('forumWebsite').click()")
+            hits=execute("return window.analyticsRequests")
+            paths=[parse_qs(urlsplit(hit['url']).query)['p'][0] for hit in hits]
+            assert 'postcode-started/bypostcode' in paths and 'postcode-succeeded/bypostcode/E48000008' in paths
+            assert 'forum-website/bypostcode/E48000008' in paths
+            assert sum(not parse_qs(urlsplit(hit['url']).query).get('e') for hit in hits)==1, 'Lookup must not add duplicate pageviews'
+            for hit in hits:
+                decoded=unquote(hit['url'])
+                assert all(private not in decoded for private in ['EX2 9AW','PRIVATECAMPAIGN','PRIVATESEARCHMARKER','private-fragment'])
+                assert 'q' not in parse_qs(urlsplit(hit['url']).query)
+            visit('registers/?postcode=EX2%209AW')
+            wait("document.querySelectorAll('#riskRows tr[role=button]').length===16")
+            execute("document.getElementById('region').value='E48000032';document.getElementById('region').dispatchEvent(new Event('change'));document.querySelector('#riskRows tr').click();document.querySelector('.national-risk-item').click();document.getElementById('plotTab').click()")
+            dashboard_hits=execute("return window.analyticsRequests")
+            dashboard_paths=[parse_qs(urlsplit(hit['url']).query)['p'][0] for hit in dashboard_hits]
+            assert 'area-selected/registers/E48000032' in dashboard_paths
+            assert any(path.startswith('risk-opened/registers/E48000032-') for path in dashboard_paths)
+            assert any(path.startswith('national-selected/registers/NRR26-') for path in dashboard_paths)
+            assert 'view-changed/registers/plot' in dashboard_paths
+            assert all('EX2 9AW' not in unquote(hit['url']) for hit in dashboard_hits)
+            print('PASS: analytics pageviews and actions exclude postcodes, queries, search text and fragments')
+            visit('privacy/')
+            execute("document.getElementById('analyticsPreference').click()")
+            visit('')
+            assert execute("return window.analyticsRequests.length===0"), 'Opt-out must suppress all requests'
+            execute("localStorage.removeItem('skipgc')")
+            for signal in ["Object.defineProperty(navigator,'doNotTrack',{value:'1',configurable:true})", "Object.defineProperty(navigator,'globalPrivacyControl',{value:true,configurable:true})"]:
+                injected=request(f'/session/{session}/goog/cdp/execute', {'cmd':'Page.addScriptToEvaluateOnNewDocument','params':{'source':signal}})
+                visit('')
+                assert execute("return window.analyticsRequests.length===0"), 'Browser privacy signal must suppress all requests'
+                request(f'/session/{session}/goog/cdp/execute', {'cmd':'Page.removeScriptToEvaluateOnNewDocument','params':{'identifier':injected['identifier']}})
+            print('PASS: local preview suppression, saved opt-out, Do Not Track and Global Privacy Control')
+            broken=request(f'/session/{session}/goog/cdp/execute', {'cmd':'Page.addScriptToEvaluateOnNewDocument','params':{'source':"window.fetch=((original)=>(url,options)=>String(url).includes('goatcounter.com')?Promise.reject(new Error('Analytics blocked')):original(url,options))(window.fetch);"}})
+            visit('registers/')
+            wait("document.querySelectorAll('#riskRows tr[role=button]').length===16")
+            assert execute("return document.getElementById('loadError').hidden")
+            request(f'/session/{session}/goog/cdp/execute', {'cmd':'Page.removeScriptToEvaluateOnNewDocument','params':{'identifier':broken['identifier']}})
+            print('PASS: blocked analytics requests do not stop the risk dashboard')
+            request(f'/session/{session}/goog/cdp/execute', {'cmd':'Network.enable','params':{}})
+            request(f'/session/{session}/goog/cdp/execute', {'cmd':'Network.setCacheDisabled','params':{'cacheDisabled':True}})
+            request(f'/session/{session}/goog/cdp/execute', {'cmd':'Network.setBlockedURLs','params':{'urls':['*/assets/analytics.js']}})
+            visit('registers/')
+            wait("document.querySelectorAll('#riskRows tr[role=button]').length===16")
+            assert execute("return window.analyticsRequests.length===0 && document.getElementById('loadError').hidden")
+            request(f'/session/{session}/goog/cdp/execute', {'cmd':'Network.setBlockedURLs','params':{'urls':[]}})
+            print('PASS: a blocked analytics script does not stop the risk dashboard')
             request(f'/session/{session}/goog/cdp/execute', {'cmd':'Page.addScriptToEvaluateOnNewDocument','params':{'source':"const originalFetch=window.fetch;window.fetch=(url, options)=>String(url).includes('forums.json')?Promise.resolve(new Response('',{status:503})):originalFetch(url,options);"}})
             visit('registers/')
             wait("!document.getElementById('loadError').hidden")
