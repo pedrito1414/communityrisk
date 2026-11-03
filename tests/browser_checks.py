@@ -110,6 +110,27 @@ def main():
             """)
             assert result == {'counts':[42,631,95,631]}, result
             print('PASS: shared data, ranking precedence and geographic lookup (including polygon holes)')
+            result=async_js("""
+              const done=arguments[arguments.length-1];
+              Promise.all([import('./assets/data.js'),import('./assets/definitions.js')]).then(async([loader,defs])=>{
+                const db=await loader.loadData();
+                const local=db.risks.find(r=>r.id==='E48000001-001');
+                if(defs.resolveRiskDefinition(local,db).kind!=='local')throw Error('Local definition missing');
+                const direct=db.risks.find(r=>!db.definitions.local[r.id]&&db.matches.some(m=>m.local_id===r.id&&m.match_status==='Direct'));
+                if(defs.resolveRiskDefinition(direct,db).kind!=='national')throw Error('National fallback missing');
+                const localDb={...db,definitions:{...db.definitions,local:{...db.definitions.local,[direct.id]:{text:'Local priority <script>test</script>',source_id:'avon-somerset-2026',pdf_page:9}}}};
+                if(defs.resolveRiskDefinition(direct,localDb).kind!=='local'||!defs.riskDefinitionHTML(direct,localDb).includes('&lt;script&gt;'))throw Error('Local precedence or escaping');
+                const candidateDb={...db,matches:db.matches.map(m=>m.local_id===direct.id?{...m,match_status:'Candidate'}:m),definitions:{...db.definitions,related:{}}};
+                if(defs.resolveRiskDefinition(direct,candidateDb).kind!=='unavailable')throw Error('Candidate must not silently become a definition match');
+                const related=db.risks.find(r=>db.definitions.related[r.id]);
+                if(defs.resolveRiskDefinition(related,db).kind!=='related')throw Error('Related context label');
+                const missing=db.risks.find(r=>r.id==='E48000009-011');
+                if(defs.resolveRiskDefinition(missing,db).kind!=='unavailable')throw Error('Missing definitions must be explicit');
+                done({national:Object.keys(db.definitions.national).length,local:Object.keys(db.definitions.local).length});
+              }).catch(error=>done({error:error.message}));
+            """)
+            assert result=={'national':95,'local':9},result
+            print('PASS: local definition precedence, national fallback, related context, missing definitions and safe HTML')
             visit('registers/')
             wait("document.querySelectorAll('#riskRows tr[role=button]').length===16")
             assert execute("return document.querySelectorAll('.region').length===42 && document.querySelectorAll('.national-risk-item').length===95")
@@ -130,7 +151,14 @@ def main():
             execute("document.querySelector('.national-risk-item').click()")
             assert execute("return !document.getElementById('nationalSelected').hidden")
             execute("document.getElementById('clearNational').click()")
-            print('PASS: dashboard records, search, expansion, plot, national filter and area deep links')
+            visit('registers/?area=E48000001')
+            wait("document.querySelectorAll('#riskRows tr[role=button]').length===9")
+            execute("document.querySelector('#riskRows tr').click()")
+            assert execute("return document.querySelector('.expanded-risk [data-definition-kind=local]') && document.querySelector('.expanded-risk .rating-source > summary').textContent==='Rating and source details'")
+            assert execute("return !document.querySelector('.expanded-risk .rating-source').open && document.querySelector('.expanded-risk').textContent.includes('Risk definition')")
+            execute("document.querySelector('.expanded-risk').scrollIntoView({block:'center'})")
+            screenshot('definition-dashboard')
+            print('PASS: dashboard records, search, expansion, plot, national filter, area links and definition-first details')
             visit('bypostcode/')
             if '--live' in sys.argv:
                 execute("document.getElementById('postcode').value='EX2 4QD';document.getElementById('form').requestSubmit()")
@@ -175,7 +203,13 @@ def main():
             execute("window.mockMode='ok';window.mockLocation.country='Scotland';document.getElementById('form').requestSubmit()")
             wait("!document.getElementById('submit').disabled")
             assert execute("return document.getElementById('results').hidden && document.getElementById('error').textContent.includes('England and Wales')")
-            print('PASS: postcode lookup, local fallback map, area switching, source details, no-results and failure states')
+            execute("window.mockLocation={postcode:'BS1 5TR',longitude:-2.5879,latitude:51.4545,country:'England',admin_district:'Bristol'};document.getElementById('postcode').value='BS1 5TR';document.getElementById('form').requestSubmit()")
+            wait("!document.getElementById('submit').disabled")
+            execute("document.querySelector('.source-details').open=true")
+            assert execute("return document.querySelector('.source-details > summary').textContent==='Risk definition' && document.querySelector('.source-details [data-definition-kind=local]') && document.querySelector('.source-details .rating-source > summary').textContent==='Rating and source details'")
+            execute("document.querySelector('.source-details').scrollIntoView({block:'center'})")
+            screenshot('definition-postcode')
+            print('PASS: postcode lookup, local map, area switching, local definitions, source details and failure states')
             visit('bypostcode/?postcode=EX2%204QD')
             assert execute("return document.getElementById('postcode').value==='EX2 4QD' && document.getElementById('results').hidden")
             request(f'/session/{session}/window/rect', {'width':390,'height':844})
@@ -282,6 +316,13 @@ def main():
             assert execute("return window.analyticsRequests.length===0 && document.getElementById('loadError').hidden")
             request(f'/session/{session}/goog/cdp/execute', {'cmd':'Network.setBlockedURLs','params':{'urls':[]}})
             print('PASS: a blocked analytics script does not stop the risk dashboard')
+            optional_failure=request(f'/session/{session}/goog/cdp/execute', {'cmd':'Page.addScriptToEvaluateOnNewDocument','params':{'source':"window.fetch=((original)=>(url,options)=>String(url).includes('risk-definitions.json')?Promise.resolve(new Response('',{status:503})):original(url,options))(window.fetch);"}})
+            visit('registers/')
+            wait("document.querySelectorAll('#riskRows tr[role=button]').length===16")
+            execute("document.querySelector('#riskRows tr').click()")
+            assert execute("return document.querySelector('.expanded-risk').textContent.includes('Definition information could not be loaded') && document.getElementById('loadError').hidden")
+            request(f'/session/{session}/goog/cdp/execute', {'cmd':'Page.removeScriptToEvaluateOnNewDocument','params':{'identifier':optional_failure['identifier']}})
+            print('PASS: unavailable definitions do not stop existing risk records or ratings')
             request(f'/session/{session}/goog/cdp/execute', {'cmd':'Page.addScriptToEvaluateOnNewDocument','params':{'source':"const originalFetch=window.fetch;window.fetch=(url, options)=>String(url).includes('forums.json')?Promise.resolve(new Response('',{status:503})):originalFetch(url,options);"}})
             visit('registers/')
             wait("!document.getElementById('loadError').hidden")
