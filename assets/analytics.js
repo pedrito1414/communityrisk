@@ -7,6 +7,7 @@ const localPath = location.pathname.startsWith(basePath) ? location.pathname.sli
 const pages = new Map([
   ['', ['/', 'Community risk home']], ['index.html', ['/', 'Community risk home']],
   ['registers/', ['/registers/', 'Risk register dashboard']], ['registers/index.html', ['/registers/', 'Risk register dashboard']],
+  ['registers/legacy/', ['/registers/legacy/', 'Detailed risk register dashboard']], ['registers/legacy/index.html', ['/registers/legacy/', 'Detailed risk register dashboard']],
   ['bypostcode/', ['/bypostcode/', 'Postcode finder']], ['bypostcode/index.html', ['/bypostcode/', 'Postcode finder']]
 ]);
 const page = pages.get(localPath);
@@ -21,7 +22,7 @@ const events = {
   'area-selected': ['Forum area selected', /^[EW]\d{8}$/],
   'risk-opened': ['Risk details opened', /^[EW]\d{8}-\d{3}$/],
   'national-selected': ['National risk selected', /^NRR\d{2}-\d{3}$/],
-  'view-changed': ['Dashboard view changed', /^(list|plot)$/],
+  'view-changed': ['Dashboard view changed', /^(list|plot|risk|area)$/],
   'forum-website': ['Forum website opened', /^[EW]\d{8}$/],
   'register-source': ['Original register source opened', /^[EW]\d{8}$/],
   'download-matches': ['Local–national matches downloaded']

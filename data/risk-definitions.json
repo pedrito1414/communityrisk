@@ -12,7 +12,1027 @@
       "url": "https://media.aspolice.net/uploads/production/20260907120559/Community-risk-register.pdf",
       "publication_url": "https://www.avonandsomerset.police.uk/about/policies-and-procedures/community-risk-register/",
       "edition": "2026",
-      "note": "Plain-English summaries checked against the local risk sections."
+      "note": "Plain-English summaries checked against the local risk sections.",
+      "forum_code": "E48000001",
+      "checked_at": "2026-11-03"
+    },
+    "e48000017-local-review": {
+      "title": "Kent and Medway Community Risk Register, February 2026",
+      "url": "https://www.kentprepared.org.uk/_files/ugd/01ce93_a9d18677c9d348b08a5e9c2cf9fc7ed8.pdf",
+      "publication_url": "https://www.kentprepared.org.uk/community-risk-register",
+      "edition": "Source checked 3 November 2026",
+      "type": "pdf",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000017"
+    },
+    "e48000010-local-review": {
+      "title": "County Durham and Darlington Community Risk Register 2024–2026",
+      "url": "https://www.ddfire.gov.uk/sites/default/files/2024-09/CDDLRF_Community_Risk_Register_2024-2026.pdf",
+      "publication_url": "https://www.ddfire.gov.uk/sites/default/files/2024-09/CDDLRF_Community_Risk_Register_2024-2026.pdf",
+      "edition": "Source checked 3 November 2026",
+      "type": "pdf",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000010"
+    },
+    "e48000011-local-review": {
+      "title": "Essex Community Risk Register 2024–2026",
+      "url": "https://www.essexprepared.co.uk/_img/pics/pdf_1720436617.pdf",
+      "publication_url": "https://www.essexprepared.co.uk/_img/pics/pdf_1720436617.pdf",
+      "edition": "Source checked 3 November 2026",
+      "type": "pdf",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000011"
+    },
+    "e48000015-local-review": {
+      "title": "Hertfordshire Resilience: local risk information",
+      "url": "https://www.hertfordshire.gov.uk/media-library/documents/business/business-continuity/risk-register.pdf",
+      "publication_url": "https://www.hertfordshire.gov.uk/media-library/documents/business/business-continuity/risk-register.pdf",
+      "edition": "Source checked 3 November 2026",
+      "type": "pdf",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000015"
+    },
+    "w41000003-local-review": {
+      "title": "North Wales Community Risk Register",
+      "url": "https://www.gwynedd.llyw.cymru/en/Residents/Emergencies/Emergecy-documents/North-Wales-Community-Risk-Register.pdf",
+      "publication_url": "https://www.gwynedd.llyw.cymru/en/Residents/Emergencies/Emergecy-documents/North-Wales-Community-Risk-Register.pdf",
+      "edition": "Source checked 3 November 2026",
+      "type": "pdf",
+      "checked_at": "2026-11-03",
+      "forum_code": "W41000003"
+    },
+    "e48000004-web-0": {
+      "title": "Cheshire resilience forum: Flooding",
+      "url": "https://www.cheshireresilience.org.uk/key-risks/flooding/",
+      "publication_url": "https://cheshireresilience.org.uk/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000004"
+    },
+    "e48000004-web-1": {
+      "title": "Cheshire resilience forum: Severe weather",
+      "url": "https://www.cheshireresilience.org.uk/key-risks/severe-weather/",
+      "publication_url": "https://cheshireresilience.org.uk/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000004"
+    },
+    "e48000004-web-2": {
+      "title": "Cheshire resilience forum: Pandemic",
+      "url": "https://www.cheshireresilience.org.uk/key-risks/pandemic/",
+      "publication_url": "https://cheshireresilience.org.uk/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000004"
+    },
+    "e48000004-web-5": {
+      "title": "Cheshire resilience forum: Loss of service",
+      "url": "https://www.cheshireresilience.org.uk/key-risks/loss-of-service/",
+      "publication_url": "https://cheshireresilience.org.uk/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000004"
+    },
+    "e48000004-web-6": {
+      "title": "Cheshire resilience forum: Cyber threats",
+      "url": "https://www.cheshireresilience.org.uk/key-risks/cyber-threats/",
+      "publication_url": "https://cheshireresilience.org.uk/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000004"
+    },
+    "e48000004-web-8": {
+      "title": "Cheshire resilience forum: Transport incidents",
+      "url": "https://www.cheshireresilience.org.uk/key-risks/transport-incidents/",
+      "publication_url": "https://cheshireresilience.org.uk/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000004"
+    },
+    "e48000004-web-3": {
+      "title": "Cheshire resilience forum: Industrial incidents",
+      "url": "https://www.cheshireresilience.org.uk/key-risks/industrial-incidents/",
+      "publication_url": "https://cheshireresilience.org.uk/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000004"
+    },
+    "e48000004-web-7": {
+      "title": "Cheshire resilience forum: Animal diseases",
+      "url": "https://www.cheshireresilience.org.uk/key-risks/animal-diseases/",
+      "publication_url": "https://cheshireresilience.org.uk/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000004"
+    },
+    "e48000004-web-4": {
+      "title": "Cheshire resilience forum: Malicious attacks",
+      "url": "https://www.cheshireresilience.org.uk/key-risks/malicious-attack/",
+      "publication_url": "https://cheshireresilience.org.uk/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000004"
+    },
+    "e48000009-web-20": {
+      "title": "Dorset resilience forum: Rock fall and landslide",
+      "url": "https://dorsetprepared.org.uk/types-of-risk/rock-fall-and-landslide",
+      "publication_url": "https://dorsetprepared.org.uk/types-of-risk",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000009"
+    },
+    "e48000009-web-21": {
+      "title": "Dorset resilience forum: Storms, gales and high waves",
+      "url": "https://dorsetprepared.org.uk/types-of-risk/storms-gales-and-high-waves",
+      "publication_url": "https://dorsetprepared.org.uk/types-of-risk",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000009"
+    },
+    "e48000009-web-22": {
+      "title": "Dorset resilience forum: Low temperatures and heavy snow",
+      "url": "https://dorsetprepared.org.uk/types-of-risk/low-temperatures-and-heavy-snow",
+      "publication_url": "https://dorsetprepared.org.uk/types-of-risk",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000009"
+    },
+    "e48000009-web-23": {
+      "title": "Dorset resilience forum: Pandemics",
+      "url": "https://dorsetprepared.org.uk/types-of-risk/pandemic-flu-and-infectious-diseases",
+      "publication_url": "https://dorsetprepared.org.uk/types-of-risk",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000009"
+    },
+    "e48000009-web-28": {
+      "title": "Dorset resilience forum: Heathland and forest fires",
+      "url": "https://dorsetprepared.org.uk/types-of-risk/heathland-and-forest-fires",
+      "publication_url": "https://dorsetprepared.org.uk/types-of-risk",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000009"
+    },
+    "e48000014-web-32": {
+      "title": "Hampshire & Isle of Wight resilience forum: Storms",
+      "url": "https://hiowprepared.org.uk/home/local-risks/natural-hazards/storms/",
+      "publication_url": "https://hiowprepared.org.uk/home/local-risks/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000014"
+    },
+    "e48000014-web-33": {
+      "title": "Hampshire & Isle of Wight resilience forum: Heatwaves",
+      "url": "https://hiowprepared.org.uk/home/local-risks/natural-hazards/high-temperatures-heatwaves/",
+      "publication_url": "https://hiowprepared.org.uk/home/local-risks/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000014"
+    },
+    "e48000014-web-34": {
+      "title": "Hampshire & Isle of Wight resilience forum: Cold weather",
+      "url": "https://hiowprepared.org.uk/home/local-risks/natural-hazards/low-temperatures-cold-weather/",
+      "publication_url": "https://hiowprepared.org.uk/home/local-risks/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000014"
+    },
+    "e48000014-web-35": {
+      "title": "Hampshire & Isle of Wight resilience forum: Ground water flooding",
+      "url": "https://hiowprepared.org.uk/home/local-risks/natural-hazards/flooding/",
+      "publication_url": "https://hiowprepared.org.uk/home/local-risks/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000014"
+    },
+    "e48000014-web-36": {
+      "title": "Hampshire & Isle of Wight resilience forum: Poor air quality",
+      "url": "https://hiowprepared.org.uk/home/local-risks/natural-hazards/poor-air-quality/",
+      "publication_url": "https://hiowprepared.org.uk/home/local-risks/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000014"
+    },
+    "e48000014-web-38": {
+      "title": "Hampshire & Isle of Wight resilience forum: Major fire",
+      "url": "https://hiowprepared.org.uk/home/local-risks/accidents-and-system-failures/major-fire/",
+      "publication_url": "https://hiowprepared.org.uk/home/local-risks/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000014"
+    },
+    "e48000014-web-39": {
+      "title": "Hampshire & Isle of Wight resilience forum: Railway accident",
+      "url": "https://hiowprepared.org.uk/home/local-risks/accidents-and-system-failures/railway-accident/",
+      "publication_url": "https://hiowprepared.org.uk/home/local-risks/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000014"
+    },
+    "e48000014-web-40": {
+      "title": "Hampshire & Isle of Wight resilience forum: Major pollution of surface waters and groundwater",
+      "url": "https://hiowprepared.org.uk/home/local-risks/accidents-and-system-failures/major-pollution-of-surface-waters-and-groundwater/",
+      "publication_url": "https://hiowprepared.org.uk/home/local-risks/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000014"
+    },
+    "e48000014-web-41": {
+      "title": "Hampshire & Isle of Wight resilience forum: Dangerous goods accidents",
+      "url": "https://hiowprepared.org.uk/home/local-risks/accidents-and-system-failures/accident-involving-high-consequence-dangerous-goods/",
+      "publication_url": "https://hiowprepared.org.uk/home/local-risks/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000014"
+    },
+    "e48000014-web-42": {
+      "title": "Hampshire & Isle of Wight resilience forum: National electricity transmission failure",
+      "url": "https://hiowprepared.org.uk/home/local-risks/accidents-and-system-failures/failure-of-national-electricity-transmission-systems-nets/",
+      "publication_url": "https://hiowprepared.org.uk/home/local-risks/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000014"
+    },
+    "e48000014-web-43": {
+      "title": "Hampshire & Isle of Wight resilience forum: Failure of gas supply infrastructure",
+      "url": "https://hiowprepared.org.uk/home/local-risks/accidents-and-system-failures/failure-of-gas-supply-infrastructure/",
+      "publication_url": "https://hiowprepared.org.uk/home/local-risks/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000014"
+    },
+    "e48000014-web-44": {
+      "title": "Hampshire & Isle of Wight resilience forum: Loss of fixed and mobile communications",
+      "url": "https://hiowprepared.org.uk/home/local-risks/accidents-and-system-failures/simultaneous-loss-of-fixed-and-mobile-forms-of-communication/",
+      "publication_url": "https://hiowprepared.org.uk/home/local-risks/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000014"
+    },
+    "e48000014-web-46": {
+      "title": "Hampshire & Isle of Wight resilience forum: Emerging infectious disease",
+      "url": "https://hiowprepared.org.uk/home/local-risks/human-health/pandemic-and-outbreak-of-emerging-infectious-disease/",
+      "publication_url": "https://hiowprepared.org.uk/home/local-risks/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000014"
+    },
+    "e48000014-web-54": {
+      "title": "Hampshire & Isle of Wight resilience forum: Severe space weather",
+      "url": "https://hiowprepared.org.uk/home/local-risks/natural-hazards/severe-space-weather/",
+      "publication_url": "https://hiowprepared.org.uk/home/local-risks/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000014"
+    },
+    "e48000014-web-55": {
+      "title": "Hampshire & Isle of Wight resilience forum: Volcanic eruption",
+      "url": "https://hiowprepared.org.uk/home/local-risks/natural-hazards/volcanic-eruption/",
+      "publication_url": "https://hiowprepared.org.uk/home/local-risks/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000014"
+    },
+    "e48000014-web-56": {
+      "title": "Hampshire & Isle of Wight resilience forum: Drought",
+      "url": "https://hiowprepared.org.uk/home/local-risks/natural-hazards/drought/",
+      "publication_url": "https://hiowprepared.org.uk/home/local-risks/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000014"
+    },
+    "e48000014-web-57": {
+      "title": "Hampshire & Isle of Wight resilience forum: Land movement",
+      "url": "https://hiowprepared.org.uk/home/local-risks/natural-hazards/land-movement/",
+      "publication_url": "https://hiowprepared.org.uk/home/local-risks/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000014"
+    },
+    "e48000014-web-58": {
+      "title": "Hampshire & Isle of Wight resilience forum: Water disruption",
+      "url": "https://hiowprepared.org.uk/home/local-risks/accidents-and-system-failures/water-disruption/",
+      "publication_url": "https://hiowprepared.org.uk/home/local-risks/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000014"
+    },
+    "e48000014-web-60": {
+      "title": "Hampshire & Isle of Wight resilience forum: Social care provider failure",
+      "url": "https://hiowprepared.org.uk/home/local-risks/accidents-and-system-failures/social-care-provider-failure/",
+      "publication_url": "https://hiowprepared.org.uk/home/local-risks/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000014"
+    },
+    "e48000014-web-61": {
+      "title": "Hampshire & Isle of Wight resilience forum: Insolvency of critical suppliers",
+      "url": "https://hiowprepared.org.uk/home/local-risks/accidents-and-system-failures/insolvency-of-critical-suppliers/",
+      "publication_url": "https://hiowprepared.org.uk/home/local-risks/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000014"
+    },
+    "e48000014-web-62": {
+      "title": "Hampshire & Isle of Wight resilience forum: Large passenger vessel accident",
+      "url": "https://hiowprepared.org.uk/home/local-risks/accidents-and-system-failures/large-passenger-vessel-accident/",
+      "publication_url": "https://hiowprepared.org.uk/home/local-risks/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000014"
+    },
+    "e48000014-web-64": {
+      "title": "Hampshire & Isle of Wight resilience forum: Positioning, navigation and timing services",
+      "url": "https://hiowprepared.org.uk/home/local-risks/accidents-and-system-failures/disruption-of-space-based-services/",
+      "publication_url": "https://hiowprepared.org.uk/home/local-risks/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000014"
+    },
+    "e48000014-web-65": {
+      "title": "Hampshire & Isle of Wight resilience forum: Technical failure of financial systems",
+      "url": "https://hiowprepared.org.uk/home/local-risks/accidents-and-system-failures/technical-failure-of-financial-systems/",
+      "publication_url": "https://hiowprepared.org.uk/home/local-risks/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000014"
+    },
+    "e48000014-web-66": {
+      "title": "Hampshire & Isle of Wight resilience forum: Accident at a major hazard site",
+      "url": "https://hiowprepared.org.uk/home/local-risks/accidents-and-system-failures/accident-at-a-major-hazard-site/",
+      "publication_url": "https://hiowprepared.org.uk/home/local-risks/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000014"
+    },
+    "e48000014-web-67": {
+      "title": "Hampshire & Isle of Wight resilience forum: Major accident hazard pipeline",
+      "url": "https://hiowprepared.org.uk/home/local-risks/accidents-and-system-failures/accident-at-a-major-accident-hazard-pipelinemahp/",
+      "publication_url": "https://hiowprepared.org.uk/home/local-risks/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000014"
+    },
+    "e48000014-web-69": {
+      "title": "Hampshire & Isle of Wight resilience forum: Food supply contamination",
+      "url": "https://hiowprepared.org.uk/home/local-risks/accidents-and-system-failures/food-supply-contamination/",
+      "publication_url": "https://hiowprepared.org.uk/home/local-risks/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000014"
+    },
+    "e48000014-web-70": {
+      "title": "Hampshire & Isle of Wight resilience forum: Motorways and major trunk roads",
+      "url": "https://hiowprepared.org.uk/home/local-risks/accidents-and-system-failures/local-accident-on-motorways-and-major-trunk-roads/",
+      "publication_url": "https://hiowprepared.org.uk/home/local-risks/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000014"
+    },
+    "e48000014-web-71": {
+      "title": "Hampshire & Isle of Wight resilience forum: Fire or pollution at a waste site",
+      "url": "https://hiowprepared.org.uk/home/local-risks/accidents-and-system-failures/fire-or-pollution-at-a-waste-site/",
+      "publication_url": "https://hiowprepared.org.uk/home/local-risks/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000014"
+    },
+    "e48000014-web-72": {
+      "title": "Hampshire & Isle of Wight resilience forum: Radioactive release by a nuclear-powered vessel",
+      "url": "https://hiowprepared.org.uk/home/local-risks/accidents-and-system-failures/radioactive-release-by-a-nuclear-powered-vessel/",
+      "publication_url": "https://hiowprepared.org.uk/home/local-risks/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000014"
+    },
+    "e48000014-web-73": {
+      "title": "Hampshire & Isle of Wight resilience forum: Plant health",
+      "url": "https://hiowprepared.org.uk/home/local-risks/animal-and-plant-health/plant-health/",
+      "publication_url": "https://hiowprepared.org.uk/home/local-risks/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000014"
+    },
+    "e48000014-web-74": {
+      "title": "Hampshire & Isle of Wight resilience forum: Public disorder",
+      "url": "https://hiowprepared.org.uk/home/local-risks/societal-conflict-and-instability/public-disorder/",
+      "publication_url": "https://hiowprepared.org.uk/home/local-risks/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000014"
+    },
+    "e48000014-web-75": {
+      "title": "Hampshire & Isle of Wight resilience forum: Industrial action",
+      "url": "https://hiowprepared.org.uk/home/local-risks/societal-conflict-and-instability/industrial-action/",
+      "publication_url": "https://hiowprepared.org.uk/home/local-risks/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000014"
+    },
+    "w41000002-local-review": {
+      "title": "Gwent Community Risk Register 2026–2027",
+      "url": "https://gwentprepared.org.uk/media/kmxoe11m/glrf-crr-2026-v1.pdf",
+      "publication_url": "https://gwentprepared.org.uk/en/risks-we-face/community-risk-register/",
+      "edition": "Source checked 3 November 2026",
+      "type": "pdf",
+      "checked_at": "2026-11-03",
+      "forum_code": "W41000002"
+    },
+    "e48000031-local-review": {
+      "title": "Surrey Community Risk Register 2026",
+      "url": "https://www.surreycc.gov.uk/__data/assets/pdf_file/0003/317793/Community_Risk_Register_2026v1.pdf",
+      "publication_url": "https://www.surreycc.gov.uk/",
+      "edition": "Source checked 3 November 2026",
+      "type": "pdf",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000031"
+    },
+    "e48000032-local-review": {
+      "title": "Community Risk Register for Sussex 2026",
+      "url": "https://www.sussex.police.uk/SysSiteAssets/media/downloads/sussex/about-us/sussex-resilience-forum/community-risk-register-for-sussex.pdf",
+      "publication_url": "https://www.sussex.police.uk/srf",
+      "edition": "Source checked 3 November 2026",
+      "type": "pdf",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000032"
+    },
+    "e48000020-web-77": {
+      "title": "Lincolnshire resilience forum: Coastal flooding",
+      "url": "https://www.lincolnshireresilienceforum.org/risks/coastal-flooding/",
+      "publication_url": "https://www.lincolnshireresilienceforum.org/risks/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000020"
+    },
+    "e48000020-web-78": {
+      "title": "Lincolnshire resilience forum: River and surface water flooding",
+      "url": "https://www.lincolnshireresilienceforum.org/risks/river-surface-groundwater-flooding/",
+      "publication_url": "https://www.lincolnshireresilienceforum.org/risks/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000020"
+    },
+    "e48000020-web-79": {
+      "title": "Lincolnshire resilience forum: Emerging infectious diseases",
+      "url": "https://www.lincolnshireresilienceforum.org/risks/emerging-infectious-diseases/",
+      "publication_url": "https://www.lincolnshireresilienceforum.org/risks/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000020"
+    },
+    "e48000020-web-80": {
+      "title": "Lincolnshire resilience forum: Pandemic",
+      "url": "https://www.lincolnshireresilienceforum.org/risks/pandemic-flu/",
+      "publication_url": "https://www.lincolnshireresilienceforum.org/risks/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000020"
+    },
+    "e48000020-web-81": {
+      "title": "Lincolnshire resilience forum: Loss of gas or electricity",
+      "url": "https://www.lincolnshireresilienceforum.org/risks/loss-of-gas-or-electricity/",
+      "publication_url": "https://www.lincolnshireresilienceforum.org/risks/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000020"
+    },
+    "e48000020-web-82": {
+      "title": "Lincolnshire resilience forum: Heatwave",
+      "url": "https://www.lincolnshireresilienceforum.org/risks/heatwave/",
+      "publication_url": "https://www.lincolnshireresilienceforum.org/risks/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000020"
+    },
+    "e48000020-web-83": {
+      "title": "Lincolnshire resilience forum: Extreme cold weather",
+      "url": "https://www.lincolnshireresilienceforum.org/risks/extreme-cold-weather/",
+      "publication_url": "https://www.lincolnshireresilienceforum.org/risks/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000020"
+    },
+    "e48000020-web-84": {
+      "title": "Lincolnshire resilience forum: Terrorism",
+      "url": "https://www.lincolnshireresilienceforum.org/risks/malicious-attacks/",
+      "publication_url": "https://www.lincolnshireresilienceforum.org/risks/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000020"
+    },
+    "e48000020-web-85": {
+      "title": "Lincolnshire resilience forum: Cyber attacks",
+      "url": "https://www.lincolnshireresilienceforum.org/risks/cyber-attacks/",
+      "publication_url": "https://www.lincolnshireresilienceforum.org/risks/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000020"
+    },
+    "e48000034-web-116": {
+      "title": "Warwickshire resilience forum: Animal disease",
+      "url": "https://www.warwickshireresilienceforum.org/risks/animal-disease/",
+      "publication_url": "https://www.warwickshireresilienceforum.org/risks/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000034"
+    },
+    "e48000034-web-117": {
+      "title": "Warwickshire resilience forum: Cyber attacks",
+      "url": "https://www.warwickshireresilienceforum.org/risks/cyber-attacks/",
+      "publication_url": "https://www.warwickshireresilienceforum.org/risks/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000034"
+    },
+    "e48000034-web-119": {
+      "title": "Warwickshire resilience forum: Extreme cold and snow",
+      "url": "https://www.warwickshireresilienceforum.org/risks/extreme-cold-weather/",
+      "publication_url": "https://www.warwickshireresilienceforum.org/risks/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000034"
+    },
+    "e48000034-web-120": {
+      "title": "Warwickshire resilience forum: Heatwave and drought",
+      "url": "https://www.warwickshireresilienceforum.org/risks/heatwave-drought/",
+      "publication_url": "https://www.warwickshireresilienceforum.org/risks/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000034"
+    },
+    "e48000034-web-121": {
+      "title": "Warwickshire resilience forum: Industrial accidents and major fires",
+      "url": "https://www.warwickshireresilienceforum.org/risks/industrial-accidents-major-fires/",
+      "publication_url": "https://www.warwickshireresilienceforum.org/risks/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000034"
+    },
+    "e48000034-web-123": {
+      "title": "Warwickshire resilience forum: Terror attacks",
+      "url": "https://www.warwickshireresilienceforum.org/risks/terror-attacks/",
+      "publication_url": "https://www.warwickshireresilienceforum.org/risks/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000034"
+    },
+    "e48000034-web-124": {
+      "title": "Warwickshire resilience forum: Pandemics",
+      "url": "https://www.warwickshireresilienceforum.org/risks/pandemics/",
+      "publication_url": "https://www.warwickshireresilienceforum.org/risks/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000034"
+    },
+    "e48000034-web-125": {
+      "title": "Warwickshire resilience forum: Flooding",
+      "url": "https://www.warwickshireresilienceforum.org/risks/flooding/",
+      "publication_url": "https://www.warwickshireresilienceforum.org/risks/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000034"
+    },
+    "e48000022-web-88": {
+      "title": "Merseyside resilience forum: Pandemic",
+      "url": "https://www.merseysideprepared.org.uk/our-risks/pandemic/",
+      "publication_url": "https://www.merseysideprepared.org.uk/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000022"
+    },
+    "e48000022-web-89": {
+      "title": "Merseyside resilience forum: Severe weather",
+      "url": "https://www.merseysideprepared.org.uk/our-risks/severe-weather/",
+      "publication_url": "https://www.merseysideprepared.org.uk/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000022"
+    },
+    "e48000022-web-92": {
+      "title": "Merseyside resilience forum: Loss of essential services",
+      "url": "https://www.merseysideprepared.org.uk/our-risks/loss-of-essential-services/",
+      "publication_url": "https://www.merseysideprepared.org.uk/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000022"
+    },
+    "e48000024-web-96": {
+      "title": "North Yorkshire resilience forum: Flooding",
+      "url": "https://www.northyorks.gov.uk/north-yorkshire-local-resilience-forum-0/severe-weather",
+      "publication_url": "https://www.northyorks.gov.uk/north-yorkshire-local-resilience-forum-0",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000024"
+    },
+    "e48000013-local-review": {
+      "title": "Greater Manchester Community Risk Register 2019",
+      "url": "https://www.greatermanchester-ca.gov.uk/media/vvzhtsqj/greater-manchester-community-risk-register-2019.pdf",
+      "publication_url": "https://www.gmemergencyplanning.org.uk/act/risks/",
+      "edition": "Source checked 3 November 2026",
+      "type": "pdf",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000013"
+    },
+    "e48000025-local-review": {
+      "title": "Northamptonshire Community Risk Register 2024",
+      "url": "https://www.northantsfire.gov.uk/wp-content/uploads/2024/05/Community-Risk-Register-2024.pdf",
+      "publication_url": "https://www.northantsfire.gov.uk/community-risk-register/",
+      "edition": "Source checked 3 November 2026",
+      "type": "pdf",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000025"
+    },
+    "e48000035-local-review": {
+      "title": "West Mercia Community Risk Register 2024",
+      "url": "https://www.westmercia.police.uk/SysSiteAssets/media/downloads/west-mercia/about-us/community-risk-register-2024",
+      "publication_url": "https://www.westmercia.police.uk/police-forces/west-mercia-police/areas/west-mercia/about-us/about-us/west-mercia-local-resilience-forum2/community-risk-register/",
+      "edition": "Source checked 3 November 2026",
+      "type": "pdf",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000035"
+    },
+    "e48000027-local-review": {
+      "title": "Nottingham and Nottinghamshire Community Risk Register, November 2025",
+      "url": "https://www.nottinghamshire.gov.uk/media/1djocxyn/lrfcommunityriskregister.pdf",
+      "publication_url": "https://www.nottinghamshire.police.uk/police-forces/nottinghamshire-police/areas/about-us/about-us/additional-services/nottinghamshire-local-resilience-forum-lrf/",
+      "edition": "Source checked 3 November 2026",
+      "type": "pdf",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000027"
+    },
+    "w41000004-local-review": {
+      "title": "South Wales Community Risk Register, version 15, 2026",
+      "url": "https://southwaleslrf.co.uk/wp-content/uploads/2026/05/SWLRF-Community-Risk-Register.pdf",
+      "publication_url": "https://southwaleslrf.co.uk/",
+      "edition": "Source checked 3 November 2026",
+      "type": "pdf",
+      "checked_at": "2026-11-03",
+      "forum_code": "W41000004"
+    },
+    "e48000019-local-review": {
+      "title": "Leicester, Leicestershire and Rutland Community Risk Register 2026",
+      "url": "https://www.llrresilienceforum.org.uk/sites/lrf/files/2026-09/community-risk-register-final.pdf",
+      "publication_url": "https://www.llrprepared.org.uk/be-aware/",
+      "edition": "Source checked 3 November 2026",
+      "type": "pdf",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000019"
+    },
+    "e48000012-local-review": {
+      "title": "Gloucestershire Community Risk Register 2024",
+      "url": "https://www.glosprepared.co.uk/wp-content/uploads/2024/09/CRR-2024.pdf",
+      "publication_url": "https://www.glosprepared.co.uk/gloucestershire-community-risk-register/",
+      "edition": "Source checked 3 November 2026",
+      "type": "pdf",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000012"
+    },
+    "e48000028-local-review": {
+      "title": "South Yorkshire Community Risk Register, September 2026",
+      "url": "https://www.southyorkshire-ca.gov.uk/getmedia/39d04e3a-35b1-48cc-8270-95018d638c68/SYLRF-Community-Risk-Register-PUBLIC-September-2026.pdf",
+      "publication_url": "https://www.southyorkshire-ca.gov.uk/explore_south-yorkshire-local-resilience-forum",
+      "edition": "Source checked 3 November 2026",
+      "type": "pdf",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000028"
+    },
+    "e48000016-local-review": {
+      "title": "Humber Community Risk Register 2024–2026",
+      "url": "https://humberlrf.gov.uk/wp-content/uploads/2024/12/Emergency_Planning_Community_Risk_Register_for_2024-2026.pdf",
+      "publication_url": "https://humberlrf.gov.uk/our-risks/",
+      "edition": "Source checked 3 November 2026",
+      "type": "pdf",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000016"
+    },
+    "e48000006-local-review": {
+      "title": "Cumbria Risk Assessment Booklet 2025",
+      "url": "https://cumbriaprepared.org.uk/sites/default/files/13850690/2025-07/Cumbria%20Risk%20Assessment%20Booklet.pdf",
+      "publication_url": "https://cumbriaprepared.org.uk/hazards-and-threats-cumbria",
+      "edition": "Source checked 3 November 2026",
+      "type": "pdf",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000006"
+    },
+    "e48000029-web-1004": {
+      "title": "Staffordshire resilience forum: River flooding",
+      "url": "https://www.staffordshireprepared.gov.uk/know-your-risks/flooding",
+      "publication_url": "https://www.staffordshireprepared.gov.uk/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000029"
+    },
+    "e48000029-web-1005": {
+      "title": "Staffordshire resilience forum: Major fire",
+      "url": "https://www.staffordshireprepared.gov.uk/know-your-risks/fires",
+      "publication_url": "https://www.staffordshireprepared.gov.uk/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000029"
+    },
+    "e48000029-web-1007": {
+      "title": "Staffordshire resilience forum: Snow and severe cold",
+      "url": "https://www.staffordshireprepared.gov.uk/know-your-risks/snow-and-severe-cold",
+      "publication_url": "https://www.staffordshireprepared.gov.uk/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000029"
+    },
+    "e48000029-web-1008": {
+      "title": "Staffordshire resilience forum: Pandemic",
+      "url": "https://www.staffordshireprepared.gov.uk/know-your-risks/pandemic",
+      "publication_url": "https://www.staffordshireprepared.gov.uk/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000029"
+    },
+    "e48000029-web-1009": {
+      "title": "Staffordshire resilience forum: Heatwave",
+      "url": "https://www.staffordshireprepared.gov.uk/know-your-risks/heatwave",
+      "publication_url": "https://www.staffordshireprepared.gov.uk/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000029"
+    },
+    "e48000029-web-1010": {
+      "title": "Staffordshire resilience forum: Animal disease: avian influenza",
+      "url": "https://www.staffordshireprepared.gov.uk/know-your-risks/animal-disease",
+      "publication_url": "https://www.staffordshireprepared.gov.uk/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000029"
+    },
+    "e48000029-web-1011": {
+      "title": "Staffordshire resilience forum: Chemical incident",
+      "url": "https://www.staffordshireprepared.gov.uk/know-your-risks/chemical-incident",
+      "publication_url": "https://www.staffordshireprepared.gov.uk/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000029"
+    },
+    "e48000029-web-1012": {
+      "title": "Staffordshire resilience forum: Reservoir flooding",
+      "url": "https://www.staffordshireprepared.gov.uk/know-your-risk/reservoir-flooding",
+      "publication_url": "https://www.staffordshireprepared.gov.uk/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000029"
+    },
+    "e48000029-web-1014": {
+      "title": "Staffordshire resilience forum: Storms and high winds",
+      "url": "https://www.staffordshireprepared.gov.uk/know-your-risks/storms-and-high-winds",
+      "publication_url": "https://www.staffordshireprepared.gov.uk/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000029"
+    },
+    "e48000029-web-1015": {
+      "title": "Staffordshire resilience forum: Poor air quality",
+      "url": "https://www.staffordshireprepared.gov.uk/know-your-risks/poor-air-quality",
+      "publication_url": "https://www.staffordshireprepared.gov.uk/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000029"
+    },
+    "e48000029-web-1016": {
+      "title": "Staffordshire resilience forum: Drought",
+      "url": "https://www.staffordshireprepared.gov.uk/know-your-risks/droughts",
+      "publication_url": "https://www.staffordshireprepared.gov.uk/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000029"
+    },
+    "e48000029-web-1017": {
+      "title": "Staffordshire resilience forum: Gas supply failure",
+      "url": "https://www.staffordshireprepared.gov.uk/know-your-risks/gas-supply-failure",
+      "publication_url": "https://www.staffordshireprepared.gov.uk/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000029"
+    },
+    "e48000029-web-1018": {
+      "title": "Staffordshire resilience forum: Loss of communications",
+      "url": "https://www.staffordshireprepared.gov.uk/know-your-risks/loss-of-communications",
+      "publication_url": "https://www.staffordshireprepared.gov.uk/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000029"
+    },
+    "e48000029-web-1019": {
+      "title": "Staffordshire resilience forum: Food supply incidents",
+      "url": "https://www.staffordshireprepared.gov.uk/know-your-risks/food-supply-incidents",
+      "publication_url": "https://www.staffordshireprepared.gov.uk/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000029"
+    },
+    "e48000036-local-review": {
+      "title": "Preparing the West Midlands for Emergencies, Community Risk Register 2026",
+      "url": "https://www.westmidlandsprepared.gov.uk/downloads/file/2/community-risk-register-2026-17",
+      "publication_url": "https://www.westmidlandsprepared.gov.uk/",
+      "edition": "Source checked 3 November 2026",
+      "type": "pdf",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000036"
+    },
+    "e48000033-web-109": {
+      "title": "Thames Valley resilience forum: Cold weather and snow",
+      "url": "https://www.thamesvalleylrf.org.uk/risk/cold-weather-and-snow/",
+      "publication_url": "https://www.thamesvalleylrf.org.uk/risk/the-community-risk-register/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000033"
+    },
+    "e48000033-web-110": {
+      "title": "Thames Valley resilience forum: Heatwave",
+      "url": "https://www.thamesvalleylrf.org.uk/risk/heatwave/",
+      "publication_url": "https://www.thamesvalleylrf.org.uk/risk/the-community-risk-register/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000033"
+    },
+    "e48000033-web-113": {
+      "title": "Thames Valley resilience forum: Pandemic",
+      "url": "https://www.thamesvalleylrf.org.uk/risk/pandemic/",
+      "publication_url": "https://www.thamesvalleylrf.org.uk/risk/the-community-risk-register/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000033"
+    },
+    "e48000005-local-review": {
+      "title": "Cleveland Community Risk Register 2024",
+      "url": "https://www.clevelandemergencyplanning.info/app/download/5801235498/Community+Risk+Register+2024.pdf",
+      "publication_url": "https://www.clevelandemergencyplanning.info/information-for-residents/",
+      "edition": "Source checked 3 November 2026",
+      "type": "pdf",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000005"
+    },
+    "e48000038-web-1038": {
+      "title": "Wiltshire & Swindon resilience forum: Flooding",
+      "url": "https://wiltshireandswindonprepared.org.uk/risks/flooding",
+      "publication_url": "https://www.wiltshireandswindonprepared.org.uk/community-risk-register",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000038"
+    },
+    "e48000038-web-1046": {
+      "title": "Wiltshire & Swindon resilience forum: Pandemic",
+      "url": "https://wiltshireandswindonprepared.org.uk/risks/pandemic",
+      "publication_url": "https://www.wiltshireandswindonprepared.org.uk/community-risk-register",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000038"
+    },
+    "e48000026-local-review": {
+      "title": "Northumbria Community Risk Register 2025, official council copy",
+      "url": "https://www.newcastle.gov.uk/sites/default/files/Community%20Risk%20Register%202025.pdf",
+      "publication_url": "https://www.northumberland.gov.uk/",
+      "edition": "Source checked 3 November 2026",
+      "type": "pdf",
+      "checked_at": "2026-11-03",
+      "note": "Official Newcastle council copy of the 2025 register; the document warns that its live version may be newer.",
+      "forum_code": "E48000026"
+    },
+    "e48000037-local-review": {
+      "title": "West Yorkshire Community Risk Register 2025",
+      "url": "https://www.westyorkshireprepared.org.uk/wp-content/uploads/2025/10/3806-Community-Risk-Register-DIGITAL-FINAL-1.pdf",
+      "publication_url": "https://www.westyorkshire.police.uk/advice/emergency-plans/reports-community-risk-register/reports-community-risk-register",
+      "edition": "Source checked 3 November 2026",
+      "type": "pdf",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000037"
+    },
+    "e48000007-web-14": {
+      "title": "Derbyshire resilience forum: Surface water flooding",
+      "url": "https://www.derbyshireprepared.org.uk/risks-derbyshire/flooding/",
+      "publication_url": "https://www.derbyshireprepared.org.uk/risks-derbyshire/community-risk-register/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000007"
+    },
+    "e48000007-web-13": {
+      "title": "Derbyshire resilience forum: Severe weather",
+      "url": "https://www.derbyshireprepared.org.uk/risks-derbyshire/severe-weather/",
+      "publication_url": "https://www.derbyshireprepared.org.uk/risks-derbyshire/community-risk-register/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000007"
+    },
+    "e48000007-web-10": {
+      "title": "Derbyshire resilience forum: Industrial accidents",
+      "url": "https://www.derbyshireprepared.org.uk/risks-derbyshire/the-risks/",
+      "publication_url": "https://www.derbyshireprepared.org.uk/risks-derbyshire/community-risk-register/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000007"
+    },
+    "e48000030-web-101": {
+      "title": "Suffolk resilience forum: Flooding",
+      "url": "https://suffolkprepared.co.uk/get-prepared/risk-advice/flooding/",
+      "publication_url": "https://suffolkprepared.co.uk/get-prepared/community-risk-register/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000030"
+    },
+    "e48000030-web-105": {
+      "title": "Suffolk resilience forum: Severe weather",
+      "url": "https://suffolkprepared.co.uk/get-prepared/risk-advice/severe-weather/",
+      "publication_url": "https://suffolkprepared.co.uk/get-prepared/community-risk-register/",
+      "edition": "Web guidance checked 3 November 2026",
+      "type": "web",
+      "checked_at": "2026-11-03",
+      "forum_code": "E48000030"
     }
   },
   "local": {
@@ -68,6 +1088,2034 @@
       "text": "Crimes exploiting digital systems, including hacking, data theft and online fraud, which can cause financial loss and interrupt services.",
       "source_id": "avon-somerset-2026",
       "pdf_page": 31,
+      "format": "summary"
+    },
+    "E48000017-001": {
+      "text": "A complete failure of the national electricity network. Restarting power generation takes time, with knock-on disruption to essential services.",
+      "source_id": "e48000017-local-review",
+      "pdf_page": 3,
+      "format": "summary"
+    },
+    "E48000017-002": {
+      "text": "An accident or technical fault causes a major winter gas shortage, affecting heating, cooking and people who depend on care.",
+      "source_id": "e48000017-local-review",
+      "pdf_page": 3,
+      "format": "summary"
+    },
+    "E48000017-003": {
+      "text": "Prolonged snow, ice and low temperatures harm health and disrupt roads, schools and businesses. Frozen pipes can interrupt water and heating.",
+      "source_id": "e48000017-local-review",
+      "pdf_page": 4,
+      "format": "summary"
+    },
+    "E48000017-004": {
+      "text": "A major tidal flood affects coastal communities across several counties, threatening life and requiring emergency resources to be shared.",
+      "source_id": "e48000017-local-review",
+      "pdf_page": 4,
+      "format": "summary"
+    },
+    "E48000017-005": {
+      "text": "A new infectious virus spreads internationally, causing widespread illness and placing extra pressure on health services.",
+      "source_id": "e48000017-local-review",
+      "pdf_page": 4,
+      "format": "summary"
+    },
+    "E48000017-006": {
+      "text": "Disruption to major roads, including the M20 and M2, diverts traffic onto local routes and obstructs port access and essential services.",
+      "source_id": "e48000017-local-review",
+      "pdf_page": 5,
+      "format": "summary"
+    },
+    "E48000017-007": {
+      "text": "A port becomes unavailable because of infrastructure failure, severe weather, a security incident or sudden border closure, disrupting passenger and freight movements.",
+      "source_id": "e48000017-local-review",
+      "pdf_page": 5,
+      "format": "summary"
+    },
+    "E48000017-008": {
+      "text": "A hazard such as flooding or a storm cuts mobile, landline and internet connections, affecting everyday communication and access to services.",
+      "source_id": "e48000017-local-review",
+      "pdf_page": 5,
+      "format": "summary"
+    },
+    "E48000017-009": {
+      "text": "A regional electricity outage affects homes and businesses and disrupts other utilities, telecommunications and transport systems.",
+      "source_id": "e48000017-local-review",
+      "pdf_page": 5,
+      "format": "summary"
+    },
+    "E48000017-010": {
+      "text": "Contamination introduces a disease-causing organism into food, causing illness and potentially requiring a lengthy investigation and response.",
+      "source_id": "e48000017-local-review",
+      "pdf_page": 6,
+      "format": "summary"
+    },
+    "E48000017-011": {
+      "text": "High winds, extreme heat or heavy rainfall disrupt normal activities and can have serious effects on health.",
+      "source_id": "e48000017-local-review",
+      "pdf_page": 6,
+      "format": "summary"
+    },
+    "E48000017-012": {
+      "text": "Rivers overflow or rainfall cannot drain away, flooding land and buildings and disrupting utilities and communities.",
+      "source_id": "e48000017-local-review",
+      "pdf_page": 6,
+      "format": "summary"
+    },
+    "E48000017-013": {
+      "text": "Rivers rise rapidly after rainfall, potentially flooding nearby communities with little warning. The Bourne and Pent are local examples.",
+      "source_id": "e48000017-local-review",
+      "pdf_page": 6,
+      "format": "summary"
+    },
+    "E48000017-014": {
+      "text": "A previously unknown or unusual respiratory infection spreads from an overseas outbreak and causes serious illness in the UK.",
+      "source_id": "e48000017-local-review",
+      "pdf_page": 6,
+      "format": "summary"
+    },
+    "E48000017-015": {
+      "text": "Industrial action reduces the availability of emergency, health or care services. Action in supporting sectors can also affect delivery.",
+      "source_id": "e48000017-local-review",
+      "pdf_page": 7,
+      "format": "summary"
+    },
+    "E48000017-016": {
+      "text": "Prolonged disruption at freight-checking sites, such as Sevington, interferes with the movement of goods through Kent.",
+      "source_id": "e48000017-local-review",
+      "pdf_page": 7,
+      "format": "summary"
+    },
+    "E48000017-017": {
+      "text": "A major adult care provider stops operating and its services cannot readily be replaced, putting continuity of care at risk.",
+      "source_id": "e48000017-local-review",
+      "pdf_page": 7,
+      "format": "summary"
+    },
+    "E48000017-018": {
+      "text": "A collision or other serious railway incident injures passengers or crew and requires an emergency response.",
+      "source_id": "e48000017-local-review",
+      "pdf_page": 7,
+      "format": "summary"
+    },
+    "E48000017-019": {
+      "text": "A passenger vessel sinks in or near UK waters, requiring people to leave or abandon the ship.",
+      "source_id": "e48000017-local-review",
+      "pdf_page": 7,
+      "format": "summary"
+    },
+    "E48000017-020": {
+      "text": "Oil or petroleum discharged from a ship harms marine life, coastal areas, tourism and other activities, with potentially lasting effects.",
+      "source_id": "e48000017-local-review",
+      "pdf_page": 7,
+      "format": "summary"
+    },
+    "E48000017-021": {
+      "text": "A grounded or sunken vessel obstructs a major port, disrupting its passenger or freight operations.",
+      "source_id": "e48000017-local-review",
+      "pdf_page": 8,
+      "format": "summary"
+    },
+    "E48000017-022": {
+      "text": "A tanker carrying dangerous goods crashes in a built-up area, causing fire or explosion, casualties, damage and road closures.",
+      "source_id": "e48000017-local-review",
+      "pdf_page": 8,
+      "format": "summary"
+    },
+    "E48000017-023": {
+      "text": "A collision involving commercial aircraft causes casualties among passengers, crew and potentially people on the ground.",
+      "source_id": "e48000017-local-review",
+      "pdf_page": 8,
+      "format": "summary"
+    },
+    "E48000017-024": {
+      "text": "An accident at a UK civil nuclear site releases radioactive material. The register identifies Dungeness as the local site considered.",
+      "source_id": "e48000017-local-review",
+      "pdf_page": 8,
+      "format": "summary"
+    },
+    "E48000017-025": {
+      "text": "An accident at a nuclear facility overseas releases radioactive material that affects the UK or UK interests abroad.",
+      "source_id": "e48000017-local-review",
+      "pdf_page": 8,
+      "format": "summary"
+    },
+    "E48000017-026": {
+      "text": "Fire or explosion at a site storing fuel, flammable liquids or toxic chemicals threatens nearby people and infrastructure.",
+      "source_id": "e48000017-local-review",
+      "pdf_page": 8,
+      "format": "summary"
+    },
+    "E48000017-027": {
+      "text": "A reservoir or dam fails without warning, releasing fast-moving floodwater that threatens life and damages infrastructure.",
+      "source_id": "e48000017-local-review",
+      "pdf_page": 9,
+      "format": "summary"
+    },
+    "E48000017-028": {
+      "text": "Piped water supplies stop, affecting households, businesses, agriculture and firefighting until alternative supplies or normal service are available.",
+      "source_id": "e48000017-local-review",
+      "pdf_page": 9,
+      "format": "summary"
+    },
+    "E48000017-029": {
+      "text": "A serious building fire causes deaths or injuries, particularly where residents or patients may need assistance to evacuate.",
+      "source_id": "e48000017-local-review",
+      "pdf_page": 9,
+      "format": "summary"
+    },
+    "E48000017-030": {
+      "text": "Fire spreads through forest or moorland, particularly during hot, dry weather.",
+      "source_id": "e48000017-local-review",
+      "pdf_page": 9,
+      "format": "summary"
+    },
+    "E48000017-031": {
+      "text": "Volcanic ash reaches airspace used by UK flights, disrupting aviation according to wind conditions and the characteristics of the eruption.",
+      "source_id": "e48000017-local-review",
+      "pdf_page": 9,
+      "format": "summary"
+    },
+    "E48000017-032": {
+      "text": "Repeated dry winters leave insufficient water to replenish supplies before summer, leading to prolonged shortages.",
+      "source_id": "e48000017-local-review",
+      "pdf_page": 10,
+      "format": "summary"
+    },
+    "E48000017-033": {
+      "text": "Weather conditions trap or carry pollution over Kent, leaving unhealthy air in place until winds change.",
+      "source_id": "e48000017-local-review",
+      "pdf_page": 10,
+      "format": "summary"
+    },
+    "E48000017-034": {
+      "text": "A highly infectious viral disease spreads among animals such as cattle, pigs, sheep and goats, with major economic consequences.",
+      "source_id": "e48000017-local-review",
+      "pdf_page": 10,
+      "format": "summary"
+    },
+    "E48000017-035": {
+      "text": "A highly infectious bird flu outbreak causes severe disease in birds and can also spread to mammals, including humans.",
+      "source_id": "e48000017-local-review",
+      "pdf_page": 10,
+      "format": "summary"
+    },
+    "E48000017-036": {
+      "text": "Rioting, looting, arson or other serious disorder damages property and harms community cohesion.",
+      "source_id": "e48000017-local-review",
+      "pdf_page": 10,
+      "format": "summary"
+    },
+    "E48000017-037": {
+      "text": "Industrial action interrupts fuel deliveries, causing filling stations to run short. Increased demand can worsen shortages.",
+      "source_id": "e48000017-local-review",
+      "pdf_page": 10,
+      "format": "summary"
+    },
+    "E48000017-038": {
+      "text": "An incident in a road tunnel causes casualties and disrupts routes that form part of Kent’s strategic road network.",
+      "source_id": "e48000017-local-review",
+      "pdf_page": 10,
+      "format": "summary"
+    },
+    "E48000017-039": {
+      "text": "A sudden motorway or major-road incident closes routes during rescue, investigation and clean-up, disrupting local and cross-Channel traffic.",
+      "source_id": "e48000017-local-review",
+      "pdf_page": 11,
+      "format": "summary"
+    },
+    "E48000017-040": {
+      "text": "Pollution enters rivers or underground water sources, threatening the waters on which Kent’s drinking supplies depend.",
+      "source_id": "e48000017-local-review",
+      "pdf_page": 11,
+      "format": "summary"
+    },
+    "E48000017-041": {
+      "text": "Sewage, oil, farm chemicals or waste enter waterways and reach coastal or estuary environments.",
+      "source_id": "e48000017-local-review",
+      "pdf_page": 11,
+      "format": "summary"
+    },
+    "E48000017-042": {
+      "text": "A building collapses, potentially trapping people and damaging neighbouring roads and utility services.",
+      "source_id": "e48000017-local-review",
+      "pdf_page": 11,
+      "format": "summary"
+    },
+    "E48000017-043": {
+      "text": "A bridge closes or collapses, removing an important road, rail or pedestrian connection and disrupting the wider transport network.",
+      "source_id": "e48000017-local-review",
+      "pdf_page": 11,
+      "format": "summary"
+    },
+    "E48000017-044": {
+      "text": "Equipment or process failure releases a large quantity of toxic chemical, potentially without a fire or explosion.",
+      "source_id": "e48000017-local-review",
+      "pdf_page": 12,
+      "format": "summary"
+    },
+    "E48000017-045": {
+      "text": "Someone deliberately introduces a harmful chemical into food before it is sold or consumed.",
+      "source_id": "e48000017-local-review",
+      "pdf_page": 12,
+      "format": "summary"
+    },
+    "E48000017-046": {
+      "text": "An attack makes critical transport computer systems unavailable, disrupting passenger journeys and freight movements.",
+      "source_id": "e48000017-local-review",
+      "pdf_page": 12,
+      "format": "summary"
+    },
+    "E48000017-047": {
+      "text": "A cyberattack disrupts a major telecommunications provider, preventing broadband, landline or mobile communication and potentially access to emergency calls.",
+      "source_id": "e48000017-local-review",
+      "pdf_page": 12,
+      "format": "summary"
+    },
+    "E48000017-048": {
+      "text": "A fuel business becomes insolvent, interrupting regional supplies for transport, aviation and heating while supply chains adjust.",
+      "source_id": "e48000017-local-review",
+      "pdf_page": 12,
+      "format": "summary"
+    },
+    "E48000017-049": {
+      "text": "People are accidentally exposed to radioactive material that has been lost, stolen or transported without adequate precautions.",
+      "source_id": "e48000017-local-review",
+      "pdf_page": 13,
+      "format": "summary"
+    },
+    "E48000017-050": {
+      "text": "A hazardous infectious organism escapes from a laboratory and spreads to people through close contact.",
+      "source_id": "e48000017-local-review",
+      "pdf_page": 13,
+      "format": "summary"
+    },
+    "E48000017-051": {
+      "text": "Ground tremors or associated land movement damage the local area. The register treats such events as uncommon in Kent and Medway.",
+      "source_id": "e48000017-local-review",
+      "pdf_page": 13,
+      "format": "summary"
+    },
+    "E48000017-052": {
+      "text": "Large numbers of British nationals return from abroad because of unrest or terrorism and require reception and support.",
+      "source_id": "e48000017-local-review",
+      "pdf_page": 13,
+      "format": "summary"
+    },
+    "E48000010-001": {
+      "text": "Storms, snow, ice, extreme heat or drought can damage property, disrupt travel and utilities, and put vulnerable people at risk.",
+      "source_id": "e48000010-local-review",
+      "pdf_page": 10,
+      "format": "summary"
+    },
+    "E48000010-002": {
+      "text": "Rivers overflow, rain overwhelms drainage, or the sea breaches defences, threatening homes, essential services and the environment.",
+      "source_id": "e48000010-local-review",
+      "pdf_page": 7,
+      "format": "summary"
+    },
+    "E48000010-003": {
+      "text": "An infectious disease spreads widely, causing illness and staff shortages and putting health, care and other essential services under pressure.",
+      "source_id": "e48000010-local-review",
+      "pdf_page": 12,
+      "format": "summary"
+    },
+    "E48000010-006": {
+      "text": "Gas, electricity or water supplies are interrupted, making everyday activities difficult and leaving some households needing additional support.",
+      "source_id": "e48000010-local-review",
+      "pdf_page": 18,
+      "format": "summary"
+    },
+    "E48000010-007": {
+      "text": "Animal infections spread between livestock and sometimes to people, disrupting farming, rural businesses, tourism and supply chains.",
+      "source_id": "e48000010-local-review",
+      "pdf_page": 16,
+      "format": "summary"
+    },
+    "E48000011-001": {
+      "text": "Coastal tides, overflowing rivers or overloaded drainage flood homes and infrastructure, with consequences for communities, businesses and essential services.",
+      "source_id": "e48000011-local-review",
+      "pdf_page": 8,
+      "format": "summary"
+    },
+    "E48000011-002": {
+      "text": "Heavy rain, wind, snow, extreme temperatures or drought cause significant disruption to normal life.",
+      "source_id": "e48000011-local-review",
+      "pdf_page": 11,
+      "format": "summary"
+    },
+    "E48000011-003": {
+      "text": "New flu strains or emerging infections spread between people, causing illness and potentially widespread disruption.",
+      "source_id": "e48000011-local-review",
+      "pdf_page": 13,
+      "format": "summary"
+    },
+    "E48000011-005": {
+      "text": "An incident at an industrial site storing or processing dangerous substances can harm people or the environment beyond the site.",
+      "source_id": "e48000011-local-review",
+      "pdf_page": 15,
+      "format": "summary"
+    },
+    "E48000011-006": {
+      "text": "Criminals or other hostile actors compromise digital information and computer systems, disrupting the services that depend on them.",
+      "source_id": "e48000011-local-review",
+      "pdf_page": 19,
+      "format": "summary"
+    },
+    "E48000015-001": {
+      "text": "Infectious outbreaks, including flu, can seriously affect health, particularly among young and older people.",
+      "source_id": "e48000015-local-review",
+      "pdf_page": 1,
+      "format": "summary"
+    },
+    "E48000015-002": {
+      "text": "Prolonged hot or cold conditions harm health and disrupt travel and everyday services.",
+      "source_id": "e48000015-local-review",
+      "pdf_page": 1,
+      "format": "summary"
+    },
+    "E48000015-003": {
+      "text": "Accidents on busy roads, including those involving hazardous goods, can cause lengthy traffic disruption.",
+      "source_id": "e48000015-local-review",
+      "pdf_page": 1,
+      "format": "summary"
+    },
+    "E48000015-004": {
+      "text": "Rivers, canals, reservoirs and other waterways can flood nearby homes, businesses and roads.",
+      "source_id": "e48000015-local-review",
+      "pdf_page": 1,
+      "format": "summary"
+    },
+    "E48000015-005": {
+      "text": "Infrastructure failure or accidental damage interrupts electricity, gas, water or telecommunications, disrupting everyday routines.",
+      "source_id": "e48000015-local-review",
+      "pdf_page": 1,
+      "format": "summary"
+    },
+    "W41000003-001": {
+      "text": "Coastal surges, overflowing rivers or other flooding threaten lives and damage homes, infrastructure and the local economy.",
+      "source_id": "w41000003-local-review",
+      "pdf_page": 4,
+      "format": "summary"
+    },
+    "W41000003-004": {
+      "text": "A terrorist attack can cause casualties, fear and damage, with consequences extending beyond the immediate incident.",
+      "source_id": "w41000003-local-review",
+      "pdf_page": 7,
+      "format": "summary"
+    },
+    "W41000003-005": {
+      "text": "Industrial explosions, fires or hazardous releases occur at sites or during transport, threatening people, property and the environment.",
+      "source_id": "w41000003-local-review",
+      "pdf_page": 8,
+      "format": "summary"
+    },
+    "W41000003-006": {
+      "text": "Electricity, gas, water, communications or fuel services fail, affecting heating, food preparation and other essential activities.",
+      "source_id": "w41000003-local-review",
+      "pdf_page": 9,
+      "format": "summary"
+    },
+    "W41000003-007": {
+      "text": "Contagious animal disease harms livestock, sometimes threatens people, and disrupts farming, the food chain and tourism.",
+      "source_id": "w41000003-local-review",
+      "pdf_page": 10,
+      "format": "summary"
+    },
+    "W41000003-008": {
+      "text": "Oil, chemicals or smoke contaminate water, land or air, harming health, wildlife and local businesses.",
+      "source_id": "w41000003-local-review",
+      "pdf_page": 11,
+      "format": "summary"
+    },
+    "W41000003-009": {
+      "text": "Accidents or severe weather disrupt important roads and other transport links, causing casualties, delays or isolation.",
+      "source_id": "w41000003-local-review",
+      "pdf_page": 12,
+      "format": "summary"
+    },
+    "E48000004-001": {
+      "text": "Coastal, river and surface-water flooding can damage communities. The Dane and Bollin catchments can respond rapidly to heavy rainfall.",
+      "source_id": "e48000004-web-0",
+      "section": "Flooding",
+      "format": "summary"
+    },
+    "E48000004-002": {
+      "text": "Rain, wind, snow, ice and heatwaves can disrupt daily life, threaten health and interrupt transport.",
+      "source_id": "e48000004-web-1",
+      "section": "Severe weather",
+      "format": "summary"
+    },
+    "E48000004-003": {
+      "text": "A new infection spreads between people across countries, putting health services under strain and disrupting work, education and essential services.",
+      "source_id": "e48000004-web-2",
+      "section": "Pandemic",
+      "format": "summary"
+    },
+    "E48000004-004": {
+      "text": "Failure of essential networks such as power, water or communications can disrupt other services that depend on them.",
+      "source_id": "e48000004-web-5",
+      "section": "Loss of service",
+      "format": "summary"
+    },
+    "E48000004-005": {
+      "text": "Attackers damage, disrupt or gain unauthorised access to computer systems or information, including by locking data and demanding payment.",
+      "source_id": "e48000004-web-6",
+      "section": "Cyber threats",
+      "format": "summary"
+    },
+    "E48000004-006": {
+      "text": "Accidents or severe weather disrupt roads, railways or other transport, potentially endangering people and delaying essential services.",
+      "source_id": "e48000004-web-8",
+      "section": "Transport incidents",
+      "format": "summary"
+    },
+    "E48000004-007": {
+      "text": "Accidents involving dangerous substances at industrial sites or pipelines can harm workers, nearby communities and the environment.",
+      "source_id": "e48000004-web-3",
+      "section": "Industrial incidents",
+      "format": "summary"
+    },
+    "E48000004-008": {
+      "text": "Highly contagious or deadly animal infections threaten livestock, sometimes people, and Cheshire’s farming economy.",
+      "source_id": "e48000004-web-7",
+      "section": "Animal diseases",
+      "format": "summary"
+    },
+    "E48000004-009": {
+      "text": "Malicious violence, particularly at crowded or significant locations, can endanger people and disrupt communities.",
+      "source_id": "e48000004-web-4",
+      "section": "Malicious attacks",
+      "format": "summary"
+    },
+    "E48000009-012": {
+      "text": "Rock and soil can fall suddenly from Dorset’s coastal cliffs, causing injuries and closing paths or routes. Wet and very dry weather can contribute.",
+      "source_id": "e48000009-web-20",
+      "section": "Rock fall and landslide",
+      "format": "summary"
+    },
+    "E48000009-019": {
+      "text": "Strong winds and high waves damage buildings and infrastructure, interrupt power and transport, and can cause coastal flooding.",
+      "source_id": "e48000009-web-21",
+      "section": "Storms, gales and high waves",
+      "format": "summary"
+    },
+    "E48000009-005": {
+      "text": "Snow, ice and low temperatures make travel hazardous, harm health and interrupt electricity, water, schools and businesses.",
+      "source_id": "e48000009-web-22",
+      "section": "Low temperatures and heavy snow",
+      "format": "summary"
+    },
+    "E48000009-009": {
+      "text": "A new flu virus spreads readily through a population with little immunity, causing widespread illness beyond normal seasonal flu.",
+      "source_id": "e48000009-web-23",
+      "section": "Pandemics",
+      "format": "summary"
+    },
+    "E48000009-017": {
+      "text": "Fire spreads through dry heathland or forest, threatening homes, wildlife and essential infrastructure. Human activity can start these fires.",
+      "source_id": "e48000009-web-28",
+      "section": "Heathland and forest fires",
+      "format": "summary"
+    },
+    "E48000014-045": {
+      "text": "Strong winds and rain can bring down trees, damage buildings and interrupt travel and utility services.",
+      "source_id": "e48000014-web-32",
+      "section": "Storms",
+      "format": "summary"
+    },
+    "E48000014-046": {
+      "text": "An extended spell of unusually hot weather can harm health and strain services, especially where people cannot keep cool.",
+      "source_id": "e48000014-web-33",
+      "section": "Heatwaves",
+      "format": "summary"
+    },
+    "E48000014-047": {
+      "text": "Cold temperatures, snow and ice increase illness and injury risks and can disrupt daily activities.",
+      "source_id": "e48000014-web-34",
+      "section": "Cold weather",
+      "format": "summary"
+    },
+    "E48000014-048": {
+      "text": "High tides, storm surges and strong waves push seawater over coastal defences, flooding communities.",
+      "source_id": "e48000014-web-35",
+      "section": "Coastal flooding",
+      "format": "summary"
+    },
+    "E48000014-049": {
+      "text": "Rivers, streams or brooks overflow their banks, often following intense rainfall, flooding surrounding land and buildings.",
+      "source_id": "e48000014-web-35",
+      "section": "River flooding",
+      "format": "summary"
+    },
+    "E48000014-050": {
+      "text": "Heavy rainfall exceeds drainage capacity and flows over land, sometimes causing sudden flooding far from rivers or the sea.",
+      "source_id": "e48000014-web-35",
+      "section": "Surface water flooding",
+      "format": "summary"
+    },
+    "E48000014-072": {
+      "text": "The water table rises until underground water reaches the surface. Basements and cellars in chalk areas are particularly exposed.",
+      "source_id": "e48000014-web-35",
+      "section": "Ground water flooding",
+      "format": "summary"
+    },
+    "E48000014-052": {
+      "text": "Pollutants build up in the air people breathe. Weather can trap pollution locally, worsening health effects.",
+      "source_id": "e48000014-web-36",
+      "section": "Poor air quality",
+      "format": "summary"
+    },
+    "E48000014-040": {
+      "text": "A large fire, whether accidental or deliberate, threatens people, property and infrastructure and can damage air quality.",
+      "source_id": "e48000014-web-38",
+      "section": "Major fire",
+      "format": "summary"
+    },
+    "E48000014-015": {
+      "text": "Trains collide with each other or an object, or derail, causing injuries and potentially major disruption.",
+      "source_id": "e48000014-web-39",
+      "section": "Railway accident",
+      "format": "summary"
+    },
+    "E48000014-067": {
+      "text": "Chemicals or untreated sewage contaminate surface water or groundwater, damaging habitats and potentially interrupting drinking-water abstraction.",
+      "source_id": "e48000014-web-40",
+      "section": "Major pollution of surface waters and groundwater",
+      "format": "summary"
+    },
+    "E48000014-019": {
+      "text": "A road collision involving hazardous cargo can cause fire, explosion or contamination, threatening people and closing routes.",
+      "source_id": "e48000014-web-41",
+      "section": "Dangerous goods accidents",
+      "format": "summary"
+    },
+    "E48000014-025": {
+      "text": "The national network carrying electricity fails, cutting power across the country and disrupting water, communications, payments and other services.",
+      "source_id": "e48000014-web-42",
+      "section": "National electricity transmission failure",
+      "format": "summary"
+    },
+    "E48000014-027": {
+      "text": "A technical fault or accident interrupts gas infrastructure, affecting essential services, industry and potentially electricity generation.",
+      "source_id": "e48000014-web-43",
+      "section": "Failure of gas supply infrastructure",
+      "format": "summary"
+    },
+    "E48000014-024": {
+      "text": "Mobile phones, landlines and internet connections fail together, limiting everyday communication and potentially access to emergency services.",
+      "source_id": "e48000014-web-44",
+      "section": "Loss of fixed and mobile communications",
+      "format": "summary"
+    },
+    "E48000014-053": {
+      "text": "A new disease-causing organism spreads rapidly around the world through a population with little immunity.",
+      "source_id": "e48000014-web-46",
+      "section": "Pandemic",
+      "format": "summary"
+    },
+    "E48000014-054": {
+      "text": "A new or newly recognised infectious disease causes an outbreak, potentially requiring enhanced detection, treatment and public-health measures.",
+      "source_id": "e48000014-web-46",
+      "section": "Emerging infectious disease",
+      "format": "summary"
+    },
+    "E48000014-044": {
+      "text": "Solar particles and magnetic disturbances interfere with satellites, positioning, communications or electricity networks.",
+      "source_id": "e48000014-web-54",
+      "section": "Severe space weather",
+      "format": "summary"
+    },
+    "E48000014-042": {
+      "text": "An overseas volcano sends ash into the atmosphere, potentially disrupting flights serving the UK and Europe.",
+      "source_id": "e48000014-web-55",
+      "section": "Volcanic eruption",
+      "format": "summary"
+    },
+    "E48000014-051": {
+      "text": "A prolonged rainfall shortage leaves insufficient water for people, agriculture and the environment.",
+      "source_id": "e48000014-web-56",
+      "section": "Drought",
+      "format": "summary"
+    },
+    "E48000014-069": {
+      "text": "Rock, soil or debris moves down a slope, damaging property or infrastructure and sometimes requiring evacuation. Coastal erosion and rainfall are local triggers.",
+      "source_id": "e48000014-web-57",
+      "section": "Land movement",
+      "format": "summary"
+    },
+    "E48000014-038": {
+      "text": "A water-supply interruption affects drinking, cooking, washing and sanitation, with additional consequences for vulnerable households and sensitive sites.",
+      "source_id": "e48000014-web-58",
+      "section": "Water disruption",
+      "format": "summary"
+    },
+    "E48000014-011": {
+      "text": "A care provider suddenly stops operating, threatening continuity of support for people whose services may be difficult to replace.",
+      "source_id": "e48000014-web-60",
+      "section": "Social care provider failure",
+      "format": "summary"
+    },
+    "E48000014-012": {
+      "text": "A private supplier closes or becomes insolvent, disrupting essential public services that depend on its work.",
+      "source_id": "e48000014-web-61",
+      "section": "Insolvency of critical suppliers",
+      "format": "summary"
+    },
+    "E48000014-016": {
+      "text": "A serious incident involving a ferry or cruise ship in busy local waters threatens passengers and requires a coordinated response.",
+      "source_id": "e48000014-web-62",
+      "section": "Large passenger vessel accident",
+      "format": "summary"
+    },
+    "E48000014-022": {
+      "text": "Damage or failure affects satellites used for communications, navigation and other essential services, with consequences reaching beyond the local area.",
+      "source_id": "e48000014-web-64",
+      "section": "Disruption of space-based services",
+      "format": "summary"
+    },
+    "E48000014-023": {
+      "text": "Positioning, navigation and timing services are interrupted, affecting transport, communications, banking and other systems that depend on satellite signals.",
+      "source_id": "e48000014-web-64",
+      "section": "Positioning, navigation and timing services",
+      "format": "summary"
+    },
+    "E48000014-030": {
+      "text": "A bank’s technology fails, preventing customers from accessing accounts, withdrawing cash or paying for goods and services.",
+      "source_id": "e48000014-web-65",
+      "section": "Technical failure of financial systems",
+      "format": "summary"
+    },
+    "E48000014-032": {
+      "text": "An accident at a site holding large quantities of flammable or explosive material can endanger people and surrounding areas.",
+      "source_id": "e48000014-web-66",
+      "section": "Accident at a major hazard site",
+      "format": "summary"
+    },
+    "E48000014-035": {
+      "text": "Damage to a high-pressure gas pipeline releases gas, creating fire hazards, loud noise and damage to surrounding ground.",
+      "source_id": "e48000014-web-67",
+      "section": "Major accident hazard pipeline",
+      "format": "summary"
+    },
+    "E48000014-039": {
+      "text": "Disease-causing organisms contaminate food through poor hygiene, storage or cross-contamination, causing illness.",
+      "source_id": "e48000014-web-69",
+      "section": "Food supply contamination",
+      "format": "summary"
+    },
+    "E48000014-068": {
+      "text": "A serious collision closes a motorway or major road, causing casualties and wider disruption to nearby communities and businesses.",
+      "source_id": "e48000014-web-70",
+      "section": "Motorways and major trunk roads",
+      "format": "summary"
+    },
+    "E48000014-076": {
+      "text": "Fire at a waste site releases harmful smoke or pollutants, damages property and disrupts waste services.",
+      "source_id": "e48000014-web-71",
+      "section": "Fire or pollution at a waste site",
+      "format": "summary"
+    },
+    "E48000014-077": {
+      "text": "A serious reactor fault on a visiting nuclear-powered vessel releases radioactive particles, potentially affecting the surrounding port area.",
+      "source_id": "e48000014-web-72",
+      "section": "Radioactive release by a nuclear-powered vessel",
+      "format": "summary"
+    },
+    "E48000014-060": {
+      "text": "Emerald ash borer beetles damage ash trees as larvae feed under the bark, threatening woodland, the environment and the economy.",
+      "source_id": "e48000014-web-73",
+      "section": "Plant health",
+      "format": "summary"
+    },
+    "E48000014-061": {
+      "text": "Large-scale disorder, including rioting, looting or arson, damages property, strains emergency services and harms community cohesion.",
+      "source_id": "e48000014-web-74",
+      "section": "Public disorder",
+      "format": "summary"
+    },
+    "E48000014-062": {
+      "text": "A strike or other industrial action reduces public transport services and disrupts journeys.",
+      "source_id": "e48000014-web-75",
+      "section": "Industrial action",
+      "format": "summary"
+    },
+    "E48000014-063": {
+      "text": "Industrial action by firefighters reduces the availability of fire and rescue services.",
+      "source_id": "e48000014-web-75",
+      "section": "Industrial action",
+      "format": "summary"
+    },
+    "E48000014-065": {
+      "text": "Industrial action interrupts fuel supplies, affecting transport and services that depend on fuel.",
+      "source_id": "e48000014-web-75",
+      "section": "Industrial action",
+      "format": "summary"
+    },
+    "E48000014-071": {
+      "text": "Industrial action by emergency-service workers reduces service availability and can affect urgent assistance.",
+      "source_id": "e48000014-web-75",
+      "section": "Industrial action",
+      "format": "summary"
+    },
+    "E48000014-074": {
+      "text": "Strikes or action such as working strictly to contracted duties disrupt services or the supply of goods.",
+      "source_id": "e48000014-web-75",
+      "section": "Industrial action",
+      "format": "summary"
+    },
+    "W41000002-001": {
+      "text": "Storms, prolonged snow, freezing temperatures or heatwaves disrupt travel and services, damage property and threaten health.",
+      "source_id": "w41000002-local-review",
+      "pdf_page": 11,
+      "format": "summary"
+    },
+    "W41000002-002": {
+      "text": "River, coastal or surface-water flooding threatens people, homes and businesses, disrupts services and can isolate communities.",
+      "source_id": "w41000002-local-review",
+      "pdf_page": 12,
+      "format": "summary"
+    },
+    "W41000002-003": {
+      "text": "Infections spread between people, causing local outbreaks or wider pandemics and placing pressure on health services and everyday activities.",
+      "source_id": "w41000002-local-review",
+      "pdf_page": 13,
+      "format": "summary"
+    },
+    "W41000002-004": {
+      "text": "Essential networks fail without warning, affecting water, heating, communications, payments and other services.",
+      "source_id": "w41000002-local-review",
+      "pdf_page": 15,
+      "format": "summary"
+    },
+    "W41000002-005": {
+      "text": "Industrial accidents, including fires involving hazardous cylinders in smaller workshops, can threaten nearby people and require evacuation.",
+      "source_id": "w41000002-local-review",
+      "pdf_page": 16,
+      "format": "summary"
+    },
+    "W41000002-006": {
+      "text": "Animal disease harms livestock and can sometimes infect people; movement restrictions and losses affect farming and the wider rural economy.",
+      "source_id": "w41000002-local-review",
+      "pdf_page": 17,
+      "format": "summary"
+    },
+    "W41000002-007": {
+      "text": "Accidents, severe weather, damaged bridges or tunnels, or industrial action interrupt transport and may leave people stranded.",
+      "source_id": "w41000002-local-review",
+      "pdf_page": 18,
+      "format": "summary"
+    },
+    "W41000002-008": {
+      "text": "Rock, soil or debris moves down natural or human-made slopes, damaging buildings and services or blocking waterways.",
+      "source_id": "w41000002-local-review",
+      "pdf_page": 19,
+      "format": "summary"
+    },
+    "W41000002-009": {
+      "text": "Terrorism, organised crime or cyberattacks target people, transport or infrastructure, threatening life and disrupting essential services.",
+      "source_id": "w41000002-local-review",
+      "pdf_page": 20,
+      "format": "summary"
+    },
+    "W41000003-002": {
+      "text": "Storms, snow, ice or heatwaves harm health and disrupt transport, utilities, schools and other everyday activities.",
+      "source_id": "w41000003-local-review",
+      "pdf_page": 5,
+      "format": "summary"
+    },
+    "W41000003-003": {
+      "text": "A new infectious disease spreads widely, causing illness and staff shortages that interrupt essential services and everyday life.",
+      "source_id": "w41000003-local-review",
+      "pdf_page": 6,
+      "format": "summary"
+    },
+    "E48000031-001": {
+      "text": "A major adult care provider fails and suitable replacement services are difficult to arrange quickly.",
+      "source_id": "e48000031-local-review",
+      "pdf_page": 3,
+      "format": "summary"
+    },
+    "E48000031-002": {
+      "text": "A company refining, importing, storing or distributing fuel becomes insolvent, interrupting supplies.",
+      "source_id": "e48000031-local-review",
+      "pdf_page": 4,
+      "format": "summary"
+    },
+    "E48000031-003": {
+      "text": "A serious rail accident causes casualties, damage and possible evacuation or contamination.",
+      "source_id": "e48000031-local-review",
+      "pdf_page": 4,
+      "format": "summary"
+    },
+    "E48000031-004": {
+      "text": "A tanker carrying dangerous goods crashes and catches fire or explodes.",
+      "source_id": "e48000031-local-review",
+      "pdf_page": 5,
+      "format": "summary"
+    },
+    "E48000031-005": {
+      "text": "Two commercial aircraft collide in the air, causing a major emergency.",
+      "source_id": "e48000031-local-review",
+      "pdf_page": 5,
+      "format": "summary"
+    },
+    "E48000031-006": {
+      "text": "A drone is deliberately flown near a major airport to create a safety threat and force airspace closure.",
+      "source_id": "e48000031-local-review",
+      "pdf_page": 5,
+      "format": "summary"
+    },
+    "E48000031-007": {
+      "text": "A storm, flood or other hazard cuts mobile, landline and internet connections at the same time.",
+      "source_id": "e48000031-local-review",
+      "pdf_page": 6,
+      "format": "summary"
+    },
+    "E48000031-008": {
+      "text": "The national electricity transmission system fails, causing a blackout across Great Britain.",
+      "source_id": "e48000031-local-review",
+      "pdf_page": 6,
+      "format": "summary"
+    },
+    "E48000031-009": {
+      "text": "An accident or technical fault during winter causes a major interruption to gas supplies.",
+      "source_id": "e48000031-local-review",
+      "pdf_page": 6,
+      "format": "summary"
+    },
+    "E48000031-010": {
+      "text": "An accident at a nuclear site abroad releases radioactive material with effects reaching the UK.",
+      "source_id": "e48000031-local-review",
+      "pdf_page": 7,
+      "format": "summary"
+    },
+    "E48000031-011": {
+      "text": "People are exposed to radioactive sources that were lost, stolen or transported without proper precautions.",
+      "source_id": "e48000031-local-review",
+      "pdf_page": 7,
+      "format": "summary"
+    },
+    "E48000031-012": {
+      "text": "Fire or explosion occurs at a site handling large amounts of flammable or explosive material.",
+      "source_id": "e48000031-local-review",
+      "pdf_page": 7,
+      "format": "summary"
+    },
+    "E48000031-013": {
+      "text": "A large accidental release of toxic gas occurs at a hazardous industrial site, potentially without fire or explosion.",
+      "source_id": "e48000031-local-review",
+      "pdf_page": 8,
+      "format": "summary"
+    },
+    "E48000031-014": {
+      "text": "High-pressure gas escaping from a pipeline ignites, causing fire or explosion.",
+      "source_id": "e48000031-local-review",
+      "pdf_page": 8,
+      "format": "summary"
+    },
+    "E48000031-015": {
+      "text": "An infectious organism is accidentally released from a containment laboratory in an urban area.",
+      "source_id": "e48000031-local-review",
+      "pdf_page": 9,
+      "format": "summary"
+    },
+    "E48000031-016": {
+      "text": "A reservoir or dam fails suddenly, causing rapid flooding with little warning.",
+      "source_id": "e48000031-local-review",
+      "pdf_page": 10,
+      "format": "summary"
+    },
+    "E48000031-017": {
+      "text": "Piped water stops abruptly or becomes unsafe to drink, affecting households and essential services.",
+      "source_id": "e48000031-local-review",
+      "pdf_page": 11,
+      "format": "summary"
+    },
+    "E48000031-018": {
+      "text": "A disease-causing organism contaminates the food supply, causing a public-health incident.",
+      "source_id": "e48000031-local-review",
+      "pdf_page": 11,
+      "format": "summary"
+    },
+    "E48000031-019": {
+      "text": "A major building fire causes serious injuries or deaths, including in places where people need help to evacuate.",
+      "source_id": "e48000031-local-review",
+      "pdf_page": 12,
+      "format": "summary"
+    },
+    "E48000031-020": {
+      "text": "An extensive wildfire burns for several days, requiring prolonged joint working by emergency responders.",
+      "source_id": "e48000031-local-review",
+      "pdf_page": 13,
+      "format": "summary"
+    },
+    "E48000031-021": {
+      "text": "Volcanic ash intermittently closes parts of UK airspace, disrupting flights over an extended period.",
+      "source_id": "e48000031-local-review",
+      "pdf_page": 14,
+      "format": "summary"
+    },
+    "E48000031-022": {
+      "text": "Strong ground shaking damages buildings and infrastructure.",
+      "source_id": "e48000031-local-review",
+      "pdf_page": 14,
+      "format": "summary"
+    },
+    "E48000031-023": {
+      "text": "A severe solar disturbance interrupts electricity, satellite navigation, communications and aviation.",
+      "source_id": "e48000031-local-review",
+      "pdf_page": 14,
+      "format": "summary"
+    },
+    "E48000031-024": {
+      "text": "Strong winds affect several regions, damaging property and disrupting services.",
+      "source_id": "e48000031-local-review",
+      "pdf_page": 14,
+      "format": "summary"
+    },
+    "E48000031-025": {
+      "text": "Several consecutive days of extreme heat threaten health and disrupt everyday activities.",
+      "source_id": "e48000031-local-review",
+      "pdf_page": 15,
+      "format": "summary"
+    },
+    "E48000031-026": {
+      "text": "Low temperatures and snow affect multiple regions, disrupting travel and services.",
+      "source_id": "e48000031-local-review",
+      "pdf_page": 15,
+      "format": "summary"
+    },
+    "E48000031-027": {
+      "text": "Sustained heavy rainfall causes large river floods across several areas.",
+      "source_id": "e48000031-local-review",
+      "pdf_page": 16,
+      "format": "summary"
+    },
+    "E48000031-028": {
+      "text": "Intense rainfall overwhelms drainage in a built-up area, flooding streets and properties.",
+      "source_id": "e48000031-local-review",
+      "pdf_page": 17,
+      "format": "summary"
+    },
+    "E48000031-029": {
+      "text": "Several years of insufficient rainfall lead to water shortages.",
+      "source_id": "e48000031-local-review",
+      "pdf_page": 17,
+      "format": "summary"
+    },
+    "E48000031-030": {
+      "text": "High concentrations of air pollution create an episode of unhealthy air.",
+      "source_id": "e48000031-local-review",
+      "pdf_page": 18,
+      "format": "summary"
+    },
+    "E48000031-031": {
+      "text": "An infectious disease spreads widely through the population, causing substantial illness and demand for hospital care.",
+      "source_id": "e48000031-local-review",
+      "pdf_page": 18,
+      "format": "summary"
+    },
+    "E48000031-032": {
+      "text": "A disease outbreak abroad reaches returning travellers and their close contacts in the UK.",
+      "source_id": "e48000031-local-review",
+      "pdf_page": 19,
+      "format": "summary"
+    },
+    "E48000031-033": {
+      "text": "Infected animals are moved before illness is detected, spreading foot and mouth disease between farms.",
+      "source_id": "e48000031-local-review",
+      "pdf_page": 20,
+      "format": "summary"
+    },
+    "E48000031-034": {
+      "text": "A severe bird flu strain reaches several poultry businesses through direct or indirect contact with wild birds.",
+      "source_id": "e48000031-local-review",
+      "pdf_page": 20,
+      "format": "summary"
+    },
+    "E48000031-035": {
+      "text": "Midges spread a virus from an infected imported horse to other horses before the outbreak is recognised.",
+      "source_id": "e48000031-local-review",
+      "pdf_page": 20,
+      "format": "summary"
+    },
+    "E48000031-036": {
+      "text": "African swine fever enters wild pigs and spreads to domestic or commercial herds before detection.",
+      "source_id": "e48000031-local-review",
+      "pdf_page": 20,
+      "format": "summary"
+    },
+    "E48000031-037": {
+      "text": "Xylella bacteria infect plants and spread between nurseries or other premises through plant movements.",
+      "source_id": "e48000031-local-review",
+      "pdf_page": 21,
+      "format": "summary"
+    },
+    "E48000031-038": {
+      "text": "Emerald ash borer beetles spread undetected through woodland and establish outbreaks at several sites.",
+      "source_id": "e48000031-local-review",
+      "pdf_page": 21,
+      "format": "summary"
+    },
+    "E48000031-039": {
+      "text": "Serious public disorder occurs in one or more cities over several days.",
+      "source_id": "e48000031-local-review",
+      "pdf_page": 21,
+      "format": "summary"
+    },
+    "E48000031-040": {
+      "text": "Industrial action by key rail staff brings large parts of the railway network to a halt.",
+      "source_id": "e48000031-local-review",
+      "pdf_page": 21,
+      "format": "summary"
+    },
+    "E48000031-041": {
+      "text": "Firefighter industrial action reduces emergency response capacity over a prolonged period.",
+      "source_id": "e48000031-local-review",
+      "pdf_page": 22,
+      "format": "summary"
+    },
+    "E48000031-042": {
+      "text": "Prison officer industrial action creates significant prison safety and security problems.",
+      "source_id": "e48000031-local-review",
+      "pdf_page": 22,
+      "format": "summary"
+    },
+    "E48000031-043": {
+      "text": "Actual or threatened disruption to road fuel deliveries, including tanker-driver strikes, interrupts supplies.",
+      "source_id": "e48000031-local-review",
+      "pdf_page": 22,
+      "format": "summary"
+    },
+    "E48000031-044": {
+      "text": "Vulnerable British nationals return from overseas without accommodation or support from family or friends.",
+      "source_id": "e48000031-local-review",
+      "pdf_page": 23,
+      "format": "summary"
+    },
+    "E48000031-045": {
+      "text": "Major data-centre disruption causes outages across digital infrastructure used by government and public services.",
+      "source_id": "e48000031-local-review",
+      "pdf_page": 23,
+      "format": "summary"
+    },
+    "E48000031-046": {
+      "text": "A faulty update disables widely used server software, causing a sudden digital outage across many services.",
+      "source_id": "e48000031-local-review",
+      "pdf_page": 23,
+      "format": "summary"
+    },
+    "E48000031-047": {
+      "text": "The number of people entering prison exceeds available capacity, even after contingency arrangements are used.",
+      "source_id": "e48000031-local-review",
+      "pdf_page": 24,
+      "format": "summary"
+    },
+    "E48000032-001": {
+      "text": "A new infection spreads worldwide, disrupting health services and everyday life.",
+      "source_id": "e48000032-local-review",
+      "pdf_page": 11,
+      "format": "summary"
+    },
+    "E48000032-002": {
+      "text": "A newly recognised infection causes illness and requires enhanced public-health responses.",
+      "source_id": "e48000032-local-review",
+      "pdf_page": 12,
+      "format": "summary"
+    },
+    "E48000032-003": {
+      "text": "Severe bird flu spreads among birds, sometimes infecting exposed people.",
+      "source_id": "e48000032-local-review",
+      "pdf_page": 14,
+      "format": "summary"
+    },
+    "E48000032-004": {
+      "text": "Foot and mouth spreads between livestock, damaging farming and trade.",
+      "source_id": "e48000032-local-review",
+      "pdf_page": 14,
+      "format": "summary"
+    },
+    "E48000032-005": {
+      "text": "Coastal or inland floods threaten homes, people, infrastructure and essential services.",
+      "source_id": "e48000032-local-review",
+      "pdf_page": 20,
+      "format": "summary",
+      "scope_note": "Summary of local coastal and inland flooding guidance (PDF pages 20–23)."
+    },
+    "E48000032-006": {
+      "text": "Prolonged extreme heat harms health and disrupts services and routines.",
+      "source_id": "e48000032-local-review",
+      "pdf_page": 24,
+      "format": "summary"
+    },
+    "E48000032-007": {
+      "text": "Cold temperatures and snow endanger health, travel and essential services.",
+      "source_id": "e48000032-local-review",
+      "pdf_page": 26,
+      "format": "summary"
+    },
+    "E48000032-008": {
+      "text": "Strong winds damage buildings and networks and disrupt travel.",
+      "source_id": "e48000032-local-review",
+      "pdf_page": 28,
+      "format": "summary"
+    },
+    "E48000032-009": {
+      "text": "Uncontrolled vegetation fires threaten people, wildlife, property and infrastructure.",
+      "source_id": "e48000032-local-review",
+      "pdf_page": 18,
+      "format": "summary"
+    },
+    "E48000032-010": {
+      "text": "Shipping accidents release oil or hazardous cargo, contaminating the coastline.",
+      "source_id": "e48000032-local-review",
+      "pdf_page": 40,
+      "format": "summary"
+    },
+    "E48000032-011": {
+      "text": "Accidents or severe weather interrupt roads, railways and aviation.",
+      "source_id": "e48000032-local-review",
+      "pdf_page": 38,
+      "format": "summary"
+    },
+    "E48000032-012": {
+      "text": "Serious building fires cause casualties and may require evacuation.",
+      "source_id": "e48000032-local-review",
+      "pdf_page": 32,
+      "format": "summary"
+    },
+    "E48000032-013": {
+      "text": "Essential networks fail, disrupting other services that depend on them.",
+      "source_id": "e48000032-local-review",
+      "pdf_page": 34,
+      "format": "summary"
+    },
+    "E48000032-014": {
+      "text": "Supply faults, industrial action or protest interrupt fuel availability.",
+      "source_id": "e48000032-local-review",
+      "pdf_page": 44,
+      "format": "summary"
+    },
+    "E48000032-015": {
+      "text": "Long-term climatic shifts increase extreme weather risks and alter water availability.",
+      "source_id": "e48000032-local-review",
+      "pdf_page": 17,
+      "format": "summary"
+    },
+    "E48000032-016": {
+      "text": "Industrial fires, explosions or hazardous releases threaten people and the environment.",
+      "source_id": "e48000032-local-review",
+      "pdf_page": 36,
+      "format": "summary"
+    },
+    "E48000032-017": {
+      "text": "Attackers steal, alter or destroy digital information and disrupt services.",
+      "source_id": "e48000032-local-review",
+      "pdf_page": 46,
+      "format": "summary"
+    },
+    "E48000032-018": {
+      "text": "Deliberate attacks endanger people and threaten essential services and infrastructure.",
+      "source_id": "e48000032-local-review",
+      "pdf_page": 48,
+      "format": "summary"
+    },
+    "E48000020-001": {
+      "text": "High tides and storm surges push seawater past coastal defences, potentially flooding communities rapidly with limited warning.",
+      "source_id": "e48000020-web-77",
+      "section": "Coastal flooding",
+      "format": "summary"
+    },
+    "E48000020-002": {
+      "text": "Rivers overflow or heavy rainfall overwhelms drains, flooding nearby land and buildings.",
+      "source_id": "e48000020-web-78",
+      "section": "River and surface water flooding",
+      "format": "summary"
+    },
+    "E48000020-003": {
+      "text": "A new or increasingly common infection spreads through a population, potentially causing many people to become ill.",
+      "source_id": "e48000020-web-79",
+      "section": "Emerging infectious diseases",
+      "format": "summary"
+    },
+    "E48000020-007": {
+      "text": "A new disease spreads through people with little immunity, causing widespread illness and disruption.",
+      "source_id": "e48000020-web-80",
+      "section": "Pandemic",
+      "format": "summary"
+    },
+    "E48000020-006": {
+      "text": "Gas or electricity supplies fail locally or more widely, interrupting services that depend on them.",
+      "source_id": "e48000020-web-81",
+      "section": "Loss of gas or electricity",
+      "format": "summary"
+    },
+    "E48000020-009": {
+      "text": "An extended spell of hot weather threatens health and can strain water supplies and other services.",
+      "source_id": "e48000020-web-82",
+      "section": "Heatwave",
+      "format": "summary"
+    },
+    "E48000020-008": {
+      "text": "Prolonged freezing weather and snow endanger health, disrupt transport and interrupt utilities.",
+      "source_id": "e48000020-web-83",
+      "section": "Extreme cold weather",
+      "format": "summary"
+    },
+    "E48000020-005": {
+      "text": "Violence or threats intended to intimidate the public or influence government endanger people and disrupt communities.",
+      "source_id": "e48000020-web-84",
+      "section": "Terrorism",
+      "format": "summary"
+    },
+    "E48000020-004": {
+      "text": "Criminals exploit digital systems to steal information or money, damage networks and interrupt services.",
+      "source_id": "e48000020-web-85",
+      "section": "Cyber attacks",
+      "format": "summary"
+    },
+    "E48000034-009": {
+      "text": "Infections spread among wild or farmed animals, harming livestock and rural livelihoods; some can also infect people.",
+      "source_id": "e48000034-web-116",
+      "section": "Animal disease",
+      "format": "summary"
+    },
+    "E48000034-005": {
+      "text": "Criminals exploit computer systems to steal data or money and interrupt essential services or business operations.",
+      "source_id": "e48000034-web-117",
+      "section": "Cyber attacks",
+      "format": "summary"
+    },
+    "E48000034-003": {
+      "text": "Prolonged cold and snow threaten health, damage utility networks and disrupt travel, schools and services.",
+      "source_id": "e48000034-web-119",
+      "section": "Extreme cold and snow",
+      "format": "summary"
+    },
+    "E48000034-002": {
+      "text": "Prolonged hot weather threatens health and may bring water shortages, wildfire and disruption to daily activities.",
+      "source_id": "e48000034-web-120",
+      "section": "Heatwave and drought",
+      "format": "summary"
+    },
+    "E48000034-008": {
+      "text": "Accidents at sites using dangerous substances, or major fires, threaten people, property and the environment.",
+      "source_id": "e48000034-web-121",
+      "section": "Industrial accidents and major fires",
+      "format": "summary"
+    },
+    "E48000034-010": {
+      "text": "Deliberate violence threatens people and can target infrastructure, disrupting community life.",
+      "source_id": "e48000034-web-123",
+      "section": "Terror attacks",
+      "format": "summary"
+    },
+    "E48000034-004": {
+      "text": "A new disease spreads widely through people with little immunity, potentially causing prolonged waves of illness and disruption.",
+      "source_id": "e48000034-web-124",
+      "section": "Pandemics",
+      "format": "summary"
+    },
+    "E48000034-001": {
+      "text": "Rivers overflow or heavy rainfall exceeds drainage capacity, flooding homes, roads and businesses.",
+      "source_id": "e48000034-web-125",
+      "section": "Flooding",
+      "format": "summary"
+    },
+    "E48000022-003": {
+      "text": "A new virus spreads quickly around the world where people lack immunity, causing widespread illness and disruption.",
+      "source_id": "e48000022-web-88",
+      "section": "Pandemic",
+      "format": "summary"
+    },
+    "E48000022-002": {
+      "text": "Heavy rain, snow or strong winds damage property and interrupt transport, utilities and communications.",
+      "source_id": "e48000022-web-89",
+      "section": "Severe weather",
+      "format": "summary"
+    },
+    "E48000022-006": {
+      "text": "Essential services such as power, water, fuel or communications are interrupted, affecting homes, businesses and daily life.",
+      "source_id": "e48000022-web-92",
+      "section": "Loss of essential services",
+      "format": "summary"
+    },
+    "E48000024-001": {
+      "text": "Water from rivers, surface runoff, sewers or burst pipes damages homes and infrastructure and may require evacuation.",
+      "source_id": "e48000024-web-96",
+      "section": "Flooding",
+      "format": "summary"
+    },
+    "E48000013-001": {
+      "text": "Floodwater damages homes and businesses and interrupts daily life, with risks affected by rainfall and changing weather patterns.",
+      "source_id": "e48000013-local-review",
+      "pdf_page": 6,
+      "format": "summary"
+    },
+    "E48000013-002": {
+      "text": "Storms, gales, snow or extreme temperatures damage property, threaten health and disrupt travel and essential services.",
+      "source_id": "e48000013-local-review",
+      "pdf_page": 10,
+      "format": "summary"
+    },
+    "E48000013-003": {
+      "text": "A flu virus spreads worldwide through people with little immunity, causing widespread illness and pressure on health and care services.",
+      "source_id": "e48000013-local-review",
+      "pdf_page": 8,
+      "format": "summary"
+    },
+    "E48000013-004": {
+      "text": "Accidents involving hazardous industrial substances threaten people and can contaminate the environment beyond the site.",
+      "source_id": "e48000013-local-review",
+      "pdf_page": 12,
+      "format": "summary"
+    },
+    "E48000013-005": {
+      "text": "Accidents, infrastructure faults, severe weather or other emergencies interrupt roads, railways, trams and other transport services.",
+      "source_id": "e48000013-local-review",
+      "pdf_page": 13,
+      "format": "summary"
+    },
+    "E48000013-006": {
+      "text": "Technical failures, emergencies or industrial action interrupt essential energy, water, food, communication, health or financial services.",
+      "source_id": "e48000013-local-review",
+      "pdf_page": 14,
+      "format": "summary"
+    },
+    "E48000025-001": {
+      "text": "Flooding damages communities and disrupts everyday life; surface-water flooding can develop with very little warning.",
+      "source_id": "e48000025-local-review",
+      "pdf_page": 22,
+      "format": "summary"
+    },
+    "E48000025-002": {
+      "text": "Heat, cold, snow, strong winds or extreme rainfall disrupt travel, threaten health and affect communities.",
+      "source_id": "e48000025-local-review",
+      "pdf_page": 22,
+      "format": "summary"
+    },
+    "E48000025-003": {
+      "text": "A new flu virus spreads rapidly through people with little immunity, causing more widespread illness than ordinary seasonal flu.",
+      "source_id": "e48000025-local-review",
+      "pdf_page": 28,
+      "format": "summary"
+    },
+    "E48000025-004": {
+      "text": "An accident involving dangerous industrial chemicals threatens people and the environment.",
+      "source_id": "e48000025-local-review",
+      "pdf_page": 18,
+      "format": "summary"
+    },
+    "E48000025-007": {
+      "text": "Animal disease threatens livestock, food production, wildlife and farming livelihoods, and some infections can also affect people.",
+      "source_id": "e48000025-local-review",
+      "pdf_page": 30,
+      "format": "summary"
+    },
+    "E48000035-002": {
+      "text": "Criminals use digital systems to steal information or money, promote a cause or prevent services from working.",
+      "source_id": "e48000035-local-review",
+      "pdf_page": 11,
+      "format": "summary"
+    },
+    "E48000035-003": {
+      "text": "Organised criminals exploit people and businesses through activities such as trafficking, drugs, firearms, fraud and cybercrime.",
+      "source_id": "e48000035-local-review",
+      "pdf_page": 13,
+      "format": "summary"
+    },
+    "E48000035-004": {
+      "text": "Industrial accidents, hazardous-material releases or failures of utility networks disrupt services and threaten people or the environment.",
+      "source_id": "e48000035-local-review",
+      "pdf_page": 14,
+      "format": "summary"
+    },
+    "E48000035-005": {
+      "text": "Extreme weather and flooding threaten communities, damage property and interrupt everyday services.",
+      "source_id": "e48000035-local-review",
+      "pdf_page": 17,
+      "format": "summary"
+    },
+    "E48000035-007": {
+      "text": "Disorder or industrial action damages communities or reduces essential services, including transport, health and education.",
+      "source_id": "e48000035-local-review",
+      "pdf_page": 22,
+      "format": "summary"
+    },
+    "E48000035-006": {
+      "text": "Human infections can spread widely, while animal diseases threaten health, food production and rural livelihoods.",
+      "source_id": "e48000035-local-review",
+      "pdf_page": 20,
+      "format": "summary",
+      "scope_note": "Summary of the local human and animal disease guidance (PDF pages 20–21)."
+    },
+    "E48000027-001": {
+      "text": "Flooding endangers people, damages homes and businesses and can interrupt roads, utilities and public services for a long time.",
+      "source_id": "e48000027-local-review",
+      "pdf_page": 16,
+      "format": "summary"
+    },
+    "E48000027-003": {
+      "text": "A new infectious organism spreads through the population, affecting health and disrupting daily life and services.",
+      "source_id": "e48000027-local-review",
+      "pdf_page": 14,
+      "format": "summary"
+    },
+    "E48000027-004": {
+      "text": "Electricity, gas, water or communications fail, sometimes without warning, with knock-on effects on other essential services.",
+      "source_id": "e48000027-local-review",
+      "pdf_page": 12,
+      "format": "summary"
+    },
+    "E48000027-005": {
+      "text": "Industrial accidents can escalate rapidly, threatening people and requiring a coordinated emergency response.",
+      "source_id": "e48000027-local-review",
+      "pdf_page": 28,
+      "format": "summary"
+    },
+    "E48000027-006": {
+      "text": "Road, railway or aviation incidents cause casualties and disruption; vehicle fires or hazardous loads can increase the consequences.",
+      "source_id": "e48000027-local-review",
+      "pdf_page": 28,
+      "format": "summary"
+    },
+    "W41000004-001": {
+      "text": "Infections spread through communities, causing illness and disrupting schools, workplaces and health services.",
+      "source_id": "w41000004-local-review",
+      "pdf_page": 6,
+      "format": "summary"
+    },
+    "W41000004-002": {
+      "text": "An epidemic spreads across countries or a very large area, affecting many people. The term describes spread, not necessarily severity.",
+      "source_id": "w41000004-local-review",
+      "pdf_page": 7,
+      "format": "summary"
+    },
+    "W41000004-003": {
+      "text": "Storms, gales, snow, cold, heatwaves or drought threaten health, damage property and disrupt transport and communications.",
+      "source_id": "w41000004-local-review",
+      "pdf_page": 10,
+      "format": "summary"
+    },
+    "W41000004-004": {
+      "text": "Floodwater from rivers, the sea, groundwater, surface runoff or reservoirs threatens homes and services and can isolate communities.",
+      "source_id": "w41000004-local-review",
+      "pdf_page": 12,
+      "format": "summary"
+    },
+    "W41000004-005": {
+      "text": "Rock, earth or debris moves suddenly or slowly, threatening life and infrastructure. Disused coal tips on steep hillsides are a particular local concern.",
+      "source_id": "w41000004-local-review",
+      "pdf_page": 15,
+      "format": "summary"
+    },
+    "W41000004-006": {
+      "text": "Explosions, fires or hazardous releases at industrial sites or during transport threaten people and the environment.",
+      "source_id": "w41000004-local-review",
+      "pdf_page": 18,
+      "format": "summary"
+    },
+    "W41000004-007": {
+      "text": "Power, water, gas, fuel or communications are interrupted, affecting sanitation, heating, payments and essential services.",
+      "source_id": "w41000004-local-review",
+      "pdf_page": 21,
+      "format": "summary"
+    },
+    "W41000004-008": {
+      "text": "Contagious animal disease harms livestock and farming livelihoods, and some infections can spread to people.",
+      "source_id": "w41000004-local-review",
+      "pdf_page": 24,
+      "format": "summary"
+    },
+    "W41000004-009": {
+      "text": "Terrorism, organised crime or cyberattacks threaten people, crowded places, transport and essential infrastructure.",
+      "source_id": "w41000004-local-review",
+      "pdf_page": 27,
+      "format": "summary"
+    },
+    "E48000019-001": {
+      "text": "Rivers overflow or heavy rain overwhelms drainage, flooding homes, businesses and roads.",
+      "source_id": "e48000019-local-review",
+      "pdf_page": 7,
+      "format": "summary"
+    },
+    "E48000019-002": {
+      "text": "Heatwaves, drought, freezing conditions, snow, storms or heavy rain threaten health and disrupt daily life.",
+      "source_id": "e48000019-local-review",
+      "pdf_page": 9,
+      "format": "summary"
+    },
+    "E48000019-003": {
+      "text": "Faults, deliberate attacks or industrial action interrupt gas, electricity or water supplies, locally or over a wide area.",
+      "source_id": "e48000019-local-review",
+      "pdf_page": 11,
+      "format": "summary"
+    },
+    "E48000019-004": {
+      "text": "Infectious diseases cause local outbreaks or wider pandemics, with consequences for health, care and everyday services.",
+      "source_id": "e48000019-local-review",
+      "pdf_page": 13,
+      "format": "summary"
+    },
+    "E48000019-005": {
+      "text": "Malicious digital activity steals personal or business information, causes financial losses and disrupts services.",
+      "source_id": "e48000019-local-review",
+      "pdf_page": 14,
+      "format": "summary"
+    },
+    "E48000019-006": {
+      "text": "Serious incidents on busy road, rail or air routes threaten people and disrupt travel and the movement of goods.",
+      "source_id": "e48000019-local-review",
+      "pdf_page": 15,
+      "format": "summary"
+    },
+    "E48000019-007": {
+      "text": "A deliberate attack causes physical harm, psychological trauma, property damage and disruption to communities.",
+      "source_id": "e48000019-local-review",
+      "pdf_page": 17,
+      "format": "summary"
+    },
+    "E48000012-001": {
+      "text": "Infectious outbreaks or pandemics threaten health and can seriously disrupt the economy and social wellbeing.",
+      "source_id": "e48000012-local-review",
+      "pdf_page": 7,
+      "format": "summary"
+    },
+    "E48000012-002": {
+      "text": "A deliberate violent attack threatens lives and public safety, requiring a coordinated emergency response.",
+      "source_id": "e48000012-local-review",
+      "pdf_page": 5,
+      "format": "summary"
+    },
+    "E48000012-003": {
+      "text": "National, regional or local power supplies fail; damage to network equipment can leave some areas disconnected for an extended period.",
+      "source_id": "e48000012-local-review",
+      "pdf_page": 9,
+      "format": "summary"
+    },
+    "E48000012-004": {
+      "text": "River flooding or heavy rain overwhelming drainage damages property and causes disruption and lasting effects on wellbeing.",
+      "source_id": "e48000012-local-review",
+      "pdf_page": 10,
+      "format": "summary"
+    },
+    "E48000012-005": {
+      "text": "Fuel shortages, infrastructure faults, industrial action or protest interrupt supplies for transport and essential services.",
+      "source_id": "e48000012-local-review",
+      "pdf_page": 11,
+      "format": "summary"
+    },
+    "E48000012-006": {
+      "text": "Snow, strong winds, heatwaves or heavy rainfall threaten people and disrupt services; climate change can worsen some extremes.",
+      "source_id": "e48000012-local-review",
+      "pdf_page": 8,
+      "format": "summary"
+    },
+    "E48000012-007": {
+      "text": "Cybercrime targets accounts, data and devices, harming individuals and businesses and interrupting essential services.",
+      "source_id": "e48000012-local-review",
+      "pdf_page": 6,
+      "format": "summary"
+    },
+    "E48000028-001": {
+      "text": "Heavy rainfall raises rivers beyond their capacity, flooding homes and transport routes and potentially requiring evacuation.",
+      "source_id": "e48000028-local-review",
+      "pdf_page": 10,
+      "format": "summary"
+    },
+    "E48000028-002": {
+      "text": "Storms, snow or ice damage property, threaten health and interrupt roads, utilities and essential services.",
+      "source_id": "e48000028-local-review",
+      "pdf_page": 7,
+      "format": "summary"
+    },
+    "E48000028-003": {
+      "text": "Infections spread between people and can become widespread epidemics or pandemics, putting pressure on care and disrupting work and services.",
+      "source_id": "e48000028-local-review",
+      "pdf_page": 17,
+      "format": "summary"
+    },
+    "E48000016-001": {
+      "text": "Flooding from rivers, the coast or surface water threatens homes, businesses, services and the environment.",
+      "source_id": "e48000016-local-review",
+      "pdf_page": 5,
+      "format": "summary"
+    },
+    "E48000016-003": {
+      "text": "A flu pandemic spreads illness widely, affecting health services and daily activities across the population.",
+      "source_id": "e48000016-local-review",
+      "pdf_page": 7,
+      "format": "summary"
+    },
+    "E48000016-004": {
+      "text": "A new infectious disease spreads among people, requiring public-health action to contain its effects.",
+      "source_id": "e48000016-local-review",
+      "pdf_page": 7,
+      "format": "summary"
+    },
+    "E48000016-005": {
+      "text": "Industrial activities involving hazardous substances can cause fires or releases that harm people and the environment.",
+      "source_id": "e48000016-local-review",
+      "pdf_page": 13,
+      "format": "summary"
+    },
+    "E48000016-007": {
+      "text": "Electricity supplies fail, disrupting daily life and other utilities and services that depend on power.",
+      "source_id": "e48000016-local-review",
+      "pdf_page": 9,
+      "format": "summary"
+    },
+    "E48000016-008": {
+      "text": "Animal infections such as foot and mouth or bird flu threaten farming and can harm livelihoods and trade.",
+      "source_id": "e48000016-local-review",
+      "pdf_page": 11,
+      "format": "summary"
+    },
+    "E48000016-002": {
+      "text": "Cold, snow and storms disrupt travel and utilities, while heatwaves and drought threaten health and water supplies.",
+      "source_id": "e48000016-local-review",
+      "pdf_page": 12,
+      "format": "summary",
+      "scope_note": "Summary of local cold-weather and heatwave guidance (PDF pages 8 and 12)."
+    },
+    "E48000006-001": {
+      "text": "Rivers and watercourses flood surrounding land; these events can coincide with coastal, surface-water or flash flooding.",
+      "source_id": "e48000006-local-review",
+      "pdf_page": 26,
+      "format": "summary"
+    },
+    "E48000006-003": {
+      "text": "A new disease spreads rapidly around the world, potentially causing repeated waves of illness.",
+      "source_id": "e48000006-local-review",
+      "pdf_page": 27,
+      "format": "summary"
+    },
+    "E48000029-043": {
+      "text": "Prolonged or heavy rainfall causes rivers and waterways to overflow, damaging property and interrupting roads and services.",
+      "source_id": "e48000029-web-1004",
+      "section": "River flooding",
+      "format": "summary"
+    },
+    "E48000029-034": {
+      "text": "A serious building fire threatens people and can close roads or disrupt the surrounding area for a long time.",
+      "source_id": "e48000029-web-1005",
+      "section": "Major fire",
+      "format": "summary"
+    },
+    "E48000029-042": {
+      "text": "Snow and ice block routes and isolate communities, while cold temperatures threaten health and interrupt power supplies.",
+      "source_id": "e48000029-web-1007",
+      "section": "Snow and severe cold",
+      "format": "summary"
+    },
+    "E48000029-046": {
+      "text": "A new infection spreads quickly worldwide, causing widespread illness and pressure on health, schools and other services.",
+      "source_id": "e48000029-web-1008",
+      "section": "Pandemic",
+      "format": "summary"
+    },
+    "E48000029-041": {
+      "text": "Several days of unusually hot weather threaten health and can strain water, electricity and transport services.",
+      "source_id": "e48000029-web-1009",
+      "section": "Heatwave",
+      "format": "summary"
+    },
+    "E48000029-049": {
+      "text": "Bird flu spreads through wild birds and poultry, requiring controls to protect flocks and limit further spread.",
+      "source_id": "e48000029-web-1010",
+      "section": "Animal disease: avian influenza",
+      "format": "summary"
+    },
+    "E48000029-028": {
+      "text": "An accidental fire or explosion at a chemical site threatens the surrounding area.",
+      "source_id": "e48000029-web-1011",
+      "section": "Chemical incident",
+      "format": "summary"
+    },
+    "E48000029-029": {
+      "text": "An accidental chemical leak at an industrial site affects the surrounding area.",
+      "source_id": "e48000029-web-1011",
+      "section": "Chemical incident",
+      "format": "summary"
+    },
+    "E48000029-031": {
+      "text": "A reservoir or dam fails, releasing a large volume of water rapidly and causing severe flooding.",
+      "source_id": "e48000029-web-1012",
+      "section": "Reservoir flooding",
+      "format": "summary"
+    },
+    "E48000029-040": {
+      "text": "Strong winds damage buildings, bring down trees and interrupt power and travel.",
+      "source_id": "e48000029-web-1014",
+      "section": "Storms and high winds",
+      "format": "summary"
+    },
+    "E48000029-045": {
+      "text": "Pollutants build up in the air, particularly during still or hot weather, threatening health.",
+      "source_id": "e48000029-web-1015",
+      "section": "Poor air quality",
+      "format": "summary"
+    },
+    "E48000029-044": {
+      "text": "A long period of low rainfall reduces water availability for homes, farming and the environment.",
+      "source_id": "e48000029-web-1016",
+      "section": "Drought",
+      "format": "summary"
+    },
+    "E48000029-022": {
+      "text": "A fault, severe weather or pipe damage interrupts gas supplies, affecting heating, hot water and cooking.",
+      "source_id": "e48000029-web-1017",
+      "section": "Gas supply failure",
+      "format": "summary"
+    },
+    "E48000029-019": {
+      "text": "Damage to phone lines, mobile masts or internet cables interrupts communications, online services and card payments.",
+      "source_id": "e48000029-web-1018",
+      "section": "Loss of communications",
+      "format": "summary"
+    },
+    "E48000029-033": {
+      "text": "Food is contaminated accidentally or deliberately and becomes unsafe to eat.",
+      "source_id": "e48000029-web-1019",
+      "section": "Food supply incidents",
+      "format": "summary"
+    },
+    "E48000036-001": {
+      "text": "An accident involving dangerous industrial substances causes injuries or harms the surrounding area.",
+      "source_id": "e48000036-local-review",
+      "pdf_page": 4,
+      "format": "summary"
+    },
+    "E48000036-002": {
+      "text": "Electricity supplies stop, affecting lighting, appliances and digital landlines until power is restored.",
+      "source_id": "e48000036-local-review",
+      "pdf_page": 5,
+      "format": "summary"
+    },
+    "E48000036-003": {
+      "text": "Heatwaves, cold, snow, flooding or strong winds threaten people and interrupt everyday activities.",
+      "source_id": "e48000036-local-review",
+      "pdf_page": 5,
+      "format": "summary"
+    },
+    "E48000036-006": {
+      "text": "Excessive heat threatens health, particularly for young, older or medically vulnerable people.",
+      "source_id": "e48000036-local-review",
+      "pdf_page": 7,
+      "format": "summary"
+    },
+    "E48000036-007": {
+      "text": "Very cold conditions increase the risk of illness and injury, with some people needing extra support.",
+      "source_id": "e48000036-local-review",
+      "pdf_page": 7,
+      "format": "summary"
+    },
+    "E48000036-008": {
+      "text": "Disorder or industrial action damages communities or reduces essential services and business activity.",
+      "source_id": "e48000036-local-review",
+      "pdf_page": 8,
+      "format": "summary"
+    },
+    "E48000036-009": {
+      "text": "A disease spreads widely in a short time, causing widespread illness and pressure on services.",
+      "source_id": "e48000036-local-review",
+      "pdf_page": 8,
+      "format": "summary",
+      "scope_note": "The local health-emergencies section describes pandemic illness."
+    },
+    "E48000036-010": {
+      "text": "Accidents, severe weather, flooding or strikes interrupt transport networks and delay journeys and deliveries.",
+      "source_id": "e48000036-local-review",
+      "pdf_page": 9,
+      "format": "summary"
+    },
+    "E48000036-011": {
+      "text": "A malicious attempt damages or disrupts a computer network or system.",
+      "source_id": "e48000036-local-review",
+      "pdf_page": 9,
+      "format": "summary"
+    },
+    "E48000036-012": {
+      "text": "Fuel deliveries are disrupted and supplies run short; extra buying can make shortages worse.",
+      "source_id": "e48000036-local-review",
+      "pdf_page": 10,
+      "format": "summary"
+    },
+    "E48000036-013": {
+      "text": "A deliberate attack threatens public safety and may happen with little warning.",
+      "source_id": "e48000036-local-review",
+      "pdf_page": 10,
+      "format": "summary"
+    },
+    "E48000033-011": {
+      "text": "Cold, snow and ice make journeys hazardous, close schools and interrupt transport and utilities.",
+      "source_id": "e48000033-web-109",
+      "section": "Cold weather and snow",
+      "format": "summary"
+    },
+    "E48000033-010": {
+      "text": "Very high temperatures threaten health, especially for people who are older, very young or have existing health conditions.",
+      "source_id": "e48000033-web-110",
+      "section": "Heatwave",
+      "format": "summary"
+    },
+    "E48000033-013": {
+      "text": "An infection spreads widely across countries, causing illness and disruption to daily life and essential services.",
+      "source_id": "e48000033-web-113",
+      "section": "Pandemic",
+      "format": "summary"
+    },
+    "E48000005-001": {
+      "text": "Flooding from the sea, rivers, drainage or dam failure threatens life, damages property and disrupts communities.",
+      "source_id": "e48000005-local-review",
+      "pdf_page": 9,
+      "format": "summary"
+    },
+    "E48000005-002": {
+      "text": "Winter weather and prolonged heat threaten health and disrupt travel, utilities, schools and care services.",
+      "source_id": "e48000005-local-review",
+      "pdf_page": 12,
+      "format": "summary",
+      "scope_note": "Summary of local winter-weather and heatwave guidance (PDF pages 11–12)."
+    },
+    "E48000005-005": {
+      "text": "A new infectious organism spreads readily between people, causing widespread illness and pressure on care and other essential services.",
+      "source_id": "e48000005-local-review",
+      "pdf_page": 13,
+      "format": "summary"
+    },
+    "E48000005-006": {
+      "text": "Animal infections spread between livestock and sometimes to people, damaging rural economies, tourism and food-related businesses.",
+      "source_id": "e48000005-local-review",
+      "pdf_page": 14,
+      "format": "summary"
+    },
+    "E48000005-007": {
+      "text": "Electricity, gas or water supplies are interrupted, making daily activities difficult until services are restored.",
+      "source_id": "e48000005-local-review",
+      "pdf_page": 7,
+      "format": "summary"
+    },
+    "E48000011-004": {
+      "text": "Disease spreads among animals and can sometimes infect people. Outbreak controls can restrict livestock movements and disrupt farming.",
+      "source_id": "e48000011-local-review",
+      "pdf_page": 17,
+      "format": "summary"
+    },
+    "E48000011-007": {
+      "text": "Electricity, gas or water supplies fail, affecting daily life and creating additional difficulties for vulnerable households.",
+      "source_id": "e48000011-local-review",
+      "pdf_page": 23,
+      "format": "summary"
+    },
+    "E48000038-002": {
+      "text": "River, groundwater or surface-water flooding damages homes and businesses; the Avon and the Salisbury area have notable local exposure.",
+      "source_id": "e48000038-web-1038",
+      "section": "Flooding",
+      "format": "summary"
+    },
+    "E48000038-001": {
+      "text": "A new infectious disease spreads internationally, causing widespread illness and disruption to society.",
+      "source_id": "e48000038-web-1046",
+      "section": "Pandemic",
+      "format": "summary"
+    },
+    "E48000026-001": {
+      "text": "Flooding threatens life, damages homes and infrastructure, displaces residents and can have lasting effects on health and the local economy.",
+      "source_id": "e48000026-local-review",
+      "pdf_page": 4,
+      "format": "summary"
+    },
+    "E48000026-002": {
+      "text": "Strong winds, cold or heat harm health, damage property and utility equipment, and disrupt travel.",
+      "source_id": "e48000026-local-review",
+      "pdf_page": 6,
+      "format": "summary"
+    },
+    "E48000026-003": {
+      "text": "Gas, electricity or water supplies fail, disrupting daily activities and creating extra difficulties for vulnerable households.",
+      "source_id": "e48000026-local-review",
+      "pdf_page": 14,
+      "format": "summary"
+    },
+    "E48000026-004": {
+      "text": "A new flu strain spreads readily between people with little immunity, causing illness, staff shortages and pressure on care services.",
+      "source_id": "e48000026-local-review",
+      "pdf_page": 7,
+      "format": "summary"
+    },
+    "E48000026-005": {
+      "text": "An incident at a site processing or storing dangerous substances harms nearby people, property or the environment.",
+      "source_id": "e48000026-local-review",
+      "pdf_page": 8,
+      "format": "summary"
+    },
+    "E48000026-007": {
+      "text": "Infections spread among animals and sometimes to people, harming rural communities, farming and tourism.",
+      "source_id": "e48000026-local-review",
+      "pdf_page": 9,
+      "format": "summary"
+    },
+    "E48000037-001": {
+      "text": "Flooding damages homes and infrastructure, isolates communities and interrupts transport and utilities, sometimes with little warning.",
+      "source_id": "e48000037-local-review",
+      "pdf_page": 12,
+      "format": "summary"
+    },
+    "E48000037-002": {
+      "text": "Cold, snow, storms or extreme heat threaten health, damage infrastructure and interrupt businesses and travel.",
+      "source_id": "e48000037-local-review",
+      "pdf_page": 10,
+      "format": "summary"
+    },
+    "E48000037-003": {
+      "text": "An infection spreads readily between people, causing widespread illness, staff shortages and pressure on health and care services.",
+      "source_id": "e48000037-local-review",
+      "pdf_page": 15,
+      "format": "summary",
+      "scope_note": "The local register’s health guidance focuses on pandemic disease."
+    },
+    "E48000037-007": {
+      "text": "A deliberate attack causes casualties or damage and disrupts infrastructure and essential services.",
+      "source_id": "e48000037-local-review",
+      "pdf_page": 20,
+      "format": "summary"
+    },
+    "E48000007-001": {
+      "text": "Rivers such as the Derwent, Dove, Rother and Trent overflow their floodplains, threatening nearby property even where defences exist.",
+      "source_id": "e48000007-web-14",
+      "section": "River flooding",
+      "format": "summary"
+    },
+    "E48000007-002": {
+      "text": "Heavy rain runs off land and roads or overwhelms drainage, causing sudden flooding away from main river floodplains.",
+      "source_id": "e48000007-web-14",
+      "section": "Surface water flooding",
+      "format": "summary"
+    },
+    "E48000007-003": {
+      "text": "Prolonged freezing, deep snow, heatwaves, gales or storms threaten normal activities and can cause widespread disruption.",
+      "source_id": "e48000007-web-13",
+      "section": "Severe weather",
+      "format": "summary"
+    },
+    "E48000007-009": {
+      "text": "Accidents involving hazardous substances in storage, processing or transport can cause casualties and pollution beyond the immediate site.",
+      "source_id": "e48000007-web-10",
+      "section": "Industrial accidents",
+      "format": "summary"
+    },
+    "E48000030-001": {
+      "text": "Coastal, river or surface-water flooding threatens communities and businesses, damages infrastructure and can have lasting effects on health.",
+      "source_id": "e48000030-web-101",
+      "section": "Flooding",
+      "format": "summary"
+    },
+    "E48000030-002": {
+      "text": "Heavy rainfall, snow or extreme heat disrupt everyday activities and require coordinated preparations and response.",
+      "source_id": "e48000030-web-105",
+      "section": "Severe weather",
       "format": "summary"
     }
   },

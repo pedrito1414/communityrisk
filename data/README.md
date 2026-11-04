@@ -34,7 +34,7 @@ When adding records, keep IDs unique, use the relevant forum code, retain source
 
 ## Risk definitions
 
-Both interfaces show a risk definition before the expandable **Rating and source details**. `risk-definitions.json` is the shared content asset. Each local/national summary references a source record and PDF page. Text is a plain-English summary, not a quotation or an official new risk assessment.
+Both interfaces show a risk definition before the expandable **Rating and source details**. `risk-definitions.json` is the shared content asset. Each local/national summary references a source record and either a PDF page or a named local web section. Local sources also record their forum code and the date checked. Text is a plain-English summary, not a quotation or an official new risk assessment.
 
 Resolution order:
 
@@ -43,7 +43,11 @@ Resolution order:
 3. Separately curated **National background** for related or broader topics. Exact title aliases and explicitly reviewed topic groups were used, not fuzzy matching. This does not change the crosswalk or claim an exact local scenario match.
 4. An explicit missing-definition message and the original local source link.
 
-The first content pass includes nine local definitions checked against Avon and Somerset CRR 2026, plus 95 national scenario summaries checked against National Risk Register 2026. Definitions or labelled national background cover 586 of 631 local entries. The remaining 45 require further local source work; some concerns, such as climate change as a chronic risk or local infrastructure incidents, do not have a suitable single national scenario. A national fallback does not mean a local definition is absent from the original document—only that it has not yet been recorded here.
+The 3 November 2026 review records **346 local summaries across 35 forum areas**, plus the existing 95 national scenario summaries. Definitions or labelled national background now cover **611 of 631 local entries**. The remaining **20** still need a suitable checked source. See [the forum-by-forum source review](local-definition-review.md) for coverage, older editions, inaccessible documents and the local topics still awaiting review.
+
+A national fallback does not mean a local definition is absent from the original document—only that it has not yet been recorded here. Broad web guidance is used only where it explains the corresponding entry; a narrow electricity or surface-water page is not silently presented as a definition of every infrastructure failure or flood scenario. Any limited local scope is stated beneath the explanation.
+
+Source links belong to the definition, independently of the older source recorded for a risk rating. Some official links now redirect to newer documents. These summaries do not update the existing ratings or assert that those ratings came from a newer edition. PDF source titles identify the edition used where known; undated web guidance is labelled with its check date. Raw local PDFs are not redistributed in the repository.
 
 Local register PDF: https://media.aspolice.net/uploads/production/20260907120559/Community-risk-register.pdf
 

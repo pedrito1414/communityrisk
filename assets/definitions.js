@@ -10,7 +10,7 @@ export function resolveRiskDefinition(risk, data) {
   const definitions = data.definitions;
   const local = definitions?.local?.[risk.id];
   if (local?.text && definitions.sources[local.source_id]) {
-    return {kind:'local', label:'Local definition', text:local.text, sources:[{...definitions.sources[local.source_id],pdf_page:local.pdf_page}], note:'Plain-English summary of the local register.'};
+    return {kind:'local', label:'Local definition', text:local.text, sources:[{...definitions.sources[local.source_id],pdf_page:local.pdf_page,section:local.section}], note:local.scope_note || 'Plain-English summary of the local register or forum risk guidance.'};
   }
   const match = data.matches.find(record => record.local_id === risk.id);
   if (match?.match_status === 'Direct') {
@@ -34,7 +34,9 @@ export function riskDefinitionHTML(risk, data, showHeading = true) {
   let sources = '';
   if (definition.sources.length === 1) {
     const source = definition.sources[0];
-    sources = `<p class="definition-source"><a href="${esc(source.url)}#page=${source.pdf_page}" target="_blank" rel="noopener noreferrer">${esc(source.title)} · PDF page ${source.pdf_page} ↗</a></p>`;
+    const location = source.pdf_page ? ` · PDF page ${source.pdf_page}` : source.section ? ` · ${source.section}` : '';
+    const url = source.pdf_page ? `${source.url.split('#')[0]}#page=${source.pdf_page}` : source.url;
+    sources = `<p class="definition-source"><a href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(source.title)}${esc(location)} ↗</a></p>`;
   } else if (definition.sources.length) {
     sources = `<details class="definition-sources"><summary>National source scenarios (${definition.sources.length})</summary><ul>${definition.sources.map(source=>`<li><a href="${esc(source.url)}#page=${source.pdf_page}" target="_blank" rel="noopener noreferrer">${esc(source.risk_name)} · PDF page ${source.pdf_page} ↗</a></li>`).join('')}</ul></details>`;
   } else {

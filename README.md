@@ -1,21 +1,56 @@
 # Climate Resilient UK — Community risk
 
-A static prototype with two interfaces drawing from shared data. The local collection covers England and Wales.
+A static prototype with risk-first and area-first views drawing from shared data. The local collection covers England and Wales.
 
 ## Pages
 
 The public site uses `communityrisk.climateresilient.org.uk`:
 
 - `https://communityrisk.climateresilient.org.uk/` — project introduction and menu.
-- `https://communityrisk.climateresilient.org.uk/registers/` — full risk register dashboard.
-- `https://communityrisk.climateresilient.org.uk/bypostcode/` — postcode finder.
+- `https://communityrisk.climateresilient.org.uk/registers/` — community risk explorer (risk and area views).
+- `https://communityrisk.climateresilient.org.uk/bypostcode/` — compatibility entry point for postcode search in the area view.
+
+### Explorer routes and existing links
+
+The permanent explorer is `/registers/`. Both the home menu and main navigation
+link to **Explore by risk** and **Explore by area**:
+
+| Route | Purpose |
+| --- | --- |
+| `/registers/?view=risk` | National risk search and matching LRF areas |
+| `/registers/?view=risk&risk=NRR26-076` | A selected national risk |
+| `/registers/?view=risk&risk=NRR26-076&area=E48000008` | That risk’s local assessment |
+| `/registers/?view=area` | Choose an LRF by map, dropdown or postcode |
+| `/registers/?view=area&area=E48000008` | All recorded risks for that LRF |
+
+Existing `/registers/?area=…` links open the area view. `/bypostcode/` and its
+`index.html` form redirect to the area view and focus the postcode input. Old
+`?postcode=…` links prefill the form; no postcode lookup is made until the visitor
+submits it. The postcode is removed from the explorer URL after prefilling.
+`/registers/preview/` redirects to `/registers/` and preserves supported risk,
+view and area selections. These are same-origin client-side replacements because
+this static GitHub Pages site has no server-side redirect rules. Both entry
+pages also contain ordinary links for browsers without JavaScript.
+
+Selecting “Explore all risks in this area” retains the LRF. Selecting “Explore
+this risk across areas” returns to the national map for that risk. Browser
+Back/Forward restores the route and selected IDs. Newly generated area links
+contain the LRF code; postcodes and coordinates are never included. Postcode
+markers are temporary and are not restored from a shared address.
+
+The previous dashboard, including its likelihood × impact view, is retained at
+`/registers/legacy/` and linked from each selected area. All views reuse the same
+data, definitions and navigation ranking rules.
 
 All internal links are relative. The same files also work under the current repository address, or another static hosting directory. The former home-page dashboard has moved to `registers/`.
 
 ## Structure
 
 - `index.html`: project home page.
-- `registers/index.html`, `bypostcode/index.html`: interface markup.
+- `registers/index.html`: explorer markup; `registers/legacy/index.html`: retained detailed dashboard.
+- `bypostcode/index.html`, `registers/preview/index.html`: compatibility entry pages.
+- `assets/explorer.js`, `explorer-map.js`, `explorer.css`: explorer routes, shared geographic view and styling.
+- `assets/postcode.js`: explicit postcode lookup and validation; `explorer-redirect.js`: entry-point compatibility.
 - `assets/`: page styling, interface code, shared data loading, ranking rules and geographic lookup.
 - `assets/definitions.js`: shared local-first definition selection and source rendering.
 - `data/`: the shared collection, documented in [data/README.md](data/README.md).
@@ -30,7 +65,7 @@ From this folder:
 
 ```sh
 python3 tools/validate.py
-python3 -m http.server 8000
+python3 -m http.server 8000 --bind 127.0.0.1
 ```
 
 Open `http://localhost:8000/`, then use the menu. To run browser checks (with Chromium and ChromeDriver installed):
@@ -62,9 +97,14 @@ The custom subdomain has a CNAME DNS record pointing to `pedrito1414.github.io`.
 
 ## External services and limits
 
-The postcode finder sends a submitted postcode to Postcodes.io to obtain its location. It matches that location against the same stored ONS boundaries used by the dashboard, using official forum codes. A shared link prefills the postcode; it is not submitted automatically. The postcode appears in the page URL after a successful lookup. The application does not store postcode searches in a database.
+The area view sends a submitted postcode to Postcodes.io to obtain its location.
+It matches that location against the same stored ONS boundaries, using official
+forum codes. Old shared postcode links prefill the form and require explicit
+submission. New shareable addresses contain only route, risk and/or area IDs,
+not postcodes or coordinates. The application does not store postcode searches
+in a database.
 
-Leaflet from unpkg and OpenStreetMap background tiles are optional external map resources. If Leaflet cannot load, a local SVG shows the boundary and postcode marker. If background tiles fail, the boundary overlay remains usable. A postcode service failure shows an error and removes previous results rather than showing a stale area's risks.
+Leaflet from unpkg and OpenStreetMap background tiles are optional external map resources. The national map highlights only direct provisional crosswalk matches. Candidate and broad matches are excluded; an unhighlighted area may still face the selected risk. Selecting an LRF zooms to its boundary and adds the basemap. If Leaflet or its stylesheet cannot load, a local Mercator SVG shows the boundaries and any postcode marker. If background tiles fail, the boundary overlay remains usable. A postcode service failure shows an error and removes previous results rather than showing a stale area's risks.
 
 This is a public test prototype. Coverage is incomplete, national excerpts include known PDF extraction defects, national matches are provisional, and sources differ in assessment methods. The common 1–5 navigation rank is not an official score or personal risk estimate. Before public promotion, validate sources, descriptions, scores, links and accessibility. Do not collect household personal data in this prototype.
 
@@ -74,9 +114,9 @@ The private dashboard is at `https://climateresilient.goatcounter.com/`. Sign in
 
 Tracking uses GoatCounter’s [documented browser counting endpoint](https://www.goatcounter.com/help/pixel), rather than loading the default third-party script. The default script sends `location.search` as a campaign field even when the page path is customised. This integration constructs only approved fields and never includes that query field.
 
-- One pageview per load of the home menu, register dashboard or postcode finder. Postcode searches do not create extra pageviews.
+- One pageview per load of the home menu, explorer or retained detailed dashboard. Redirect pages do not load the tracker. Postcode searches and switching explorer views do not create extra pageviews.
 - Events for navigation, postcode attempts/success/failure, selected forum areas, opened risk details, national risk selection, dashboard views, forum/register links and the crosswalk download.
-- Event names include the interface and, where relevant, a validated official forum code or risk ID. Use `data/forums.json`, `local-risks.json` and `national-risks.json` to interpret the IDs. Example: `postcode-succeeded/bypostcode/E48000008`.
+- Event names include the interface and, where relevant, a validated official forum code or risk ID. Use `data/forums.json`, `local-risks.json` and `national-risks.json` to interpret the IDs. Example: `postcode-succeeded/registers/E48000008`.
 - No full postcodes, coordinates, search text, query strings, fragments or raw error messages are sent. Referrers are reduced to their origin. Requests omit cookies and the HTTP Referer header. GoatCounter still receives ordinary connection information such as IP address and browser headers.
 - Only the production custom hostname and the former GitHub Pages hostname can count visits; local previews do not. Do Not Track, Global Privacy Control, and the browser opt-out suppress all counting requests.
 - The [privacy page](privacy/index.html) explains this and offers an opt-out stored as the local browser preference `skipgc=t`. It does not itself send pageviews.

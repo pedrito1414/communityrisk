@@ -57,10 +57,19 @@ def validate():
         assert source['title'] and source['edition']
     for kind, valid_ids in [('local', ids), ('national', nids)]:
         assert set(definitions[kind]).issubset(valid_ids), f'Unknown {kind} definition ID'
-        for definition in definitions[kind].values():
+        for definition_id, definition in definitions[kind].items():
             assert definition['text'].strip() and definition['format'] == 'summary'
             assert definition['source_id'] in definitions['sources']
-            assert isinstance(definition['pdf_page'], int) and definition['pdf_page'] > 0
+            source = definitions['sources'][definition['source_id']]
+            if kind == 'local':
+                risk = next(r for r in risks if r['id'] == definition_id)
+                assert source['forum_code'] == risk['forum_code'], 'Local definition attributed to another forum'
+                assert source['checked_at']
+            if source.get('type', 'pdf') == 'pdf':
+                assert isinstance(definition.get('pdf_page'), int) and definition['pdf_page'] > 0
+            else:
+                assert source['type'] == 'web' and definition.get('section', '').strip()
+                assert 'pdf_page' not in definition
     for topic in definitions['topics'].values():
         assert topic['text'].strip() and topic['national_ids']
         assert all(nid in definitions['national'] for nid in topic['national_ids'])

@@ -3,6 +3,7 @@ import { loadData } from './data.js';
 import { commonRanking, priorityCompare } from './ranking.js';
 import { esc, rankDescription, trackEvent } from './shared.js';
 import { findForumFeatures, drawFallbackMap } from './geometry.js';
+import { lookupPostcode, validPostcode } from './postcode.js';
 
 const $ = id => document.getElementById(id);
 let map, boundaryLayer, marker, riskList = [], sortKey = 'rank', sortDesc = true, busy = false, riskData = null;
@@ -58,27 +59,12 @@ function drawBoundary(feature, location) {
     $('mapStatus').textContent = 'Background map unavailable. Showing the shared ONS boundary and postcode marker.';
   }
 }
-async function lookupPostcode(postcode) {
-  const controller = new AbortController();
-  const timeout = setTimeout(() => controller.abort(), 15000);
-  try {
-    const response = await fetch('https://api.postcodes.io/postcodes/' + encodeURIComponent(postcode), {signal: controller.signal});
-    if (response.status === 404) throw new Error('Postcode not found. Please check it and try again.');
-    if (!response.ok) throw new Error('The postcode service is unavailable. Please try again later.');
-    const body = await response.json();
-    if (body.status !== 200 || !body.result) throw new Error('Postcode not found.');
-    return body.result;
-  } catch (error) {
-    if (error.name === 'AbortError') throw new Error('The postcode service took too long to respond. Please try again.');
-    throw error;
-  } finally { clearTimeout(timeout); }
-}
 $('form').addEventListener('submit', async event => {
   event.preventDefault();
   if (busy) return;
   $('error').hidden = true;
   const postcode = $('postcode').value.trim().toUpperCase();
-  if (!/^(GIR\s?0AA|[A-Z]{1,2}\d[A-Z\d]?\s?\d[A-Z]{2})$/i.test(postcode)) { trackEvent('postcode-invalid'); return showError('Please enter a valid UK postcode.'); }
+  if (!validPostcode(postcode)) { trackEvent('postcode-invalid'); return showError('Please enter a valid UK postcode.'); }
   trackEvent('postcode-started');
   busy = true; $('submit').disabled = true; $('submit').textContent = 'Looking up…';
   // Hide previous results so a failed search cannot leave the previous area's risks on screen.
