@@ -10,8 +10,10 @@ export function createExplorerMap(container, collection, onSelect, status) {
   const announceMap = () => {
     if (!map) {
       status.textContent = 'Basemap unavailable. Showing the stored ONS boundaries' + (state.point ? ' and postcode marker' : '') + '. Use the area list or dropdown to select an LRF.';
+    } else if (tileErrors) {
+      status.textContent = 'Some OpenStreetMap tiles could not load. The LRF boundaries remain visible; they do not show individual hazard locations.';
     } else if (!state.selectedCode) {
-      status.textContent = 'ONS-based LRF boundaries, December 2024. Select an area to zoom in and reveal the OpenStreetMap basemap.';
+      status.textContent = 'ONS-based LRF boundaries, December 2024. Basemap © OpenStreetMap contributors. Select an area to zoom in.';
     } else {
       status.textContent = tileErrors
         ? 'Some OpenStreetMap tiles could not load. The LRF boundary remains visible; it does not show individual hazard locations.'
@@ -24,7 +26,7 @@ export function createExplorerMap(container, collection, onSelect, status) {
       ? {color:'#104f40', weight:3, fillColor:'#247b5d', fillOpacity:.12}
       : {color:'#627b72', weight:1, opacity:.5, fillColor:'#d3e0d8', fillOpacity:.03};
     const matching = state.mode === 'area' || state.matchingCodes.has(code);
-    return {color:'#fff', weight:1, opacity:1, fillColor:matching ? (state.mode === 'area' ? '#9bc5b1' : '#17634f') : '#d4dfda', fillOpacity:1};
+    return {color:matching ? '#104f40' : '#627b72', weight:matching ? 1.5 : 1, opacity:.85, fillColor:matching ? (state.mode === 'area' ? '#9bc5b1' : '#17634f') : '#d4dfda', fillOpacity:matching ? .45 : .12};
   }
   function fit() {
     if (!map || !boundaries || !state) return;
@@ -61,7 +63,7 @@ export function createExplorerMap(container, collection, onSelect, status) {
       tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
         maxZoom:19, attribution:'© <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a>'
       });
-      tiles.on('tileerror', () => { tileErrors = true; if (state?.selectedCode) announceMap(); });
+      tiles.on('tileerror', () => { tileErrors = true; if (state) announceMap(); });
       boundaries = L.geoJSON(collection, {
         style,
         onEachFeature(feature, layer) {
@@ -136,8 +138,7 @@ export function createExplorerMap(container, collection, onSelect, status) {
         layer.getElement()?.setAttribute('tabindex',state.selectedCode && layer.feature.properties.code!==state.selectedCode ? '-1' : '0');
         if (layer.feature.properties.code===state.selectedCode) layer.bringToFront();
       });
-      if (state.selectedCode) { if (!map.hasLayer(tiles)) {tileErrors=false;tiles.addTo(map);} }
-      else if (map.hasLayer(tiles)) map.removeLayer(tiles);
+      if (!map.hasLayer(tiles)) tiles.addTo(map);
       if (marker) {map.removeLayer(marker);marker=null;}
       if (state.point) marker=window.L.circleMarker([state.point.latitude,state.point.longitude],{radius:7,color:'#fff',weight:2,fillColor:'#ad4933',fillOpacity:1}).addTo(map).bindTooltip('Approximate postcode location');
       fit();
