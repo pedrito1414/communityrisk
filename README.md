@@ -4,6 +4,11 @@ A static prototype with risk-first and area-first views drawing from shared data
 
 ## Pages
 
+The new **[Devon evidence pilot](devon/)** runs on the same static hosting, with
+on-demand older EA river/sea flood mapping, a stored summer 2022 NASA heat grid,
+and EFFIS wildfire fuel context. No paid backend is needed. See
+[pilot sources, limits and refresh instructions](data/devon/README.md).
+
 The public site uses `communityrisk.climateresilient.org.uk`:
 
 - `https://communityrisk.climateresilient.org.uk/` — project introduction and menu.

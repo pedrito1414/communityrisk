@@ -89,6 +89,55 @@ def main():
             assert execute("return document.title.includes('Community risk') && [...document.querySelectorAll('.choice')].length===2")
             screenshot('home-desktop')
             print('PASS: home menu and Pages subdirectory hosting')
+            visit('devon/')
+            wait("document.getElementById('mapStatus').textContent !== 'Loading the optional interactive map…'")
+            if '--live' in sys.argv:
+                execute("document.querySelector('[data-place=exeter]').click()")
+                wait("!['Select a place','Checking the flood evidence…'].includes(document.getElementById('floodValue').textContent)")
+                assert execute("return document.getElementById('floodValue').textContent!=='Flood query unavailable'"), 'Live EA point query failed'
+                wait("!document.getElementById('mapStatus').textContent.includes('Loading river')")
+                execute("document.querySelector('.workspace').scrollIntoView()")
+                screenshot('devon-live-map')
+                print('PASS: live Devon EA flood point query')
+            execute("""
+              window.devonRequests=[];
+              const originalFetch=window.fetch;
+              window.fetch=async function(url, options){
+                const address=String(url);
+                if(address.includes('/FeatureServer/0/query')){
+                  window.devonRequests.push(address);
+                  const q=new URL(address).searchParams;
+                  if(window.failDevonFlood)throw new TypeError('offline');
+                  if(q.get('returnCountOnly')==='true')return new Response(JSON.stringify({count:0}));
+                  if(q.get('f')==='geojson')return new Response(JSON.stringify({type:'FeatureCollection',features:[]}));
+                  return new Response(JSON.stringify({features:[{attributes:{prob_4band:'High',suitability:'Test fixture'}}]}));
+                }
+                if(address.includes('api.postcodes.io'))return new Response(JSON.stringify({status:200,result:{longitude:-.1278,latitude:51.5074,admin_district:'Westminster',codes:{admin_county:null,admin_district:'E09000033'}}}));
+                return originalFetch(url,options);
+              };
+              document.querySelector('[data-place="exeter"]').click();
+            """)
+            wait("document.getElementById('floodValue').textContent.includes('High')")
+            wait("document.getElementById('heatValue').textContent.includes('°C')")
+            assert execute("return document.getElementById('heatValue').textContent==='28.7°C summer maximum'")
+            assert execute("return !location.search && !location.hash && !document.querySelector('script[src*=analytics]')")
+            screenshot('devon-desktop')
+            execute("window.failDevonFlood=true;document.querySelector('[data-place=plymouth]').click()")
+            wait("document.getElementById('floodValue').textContent==='Flood query unavailable'")
+            assert execute("return !document.getElementById('floodValue').textContent.includes('High')")
+            count=execute('return window.devonRequests.length')
+            execute("document.getElementById('postcode').value='SW1A 1AA';document.getElementById('postcodeForm').requestSubmit()")
+            wait("document.getElementById('searchStatus').textContent.includes('accepts postcodes')")
+            assert execute('return window.devonRequests.length') == count
+            assert execute("return document.getElementById('floodValue').textContent==='Select a place' && document.getElementById('heatValue').textContent==='Select a place'")
+            execute("document.querySelector('input[value=wildfire]').click()")
+            assert execute("return !!document.querySelector('#legend img')")
+            request(f'/session/{session}/window/rect', {'width':390,'height':844})
+            assert execute('return document.documentElement.scrollWidth<=innerWidth'), 'Devon mobile overflow'
+            screenshot('devon-mobile')
+            request(f'/session/{session}/window/rect', {'width':1280,'height':1000})
+            print('PASS: Devon heat values, flood queries/failures, postcode scope, stale-result clearing, source legend and mobile layout')
+            visit('')
             result = async_js("""
               const done=arguments[arguments.length-1];
               Promise.all([import('./assets/data.js'),import('./assets/ranking.js'),import('./assets/geometry.js')]).then(async ([data,rank,geo])=>{

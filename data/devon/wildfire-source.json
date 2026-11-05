@@ -1,0 +1,17 @@
+{
+  "retrieved": "2026-11-05T00:14:05.154470+00:00",
+  "bounds": [
+    -4.7,
+    50.15,
+    -2.85,
+    51.35
+  ],
+  "urls": {
+    "wildfire-fuels.png": "https://maps.effis.emergency.copernicus.eu/effis?service=WMS&version=1.1.1&request=GetMap&layers=fuel_map&styles=&srs=EPSG%3A3857&bbox=-523201.6067283858%2C6472293.837654887%2C-317260.54876082967%2C6683439.7545168875&width=1100&height=900&format=image%2Fpng&transparent=true",
+    "wildfire-fuels-legend.png": "https://maps.effis.emergency.copernicus.eu/effis?service=WMS&version=1.1.1&request=GetLegendGraphic&layer=fuel_map&format=image%2Fpng"
+  },
+  "layer": "fuel_map",
+  "version": "2017",
+  "image_crs": "EPSG:3857",
+  "licence": "https://forest-fire.emergency.copernicus.eu/about-effis/data-license"
+}
