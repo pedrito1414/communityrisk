@@ -460,5 +460,44 @@
     "source_url": "https://southwaleslrf.co.uk/",
     "website_url": "https://www.southwaleslrf.co.uk/",
     "website_kind": "website"
+  },
+  {
+    "code": "S43000005",
+    "name": "North of Scotland",
+    "year": "Community Risk Register 2024",
+    "scope": "9 published narrative risk topics; no numerical ratings transcribed",
+    "note": "Scotland integration preview. Regional Resilience Partnership coverage, not a council or property assessment. National links distinguish direct scenario correspondence from broader topic coverage; they do not supply local ratings.",
+    "coverage": "summary",
+    "source_url": "https://external-doc-library.s3.eu-west-2.amazonaws.com/PROD/NoSRRPCommunityRiskRegister.pdf",
+    "website_url": "https://www.firescotland.gov.uk/publications/document/?id=720",
+    "website_kind": "risk-information",
+    "nation": "Scotland",
+    "partnership_type": "Regional Resilience Partnership"
+  },
+  {
+    "code": "S43000004",
+    "name": "East of Scotland",
+    "year": "Community Risk Register 2024",
+    "scope": "8 published narrative risk topics; no numerical ratings transcribed",
+    "note": "Scotland integration preview. Regional Resilience Partnership coverage, not a council or property assessment. National links distinguish direct scenario correspondence from broader topic coverage; they do not supply local ratings.",
+    "coverage": "summary",
+    "source_url": "https://external-doc-library.s3.eu-west-2.amazonaws.com/PROD/EoSRRPCommunityRiskRegister.pdf",
+    "website_url": "https://www.firescotland.gov.uk/publications/document/?id=722",
+    "website_kind": "risk-information",
+    "nation": "Scotland",
+    "partnership_type": "Regional Resilience Partnership"
+  },
+  {
+    "code": "S43000003",
+    "name": "West of Scotland",
+    "year": "Community Risk Register 2024",
+    "scope": "9 published narrative risk topics; no numerical ratings transcribed",
+    "note": "Scotland integration preview. Regional Resilience Partnership coverage, not a council or property assessment. National links distinguish direct scenario correspondence from broader topic coverage; they do not supply local ratings.",
+    "coverage": "summary",
+    "source_url": "https://external-doc-library.s3.eu-west-2.amazonaws.com/PROD/WoSRRPCommunityRiskRegister.pdf",
+    "website_url": "https://www.firescotland.gov.uk/publications/document/?id=721",
+    "website_kind": "risk-information",
+    "nation": "Scotland",
+    "partnership_type": "Regional Resilience Partnership"
   }
 ]

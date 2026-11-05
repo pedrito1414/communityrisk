@@ -9,24 +9,25 @@ export function createExplorerMap(container, collection, onSelect, status) {
   const selectedFeature = () => featureByCode.get(state.selectedCode);
   const announceMap = () => {
     if (!map) {
-      status.textContent = 'Basemap unavailable. Showing the stored ONS boundaries' + (state.point ? ' and postcode marker' : '') + '. Use the area list or dropdown to select an LRF.';
+      status.textContent = 'Basemap unavailable. Showing the stored resilience partnership boundaries' + (state.point ? ' and postcode marker' : '') + '. Use the area list or dropdown to select an area.';
     } else if (tileErrors) {
-      status.textContent = 'Some OpenStreetMap tiles could not load. The LRF boundaries remain visible; they do not show individual hazard locations.';
+      status.textContent = 'Some OpenStreetMap tiles could not load. The partnership boundaries remain visible; they do not show individual hazard locations.';
     } else if (!state.selectedCode) {
-      status.textContent = 'ONS-based LRF boundaries, December 2024. Basemap © OpenStreetMap contributors. Select an area to zoom in.';
+      status.textContent = 'England/Wales: ONS boundaries (2024). Scotland: Scottish Government boundaries (2019). Basemap © OpenStreetMap contributors. Select an area to zoom in.';
     } else {
       status.textContent = tileErrors
-        ? 'Some OpenStreetMap tiles could not load. The LRF boundary remains visible; it does not show individual hazard locations.'
-        : 'Basemap © OpenStreetMap contributors · ONS-based LRF boundary. ' + (state.point ? 'The marker is the approximate postcode location. ' : '') + 'The boundary does not show individual hazard locations.';
+        ? 'Some OpenStreetMap tiles could not load. The partnership boundary remains visible; it does not show individual hazard locations.'
+        : 'Basemap © OpenStreetMap contributors · Stored resilience partnership boundary. ' + (state.point ? 'The marker is the approximate postcode location. ' : '') + 'The boundary does not show individual hazard locations.';
     }
   };
   function style(feature) {
     const code = feature.properties.code;
     if (state.selectedCode) return code === state.selectedCode
-      ? {color:'#104f40', weight:3, fillColor:'#247b5d', fillOpacity:.12}
-      : {color:'#627b72', weight:1, opacity:.5, fillColor:'#d3e0d8', fillOpacity:.03};
+      ? {color:'#104f40', weight:3, fillColor:'#247b5d', fillOpacity:.12, dashArray:null}
+      : {color:'#627b72', weight:1, opacity:.5, fillColor:'#d3e0d8', fillOpacity:.03, dashArray:null};
     const matching = state.mode === 'area' || state.matchingCodes.has(code);
-    return {color:matching ? '#104f40' : '#627b72', weight:matching ? 1.5 : 1, opacity:.85, fillColor:matching ? (state.mode === 'area' ? '#9bc5b1' : '#17634f') : '#d4dfda', fillOpacity:matching ? .45 : .12};
+    if (!matching && state.broadCodes.has(code)) return {color:'#805017', weight:1.5, opacity:.95, fillColor:'#b87827', fillOpacity:.55, dashArray:'4 3'};
+    return {color:matching ? '#104f40' : '#627b72', weight:matching ? 1.5 : 1, opacity:.85, dashArray:null, fillColor:matching ? (state.mode === 'area' ? '#9bc5b1' : '#17634f') : '#d4dfda', fillOpacity:matching ? .45 : .12};
   }
   function fit() {
     if (!map || !boundaries || !state) return;
@@ -57,7 +58,7 @@ export function createExplorerMap(container, collection, onSelect, status) {
     try {
       container.replaceChildren();
       const L = window.L;
-      map = L.map(container, {scrollWheelZoom:false, minZoom:5, maxZoom:19, zoomSnap:.25});
+      map = L.map(container, {scrollWheelZoom:false, minZoom:4, maxZoom:19, zoomSnap:.25});
       // A script alone is insufficient: fail gracefully if the stylesheet failed.
       if (getComputedStyle(map.getPane('tilePane')).position !== 'absolute') throw new Error('Leaflet stylesheet unavailable');
       tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -100,12 +101,12 @@ export function createExplorerMap(container, collection, onSelect, status) {
     svg.setAttribute('viewBox', `0 0 ${width} ${height}`);
     svg.setAttribute('class', 'overview-map');
     svg.setAttribute('role', 'group');
-    svg.setAttribute('aria-label', state.selectedCode ? `${selectedFeature().properties.name} boundary` : 'England and Wales LRF boundaries');
+    svg.setAttribute('aria-label', state.selectedCode ? `${selectedFeature().properties.name} boundary` : 'Resilience partnership boundaries across Great Britain');
     for (const feature of visible) {
       const path = document.createElementNS(ns, 'path'), code = feature.properties.code;
       path.setAttribute('d', polygons(feature).map(polygon => polygon.map(ring => ring.map((p,i) => (i?'L':'M')+transform(p).join(',')).join(' ')+'Z').join(' ')).join(' '));
       path.setAttribute('fill-rule', 'evenodd');
-      path.setAttribute('class', 'forum-shape' + (state.mode==='area'?' area-mode':'') + (state.matchingCodes.has(code)?' matching':'') + (code===state.selectedCode?' chosen':''));
+      path.setAttribute('class', 'forum-shape' + (state.mode==='area'?' area-mode':'') + (state.matchingCodes.has(code)?' matching':state.broadCodes.has(code)?' broad':'') + (code===state.selectedCode?' chosen':''));
       path.dataset.code = code;
       path.setAttribute('tabindex', '0');
       path.setAttribute('role', 'button');
@@ -127,7 +128,7 @@ export function createExplorerMap(container, collection, onSelect, status) {
   }
   function update(next) {
     state = next;
-    const key = [state.mode,state.selectedCode,[...state.matchingCodes].join(','),state.point?.postcode].join('|');
+    const key = [state.mode,state.selectedCode,[...state.matchingCodes].join(','),[...state.broadCodes].join(','),state.point?.postcode].join('|');
     if (key===previousKey) return;
     previousKey=key;
     if (!map && container.dataset.renderer!=='svg') initialiseLeaflet();

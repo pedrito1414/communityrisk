@@ -4890,5 +4890,265 @@
     "impact": null,
     "source": "South Wales Community Risk Register, PDF page 27",
     "page": 27
+  },
+  {
+    "id": "S43000005-001",
+    "forum_code": "S43000005",
+    "code": "",
+    "name": "Pandemic Type Diseases",
+    "likelihood": null,
+    "impact": null,
+    "source": "North of Scotland Community Risk Register 2024, PDF pp. 8–9",
+    "note": "Published narrative topic. No likelihood, impact or overall score inferred."
+  },
+  {
+    "id": "S43000005-002",
+    "forum_code": "S43000005",
+    "code": "",
+    "name": "Severe Weather",
+    "likelihood": null,
+    "impact": null,
+    "source": "North of Scotland Community Risk Register 2024, PDF pp. 10–11",
+    "note": "Published narrative topic. No likelihood, impact or overall score inferred."
+  },
+  {
+    "id": "S43000005-003",
+    "forum_code": "S43000005",
+    "code": "",
+    "name": "Flooding",
+    "likelihood": null,
+    "impact": null,
+    "source": "North of Scotland Community Risk Register 2024, PDF pp. 12–13",
+    "note": "Published narrative topic. No likelihood, impact or overall score inferred."
+  },
+  {
+    "id": "S43000005-004",
+    "forum_code": "S43000005",
+    "code": "",
+    "name": "National Power Outage",
+    "likelihood": null,
+    "impact": null,
+    "source": "North of Scotland Community Risk Register 2024, PDF pp. 14–15",
+    "note": "Published narrative topic. No likelihood, impact or overall score inferred."
+  },
+  {
+    "id": "S43000005-005",
+    "forum_code": "S43000005",
+    "code": "",
+    "name": "Industrial Site Accidents",
+    "likelihood": null,
+    "impact": null,
+    "source": "North of Scotland Community Risk Register 2024, PDF pp. 16–17",
+    "note": "Published narrative topic. No likelihood, impact or overall score inferred."
+  },
+  {
+    "id": "S43000005-006",
+    "forum_code": "S43000005",
+    "code": "",
+    "name": "Transport Disruptions",
+    "likelihood": null,
+    "impact": null,
+    "source": "North of Scotland Community Risk Register 2024, PDF pp. 18–19",
+    "note": "Published narrative topic. No likelihood, impact or overall score inferred."
+  },
+  {
+    "id": "S43000005-007",
+    "forum_code": "S43000005",
+    "code": "",
+    "name": "Pollution and Contamination",
+    "likelihood": null,
+    "impact": null,
+    "source": "North of Scotland Community Risk Register 2024, PDF pp. 20–21",
+    "note": "Published narrative topic. No likelihood, impact or overall score inferred."
+  },
+  {
+    "id": "S43000005-008",
+    "forum_code": "S43000005",
+    "code": "",
+    "name": "Animal and Plant Health",
+    "likelihood": null,
+    "impact": null,
+    "source": "North of Scotland Community Risk Register 2024, PDF pp. 22–23",
+    "note": "Published narrative topic. No likelihood, impact or overall score inferred."
+  },
+  {
+    "id": "S43000005-009",
+    "forum_code": "S43000005",
+    "code": "",
+    "name": "Significant Cyber Attack affecting a public sector organisation",
+    "likelihood": null,
+    "impact": null,
+    "source": "North of Scotland Community Risk Register 2024, PDF pp. 24–25",
+    "note": "Published narrative topic. No likelihood, impact or overall score inferred."
+  },
+  {
+    "id": "S43000004-001",
+    "forum_code": "S43000004",
+    "code": "",
+    "name": "Pandemic Diseases",
+    "likelihood": null,
+    "impact": null,
+    "source": "East of Scotland Community Risk Register 2024, PDF pp. 8–9",
+    "note": "Published narrative topic. No likelihood, impact or overall score inferred."
+  },
+  {
+    "id": "S43000004-002",
+    "forum_code": "S43000004",
+    "code": "",
+    "name": "Severe Weather",
+    "likelihood": null,
+    "impact": null,
+    "source": "East of Scotland Community Risk Register 2024, PDF pp. 10–11",
+    "note": "Published narrative topic. No likelihood, impact or overall score inferred."
+  },
+  {
+    "id": "S43000004-003",
+    "forum_code": "S43000004",
+    "code": "",
+    "name": "Flooding",
+    "likelihood": null,
+    "impact": null,
+    "source": "East of Scotland Community Risk Register 2024, PDF pp. 12–13",
+    "note": "Published narrative topic. No likelihood, impact or overall score inferred."
+  },
+  {
+    "id": "S43000004-004",
+    "forum_code": "S43000004",
+    "code": "",
+    "name": "Industrial Site Accidents",
+    "likelihood": null,
+    "impact": null,
+    "source": "East of Scotland Community Risk Register 2024, PDF pp. 14–15",
+    "note": "Published narrative topic. No likelihood, impact or overall score inferred."
+  },
+  {
+    "id": "S43000004-005",
+    "forum_code": "S43000004",
+    "code": "",
+    "name": "Pollution and Contamination",
+    "likelihood": null,
+    "impact": null,
+    "source": "East of Scotland Community Risk Register 2024, PDF pp. 16–17",
+    "note": "Published narrative topic. No likelihood, impact or overall score inferred."
+  },
+  {
+    "id": "S43000004-006",
+    "forum_code": "S43000004",
+    "code": "",
+    "name": "Transport Disruptions",
+    "likelihood": null,
+    "impact": null,
+    "source": "East of Scotland Community Risk Register 2024, PDF pp. 18–19",
+    "note": "Published narrative topic. No likelihood, impact or overall score inferred."
+  },
+  {
+    "id": "S43000004-007",
+    "forum_code": "S43000004",
+    "code": "",
+    "name": "National Power Outage",
+    "likelihood": null,
+    "impact": null,
+    "source": "East of Scotland Community Risk Register 2024, PDF pp. 20–21",
+    "note": "Published narrative topic. No likelihood, impact or overall score inferred."
+  },
+  {
+    "id": "S43000004-008",
+    "forum_code": "S43000004",
+    "code": "",
+    "name": "Significant Cyber Attack or Incident",
+    "likelihood": null,
+    "impact": null,
+    "source": "East of Scotland Community Risk Register 2024, PDF pp. 22–23",
+    "note": "Published narrative topic. No likelihood, impact or overall score inferred."
+  },
+  {
+    "id": "S43000003-001",
+    "forum_code": "S43000003",
+    "code": "",
+    "name": "Pandemic Type Diseases",
+    "likelihood": null,
+    "impact": null,
+    "source": "West of Scotland Community Risk Register 2024, PDF pp. 8–9",
+    "note": "Published narrative topic. No likelihood, impact or overall score inferred."
+  },
+  {
+    "id": "S43000003-002",
+    "forum_code": "S43000003",
+    "code": "",
+    "name": "Severe Weather",
+    "likelihood": null,
+    "impact": null,
+    "source": "West of Scotland Community Risk Register 2024, PDF pp. 10–11",
+    "note": "Published narrative topic. No likelihood, impact or overall score inferred."
+  },
+  {
+    "id": "S43000003-003",
+    "forum_code": "S43000003",
+    "code": "",
+    "name": "Animal and Plant Health",
+    "likelihood": null,
+    "impact": null,
+    "source": "West of Scotland Community Risk Register 2024, PDF pp. 12–13",
+    "note": "Published narrative topic. No likelihood, impact or overall score inferred."
+  },
+  {
+    "id": "S43000003-004",
+    "forum_code": "S43000003",
+    "code": "",
+    "name": "Widespread Electricity Failure",
+    "likelihood": null,
+    "impact": null,
+    "source": "West of Scotland Community Risk Register 2024, PDF pp. 14–15",
+    "note": "Published narrative topic. No likelihood, impact or overall score inferred."
+  },
+  {
+    "id": "S43000003-005",
+    "forum_code": "S43000003",
+    "code": "",
+    "name": "Flooding",
+    "likelihood": null,
+    "impact": null,
+    "source": "West of Scotland Community Risk Register 2024, PDF pp. 16–17",
+    "note": "Published narrative topic. No likelihood, impact or overall score inferred."
+  },
+  {
+    "id": "S43000003-006",
+    "forum_code": "S43000003",
+    "code": "",
+    "name": "Industrial Site Accidents",
+    "likelihood": null,
+    "impact": null,
+    "source": "West of Scotland Community Risk Register 2024, PDF pp. 18–19",
+    "note": "Published narrative topic. No likelihood, impact or overall score inferred."
+  },
+  {
+    "id": "S43000003-007",
+    "forum_code": "S43000003",
+    "code": "",
+    "name": "Pollution and Contamination",
+    "likelihood": null,
+    "impact": null,
+    "source": "West of Scotland Community Risk Register 2024, PDF pp. 20–21",
+    "note": "Published narrative topic. No likelihood, impact or overall score inferred."
+  },
+  {
+    "id": "S43000003-008",
+    "forum_code": "S43000003",
+    "code": "",
+    "name": "Transport Disruptions",
+    "likelihood": null,
+    "impact": null,
+    "source": "West of Scotland Community Risk Register 2024, PDF pp. 22–23",
+    "note": "Published narrative topic. No likelihood, impact or overall score inferred."
+  },
+  {
+    "id": "S43000003-009",
+    "forum_code": "S43000003",
+    "code": "",
+    "name": "Significant Cyber Attack affecting a public sector organisation",
+    "likelihood": null,
+    "impact": null,
+    "source": "West of Scotland Community Risk Register 2024, PDF pp. 24–25",
+    "note": "Published narrative topic. No likelihood, impact or overall score inferred."
   }
 ]

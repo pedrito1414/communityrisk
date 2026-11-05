@@ -101,14 +101,14 @@ def main():
                   [{visualRating:3.6},4], [{},null]
                 ];
                 for(const [r,expected] of tests)if(rank.commonRanking(r)!==expected)throw Error('Rank regression');
-                const places=[[-3.5339,50.7184,'E48000008'],[-.1278,51.5074,'E48000021'],[-3.1791,51.4816,'W41000004'],[-2.2426,53.4808,'E48000013']];
+                const places=[[-3.5339,50.7184,'E48000008'],[-.1278,51.5074,'E48000021'],[-3.1791,51.4816,'W41000004'],[-2.2426,53.4808,'E48000013'],[-3.1883,55.9533,'S43000004'],[-4.2518,55.8642,'S43000003'],[-4.2247,57.4778,'S43000005'],[-1.145,60.155,'S43000005']];
                 for(const [lon,lat,code] of places){const found=geo.findForumFeatures(db.boundaries,lon,lat);if(found.length!==1||found[0].properties.code!==code)throw Error('Wrong boundary for '+[lon,lat]);}
                 const donut={geometry:{type:'Polygon',coordinates:[[[0,0],[4,0],[4,4],[0,4],[0,0]],[[1,1],[3,1],[3,3],[1,3],[1,1]]]}};
                 if(!geo.containsPoint(donut,[.5,.5])||geo.containsPoint(donut,[2,2])||geo.containsPoint(donut,[5,5]))throw Error('Polygon holes');
                 done({counts:[db.forums.length,db.risks.length,db.nationalRisks.length,db.matches.length]});
               }).catch(e=>done({error:e.message}));
             """)
-            assert result == {'counts':[42,631,95,631]}, result
+            assert result == {'counts':[45,657,95,681]}, result
             print('PASS: shared data, ranking precedence and geographic lookup (including polygon holes)')
             result=async_js("""
               const done=arguments[arguments.length-1];
@@ -134,11 +134,11 @@ def main():
                 done({national:Object.keys(db.definitions.national).length,local:Object.keys(db.definitions.local).length});
               }).catch(error=>done({error:error.message}));
             """)
-            assert result=={'national':95,'local':346},result
+            assert result=={'national':95,'local':372},result
             print('PASS: local definition precedence, national fallback, related context, missing definitions and safe HTML')
             visit('registers/legacy/')
             wait("document.querySelectorAll('#riskRows tr[role=button]').length===16")
-            assert execute("return document.querySelectorAll('.region').length===42 && document.querySelectorAll('.national-risk-item').length===95")
+            assert execute("return document.querySelectorAll('.region').length===45 && document.querySelectorAll('.national-risk-item').length===95")
             execute("document.getElementById('region').value='E48000032';document.getElementById('region').dispatchEvent(new Event('change'))")
             wait("document.querySelectorAll('#riskRows tr[role=button]').length===18")
             execute("document.querySelector('#riskRows tr').click()")
@@ -202,7 +202,7 @@ def main():
             print('PASS: old area links, postcode prefills without submission, preview redirects, national drill-up, Back/Forward, invalid IDs and home links')
             visit('registers/')
             wait("document.getElementById('resultsTitle').textContent==='Surface water flooding'")
-            assert execute("return document.querySelectorAll('#nationalTree [data-national]').length===95 && document.querySelectorAll('#region option').length===43")
+            assert execute("return document.querySelectorAll('#nationalTree [data-national]').length===95 && document.querySelectorAll('#region option').length===46")
             expected=async_js("""
               const done=arguments[arguments.length-1];
               import('../assets/data.js').then(async m=>{
@@ -222,7 +222,9 @@ def main():
             visit('registers/')
             wait("document.getElementById('resultsTitle').textContent==='Surface water flooding'")
             assert execute("return document.querySelectorAll('#explorerMap .forum-shape.matching, #explorerMap .leaflet-overlay-pane path[fill=\"#17634f\"]').length") == len(expected)
-            assert execute("return document.querySelectorAll('#explorerMap .leaflet-tile').length===0"), 'National view should not request basemap tiles'
+            if '--live' in sys.argv:
+                wait("[...document.querySelectorAll('#explorerMap .leaflet-tile')].some(t=>t.naturalWidth>0)")
+                assert execute("return [...document.querySelectorAll('#explorerMap .leaflet-overlay-pane path')].every(p=>Number(p.getAttribute('fill-opacity'))<1)"), 'Overview boundaries should reveal the basemap'
             screenshot('explorer-preview-national')
             overview_zoom=execute("return document.getElementById('explorerMap').dataset.zoom")
             execute("document.querySelector('#results [data-area=E48000008]').click()")
@@ -243,7 +245,7 @@ def main():
             execute("document.querySelector('.local-risk').open=true")
             assert execute("return document.querySelector('.local-risk [data-definition-kind=local]') && !document.querySelector('.local-risk .rating-source').open")
             execute("document.getElementById('riskRoute').click()")
-            assert execute("return document.getElementById('results').textContent.includes('No directly matched local entry') && document.getElementById('resultsTitle').textContent.includes('Avon')")
+            assert execute("return document.getElementById('results').textContent.includes('No eligible local link') && document.getElementById('resultsTitle').textContent.includes('Avon')")
             execute("document.getElementById('showAll').click()")
             assert execute("return document.querySelectorAll('#results [data-area]').length") == len(expected)
             execute("document.getElementById('nationalSearch').value='heatwave';document.getElementById('nationalSearch').dispatchEvent(new Event('input'));document.getElementById('nationalSearch').dispatchEvent(new KeyboardEvent('keydown',{key:'ArrowDown',bubbles:true}))")
@@ -257,7 +259,7 @@ def main():
               const done=arguments[arguments.length-1];import('../assets/data.js').then(async m=>{const db=await m.loadData();done(db.nationalRisks.find(n=>!db.matches.some(m=>m.national_id===n.national_id&&m.match_status==='Direct')).national_id);});
             """)
             execute("document.querySelector('#nationalTree [data-national=\"'+arguments[0]+'\"]').click()", [empty_id])
-            assert execute("return document.querySelectorAll('#results [data-area]').length===0 && document.getElementById('results').textContent.includes('No directly matched local entries')")
+            assert execute("return document.querySelectorAll('#results [data-area]').length===0 && document.getElementById('results').textContent.includes('No eligible local links')")
             # Postcode response is deterministic here; a stale completion cannot replace a manual selection.
             execute("""
               document.getElementById('areaRoute').click();
@@ -290,6 +292,48 @@ def main():
             screenshot('explorer-preview-mobile')
             request(f'/session/{session}/window/rect', {'width':1280,'height':1000})
             print('PASS: explorer national matching, map zoom, risk/area navigation, local definitions, keyboard search, empty matches, postcode failures/races and mobile layouts')
+            for code, count in [('S43000004',8),('S43000005',9),('S43000003',9)]:
+                visit('registers/?view=area&area='+code)
+                wait(f"document.querySelectorAll('.local-risk').length==={count}")
+                assert execute("return [...document.querySelectorAll('.local-risk .rank')].every(x=>x.textContent==='Unranked') && document.getElementById('results').textContent.includes('Scotland integration preview')")
+                execute("document.querySelector('.local-risk summary').click()")
+                assert execute("return document.querySelector('.local-risk[open] .risk-definition').textContent.includes('2024')")
+            screenshot('scotland-west-desktop')
+            visit('registers/?view=area')
+            wait("!document.getElementById('postcodeSubmit').disabled")
+            execute("""
+              window.fetch=(original=> (url,options)=>String(url).startsWith('https://api.postcodes.io/')
+                ? Promise.resolve(new Response(JSON.stringify({status:200,result:{postcode:'EH1 1YZ',longitude:-3.1883,latitude:55.9533,country:'Scotland'}})))
+                : original(url,options))(window.fetch);
+              document.getElementById('postcode').value='EH1 1YZ';document.getElementById('postcodeForm').requestSubmit();
+            """)
+            wait("document.getElementById('region').value==='S43000004'")
+            assert execute("return document.querySelectorAll('.local-risk').length===8 && document.getElementById('postcodeError').hidden")
+            print('PASS: three Scottish registers, unscored definitions, islands and Scottish postcode lookup')
+            visit('registers/?view=risk&risk=NRR26-071')
+            wait("document.querySelector('#results [data-area=S43000005]')")
+            assert execute("return document.querySelectorAll('#explorerMap .forum-shape.broad, #explorerMap .leaflet-overlay-pane path[fill=\"#b87827\"]').length===3 && document.getElementById('mapLegend').textContent.includes('Broader topic coverage')")
+            screenshot('scotland-storms-overview')
+            execute("document.getElementById('includeBroad').click()")
+            assert execute("return !document.querySelector('#results [data-area=S43000005]') && !document.querySelector('#explorerMap .forum-shape.broad, #explorerMap .leaflet-overlay-pane path[fill=\"#b87827\"]') && location.search.includes('matches=direct')")
+            request(f'/session/{session}/refresh', {})
+            wait("!document.getElementById('includeBroad').checked")
+            execute("document.getElementById('includeBroad').click();document.querySelector('#results [data-area=S43000005]').click()")
+            assert execute("return document.querySelector('.local-risk .match-kind').textContent==='Broader topic coverage' && document.querySelector('.national-link-review').textContent.includes('national') && document.querySelectorAll('.local-risk').length===1")
+            screenshot('scotland-broad-match')
+            visit('registers/?view=risk&risk=NRR26-044&matches=direct')
+            wait("document.querySelector('#results [data-area=S43000005]')")
+            assert execute("return !!document.querySelector('#results [data-area=S43000004]') && !document.querySelector('#results [data-area=S43000003]')")
+            execute("document.getElementById('includeBroad').click()")
+            assert execute("return !!document.querySelector('#results [data-area=S43000003]')")
+            visit('registers/?view=area&area=S43000003')
+            wait("document.querySelectorAll('.local-risk').length===9")
+            execute("document.getElementById('localSearch').value='Electricity';document.getElementById('localSearch').dispatchEvent(new Event('input'));document.querySelector('.local-risk summary').click()")
+            assert execute("return document.querySelectorAll('.national-link-review').length===2 && document.querySelectorAll('.explore-national').length===2 && document.querySelector('.rank').textContent==='Unranked'")
+            execute("document.querySelector('[data-national=NRR26-045]').click()")
+            wait("document.getElementById('resultsTitle').textContent==='Regional failure of the electricity network'")
+            assert execute("return !!document.querySelector('#results [data-area=S43000003]')")
+            print('PASS: reviewed one-to-many links, broad/direct filter persistence, map styles, direct power matches and area-to-national navigation')
             # Only expected unavailable external map assets are allowed in the console.
             logs = request(f'/session/{session}/log', {'type':'browser'})
             unexpected = [x['message'] for x in logs if x['level']=='SEVERE' and not any(text in x['message'] for text in ['unpkg.com','tile.openstreetmap.org','favicon.ico'])]

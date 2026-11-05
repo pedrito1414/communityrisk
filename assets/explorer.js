@@ -13,14 +13,17 @@ async function initialise() {
   const forums = [...db.forums].sort((a,b)=>a.name.localeCompare(b.name));
   const forumByCode = new Map(forums.map(f=>[f.code,f]));
   const nationalById = new Map(db.nationalRisks.map(n=>[n.national_id,n]));
-  const directMatches = db.matches.filter(m=>m.match_status==='Direct');
-  const matchesByLocal = new Map(db.matches.map(m=>[m.local_id,m]));
+  const linksFor = id => db.matches.filter(m=>m.local_id===id);
+  const isBroad = m => m.match_status==='Broad / multiple' && !!m.national_id && !!m.reviewed_at;
+  const linkLabel = m => m.match_status==='Direct'?'Direct scenario match':'Broader topic coverage';
   const defaultRisk = nationalById.has('NRR26-076') ? 'NRR26-076' : db.nationalRisks[0].national_id;
-  const state = {mode:'risk', national:defaultRisk, selectedCode:'', point:null};
+  const state = {mode:'risk', national:defaultRisk, selectedCode:'', point:null, includeBroad:true};
   let localQuery = '', sortBy = 'rank', suggestions = [], suggestionIndex = -1;
   let lookupController = null;
   const national = () => nationalById.get(state.national);
-  const matchingRecords = () => directMatches.filter(m=>m.national_id===state.national);
+  const matchingRecords = () => db.matches.filter(m=>m.national_id===state.national && (m.match_status==='Direct' || (state.includeBroad && isBroad(m))));
+  const directCodes = () => new Set(matchingRecords().filter(m=>m.match_status==='Direct').map(m=>m.forum_code));
+  const broadCodes = () => new Set(matchingRecords().filter(isBroad).map(m=>m.forum_code));
   const matchingCodes = () => new Set(matchingRecords().map(m=>m.forum_code));
   const selectedForum = () => forumByCode.get(state.selectedCode);
   const results = $('results');
@@ -29,6 +32,7 @@ async function initialise() {
   function address(mode=state.mode) {
     const params = new URLSearchParams({view:mode});
     if(mode==='risk') params.set('risk',state.national);
+    if(!state.includeBroad) params.set('matches','direct');
     if(state.selectedCode) params.set('area',state.selectedCode);
     return '?' + params;
   }
@@ -54,7 +58,7 @@ async function initialise() {
     localQuery='';hideSuggestions();$('nationalBrowse').open=false;
     trackEvent('national-selected',id);
     render();saveAddress();
-    announce(national().national_risk+': '+matchingCodes().size+' areas with directly matched published entries.');
+    announce(national().national_risk+': '+matchingCodes().size+' areas with linked published entries.');
   }
   function changeMode(mode) {
     cancelLookup();state.mode=mode;hideSuggestions();render();saveAddress();
@@ -63,7 +67,7 @@ async function initialise() {
   }
   function resetArea() {
     cancelLookup();state.selectedCode='';state.point=null;localQuery='';
-    render();saveAddress();announce('Showing all Local Resilience Forum areas.');
+    render();saveAddress();announce('Showing all resilience partnership areas.');
   }
   function nationalDescription(n) {
     const text=db.definitions?.national?.[n.national_id]?.text||n.definition_excerpt;
@@ -77,25 +81,30 @@ async function initialise() {
     return rank===null?'<span class="rank unranked">Unranked</span>':`<span class="rank" aria-label="CRUK navigation rank ${rank} of 5">${rank}</span>`;
   }
   function localRiskHTML(r, open=false) {
-    const match=matchesByLocal.get(r.id);
-    const linked=match?.match_status==='Direct'&&nationalById.get(match.national_id);
+    const links=linksFor(r.id).filter(m=>m.national_id && (m.match_status==='Direct'||isBroad(m)));
+    const current=links.find(m=>m.national_id===state.national);
+    const matchDetails=links.length?`<section class="national-links"><h4>National risk links</h4>${links.map(m=>{
+      const n=nationalById.get(m.national_id),source=db.definitions?.sources?.[m.local_source_id] || {url:forumByCode.get(r.forum_code).source_url};
+      return `<div class="national-link-review"><p><strong>${linkLabel(m)}</strong> · ${esc(n.national_risk)}</p>${m.rationale?`<p>${esc(m.rationale)}</p><p class="small">Reviewed ${esc(m.reviewed_at)} · <a href="${esc(source.url)}#page=${esc(m.local_pdf_page)}" target="_blank" rel="noopener noreferrer">Local PDF page ${esc(m.local_pdf_page)}</a> · <a href="${esc(db.definitions?.sources?.['nrr-2026']?.url || 'https://assets.publishing.service.gov.uk/media/6a50d66b1228eb26a4cab76c/National_Risk_Register_2026.pdf')}#page=${esc(m.national_pdf_page)}" target="_blank" rel="noopener noreferrer">National PDF page ${esc(m.national_pdf_page)}</a></p>`:'<p class="small muted">Provisional existing classification.</p>'}${state.mode==='area'?`<button type="button" class="explore-national" data-national="${esc(m.national_id)}">Explore ${esc(n.national_risk)} across areas →</button>`:''}</div>`;
+    }).join('')}</section>`:'<p class="small muted">No reviewed national scenario link recorded.</p>';
     return `<details class="local-risk" data-local-id="${esc(r.id)}" ${open?'open':''}><summary><span class="risk-name">${esc(r.name)}</span>${rankBadge(r)}</summary>
       ${riskDefinitionHTML(r,db)}
-      <details class="rating-source"><summary>Rating and source details</summary><p>${esc(rankDescription(r))}</p><p>Reference: ${esc(r.code||'Published topic')}<br>Source: ${esc(r.source||'See original register')}${r.note?'<br>'+esc(r.note):''}</p>${match?`<p>National match: ${esc(match.match_status)}${linked?' · '+esc(linked.national_risk):''}.</p>`:''}</details>
-      ${linked&&state.mode==='area'?`<button type="button" class="explore-national" data-national="${esc(linked.national_id)}">Explore this risk across areas →</button>`:''}
+      <details class="rating-source"><summary>Rating and source details</summary><p>${esc(rankDescription(r))}</p><p>Reference: ${esc(r.code||'Published topic')}<br>Source: ${esc(r.source||'See original register')}${r.note?'<br>'+esc(r.note):''}</p></details>
+      ${state.mode==='risk'&&current?`<p class="match-kind ${isBroad(current)?'broad':'direct'}">${linkLabel(current)}</p>`:''}
+      ${matchDetails}
     </details>`;
   }
   function renderOverview() {
     if(state.mode==='area') {
-      results.innerHTML=`<div class="eyebrow">Explore by area</div><h2 id="resultsTitle">Find your local risk register</h2><p class="muted">Select an area on the map, choose its name, or enter your postcode above.</p><p class="count-line">${forums.length} Local Resilience Forum areas</p><ul class="area-list">${forums.map(f=>`<li><button type="button" data-area="${f.code}"><span>${esc(f.name)}<small>${esc(f.coverage==='detailed'?'Detailed records':'Summary or partial records')}</small></span><span aria-hidden="true">→</span></button></li>`).join('')}</ul>`;
+      results.innerHTML=`<div class="eyebrow">Explore by area</div><h2 id="resultsTitle">Find your local risk register</h2><p class="muted">Select an area on the map, choose its name, or enter your postcode above.</p><p class="count-line">${forums.length} resilience partnership areas</p><ul class="area-list">${forums.map(f=>`<li><button type="button" data-area="${f.code}"><span>${esc(f.name)}<small>${esc(f.coverage==='detailed'?'Detailed records':'Summary or partial records')}</small></span><span aria-hidden="true">→</span></button></li>`).join('')}</ul>`;
       return;
     }
     const n=national(),codes=matchingCodes(),areas=forums.filter(f=>codes.has(f.code));
     results.innerHTML=`<div class="eyebrow">Explore by risk · National catalogue</div><h2 id="resultsTitle">${esc(n.national_risk)}</h2>${nationalDescription(n)}<p class="source-link"><a href="https://www.gov.uk/government/collections/national-risk-register" target="_blank" rel="noopener noreferrer">Read the national source ↗</a></p>
-      <p class="count-line"><strong>${areas.length} ${areas.length===1?'area':'areas'}</strong> with matching published entries</p>
-      <p class="small muted">Select a highlighted LRF on the map or choose below to read its local assessment.</p>
-      ${areas.length?`<ul class="area-list">${areas.map(f=>{const count=matchingRecords().filter(m=>m.forum_code===f.code).length;return `<li><button type="button" data-area="${f.code}"><span>${esc(f.name)}<small>${count} matched ${count===1?'entry':'entries'} · ${esc(f.coverage==='detailed'?'Detailed records':'Summary or partial records')}</small></span><span aria-hidden="true">→</span></button></li>`;}).join('')}</ul>`:'<p class="empty-state">No directly matched local entries have been recorded for this national risk yet. You can still select any area on the map to inspect its register.</p>'}
-      <p class="coverage-note">No matched entry does not mean no risk. Local records and provisional national matches are incomplete. Broad and candidate matches are not highlighted.</p>`;
+      <p class="count-line"><strong>${areas.length} ${areas.length===1?'area':'areas'}</strong> with linked published entries</p><p class="small muted">${directCodes().size} with direct scenario matches · ${broadCodes().size} with broader topic coverage. An area can have both.</p>
+      <p class="small muted">Select a highlighted area on the map or choose below to read its local assessment.</p>
+      ${areas.length?`<ul class="area-list">${areas.map(f=>{const count=matchingRecords().filter(m=>m.forum_code===f.code).length;return `<li><button type="button" data-area="${f.code}"><span>${esc(f.name)}<small>${matchingRecords().filter(m=>m.forum_code===f.code&&m.match_status==='Direct').length?'Direct scenario match':'Broader topic coverage'} · ${count} ${count===1?'link':'links'} · ${esc(f.coverage==='detailed'?'Detailed records':'Summary or partial records')}</small></span><span aria-hidden="true">→</span></button></li>`;}).join('')}</ul>`:'<p class="empty-state">No eligible local links have been recorded for this national risk yet. You can still select any area on the map to inspect its register.</p>'}
+      <p class="coverage-note">No matched entry does not mean no risk. Local records and provisional national matches are incomplete. Only reviewed broader links are highlighted when enabled. Candidate and unreviewed broad matches are excluded.</p>`;
   }
   function renderSelected() {
     const f=selectedForum(),all=db.risks.filter(r=>r.forum_code===f.code);
@@ -105,7 +114,7 @@ async function initialise() {
       <p class="forum-metadata">Recorded publication: ${esc(f.year)}</p><span class="tag">${esc(f.scope)}</span>
       ${state.point?`<p class="small" style="margin-top:12px">${esc(state.point.postcode)}${state.point.admin_district?' · '+esc(state.point.admin_district):''} · Approximate postcode location</p>`:''}
       ${originalLink(f)}
-      ${state.mode==='risk'?`<div class="matching-callout"><h3>${esc(national().national_risk)}</h3><p class="small">${matches.length?`${matches.length} directly matched local ${matches.length===1?'entry':'entries'}. Read the local definition and published rating below.`:'No directly matched local entry in the current records for this area. This does not mean the area is unaffected.'}</p></div><button id="exploreArea" type="button" class="primary wide-action">Explore all risks in this area →</button><p class="small muted">CRUK navigation rank · 1–5 · Not an official LRF score</p><div id="localRisks">${matches.map(r=>localRiskHTML(r,matches.length===1)).join('')}</div>`:`<h3>Published risks</h3><div class="local-filters"><label for="localSearch">Search this area’s risks<input type="search" id="localSearch" placeholder="Risk name or reference…" value="${esc(localQuery)}"></label><button type="button" id="sortLocal">${sortBy==='rank'?'Rank ↓':'Name A–Z'}</button></div><p class="small muted" id="localCount"></p><div id="localRisks"></div>`}
+      ${state.mode==='risk'?`<div class="matching-callout"><h3>${esc(national().national_risk)}</h3><p class="small">${matches.length?`${matches.length} linked local ${matches.length===1?'entry':'entries'}. Each entry distinguishes a direct scenario match from broader topic coverage. Broader coverage does not confirm the national scenario was assessed locally.`:'No eligible local link in the current records for this area. This does not mean the area is unaffected.'}</p></div><button id="exploreArea" type="button" class="primary wide-action">Explore all risks in this area →</button><p class="small muted">CRUK navigation rank · 1–5 · Not an official partnership score</p><div id="localRisks">${matches.map(r=>localRiskHTML(r,matches.length===1)).join('')}</div>`:`<h3>Published risks</h3><div class="local-filters"><label for="localSearch">Search this area’s risks<input type="search" id="localSearch" placeholder="Risk name or reference…" value="${esc(localQuery)}"></label><button type="button" id="sortLocal">${sortBy==='rank'?'Rank ↓':'Name A–Z'}</button></div><p class="small muted" id="localCount"></p><div id="localRisks"></div>`}
       <p class="coverage-note">${esc(f.note||'Coverage and scoring detail vary. Read the original register for the full assessment.')}</p>
       <p class="small muted">These are regional assessments, not forecasts for your postcode or property.</p>
       <p class="source-link"><a href="legacy/?area=${encodeURIComponent(f.code)}">View detailed tables and likelihood × impact →</a></p>`;
@@ -120,7 +129,7 @@ async function initialise() {
     const rows=all.filter(r=>(r.name+' '+(r.code||'')).toLowerCase().includes(localQuery.trim().toLowerCase()));
     rows.sort(sortBy==='rank'?priorityCompare:(a,b)=>a.name.localeCompare(b.name));
     $('localRisks').innerHTML=rows.length?rows.map(r=>localRiskHTML(r)).join(''):'<p class="empty-state">No local entries match this search.</p>';
-    $('localCount').textContent=`${rows.length} of ${all.length} transcribed entries · CRUK navigation rank 1–5`;
+    $('localCount').textContent=`${rows.length} of ${all.length} transcribed entries · ${all.every(r=>commonRanking(r)===null)?'No published numerical ratings recorded':'CRUK navigation rank 1–5'}`;
   }
   function render() {
     for(const [id,mode] of [['riskRoute','risk'],['areaRoute','area'],['navRisk','risk'],['navArea','area']]) {
@@ -132,13 +141,14 @@ async function initialise() {
     $('region').value=state.selectedCode;$('nationalSearch').value=national().national_risk;
     $('selectionHint').textContent='Selected: '+national().national_risk+' · '+db.nationalRisks.length+' national risks available';
     document.querySelectorAll('[data-national]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.national===state.national)));
-    $('mapTitle').textContent=selectedForum()?.name||'England & Wales · '+forums.length+' LRF areas';
+    $('mapTitle').textContent=selectedForum()?.name||'Great Britain · '+forums.length+' resilience areas';
     $('showAll').hidden=!state.selectedCode;
-    $('mapLegend').innerHTML=state.selectedCode?'<span><i class="legend-chip selected"></i>Selected LRF boundary</span>'+(state.point?'<span><i class="legend-chip postcode"></i>Approximate postcode location</span>':''):
-      state.mode==='risk'?'<span><i class="legend-chip matching"></i>Matching published entry</span><span><i class="legend-chip other"></i>No matched entry in current records</span>':'<span><i class="legend-chip matching"></i>Local Resilience Forum areas</span>';
+    $('mapLegend').innerHTML=state.selectedCode?'<span><i class="legend-chip selected"></i>Selected partnership boundary</span>'+(state.point?'<span><i class="legend-chip postcode"></i>Approximate postcode location</span>':''):
+      state.mode==='risk'?'<span><i class="legend-chip matching"></i>Direct scenario match</span><span><i class="legend-chip broad"></i>Broader topic coverage</span><span><i class="legend-chip other"></i>No matched entry in current records</span>':'<span><i class="legend-chip matching"></i>resilience partnership areas</span>';
     if(state.selectedCode) renderSelected();else renderOverview();
     results.setAttribute('aria-busy','false');
-    map.update({...state,matchingCodes:matchingCodes()});
+    $('includeBroad').checked=state.includeBroad;
+    map.update({...state,matchingCodes:directCodes(),broadCodes:broadCodes()});
   }
   function hideSuggestions() {
     $('nationalSuggestions').hidden=true;$('nationalSearch').setAttribute('aria-expanded','false');
@@ -152,6 +162,7 @@ async function initialise() {
     $('nationalSuggestions').innerHTML=suggestions.length?suggestions.map((n,i)=>`<li role="option" id="nationalOption${i}" aria-selected="false" data-suggestion="${esc(n.national_id)}"><span>${esc(n.national_risk)}</span><small>${esc(n.category)}</small></li>`).join(''):'<li class="no-suggestions" role="presentation">No matching national risks. Try another name or browse the catalogue.</li>';
     $('nationalSuggestions').hidden=false;$('nationalSearch').setAttribute('aria-expanded','true');
   }
+  $('includeBroad').addEventListener('change',()=>{state.includeBroad=$('includeBroad').checked;render();saveAddress();announce(state.includeBroad?'Showing direct matches and reviewed broader coverage.':'Showing direct scenario matches only.');});
   $('nationalSearch').addEventListener('input',showSuggestions);
   $('nationalSearch').addEventListener('keydown',event=>{
     if(event.key==='Escape') {hideSuggestions();return;}
@@ -205,7 +216,7 @@ async function initialise() {
     try {
       const location=await lookupPostcode(postcode,controller.signal);
       if(lookupController!==controller)return;
-      if(!['England','Wales'].includes(location.country))throw new Error('This explorer currently covers England and Wales. Please choose an area instead.');
+      if(!['England','Wales','Scotland'].includes(location.country))throw new Error('This explorer currently covers England, Wales and Scotland. Please choose an area instead.');
       const found=findForumFeatures(db.boundaries,location.longitude,location.latitude);
       if(found.length!==1)throw new Error('This postcode could not be assigned unambiguously using the current boundaries. Please choose an area on the map or by name.');
       trackEvent('postcode-succeeded',found[0].properties.code);
@@ -224,6 +235,7 @@ async function initialise() {
     const requestedRisk=params.get('risk')||history.state?.national;
     state.national=nationalById.has(requestedRisk)?requestedRisk:defaultRisk;
     state.mode=['area','risk'].includes(params.get('view'))?params.get('view'):(state.selectedCode||params.has('postcode')?'area':'risk');
+    state.includeBroad=params.get('matches')!=='direct';
     state.point=null;localQuery='';sortBy='rank';hideSuggestions();render();
     if(params.has('postcode')||location.hash==='#postcode') {
       if(params.has('postcode')) $('postcode').value=params.get('postcode').slice(0,9);

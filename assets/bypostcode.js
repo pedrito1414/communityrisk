@@ -72,7 +72,7 @@ $('form').addEventListener('submit', async event => {
   history.replaceState(null, '', location.pathname);
   try {
     const [db, locationData] = await Promise.all([loadData(), lookupPostcode(postcode)]);
-    if (!['England', 'Wales'].includes(locationData.country)) throw new Error('This prototype currently covers England and Wales.');
+    if (!['England', 'Wales', 'Scotland'].includes(locationData.country)) throw new Error('This prototype currently covers England, Wales and Scotland.');
     const features = findForumFeatures(db.boundaries, locationData.longitude, locationData.latitude);
     if (features.length !== 1) throw new Error('This postcode could not be assigned unambiguously using the current boundary data. Please use the full risk register dashboard.');
     const feature = features[0], forum = db.forums.find(f => f.code === feature.properties.code);

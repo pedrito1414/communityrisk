@@ -38,7 +38,9 @@ def validate():
         for field in ['likelihood', 'impact', 'visualRating']:
             if risk.get(field) is not None:
                 assert isinstance(risk[field], (int, float)) and 1 <= risk[field] <= 5, f'Invalid {field}: {risk["id"]}'
-    assert unique(matches, 'local_id') == ids, 'Missing or extra matches'
+    assert {m['local_id'] for m in matches} == ids, 'Missing or extra matches'
+    pairs = [(m['local_id'], m['national_id']) for m in matches]
+    assert len(pairs) == len(set(pairs)), 'Duplicate local/national link'
     by_id = {r['id']: r for r in risks}
     for match in matches:
         risk = by_id[match['local_id']]
@@ -49,7 +51,9 @@ def validate():
         assert match['match_status'] in ['Direct', 'Candidate', 'Broad / multiple', 'Review / unmatched']
         if match['match_status'] == 'Direct': assert match['national_id']
     with (ROOT / 'data/risk-matches.csv').open(newline='') as source:
-        assert list(csv.DictReader(source)) == matches, 'CSV download differs from JSON'
+        reader = csv.DictReader(source)
+        expected = [{key: str(m.get(key, '')) for key in reader.fieldnames} for m in matches]
+        assert list(reader) == expected, 'CSV download differs from JSON'
 
     definitions = read('risk-definitions.json')
     for source in definitions['sources'].values():
@@ -70,6 +74,16 @@ def validate():
             else:
                 assert source['type'] == 'web' and definition.get('section', '').strip()
                 assert 'pdf_page' not in definition
+    for match in matches:
+        if match['forum_code'].startswith('S43'):
+            assert match['national_id'] and match.get('rationale', '').strip()
+            assert match.get('reviewed_at') == '2026-11-04'
+            local = definitions['local'][match['local_id']]
+            assert match['local_source_id'] == local['source_id']
+            assert int(match['local_pdf_page']) == local['pdf_page']
+            national_record = next(n for n in national if n['national_id'] == match['national_id'])
+            assert int(match['national_pdf_page']) == national_record['pdf_page']
+            assert match['match_status'] in ['Direct', 'Broad / multiple']
     for topic in definitions['topics'].values():
         assert topic['text'].strip() and topic['national_ids']
         assert all(nid in definitions['national'] for nid in topic['national_ids'])

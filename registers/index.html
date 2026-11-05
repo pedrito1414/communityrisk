@@ -20,7 +20,7 @@
   <main id="main">
     <header class="explorer-heading">
       <h1>Explore community risks</h1>
-      <p>Explore a risk across England and Wales, or find out what your local register says.</p>
+      <p>Explore a risk across England, Wales and Scotland, or find out what your local register says.</p>
     </header>
     <nav class="explore-routes" aria-label="Choose how to explore">
       <a id="riskRoute" href="?view=risk" aria-current="page">Explore by risk</a>
@@ -36,11 +36,12 @@
         <summary>Browse the national catalogue</summary>
         <div id="nationalTree"></div>
       </details>
+      <label class="match-filter"><input type="checkbox" id="includeBroad" checked> Include reviewed broader topic coverage</label><p class="control-hint">Direct matches describe the same scenario. Broader links connect a local topic to a narrower national risk; they do not confirm that exact scenario was assessed locally.</p>
       <p id="selectionHint" class="control-hint">Loading national risks…</p>
     </section>
-    <section id="areaControls" class="explorer-controls" aria-label="Find your Local Resilience Forum" hidden>
+    <section id="areaControls" class="explorer-controls" aria-label="Find your resilience partnership" hidden>
       <div class="area-field">
-        <label for="region">Choose a Local Resilience Forum</label>
+        <label for="region">Choose a resilience partnership area</label>
         <select id="region" disabled><option value="">Choose an area…</option></select>
       </div>
       <form id="postcodeForm" class="postcode-form">
@@ -51,9 +52,9 @@
       <p id="postcodeError" role="alert" class="error" hidden></p>
     </section>
     <div class="explorer-layout">
-      <section class="map-panel" aria-label="Local Resilience Forum map">
-        <div class="map-toolbar"><h2 id="mapTitle">England &amp; Wales</h2><button id="showAll" type="button" hidden>Show all areas</button></div>
-        <div id="explorerMap" class="explorer-map" aria-label="Map of Local Resilience Forum areas"></div>
+      <section class="map-panel" aria-label="Resilience partnership map">
+        <div class="map-toolbar"><h2 id="mapTitle">England, Wales &amp; Scotland</h2><button id="showAll" type="button" hidden>Show all areas</button></div>
+        <div id="explorerMap" class="explorer-map" aria-label="Map of resilience partnership areas"></div>
         <div class="map-legend" id="mapLegend"><span><i class="legend-chip matching"></i>Matching published entry</span><span><i class="legend-chip other"></i>No matched entry in current records</span></div>
         <p class="map-status" id="mapStatus" role="status">Loading the map…</p>
       </section>
@@ -64,10 +65,10 @@
     <p id="announcement" class="sr-only" role="status"></p>
     <details class="method-note">
       <summary>Coverage, matching and the CRUK navigation rank</summary>
-      <p>The current collection contains all 42 LRF areas, with varying detail. Some records are selected topics or summaries, not complete registers. An area without a matched entry may still face the selected risk.</p>
-      <p>Only direct links in the provisional local–national crosswalk are highlighted. Candidate and broad matches are excluded. <a href="../data/risk-matches.csv" download>Review the local–national matches (CSV)</a>.</p>
-      <p>CRUK uses a 1–5 navigation rank: Very Low = 1, Low = 2, Medium = 3, High = 4, Very High = 5. Otherwise, likelihood × impact products 1–5, 6–10, 11–15, 16–20 and 21–25 map to ranks 1–5; approximate graphical ratings are rounded. Missing scores stay unranked. These ranks are not official LRF scores or estimates of personal risk. Registers use different methods, so cross-area comparisons require caution.</p>
-    </details>
+      <p>The current collection contains 42 England and Wales LRF areas and three Scottish Regional Resilience Partnership areas, with varying detail. Scotland is a preview of 26 narrative topics from the 2024 registers; these remain unscored, with reviewed links distinguishing direct scenarios from broader topic coverage. Some records are selected topics or summaries, not complete registers. An area without a matched entry may still face the selected risk.</p>
+      <p>Direct links and reviewed broader topic links have distinct map colours. Use the checkbox to show direct matches only. Candidate and unreviewed broad links are excluded. Each Scottish link includes a rationale and local/national PDF page references. <a href="../data/risk-matches.csv" download>Review the local–national matches (CSV)</a>.</p>
+      <p>CRUK uses a 1–5 navigation rank: Very Low = 1, Low = 2, Medium = 3, High = 4, Very High = 5. Otherwise, likelihood × impact products 1–5, 6–10, 11–15, 16–20 and 21–25 map to ranks 1–5; approximate graphical ratings are rounded. Missing scores stay unranked. These ranks are not official partnership scores or estimates of personal risk. Registers use different methods, so cross-area comparisons require caution.</p>
+    <p>Scottish boundaries: Copyright Scottish Government, contains Ordnance Survey data © Crown copyright and database right 2026. Source: <a href="https://www.data.gov.uk/dataset/49a0dd11-e0f6-44dd-962e-f9f1d423edc0/regional-resilience-partnerships">Regional Resilience Partnerships</a>, 2019 shapefile, simplified for display. Coastal postcode matches can be approximate.</p></details>
     <footer>Published regional emergency assessments, not property-level predictions. <a href="../privacy/">Privacy and visit statistics</a></footer>
   </main>
   <noscript><p class="error">Enable JavaScript to explore the map and risk records. You can also <a href="https://www.gov.uk/guidance/local-resilience-forums-contact-details">find your LRF in the official directory</a>.</p></noscript>

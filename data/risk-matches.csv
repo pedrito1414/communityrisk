@@ -1,632 +1,682 @@
-forum_code,lrf,local_risk,local_id,national_id,match_status
-E48000001,Avon & Somerset,Flooding,E48000001-001,,Broad / multiple
-E48000001,Avon & Somerset,Extreme weather,E48000001-002,,Broad / multiple
-E48000001,Avon & Somerset,Animal disease,E48000001-003,,Broad / multiple
-E48000001,Avon & Somerset,Infectious and communicable diseases,E48000001-004,,Review / unmatched
-E48000001,Avon & Somerset,Transport incidents,E48000001-005,,Review / unmatched
-E48000001,Avon & Somerset,Industrial site accidents,E48000001-006,,Review / unmatched
-E48000001,Avon & Somerset,Utilities and key resources: supply disruption,E48000001-007,,Review / unmatched
-E48000001,Avon & Somerset,"Malicious threats, including terrorism",E48000001-008,,Review / unmatched
-E48000001,Avon & Somerset,Cyber crime,E48000001-009,,Broad / multiple
-E48000002,Bedfordshire,Influenza-type pandemic,E48000002-001,NRR26-079,Direct
-E48000002,Bedfordshire,Failure of national electricity transmission system,E48000002-002,NRR26-044,Direct
-E48000002,Bedfordshire,Worldwide volcanic eruption impacts,E48000002-003,,Review / unmatched
-E48000002,Bedfordshire,Cyber-attack,E48000002-004,,Broad / multiple
-E48000002,Bedfordshire,Aviation crash,E48000002-005,,Review / unmatched
-E48000002,Bedfordshire,Fluvial flooding,E48000002-006,NRR26-075,Direct
-E48000002,Bedfordshire,Severe space weather,E48000002-007,NRR26-070,Direct
-E48000002,Bedfordshire,Storms,E48000002-008,NRR26-071,Direct
-E48000002,Bedfordshire,Industrial action affecting fuel supply,E48000002-009,,Review / unmatched
-E48000002,Bedfordshire,Public disorder,E48000002-010,NRR26-087,Direct
-E48000003,Cambridgeshire and Peterborough,National electricity transmission failure,E48000003-001,NRR26-044,Direct
-E48000003,Cambridgeshire and Peterborough,Influenza-type disease,E48000003-002,NRR26-079,Direct
-E48000003,Cambridgeshire and Peterborough,Radiation release from overseas,E48000003-003,NRR26-048,Candidate
-E48000003,Cambridgeshire and Peterborough,Fluvial flooding,E48000003-004,NRR26-075,Direct
-E48000003,Cambridgeshire and Peterborough,Heatwave,E48000003-005,NRR26-072,Direct
-E48000004,Cheshire,Flooding,E48000004-001,,Broad / multiple
-E48000004,Cheshire,Severe weather,E48000004-002,,Broad / multiple
-E48000004,Cheshire,Pandemics and human diseases,E48000004-003,,Review / unmatched
-E48000004,Cheshire,Failure of critical infrastructure,E48000004-004,,Review / unmatched
-E48000004,Cheshire,Cyber threats,E48000004-005,,Review / unmatched
-E48000004,Cheshire,Transport incidents,E48000004-006,,Review / unmatched
-E48000004,Cheshire,Industrial accidents,E48000004-007,,Broad / multiple
-E48000004,Cheshire,Animal disease,E48000004-008,,Broad / multiple
-E48000004,Cheshire,Terrorism,E48000004-009,,Review / unmatched
-E48000004,Cheshire,Social disruption,E48000004-010,,Review / unmatched
-E48000005,Cleveland,Flooding,E48000005-001,,Broad / multiple
-E48000005,Cleveland,Severe weather,E48000005-002,,Broad / multiple
-E48000005,Cleveland,Industrial accidents,E48000005-003,,Broad / multiple
-E48000005,Cleveland,Major transport incidents,E48000005-004,,Review / unmatched
-E48000005,Cleveland,Human infectious diseases,E48000005-005,,Review / unmatched
-E48000005,Cleveland,Animal disease,E48000005-006,,Broad / multiple
-E48000005,Cleveland,Loss of critical infrastructure,E48000005-007,,Review / unmatched
-E48000006,Cumbria,Flooding,E48000006-001,,Broad / multiple
-E48000006,Cumbria,Severe weather,E48000006-002,,Broad / multiple
-E48000006,Cumbria,Pandemic and human disease,E48000006-003,,Review / unmatched
-E48000006,Cumbria,Loss of electricity and utilities,E48000006-004,,Review / unmatched
-E48000006,Cumbria,Transport incidents,E48000006-005,,Review / unmatched
-E48000006,Cumbria,Animal disease,E48000006-006,,Broad / multiple
-E48000007,Derbyshire,Fluvial flooding,E48000007-001,NRR26-075,Direct
-E48000007,Derbyshire,Surface water flooding,E48000007-002,NRR26-076,Direct
-E48000007,Derbyshire,Severe weather,E48000007-003,,Broad / multiple
-E48000007,Derbyshire,High temperatures and heatwaves,E48000007-004,NRR26-072,Direct
-E48000007,Derbyshire,Low temperatures and snow,E48000007-005,NRR26-073,Direct
-E48000007,Derbyshire,Pandemic influenza,E48000007-006,,Review / unmatched
-E48000007,Derbyshire,Emerging infectious diseases,E48000007-007,,Review / unmatched
-E48000007,Derbyshire,Failure of electricity transmission,E48000007-008,,Review / unmatched
-E48000007,Derbyshire,Industrial incidents,E48000007-009,,Review / unmatched
-E48000007,Derbyshire,Major transport accidents,E48000007-010,,Review / unmatched
-E48000007,Derbyshire,Animal disease,E48000007-011,,Broad / multiple
-E48000008,"Devon, Cornwall & Isles of Scilly",Pandemic,E48000008-001,NRR26-079,Direct
-E48000008,"Devon, Cornwall & Isles of Scilly",National electricity transmission failure,E48000008-002,NRR26-044,Direct
-E48000008,"Devon, Cornwall & Isles of Scilly",Severe space weather,E48000008-003,NRR26-070,Direct
-E48000008,"Devon, Cornwall & Isles of Scilly","Prolonged low temperatures, snow and/or ice",E48000008-004,,Review / unmatched
-E48000008,"Devon, Cornwall & Isles of Scilly",Surface water flooding,E48000008-005,NRR26-076,Direct
-E48000008,"Devon, Cornwall & Isles of Scilly",Coastal flooding,E48000008-006,NRR26-074,Direct
-E48000008,"Devon, Cornwall & Isles of Scilly",Fluvial flooding,E48000008-007,NRR26-075,Direct
-E48000008,"Devon, Cornwall & Isles of Scilly",Emerging infectious disease outbreak,E48000008-008,,Review / unmatched
-E48000008,"Devon, Cornwall & Isles of Scilly",Gas supply infrastructure failure,E48000008-009,,Review / unmatched
-E48000008,"Devon, Cornwall & Isles of Scilly",High temperatures and heat waves,E48000008-010,,Review / unmatched
-E48000008,"Devon, Cornwall & Isles of Scilly",Drought,E48000008-011,NRR26-077,Direct
-E48000008,"Devon, Cornwall & Isles of Scilly",Water infrastructure failure or loss of drinking water,E48000008-012,NRR26-059,Direct
-E48000008,"Devon, Cornwall & Isles of Scilly",Storms,E48000008-013,NRR26-071,Direct
-E48000008,"Devon, Cornwall & Isles of Scilly",Regional electricity network failure,E48000008-014,,Review / unmatched
-E48000008,"Devon, Cornwall & Isles of Scilly",Fuel shortages,E48000008-015,,Review / unmatched
-E48000008,"Devon, Cornwall & Isles of Scilly",Simultaneous loss of fixed and mobile communications,E48000008-016,,Review / unmatched
-E48000009,Dorset,Failure of the national electricity transmission system (NETS),E48000009-001,,Review / unmatched
-E48000009,Dorset,Failure of gas supply infrastructure,E48000009-002,,Review / unmatched
-E48000009,Dorset,Severe Space weather,E48000009-003,NRR26-070,Direct
-E48000009,Dorset,High temperature and heatwaves,E48000009-004,,Review / unmatched
-E48000009,Dorset,Low temperatures and snow,E48000009-005,NRR26-073,Direct
-E48000009,Dorset,Coastal flooding,E48000009-006,NRR26-074,Direct
-E48000009,Dorset,Fluvial flooding,E48000009-007,NRR26-075,Direct
-E48000009,Dorset,Surface water flooding,E48000009-008,NRR26-076,Direct
-E48000009,Dorset,Pandemic,E48000009-009,NRR26-079,Direct
-E48000009,Dorset,Outbreak of an emerging infectious disease,E48000009-010,NRR26-080,Direct
-E48000009,Dorset,Localised flooding caused by groundwater emergence/spring activity,E48000009-011,,Review / unmatched
-E48000009,Dorset,"Land Movement (e.g. significant landslips, rockfalls)",E48000009-012,,Review / unmatched
-E48000009,Dorset,Simultaneous loss of all fixed and mobile forms of communication,E48000009-013,NRR26-043,Direct
-E48000009,Dorset,Regional failure of electricity network,E48000009-014,,Review / unmatched
-E48000009,Dorset,Radiation release from overseas nuclear site,E48000009-015,NRR26-048,Direct
-E48000009,Dorset,Reservoir / dam collapse,E48000009-016,NRR26-058,Direct
-E48000009,Dorset,Wildfire,E48000009-017,NRR26-065,Direct
-E48000009,Dorset,Volcanic eruption,E48000009-018,NRR26-066,Direct
-E48000009,Dorset,Storms,E48000009-019,NRR26-071,Direct
-E48000009,Dorset,Major outbreak of foot and mouth disease,E48000009-020,NRR26-081,Candidate
-E48000009,Dorset,Major outbreak of highly pathogenic avian influenza,E48000009-021,NRR26-082,Candidate
-E48000009,Dorset,Industrial action - fuel supply,E48000009-022,,Review / unmatched
-E48000009,Dorset,Radioactive Release during visit of nuclear-powered vessel (NPV) to Portland Port,E48000009-023,,Review / unmatched
-E48000009,Dorset,Bridge Closure due collapse,E48000009-024,,Review / unmatched
-E48000009,Dorset,Cyber-attack – government critical systems loss (public),E48000009-025,,Review / unmatched
-E48000009,Dorset,Major social care provider failure,E48000009-026,,Review / unmatched
-E48000009,Dorset,Insolvency of supplier(s) of critical services to the public sector,E48000009-027,NRR26-032,Direct
-E48000009,Dorset,Rail accident,E48000009-028,NRR26-034,Direct
-E48000009,Dorset,Large passenger vessel accident,E48000009-029,NRR26-035,Direct
-E48000009,Dorset,Accident involving high consequence dangerous goods,E48000009-030,NRR26-038,Direct
-E48000009,Dorset,Aviation collision,E48000009-031,NRR26-039,Direct
-E48000009,Dorset,Accidental fire or explosion at an onshore major hazard (COMAH) site,E48000009-032,NRR26-052,Direct
-E48000009,Dorset,Accidental large toxic chemical release at an onshore major hazard (COMAH) site,E48000009-033,,Review / unmatched
-E48000009,Dorset,Fire or explosion at an onshore fuel pipeline,E48000009-034,NRR26-055,Candidate
-E48000009,Dorset,Major fire,E48000009-035,NRR26-061,Direct
-E48000009,Dorset,Drought,E48000009-036,NRR26-077,Direct
-E48000009,Dorset,Public Disorder,E48000009-037,NRR26-087,Direct
-E48000009,Dorset,Insolvency affecting fuel supply,E48000009-038,NRR26-033,Direct
-E48000009,Dorset,Major Maritime pollution,E48000009-039,NRR26-036,Candidate
-E48000009,Dorset,"Radiation exposure from transported, stolen or lost goods",E48000009-040,NRR26-049,Direct
-E48000009,Dorset,Water infrastructure failure or loss of drinking water,E48000009-041,NRR26-059,Direct
-E48000009,Dorset,Industrial action – public transport,E48000009-042,,Review / unmatched
-E48000010,Durham & Darlington,Severe weather,E48000010-001,,Broad / multiple
-E48000010,Durham & Darlington,Flooding,E48000010-002,,Broad / multiple
-E48000010,Durham & Darlington,Pandemic and infectious disease,E48000010-003,,Review / unmatched
-E48000010,Durham & Darlington,Industrial accidents,E48000010-004,,Broad / multiple
-E48000010,Durham & Darlington,Transport incidents,E48000010-005,,Review / unmatched
-E48000010,Durham & Darlington,Loss of essential services,E48000010-006,,Review / unmatched
-E48000010,Durham & Darlington,Animal disease,E48000010-007,,Broad / multiple
-E48000011,Essex,Flooding,E48000011-001,,Broad / multiple
-E48000011,Essex,Severe weather,E48000011-002,,Broad / multiple
-E48000011,Essex,Human infectious diseases,E48000011-003,,Review / unmatched
-E48000011,Essex,Animal diseases,E48000011-004,,Review / unmatched
-E48000011,Essex,Industrial incidents,E48000011-005,,Review / unmatched
-E48000011,Essex,Cyber-attacks,E48000011-006,,Review / unmatched
-E48000011,Essex,Infrastructure failures,E48000011-007,,Review / unmatched
-E48000011,Essex,Transport incidents,E48000011-008,,Review / unmatched
-E48000012,Gloucestershire,Infectious disease,E48000012-001,,Review / unmatched
-E48000012,Gloucestershire,Terrorism,E48000012-002,,Review / unmatched
-E48000012,Gloucestershire,Electricity supply failure,E48000012-003,,Review / unmatched
-E48000012,Gloucestershire,Flooding,E48000012-004,,Broad / multiple
-E48000012,Gloucestershire,Fuel supply disruption,E48000012-005,,Review / unmatched
-E48000012,Gloucestershire,Extreme weather,E48000012-006,,Broad / multiple
-E48000012,Gloucestershire,Cyber attack,E48000012-007,,Broad / multiple
-E48000013,Greater Manchester,Flooding,E48000013-001,,Broad / multiple
-E48000013,Greater Manchester,Severe weather,E48000013-002,,Broad / multiple
-E48000013,Greater Manchester,Pandemic influenza,E48000013-003,,Review / unmatched
-E48000013,Greater Manchester,Industrial accidents,E48000013-004,,Broad / multiple
-E48000013,Greater Manchester,Transport incidents,E48000013-005,,Review / unmatched
-E48000013,Greater Manchester,Loss of utilities,E48000013-006,,Broad / multiple
-E48000013,Greater Manchester,Animal disease,E48000013-007,,Broad / multiple
-E48000014,Hampshire & Isle of Wight,International Terrorist Attack,E48000014-001,NRR26-001,Direct
-E48000014,Hampshire & Isle of Wight,Northern Ireland related Terrorism,E48000014-002,NRR26-002,Direct
-E48000014,Hampshire & Isle of Wight,Terrorist attacks in publicly accessible locations,E48000014-003,,Review / unmatched
-E48000014,Hampshire & Isle of Wight,Terrorist attacks on transport,E48000014-004,,Review / unmatched
-E48000014,Hampshire & Isle of Wight,Strategic hostage taking,E48000014-005,NRR26-008,Direct
-E48000014,Hampshire & Isle of Wight,Assassination of a high-profile public figure,E48000014-006,,Review / unmatched
-E48000014,Hampshire & Isle of Wight,"CBRN attacks (Small, Medium, Large scale)",E48000014-007,,Review / unmatched
-E48000014,Hampshire & Isle of Wight,Conventional Attacks on Infrastructure,E48000014-008,,Review / unmatched
-E48000014,Hampshire & Isle of Wight,Cyber Attacks on Infrastructure,E48000014-009,,Review / unmatched
-E48000014,Hampshire & Isle of Wight,Deliberate disruption of UK space systems and space based services,E48000014-010,NRR26-091,Direct
-E48000014,Hampshire & Isle of Wight,Major Social Care Provider Business Failure,E48000014-011,NRR26-031,Direct
-E48000014,Hampshire & Isle of Wight,Insolvency of supplier(s) of critical services to the public sector,E48000014-012,NRR26-032,Direct
-E48000014,Hampshire & Isle of Wight,Insolvency affecting fuel supply,E48000014-013,NRR26-033,Direct
-E48000014,Hampshire & Isle of Wight,Failure of a supplier of CNI chemicals,E48000014-014,,Review / unmatched
-E48000014,Hampshire & Isle of Wight,Railway Accident,E48000014-015,NRR26-034,Direct
-E48000014,Hampshire & Isle of Wight,Large passenger vessel accident,E48000014-016,NRR26-035,Direct
-E48000014,Hampshire & Isle of Wight,Major Maritime Pollution,E48000014-017,NRR26-036,Candidate
-E48000014,Hampshire & Isle of Wight,Incident (grounding / sinking) of a vessel blocking a major port,E48000014-018,,Review / unmatched
-E48000014,Hampshire & Isle of Wight,Accident Involving High Consequence Dangerous Goods,E48000014-019,NRR26-038,Direct
-E48000014,Hampshire & Isle of Wight,Aviation Collision,E48000014-020,NRR26-039,Direct
-E48000014,Hampshire & Isle of Wight,Malicious drone incident,E48000014-021,NRR26-040,Direct
-E48000014,Hampshire & Isle of Wight,Disruption of space based services,E48000014-022,,Review / unmatched
-E48000014,Hampshire & Isle of Wight,"Loss of Positioning, Navigation and Timing (PNT) services",E48000014-023,NRR26-042,Direct
-E48000014,Hampshire & Isle of Wight,Simultaneous loss of all fixed and mobile forms of communication,E48000014-024,NRR26-043,Direct
-E48000014,Hampshire & Isle of Wight,Failure of the National Electricity Transmission System (NETS),E48000014-025,,Review / unmatched
-E48000014,Hampshire & Isle of Wight,Regional failure of the electricity network,E48000014-026,NRR26-045,Direct
-E48000014,Hampshire & Isle of Wight,Failure of Gas Supply Infrastructure,E48000014-027,,Review / unmatched
-E48000014,Hampshire & Isle of Wight,Radiation release from overseas nuclear site,E48000014-028,NRR26-048,Direct
-E48000014,Hampshire & Isle of Wight,"Radiation exposure from transported, stolen or lost goods",E48000014-029,NRR26-049,Direct
-E48000014,Hampshire & Isle of Wight,Technological Failure of a Systemically Important Retail Bank,E48000014-030,,Review / unmatched
-E48000014,Hampshire & Isle of Wight,Technological failure of a UK critical Financial Market Infrastructure,E48000014-031,,Review / unmatched
-E48000014,Hampshire & Isle of Wight,Accidental fire or explosion at an onshore major hazard (COMAH) site,E48000014-032,NRR26-052,Direct
-E48000014,Hampshire & Isle of Wight,Accidental large toxic chemical release from an onshore major hazard (COMAH) site,E48000014-033,NRR26-053,Direct
-E48000014,Hampshire & Isle of Wight,Accidental Fire or Explosion at an Onshore Fuel Pipeline,E48000014-034,NRR26-055,Direct
-E48000014,Hampshire & Isle of Wight,Accidental Fire or Explosion at an onshore Major Accident Hazard Pipeline,E48000014-035,NRR26-056,Direct
-E48000014,Hampshire & Isle of Wight,Accidental work-related (laboratory) release of a hazardous pathogen,E48000014-036,NRR26-057,Direct
-E48000014,Hampshire & Isle of Wight,Reservoir/Dam Collapse,E48000014-037,NRR26-058,Direct
-E48000014,Hampshire & Isle of Wight,Water infrastructure failure or loss of drinking water,E48000014-038,NRR26-059,Direct
-E48000014,Hampshire & Isle of Wight,Food Supply Contamination,E48000014-039,NRR26-060,Direct
-E48000014,Hampshire & Isle of Wight,Major Fire,E48000014-040,NRR26-061,Direct
-E48000014,Hampshire & Isle of Wight,Wildfire,E48000014-041,NRR26-065,Direct
-E48000014,Hampshire & Isle of Wight,Volcanic Eruption,E48000014-042,NRR26-066,Direct
-E48000014,Hampshire & Isle of Wight,Earthquake,E48000014-043,NRR26-067,Direct
-E48000014,Hampshire & Isle of Wight,Severe Space Weather,E48000014-044,NRR26-070,Direct
-E48000014,Hampshire & Isle of Wight,Storms,E48000014-045,NRR26-071,Direct
-E48000014,Hampshire & Isle of Wight,High temperatures and heatwaves,E48000014-046,NRR26-072,Direct
-E48000014,Hampshire & Isle of Wight,Low Temperatures and Snow,E48000014-047,NRR26-073,Direct
-E48000014,Hampshire & Isle of Wight,Coastal Flooding,E48000014-048,NRR26-074,Direct
-E48000014,Hampshire & Isle of Wight,Fluvial Flooding,E48000014-049,NRR26-075,Direct
-E48000014,Hampshire & Isle of Wight,Surface Water Flooding,E48000014-050,NRR26-076,Direct
-E48000014,Hampshire & Isle of Wight,Drought,E48000014-051,NRR26-077,Direct
-E48000014,Hampshire & Isle of Wight,Poor Air Quality,E48000014-052,NRR26-078,Direct
-E48000014,Hampshire & Isle of Wight,Pandemic,E48000014-053,NRR26-079,Direct
-E48000014,Hampshire & Isle of Wight,Outbreak of an emerging infectious disease,E48000014-054,NRR26-080,Direct
-E48000014,Hampshire & Isle of Wight,Animal disease - major outbreak of Foot and Mouth disease,E48000014-055,NRR26-081,Direct
-E48000014,Hampshire & Isle of Wight,Animal disease - major outbreak of highly pathogenic avian influenza,E48000014-056,NRR26-082,Direct
-E48000014,Hampshire & Isle of Wight,Animal disease - major outbreak of African horse sickness,E48000014-057,NRR26-083,Direct
-E48000014,Hampshire & Isle of Wight,Animal disease - major outbreak of African Swine Fever,E48000014-058,NRR26-084,Direct
-E48000014,Hampshire & Isle of Wight,Major outbreak of plant pest - Xylella fastidiosa,E48000014-059,,Review / unmatched
-E48000014,Hampshire & Isle of Wight,Major outbreak of plant pest - Agrilus planipennis,E48000014-060,,Review / unmatched
-E48000014,Hampshire & Isle of Wight,Public Disorder,E48000014-061,NRR26-087,Direct
-E48000014,Hampshire & Isle of Wight,Industrial Action - Public Transport,E48000014-062,,Review / unmatched
-E48000014,Hampshire & Isle of Wight,Industrial Action - firefighters,E48000014-063,,Review / unmatched
-E48000014,Hampshire & Isle of Wight,Industrial Action - Prison Staff,E48000014-064,,Review / unmatched
-E48000014,Hampshire & Isle of Wight,Industrial action - fuel supply,E48000014-065,,Review / unmatched
-E48000014,Hampshire & Isle of Wight,Reception and integration of British Nationals arriving from overseas,E48000014-066,NRR26-089,Direct
-E48000014,Hampshire & Isle of Wight,Major Pollution of Surface Waters and Groundwater,E48000014-067,,Broad / multiple
-E48000014,Hampshire & Isle of Wight,Local Accident on Motorways and Major Trunk Roads,E48000014-068,,Review / unmatched
-E48000014,Hampshire & Isle of Wight,Land Movement,E48000014-069,,Review / unmatched
-E48000014,Hampshire & Isle of Wight,Building Collapse or Bridge Closure/Collapse,E48000014-070,,Review / unmatched
-E48000014,Hampshire & Isle of Wight,Industrial Action of Emergency Service Workers,E48000014-071,,Review / unmatched
-E48000014,Hampshire & Isle of Wight,Groundwater Flooding,E48000014-072,,Broad / multiple
-E48000014,Hampshire & Isle of Wight,Removal of Explosive Ordnance (EO),E48000014-073,,Review / unmatched
-E48000014,Hampshire & Isle of Wight,Widespread Industrial Action or Disruptive Action Short of a Strike,E48000014-074,,Review / unmatched
-E48000014,Hampshire & Isle of Wight,Incidents Involving Piers and Similar Maritime Structures,E48000014-075,,Review / unmatched
-E48000014,Hampshire & Isle of Wight,Fire or Pollution at a Waste Site,E48000014-076,,Review / unmatched
-E48000014,Hampshire & Isle of Wight,Radioactive release by a visiting nuclear powered vessel to Portsmouth & Southampton Ports,E48000014-077,,Review / unmatched
-E48000014,Hampshire & Isle of Wight,Accidental Release of a Biological Substance,E48000014-078,,Review / unmatched
-E48000014,Hampshire & Isle of Wight,Off-site emergency for Atomic Weapons Establishment (AWE) / radioactive release by Atomic Weapons Establishment (AWE),E48000014-079,,Review / unmatched
-E48000014,Hampshire & Isle of Wight,Loss of a Cross Solent Ferry Route,E48000014-080,,Review / unmatched
-E48000015,Hertfordshire,Infectious diseases,E48000015-001,,Review / unmatched
-E48000015,Hertfordshire,Extreme temperatures,E48000015-002,,Review / unmatched
-E48000015,Hertfordshire,Transport accidents,E48000015-003,,Broad / multiple
-E48000015,Hertfordshire,Flooding,E48000015-004,,Broad / multiple
-E48000015,Hertfordshire,Infrastructure failure,E48000015-005,,Review / unmatched
-E48000016,Humber,Flooding,E48000016-001,,Broad / multiple
-E48000016,Humber,Severe weather,E48000016-002,,Broad / multiple
-E48000016,Humber,Pandemic influenza,E48000016-003,,Review / unmatched
-E48000016,Humber,Emerging infectious diseases,E48000016-004,,Review / unmatched
-E48000016,Humber,Industrial accidents,E48000016-005,,Broad / multiple
-E48000016,Humber,Transport accidents,E48000016-006,,Broad / multiple
-E48000016,Humber,Power supply interruption,E48000016-007,,Review / unmatched
-E48000016,Humber,Animal diseases,E48000016-008,,Review / unmatched
-E48000017,Kent,Failure of the National Electricity Transmission System (NETS),E48000017-001,,Review / unmatched
-E48000017,Kent,Failure of gas supply infrastructure,E48000017-002,,Review / unmatched
-E48000017,Kent,Low temperatures and snow,E48000017-003,NRR26-073,Direct
-E48000017,Kent,Major coastal and tidal flooding,E48000017-004,,Review / unmatched
-E48000017,Kent,Pandemic,E48000017-005,NRR26-079,Direct
-E48000017,Kent,Loss of the strategic road network,E48000017-006,,Review / unmatched
-E48000017,Kent,"Loss of port — border closure, counterterrorism or infrastructure",E48000017-007,,Review / unmatched
-E48000017,Kent,Simultaneous loss of all fixed and mobile forms of communication,E48000017-008,NRR26-043,Direct
-E48000017,Kent,Regional failure of the electricity network,E48000017-009,NRR26-045,Direct
-E48000017,Kent,Food supply contamination,E48000017-010,NRR26-060,Direct
-E48000017,Kent,Severe weather,E48000017-011,,Broad / multiple
-E48000017,Kent,Fluvial and surface water flooding,E48000017-012,,Review / unmatched
-E48000017,Kent,Localised flash flooding,E48000017-013,,Review / unmatched
-E48000017,Kent,Outbreak of an emerging infectious disease,E48000017-014,NRR26-080,Direct
-E48000017,Kent,Industrial action by workers providing critical services,E48000017-015,,Review / unmatched
-E48000017,Kent,Prolonged disruption to border control locations,E48000017-016,,Review / unmatched
-E48000017,Kent,Major adult social care provider failure,E48000017-017,NRR26-031,Direct
-E48000017,Kent,Rail accident,E48000017-018,NRR26-034,Direct
-E48000017,Kent,Large passenger vessel accident,E48000017-019,NRR26-035,Direct
-E48000017,Kent,Major maritime pollution,E48000017-020,NRR26-036,Candidate
-E48000017,Kent,Vessel grounding or sinking blocking a major port,E48000017-021,,Review / unmatched
-E48000017,Kent,Accident involving high consequence dangerous goods,E48000017-022,NRR26-038,Direct
-E48000017,Kent,Aviation collision,E48000017-023,NRR26-039,Direct
-E48000017,Kent,Civil nuclear accident,E48000017-024,NRR26-047,Direct
-E48000017,Kent,Radiation release from overseas nuclear site,E48000017-025,NRR26-048,Direct
-E48000017,Kent,"Impact to chemical, fuel, gas or electricity infrastructure",E48000017-026,,Review / unmatched
-E48000017,Kent,Reservoir or dam collapse,E48000017-027,,Review / unmatched
-E48000017,Kent,Water infrastructure failure or loss of drinking water,E48000017-028,NRR26-059,Direct
-E48000017,Kent,Major fire,E48000017-029,NRR26-061,Direct
-E48000017,Kent,Wildfire,E48000017-030,NRR26-065,Direct
-E48000017,Kent,Volcanic eruption,E48000017-031,NRR26-066,Direct
-E48000017,Kent,Drought,E48000017-032,NRR26-077,Direct
-E48000017,Kent,Poor air quality,E48000017-033,NRR26-078,Direct
-E48000017,Kent,Major outbreak of foot and mouth disease,E48000017-034,NRR26-081,Candidate
-E48000017,Kent,Major outbreak of highly pathogenic avian influenza,E48000017-035,NRR26-082,Candidate
-E48000017,Kent,Public disorder,E48000017-036,NRR26-087,Direct
-E48000017,Kent,Industrial action affecting fuel supply,E48000017-037,,Review / unmatched
-E48000017,Kent,Incident in a road tunnel,E48000017-038,,Review / unmatched
-E48000017,Kent,Local accident on motorways and major trunk roads,E48000017-039,,Review / unmatched
-E48000017,Kent,Major pollution of inland freshwater and groundwater,E48000017-040,,Review / unmatched
-E48000017,Kent,"Land-based marine, coastal and estuary pollution",E48000017-041,,Review / unmatched
-E48000017,Kent,Building collapse,E48000017-042,,Review / unmatched
-E48000017,Kent,Bridge closure or collapse,E48000017-043,,Review / unmatched
-E48000017,Kent,Large toxic chemical release,E48000017-044,,Review / unmatched
-E48000017,Kent,Malicious contamination of the food chain,E48000017-045,,Review / unmatched
-E48000017,Kent,Cyberattack — transport sector,E48000017-046,,Review / unmatched
-E48000017,Kent,Cyberattack — telecommunications systems,E48000017-047,,Review / unmatched
-E48000017,Kent,Insolvency affecting fuel supply,E48000017-048,NRR26-033,Direct
-E48000017,Kent,"Radiation exposure from transported, stolen or lost goods",E48000017-049,NRR26-049,Direct
-E48000017,Kent,Accidental laboratory release of a hazardous pathogen,E48000017-050,,Review / unmatched
-E48000017,Kent,Earthquake,E48000017-051,NRR26-067,Direct
-E48000017,Kent,Reception and integration of British nationals arriving from overseas,E48000017-052,NRR26-089,Direct
-E48000018,Lancashire,Flooding,E48000018-001,,Broad / multiple
-E48000018,Lancashire,Severe weather,E48000018-002,,Broad / multiple
-E48000018,Lancashire,Human infectious disease,E48000018-003,,Review / unmatched
-E48000018,Lancashire,Loss of utilities,E48000018-004,,Broad / multiple
-E48000018,Lancashire,Transport incidents,E48000018-005,,Review / unmatched
-E48000018,Lancashire,Industrial accidents,E48000018-006,,Broad / multiple
-E48000019,Leicestershire,Flooding,E48000019-001,,Broad / multiple
-E48000019,Leicestershire,Severe weather,E48000019-002,,Broad / multiple
-E48000019,Leicestershire,Loss of utilities,E48000019-003,,Broad / multiple
-E48000019,Leicestershire,Disease outbreaks,E48000019-004,,Review / unmatched
-E48000019,Leicestershire,Cyber attacks,E48000019-005,,Review / unmatched
-E48000019,Leicestershire,Major transport incidents,E48000019-006,,Review / unmatched
-E48000019,Leicestershire,Terrorism,E48000019-007,,Review / unmatched
-E48000020,Lincolnshire,Coastal flooding,E48000020-001,NRR26-074,Direct
-E48000020,Lincolnshire,River and surface water flooding,E48000020-002,NRR26-076,Candidate
-E48000020,Lincolnshire,Emerging infectious diseases,E48000020-003,,Review / unmatched
-E48000020,Lincolnshire,Cyber attacks,E48000020-004,,Review / unmatched
-E48000020,Lincolnshire,Terrorism,E48000020-005,,Review / unmatched
-E48000020,Lincolnshire,Loss of gas or electricity,E48000020-006,,Review / unmatched
-E48000020,Lincolnshire,Pandemic,E48000020-007,NRR26-079,Direct
-E48000020,Lincolnshire,Extreme cold weather,E48000020-008,,Review / unmatched
-E48000020,Lincolnshire,Heatwave,E48000020-009,NRR26-072,Direct
-E48000021,London,Failure of national electricity transmission system,E48000021-001,NRR26-044,Direct
-E48000021,London,Pandemic,E48000021-002,NRR26-079,Direct
-E48000021,London,Drought,E48000021-003,NRR26-077,Direct
-E48000021,London,Severe space weather,E48000021-004,NRR26-070,Direct
-E48000021,London,High temperatures and heatwaves,E48000021-005,NRR26-072,Direct
-E48000021,London,Low temperatures and snow,E48000021-006,NRR26-073,Direct
-E48000021,London,Fluvial flooding,E48000021-007,NRR26-075,Direct
-E48000021,London,Surface water flooding,E48000021-008,NRR26-076,Direct
-E48000021,London,Outbreak of emerging infectious disease,E48000021-009,,Review / unmatched
-E48000021,London,Coastal flooding,E48000021-010,NRR26-074,Direct
-E48000021,London,Storms,E48000021-011,NRR26-071,Direct
-E48000021,London,Poor air quality,E48000021-012,NRR26-078,Direct
-E48000021,London,Wildfires,E48000021-013,,Review / unmatched
-E48000021,London,Earthquake,E48000021-014,NRR26-067,Direct
-E48000021,London,Reservoir or dam collapse,E48000021-015,,Review / unmatched
-E48000021,London,Water infrastructure failure,E48000021-016,,Review / unmatched
-E48000021,London,Gas supply infrastructure failure,E48000021-017,,Review / unmatched
-E48000021,London,Regional electricity network failure,E48000021-018,,Review / unmatched
-E48000021,London,Fixed and mobile communication failure,E48000021-019,,Review / unmatched
-E48000021,London,Rail accident,E48000021-020,NRR26-034,Direct
-E48000021,London,Public disorder,E48000021-021,NRR26-087,Direct
-E48000021,London,Reception of British nationals from overseas,E48000021-022,,Review / unmatched
-E48000021,London,Foot and mouth disease outbreak,E48000021-023,,Review / unmatched
-E48000021,London,Food supply contamination,E48000021-024,NRR26-060,Direct
-E48000021,London,Critical financial market infrastructure failure,E48000021-025,,Review / unmatched
-E48000021,London,Large-scale CBRN attacks,E48000021-026,,Review / unmatched
-E48000021,London,Attacks on infrastructure,E48000021-027,,Review / unmatched
-E48000021,London,Attacks on transport,E48000021-028,,Review / unmatched
-E48000021,London,Attacks on publicly accessible locations,E48000021-029,,Review / unmatched
-E48000021,London,Medium-scale CBRN attacks,E48000021-030,,Review / unmatched
-E48000021,London,Cyber attacks,E48000021-031,,Review / unmatched
-E48000021,London,Smaller-scale CBRN attacks,E48000021-032,,Review / unmatched
-E48000022,Merseyside,Flooding,E48000022-001,,Broad / multiple
-E48000022,Merseyside,Severe weather,E48000022-002,,Broad / multiple
-E48000022,Merseyside,Pandemic infectious disease,E48000022-003,,Review / unmatched
-E48000022,Merseyside,Industrial accidents,E48000022-004,,Broad / multiple
-E48000022,Merseyside,Transport disruption,E48000022-005,,Review / unmatched
-E48000022,Merseyside,Loss of infrastructure,E48000022-006,,Review / unmatched
-E48000023,Norfolk,Flooding,E48000023-001,,Broad / multiple
-E48000023,Norfolk,Severe weather,E48000023-002,,Broad / multiple
-E48000023,Norfolk,Human infectious diseases,E48000023-003,,Review / unmatched
-E48000023,Norfolk,Loss of critical infrastructure,E48000023-004,,Review / unmatched
-E48000024,North Yorkshire,Flooding,E48000024-001,,Broad / multiple
-E48000024,North Yorkshire,Severe weather,E48000024-002,,Broad / multiple
-E48000024,North Yorkshire,Pandemics,E48000024-003,,Review / unmatched
-E48000024,North Yorkshire,Loss of essential services,E48000024-004,,Review / unmatched
-E48000024,North Yorkshire,Industrial incidents,E48000024-005,,Review / unmatched
-E48000024,North Yorkshire,Transport accidents,E48000024-006,,Broad / multiple
-E48000024,North Yorkshire,Animal disease,E48000024-007,,Broad / multiple
-E48000025,Northamptonshire,Flooding,E48000025-001,,Broad / multiple
-E48000025,Northamptonshire,Severe weather,E48000025-002,,Broad / multiple
-E48000025,Northamptonshire,Pandemic influenza,E48000025-003,,Review / unmatched
-E48000025,Northamptonshire,Industrial incidents,E48000025-004,,Review / unmatched
-E48000025,Northamptonshire,Transport accidents,E48000025-005,,Broad / multiple
-E48000025,Northamptonshire,Loss of critical infrastructure,E48000025-006,,Review / unmatched
-E48000025,Northamptonshire,Animal disease,E48000025-007,,Broad / multiple
-E48000026,Northumbria,Flooding,E48000026-001,,Broad / multiple
-E48000026,Northumbria,Severe weather,E48000026-002,,Broad / multiple
-E48000026,Northumbria,Loss of utilities,E48000026-003,,Broad / multiple
-E48000026,Northumbria,Human disease outbreak,E48000026-004,,Review / unmatched
-E48000026,Northumbria,Industrial accidents,E48000026-005,,Broad / multiple
-E48000026,Northumbria,Transport incidents,E48000026-006,,Review / unmatched
-E48000026,Northumbria,Animal disease,E48000026-007,,Broad / multiple
-E48000027,Nottingham and Nottinghamshire,Flooding,E48000027-001,,Broad / multiple
-E48000027,Nottingham and Nottinghamshire,Severe weather,E48000027-002,,Broad / multiple
-E48000027,Nottingham and Nottinghamshire,Pandemic and human disease,E48000027-003,,Review / unmatched
-E48000027,Nottingham and Nottinghamshire,Loss of utilities,E48000027-004,,Broad / multiple
-E48000027,Nottingham and Nottinghamshire,Industrial incidents,E48000027-005,,Review / unmatched
-E48000027,Nottingham and Nottinghamshire,Transport accidents,E48000027-006,,Broad / multiple
-E48000027,Nottingham and Nottinghamshire,Animal diseases,E48000027-007,,Review / unmatched
-E48000028,South Yorkshire,Flooding,E48000028-001,,Broad / multiple
-E48000028,South Yorkshire,Severe weather,E48000028-002,,Broad / multiple
-E48000028,South Yorkshire,Pandemic and human disease,E48000028-003,,Review / unmatched
-E48000029,Staffordshire,International terrorist attack with strategic implications,E48000029-001,,Review / unmatched
-E48000029,Staffordshire,Northern Ireland related terrorism,E48000029-002,NRR26-002,Direct
-E48000029,Staffordshire,Terrorist attacks in publicly accessible locations,E48000029-003,,Review / unmatched
-E48000029,Staffordshire,Terrorist attacks on transport,E48000029-004,,Review / unmatched
-E48000029,Staffordshire,Strategic hostage taking,E48000029-005,NRR26-008,Direct
-E48000029,Staffordshire,Assassination of high-profile figure,E48000029-006,,Review / unmatched
-E48000029,Staffordshire,Smaller-scale CBRN attacks,E48000029-007,,Review / unmatched
-E48000029,Staffordshire,Medium-scale CBRN attacks,E48000029-008,,Review / unmatched
-E48000029,Staffordshire,Larger-scale CBRN attacks,E48000029-009,,Review / unmatched
-E48000029,Staffordshire,Conventional attacks on infrastructure,E48000029-010,,Review / unmatched
-E48000029,Staffordshire,Cyber-attacks on infrastructure,E48000029-011,,Review / unmatched
-E48000029,Staffordshire,Disruption to global oil trade routes,E48000029-012,NRR26-029,Direct
-E48000029,Staffordshire,Insolvency of supplier(s) of critical services to the public sector,E48000029-013,NRR26-032,Direct
-E48000029,Staffordshire,Insolvency affecting fuel supply,E48000029-014,NRR26-033,Direct
-E48000029,Staffordshire,Rail accident,E48000029-015,NRR26-034,Direct
-E48000029,Staffordshire,Aviation collision,E48000029-016,NRR26-039,Direct
-E48000029,Staffordshire,Disruption of space-based services,E48000029-017,,Review / unmatched
-E48000029,Staffordshire,"Loss of Positioning, Navigation and Timing (PNT) services",E48000029-018,NRR26-042,Direct
-E48000029,Staffordshire,Simultaneous loss of all fixed and mobile forms of communication,E48000029-019,NRR26-043,Direct
-E48000029,Staffordshire,Failure of the National Electricity Transmission System (NETS),E48000029-020,,Review / unmatched
-E48000029,Staffordshire,Regional failure of the electricity network,E48000029-021,NRR26-045,Direct
-E48000029,Staffordshire,Failure of gas supply infrastructure,E48000029-022,,Review / unmatched
-E48000029,Staffordshire,Civil nuclear accident,E48000029-023,NRR26-047,Direct
-E48000029,Staffordshire,Radiation release from overseas nuclear site,E48000029-024,NRR26-048,Direct
-E48000029,Staffordshire,"Radiation exposure from transported, stolen or lost goods",E48000029-025,NRR26-049,Direct
-E48000029,Staffordshire,Technological failure at a systemically important retail bank,E48000029-026,NRR26-050,Direct
-E48000029,Staffordshire,Technological failure at a UK critical financial market infrastructure (FMI),E48000029-027,NRR26-051,Candidate
-E48000029,Staffordshire,Accidental fire or explosion at an onshore major hazard (COMAH) site,E48000029-028,NRR26-052,Direct
-E48000029,Staffordshire,Accidental large toxic chemical release from an onshore major hazard (COMAH) site,E48000029-029,NRR26-053,Direct
-E48000029,Staffordshire,Accidental work- related (laboratory) release of a hazardous pathogen,E48000029-030,NRR26-057,Direct
-E48000029,Staffordshire,Reservoir/dam collapse,E48000029-031,NRR26-058,Direct
-E48000029,Staffordshire,Water infrastructure failure or loss of drinking water,E48000029-032,NRR26-059,Direct
-E48000029,Staffordshire,Food supply contamination,E48000029-033,NRR26-060,Direct
-E48000029,Staffordshire,Major fire,E48000029-034,NRR26-061,Direct
-E48000029,Staffordshire,Volcanic eruption,E48000029-035,NRR26-066,Direct
-E48000029,Staffordshire,Earthquake,E48000029-036,NRR26-067,Direct
-E48000029,Staffordshire,Humanitarian crisis overseas - natural hazard event,E48000029-037,NRR26-068,Direct
-E48000029,Staffordshire,Disaster response in the Overseas Territories,E48000029-038,,Review / unmatched
-E48000029,Staffordshire,Severe space weather,E48000029-039,NRR26-070,Direct
-E48000029,Staffordshire,Storms,E48000029-040,NRR26-071,Direct
-E48000029,Staffordshire,High temperatures and heatwaves,E48000029-041,NRR26-072,Direct
-E48000029,Staffordshire,Low temperatures and snow,E48000029-042,NRR26-073,Direct
-E48000029,Staffordshire,Fluvial flooding,E48000029-043,NRR26-075,Direct
-E48000029,Staffordshire,Drought,E48000029-044,NRR26-077,Direct
-E48000029,Staffordshire,Poor air quality,E48000029-045,NRR26-078,Direct
-E48000029,Staffordshire,Pandemic,E48000029-046,NRR26-079,Direct
-E48000029,Staffordshire,Outbreak of an emerging infectious disease,E48000029-047,NRR26-080,Direct
-E48000029,Staffordshire,Animal disease - major outbreak of Foot and Mouth Disease,E48000029-048,NRR26-081,Direct
-E48000029,Staffordshire,Animal disease - major outbreak of highly pathogenic avian influenza,E48000029-049,NRR26-082,Direct
-E48000029,Staffordshire,Major outbreak of plant pest - Xylella fastidiosa,E48000029-050,,Review / unmatched
-E48000029,Staffordshire,Major outbreak of plant pest - Agrilus planipennis,E48000029-051,,Review / unmatched
-E48000029,Staffordshire,Public disorder,E48000029-052,NRR26-087,Direct
-E48000029,Staffordshire,Industrial action,E48000029-053,NRR26-088,Direct
-E48000029,Staffordshire,Reception and integration of British Nationals arriving from overseas,E48000029-054,NRR26-089,Direct
-E48000029,Staffordshire,Deliberate disruption of UK space systems and space-based services,E48000029-055,NRR26-091,Direct
-E48000029,Staffordshire,Attack on a UK ally or partner outside NATO or a mutual security agreement requiring international assistance,E48000029-056,,Review / unmatched
-E48000029,Staffordshire,Nuclear miscalculation not involving the UK or its allies,E48000029-057,NRR26-095,Direct
-E48000030,Suffolk,Flooding,E48000030-001,,Broad / multiple
-E48000030,Suffolk,Severe weather,E48000030-002,,Broad / multiple
-E48000030,Suffolk,Pandemic and infectious diseases,E48000030-003,,Review / unmatched
-E48000030,Suffolk,Industrial accidents,E48000030-004,,Broad / multiple
-E48000030,Suffolk,Transport incidents,E48000030-005,,Review / unmatched
-E48000030,Suffolk,Failure of essential services,E48000030-006,,Review / unmatched
-E48000031,Surrey,Major Social Care Provider Failure,E48000031-001,,Review / unmatched
-E48000031,Surrey,Insolvency affecting fuel supply,E48000031-002,NRR26-033,Direct
-E48000031,Surrey,Rail accident,E48000031-003,NRR26-034,Direct
-E48000031,Surrey,Accident involving high consequence dangerous goods,E48000031-004,NRR26-038,Direct
-E48000031,Surrey,Aviation collision,E48000031-005,NRR26-039,Direct
-E48000031,Surrey,Malicious drone incident,E48000031-006,NRR26-040,Direct
-E48000031,Surrey,Simultaneous loss of all fixed and mobile forms of communication,E48000031-007,NRR26-043,Direct
-E48000031,Surrey,Failure of the National Electricity Transmission System (NETS),E48000031-008,,Review / unmatched
-E48000031,Surrey,Failure of Gas Supply infrastructure,E48000031-009,,Review / unmatched
-E48000031,Surrey,Radiation release from overseas nuclear site,E48000031-010,NRR26-048,Direct
-E48000031,Surrey,"Radiation exposure from transported, stolen or lost goods",E48000031-011,NRR26-049,Direct
-E48000031,Surrey,Accidental fire or explosion at an onshore major hazard (COMAH) site,E48000031-012,NRR26-052,Direct
-E48000031,Surrey,Accidental large toxic chemical release from an onshore major hazard (COMAH) site,E48000031-013,NRR26-053,Direct
-E48000031,Surrey,Accidental fire or explosion at an onshore major accident hazard pipeline,E48000031-014,NRR26-056,Direct
-E48000031,Surrey,Accidental work- related (laboratory) release of a hazardous pathogen,E48000031-015,NRR26-057,Direct
-E48000031,Surrey,Reservoir / Dam Collapse,E48000031-016,NRR26-058,Direct
-E48000031,Surrey,Water infrastructure failure or loss of drinking water,E48000031-017,NRR26-059,Direct
-E48000031,Surrey,Food supply contamination,E48000031-018,NRR26-060,Direct
-E48000031,Surrey,Major Fire,E48000031-019,NRR26-061,Direct
-E48000031,Surrey,Wildfire,E48000031-020,NRR26-065,Direct
-E48000031,Surrey,Volcanic Eruption,E48000031-021,NRR26-066,Direct
-E48000031,Surrey,Earthquake,E48000031-022,NRR26-067,Direct
-E48000031,Surrey,Severe space weather,E48000031-023,NRR26-070,Direct
-E48000031,Surrey,Storms,E48000031-024,NRR26-071,Direct
-E48000031,Surrey,High temperatures and heatwaves,E48000031-025,NRR26-072,Direct
-E48000031,Surrey,Low temperatures and snow,E48000031-026,NRR26-073,Direct
-E48000031,Surrey,Fluvial Flooding,E48000031-027,NRR26-075,Direct
-E48000031,Surrey,Surface Water Flooding,E48000031-028,NRR26-076,Direct
-E48000031,Surrey,Drought,E48000031-029,NRR26-077,Direct
-E48000031,Surrey,Poor air quality,E48000031-030,NRR26-078,Direct
-E48000031,Surrey,Pandemic,E48000031-031,NRR26-079,Direct
-E48000031,Surrey,Outbreak of an emerging infectious disease,E48000031-032,NRR26-080,Direct
-E48000031,Surrey,Major Outbreak of Foot and Mouth Disease,E48000031-033,NRR26-081,Candidate
-E48000031,Surrey,Major Outbreak of highly pathogenic Avian Influenza (HPAI),E48000031-034,,Review / unmatched
-E48000031,Surrey,Major Outbreak of African Horse Sickness,E48000031-035,NRR26-083,Candidate
-E48000031,Surrey,Major Outbreak of African Swine Fever,E48000031-036,NRR26-084,Candidate
-E48000031,Surrey,Major outbreak of plant pest - Xylella fastidiosa,E48000031-037,,Review / unmatched
-E48000031,Surrey,Major outbreak of plant pest - Agrilus planipennis,E48000031-038,,Review / unmatched
-E48000031,Surrey,Public Disorder,E48000031-039,NRR26-087,Direct
-E48000031,Surrey,Industrial action - public transport,E48000031-040,,Review / unmatched
-E48000031,Surrey,Industrial Action - firefighters,E48000031-041,,Review / unmatched
-E48000031,Surrey,Industrial action - prison staff,E48000031-042,,Review / unmatched
-E48000031,Surrey,Industrial Action - fuel supply,E48000031-043,,Review / unmatched
-E48000031,Surrey,Reception and integration of British Nationals arriving from overseas,E48000031-044,NRR26-089,Direct
-E48000031,Surrey,National Disruption to Data Infrastructure,E48000031-045,NRR26-062,Direct
-E48000031,Surrey,Digital Technology Resilience Failure,E48000031-046,,Review / unmatched
-E48000031,Surrey,Significant disruption to the operation of the Criminal Justice System,E48000031-047,,Review / unmatched
-E48000032,Sussex,Pandemic,E48000032-001,NRR26-079,Direct
-E48000032,Sussex,Outbreak of emerging infectious disease,E48000032-002,,Review / unmatched
-E48000032,Sussex,Major outbreak of highly pathogenic avian influenza,E48000032-003,NRR26-082,Candidate
-E48000032,Sussex,Major outbreak of foot and mouth disease,E48000032-004,NRR26-081,Candidate
-E48000032,Sussex,Flooding,E48000032-005,,Broad / multiple
-E48000032,Sussex,High temperatures and heatwaves,E48000032-006,NRR26-072,Direct
-E48000032,Sussex,Low temperatures and snow,E48000032-007,NRR26-073,Direct
-E48000032,Sussex,Storms,E48000032-008,NRR26-071,Direct
-E48000032,Sussex,Wildfire,E48000032-009,NRR26-065,Direct
-E48000032,Sussex,Coastal pollution,E48000032-010,,Review / unmatched
-E48000032,Sussex,Transport accidents,E48000032-011,,Broad / multiple
-E48000032,Sussex,Major fire,E48000032-012,NRR26-061,Direct
-E48000032,Sussex,Loss of critical national infrastructure,E48000032-013,,Review / unmatched
-E48000032,Sussex,Fuel shortages,E48000032-014,,Review / unmatched
-E48000032,Sussex,Climate change,E48000032-015,,Review / unmatched
-E48000032,Sussex,Industrial accidents,E48000032-016,,Broad / multiple
-E48000032,Sussex,Cyber security,E48000032-017,,Review / unmatched
-E48000032,Sussex,Terrorism,E48000032-018,,Review / unmatched
-E48000033,Thames Valley,Malicious cyber incident - transport,E48000033-001,NRR26-020,Direct
-E48000033,Thames Valley,Cyber-attack on the health and social care system,E48000033-002,NRR26-019,Direct
-E48000033,Thames Valley,Cyber-attack on the financial services,E48000033-003,NRR26-026,Direct
-E48000033,Thames Valley,Cyber-attack on the telecommunications systems,E48000033-004,NRR26-021,Direct
-E48000033,Thames Valley,Food supply contamination,E48000033-005,NRR26-060,Direct
-E48000033,Thames Valley,Major social care provider business failure,E48000033-006,NRR26-031,Direct
-E48000033,Thames Valley,Failure of National Electricity Transmission System,E48000033-007,NRR26-044,Direct
-E48000033,Thames Valley,Technical failure at a critical retail bank,E48000033-008,,Review / unmatched
-E48000033,Thames Valley,Fluvial flooding,E48000033-009,NRR26-075,Direct
-E48000033,Thames Valley,Heatwave,E48000033-010,NRR26-072,Direct
-E48000033,Thames Valley,Low temperatures and heavy snow,E48000033-011,NRR26-073,Direct
-E48000033,Thames Valley,Severe space weather,E48000033-012,NRR26-070,Direct
-E48000033,Thames Valley,Influenza-type disease,E48000033-013,NRR26-079,Direct
-E48000033,Thames Valley,Emerging infectious disease,E48000033-014,NRR26-080,Direct
-E48000033,Thames Valley,Disruption to fuel distribution by road,E48000033-015,,Broad / multiple
-E48000033,Thames Valley,Public disorder,E48000033-016,NRR26-087,Direct
-E48000033,Thames Valley,Major pollution of surface waters and groundwater,E48000033-017,,Broad / multiple
-E48000033,Thames Valley,Railway accident,E48000033-018,NRR26-034,Direct
-E48000033,Thames Valley,Local / urban flooding,E48000033-019,,Broad / multiple
-E48000033,Thames Valley,Local fluvial flooding,E48000033-020,NRR26-075,Direct
-E48000033,Thames Valley,Localised fire or explosion at an oil refinery,E48000033-021,,Review / unmatched
-E48000033,Thames Valley,Industrial action affecting life-critical services,E48000033-022,NRR26-088,Direct
-E48000033,Thames Valley,Government critical systems loss,E48000033-023,,Review / unmatched
-E48000033,Thames Valley,Explosion at high pressure pipeline,E48000033-024,,Review / unmatched
-E48000033,Thames Valley,Accidental release of a biological substance,E48000033-025,,Review / unmatched
-E48000033,Thames Valley,Collision of large commercial airliner and business jet,E48000033-026,NRR26-039,Direct
-E48000033,Thames Valley,Collapse of major contractor providing key public services,E48000033-027,,Review / unmatched
-E48000033,Thames Valley,Disruption or loss of telecommunications systems,E48000033-028,NRR26-043,Direct
-E48000033,Thames Valley,Systemic financial failure,E48000033-029,,Broad / multiple
-E48000033,Thames Valley,Surface water flooding,E48000033-030,NRR26-076,Direct
-E48000033,Thames Valley,Drought,E48000033-031,NRR26-077,Direct
-E48000033,Thames Valley,Poor air quality,E48000033-032,NRR26-078,Direct
-E48000033,Thames Valley,Volcanic eruption,E48000033-033,NRR26-066,Direct
-E48000033,Thames Valley,Storms,E48000033-034,NRR26-071,Direct
-E48000033,Thames Valley,Antimicrobial resistance,E48000033-035,,Broad / multiple
-E48000033,Thames Valley,Exotic notifiable animal disease outbreak,E48000033-036,,Broad / multiple
-E48000033,Thames Valley,Influx of British nationals,E48000033-037,,Review / unmatched
-E48000033,Thames Valley,Accident on motorways and trunk roads,E48000033-038,,Broad / multiple
-E48000033,Thames Valley,Forest or moorland fire,E48000033-039,NRR26-065,Direct
-E48000033,Thames Valley,Groundwater flooding,E48000033-040,,Broad / multiple
-E48000033,Thames Valley,Removal of explosive ordnance,E48000033-041,,Review / unmatched
-E48000033,Thames Valley,Fire or pollution at a waste site,E48000033-042,,Review / unmatched
-E48000034,Warwickshire,Flooding,E48000034-001,,Broad / multiple
-E48000034,Warwickshire,Heatwaves,E48000034-002,NRR26-072,Direct
-E48000034,Warwickshire,Extreme cold,E48000034-003,NRR26-073,Direct
-E48000034,Warwickshire,Pandemics,E48000034-004,,Review / unmatched
-E48000034,Warwickshire,Cyberattacks,E48000034-005,,Review / unmatched
-E48000034,Warwickshire,Infrastructure failures,E48000034-006,,Review / unmatched
-E48000034,Warwickshire,Transport disruption,E48000034-007,,Review / unmatched
-E48000034,Warwickshire,Industrial incidents,E48000034-008,,Review / unmatched
-E48000034,Warwickshire,Animal disease,E48000034-009,,Broad / multiple
-E48000034,Warwickshire,Terrorism,E48000034-010,,Review / unmatched
-E48000035,West Mercia,Terrorism,E48000035-001,,Review / unmatched
-E48000035,West Mercia,Cyber and fraud,E48000035-002,,Review / unmatched
-E48000035,West Mercia,Serious and organised crime,E48000035-003,,Review / unmatched
-E48000035,West Mercia,Accidents and system failures,E48000035-004,,Review / unmatched
-E48000035,West Mercia,Natural and environmental hazards,E48000035-005,,Review / unmatched
-E48000035,West Mercia,Human and animal disease,E48000035-006,,Review / unmatched
-E48000035,West Mercia,Societal risks,E48000035-007,,Review / unmatched
-E48000036,West Midlands,Industrial accidents,E48000036-001,,Broad / multiple
-E48000036,West Midlands,Power failure,E48000036-002,,Broad / multiple
-E48000036,West Midlands,Severe weather,E48000036-003,,Broad / multiple
-E48000036,West Midlands,Flooding,E48000036-004,,Broad / multiple
-E48000036,West Midlands,Fire,E48000036-005,,Review / unmatched
-E48000036,West Midlands,Heatwave,E48000036-006,NRR26-072,Direct
-E48000036,West Midlands,Cold weather,E48000036-007,,Review / unmatched
-E48000036,West Midlands,Social disruption,E48000036-008,,Review / unmatched
-E48000036,West Midlands,Health emergencies,E48000036-009,,Review / unmatched
-E48000036,West Midlands,Transport disruption,E48000036-010,,Review / unmatched
-E48000036,West Midlands,Cyber threat,E48000036-011,,Review / unmatched
-E48000036,West Midlands,Fuel shortage,E48000036-012,,Review / unmatched
-E48000036,West Midlands,Terrorism,E48000036-013,,Review / unmatched
-E48000037,West Yorkshire,Flooding,E48000037-001,,Broad / multiple
-E48000037,West Yorkshire,Severe weather,E48000037-002,,Broad / multiple
-E48000037,West Yorkshire,Human infectious disease,E48000037-003,,Review / unmatched
-E48000037,West Yorkshire,Loss of essential services,E48000037-004,,Review / unmatched
-E48000037,West Yorkshire,Transport disruption,E48000037-005,,Review / unmatched
-E48000037,West Yorkshire,Industrial incidents,E48000037-006,,Review / unmatched
-E48000037,West Yorkshire,Terrorism,E48000037-007,,Review / unmatched
-E48000038,Wiltshire & Swindon,Pandemic influenza,E48000038-001,,Review / unmatched
-E48000038,Wiltshire & Swindon,Flooding,E48000038-002,,Broad / multiple
-E48000038,Wiltshire & Swindon,Severe weather,E48000038-003,,Broad / multiple
-E48000038,Wiltshire & Swindon,Utility failure,E48000038-004,,Review / unmatched
-W41000001,Dyfed-Powys,Pandemic flu,W41000001-001,NRR26-079,Direct
-W41000001,Dyfed-Powys,Flooding,W41000001-002,,Broad / multiple
-W41000001,Dyfed-Powys,Severe weather,W41000001-003,,Broad / multiple
-W41000001,Dyfed-Powys,Loss of infrastructure,W41000001-004,,Review / unmatched
-W41000001,Dyfed-Powys,Pollution,W41000001-005,,Review / unmatched
-W41000001,Dyfed-Powys,Animal disease,W41000001-006,,Broad / multiple
-W41000001,Dyfed-Powys,Industrial incidents,W41000001-007,,Review / unmatched
-W41000001,Dyfed-Powys,Transport incidents,W41000001-008,,Review / unmatched
-W41000002,Gwent,Severe weather,W41000002-001,,Broad / multiple
-W41000002,Gwent,Flooding,W41000002-002,,Broad / multiple
-W41000002,Gwent,Human infectious diseases,W41000002-003,,Review / unmatched
-W41000002,Gwent,Loss of critical infrastructure,W41000002-004,,Review / unmatched
-W41000002,Gwent,Industrial accidents,W41000002-005,,Broad / multiple
-W41000002,Gwent,Animal diseases,W41000002-006,,Review / unmatched
-W41000002,Gwent,Transport incidents,W41000002-007,,Review / unmatched
-W41000002,Gwent,Land movement,W41000002-008,,Review / unmatched
-W41000002,Gwent,Malicious threats,W41000002-009,,Review / unmatched
-W41000003,North Wales,Flooding,W41000003-001,,Broad / multiple
-W41000003,North Wales,Severe weather,W41000003-002,,Broad / multiple
-W41000003,North Wales,A pandemic,W41000003-003,,Review / unmatched
-W41000003,North Wales,Terrorist incidents,W41000003-004,,Review / unmatched
-W41000003,North Wales,Industrial incidents,W41000003-005,,Review / unmatched
-W41000003,North Wales,Loss of critical infrastructure,W41000003-006,,Review / unmatched
-W41000003,North Wales,Animal disease,W41000003-007,,Broad / multiple
-W41000003,North Wales,Pollution,W41000003-008,,Review / unmatched
-W41000003,North Wales,Transport incidents,W41000003-009,,Review / unmatched
-W41000004,South Wales,Infectious disease outbreaks,W41000004-001,,Broad / multiple
-W41000004,South Wales,Pandemic,W41000004-002,NRR26-079,Direct
-W41000004,South Wales,Severe weather,W41000004-003,,Broad / multiple
-W41000004,South Wales,Flooding,W41000004-004,,Broad / multiple
-W41000004,South Wales,Land movement,W41000004-005,,Review / unmatched
-W41000004,South Wales,Industrial accidents,W41000004-006,,Broad / multiple
-W41000004,South Wales,Loss of utilities,W41000004-007,,Broad / multiple
-W41000004,South Wales,Animal disease,W41000004-008,,Broad / multiple
-W41000004,South Wales,Malicious threats,W41000004-009,,Review / unmatched
+forum_code,lrf,local_risk,local_id,national_id,match_status,rationale,local_source_id,local_pdf_page,national_pdf_page,reviewed_at
+E48000001,Avon & Somerset,Flooding,E48000001-001,,Broad / multiple,,,,,
+E48000001,Avon & Somerset,Extreme weather,E48000001-002,,Broad / multiple,,,,,
+E48000001,Avon & Somerset,Animal disease,E48000001-003,,Broad / multiple,,,,,
+E48000001,Avon & Somerset,Infectious and communicable diseases,E48000001-004,,Review / unmatched,,,,,
+E48000001,Avon & Somerset,Transport incidents,E48000001-005,,Review / unmatched,,,,,
+E48000001,Avon & Somerset,Industrial site accidents,E48000001-006,,Review / unmatched,,,,,
+E48000001,Avon & Somerset,Utilities and key resources: supply disruption,E48000001-007,,Review / unmatched,,,,,
+E48000001,Avon & Somerset,"Malicious threats, including terrorism",E48000001-008,,Review / unmatched,,,,,
+E48000001,Avon & Somerset,Cyber crime,E48000001-009,,Broad / multiple,,,,,
+E48000002,Bedfordshire,Influenza-type pandemic,E48000002-001,NRR26-079,Direct,,,,,
+E48000002,Bedfordshire,Failure of national electricity transmission system,E48000002-002,NRR26-044,Direct,,,,,
+E48000002,Bedfordshire,Worldwide volcanic eruption impacts,E48000002-003,,Review / unmatched,,,,,
+E48000002,Bedfordshire,Cyber-attack,E48000002-004,,Broad / multiple,,,,,
+E48000002,Bedfordshire,Aviation crash,E48000002-005,,Review / unmatched,,,,,
+E48000002,Bedfordshire,Fluvial flooding,E48000002-006,NRR26-075,Direct,,,,,
+E48000002,Bedfordshire,Severe space weather,E48000002-007,NRR26-070,Direct,,,,,
+E48000002,Bedfordshire,Storms,E48000002-008,NRR26-071,Direct,,,,,
+E48000002,Bedfordshire,Industrial action affecting fuel supply,E48000002-009,,Review / unmatched,,,,,
+E48000002,Bedfordshire,Public disorder,E48000002-010,NRR26-087,Direct,,,,,
+E48000003,Cambridgeshire and Peterborough,National electricity transmission failure,E48000003-001,NRR26-044,Direct,,,,,
+E48000003,Cambridgeshire and Peterborough,Influenza-type disease,E48000003-002,NRR26-079,Direct,,,,,
+E48000003,Cambridgeshire and Peterborough,Radiation release from overseas,E48000003-003,NRR26-048,Candidate,,,,,
+E48000003,Cambridgeshire and Peterborough,Fluvial flooding,E48000003-004,NRR26-075,Direct,,,,,
+E48000003,Cambridgeshire and Peterborough,Heatwave,E48000003-005,NRR26-072,Direct,,,,,
+E48000004,Cheshire,Flooding,E48000004-001,,Broad / multiple,,,,,
+E48000004,Cheshire,Severe weather,E48000004-002,,Broad / multiple,,,,,
+E48000004,Cheshire,Pandemics and human diseases,E48000004-003,,Review / unmatched,,,,,
+E48000004,Cheshire,Failure of critical infrastructure,E48000004-004,,Review / unmatched,,,,,
+E48000004,Cheshire,Cyber threats,E48000004-005,,Review / unmatched,,,,,
+E48000004,Cheshire,Transport incidents,E48000004-006,,Review / unmatched,,,,,
+E48000004,Cheshire,Industrial accidents,E48000004-007,,Broad / multiple,,,,,
+E48000004,Cheshire,Animal disease,E48000004-008,,Broad / multiple,,,,,
+E48000004,Cheshire,Terrorism,E48000004-009,,Review / unmatched,,,,,
+E48000004,Cheshire,Social disruption,E48000004-010,,Review / unmatched,,,,,
+E48000005,Cleveland,Flooding,E48000005-001,,Broad / multiple,,,,,
+E48000005,Cleveland,Severe weather,E48000005-002,,Broad / multiple,,,,,
+E48000005,Cleveland,Industrial accidents,E48000005-003,,Broad / multiple,,,,,
+E48000005,Cleveland,Major transport incidents,E48000005-004,,Review / unmatched,,,,,
+E48000005,Cleveland,Human infectious diseases,E48000005-005,,Review / unmatched,,,,,
+E48000005,Cleveland,Animal disease,E48000005-006,,Broad / multiple,,,,,
+E48000005,Cleveland,Loss of critical infrastructure,E48000005-007,,Review / unmatched,,,,,
+E48000006,Cumbria,Flooding,E48000006-001,,Broad / multiple,,,,,
+E48000006,Cumbria,Severe weather,E48000006-002,,Broad / multiple,,,,,
+E48000006,Cumbria,Pandemic and human disease,E48000006-003,,Review / unmatched,,,,,
+E48000006,Cumbria,Loss of electricity and utilities,E48000006-004,,Review / unmatched,,,,,
+E48000006,Cumbria,Transport incidents,E48000006-005,,Review / unmatched,,,,,
+E48000006,Cumbria,Animal disease,E48000006-006,,Broad / multiple,,,,,
+E48000007,Derbyshire,Fluvial flooding,E48000007-001,NRR26-075,Direct,,,,,
+E48000007,Derbyshire,Surface water flooding,E48000007-002,NRR26-076,Direct,,,,,
+E48000007,Derbyshire,Severe weather,E48000007-003,,Broad / multiple,,,,,
+E48000007,Derbyshire,High temperatures and heatwaves,E48000007-004,NRR26-072,Direct,,,,,
+E48000007,Derbyshire,Low temperatures and snow,E48000007-005,NRR26-073,Direct,,,,,
+E48000007,Derbyshire,Pandemic influenza,E48000007-006,,Review / unmatched,,,,,
+E48000007,Derbyshire,Emerging infectious diseases,E48000007-007,,Review / unmatched,,,,,
+E48000007,Derbyshire,Failure of electricity transmission,E48000007-008,,Review / unmatched,,,,,
+E48000007,Derbyshire,Industrial incidents,E48000007-009,,Review / unmatched,,,,,
+E48000007,Derbyshire,Major transport accidents,E48000007-010,,Review / unmatched,,,,,
+E48000007,Derbyshire,Animal disease,E48000007-011,,Broad / multiple,,,,,
+E48000008,"Devon, Cornwall & Isles of Scilly",Pandemic,E48000008-001,NRR26-079,Direct,,,,,
+E48000008,"Devon, Cornwall & Isles of Scilly",National electricity transmission failure,E48000008-002,NRR26-044,Direct,,,,,
+E48000008,"Devon, Cornwall & Isles of Scilly",Severe space weather,E48000008-003,NRR26-070,Direct,,,,,
+E48000008,"Devon, Cornwall & Isles of Scilly","Prolonged low temperatures, snow and/or ice",E48000008-004,,Review / unmatched,,,,,
+E48000008,"Devon, Cornwall & Isles of Scilly",Surface water flooding,E48000008-005,NRR26-076,Direct,,,,,
+E48000008,"Devon, Cornwall & Isles of Scilly",Coastal flooding,E48000008-006,NRR26-074,Direct,,,,,
+E48000008,"Devon, Cornwall & Isles of Scilly",Fluvial flooding,E48000008-007,NRR26-075,Direct,,,,,
+E48000008,"Devon, Cornwall & Isles of Scilly",Emerging infectious disease outbreak,E48000008-008,,Review / unmatched,,,,,
+E48000008,"Devon, Cornwall & Isles of Scilly",Gas supply infrastructure failure,E48000008-009,,Review / unmatched,,,,,
+E48000008,"Devon, Cornwall & Isles of Scilly",High temperatures and heat waves,E48000008-010,,Review / unmatched,,,,,
+E48000008,"Devon, Cornwall & Isles of Scilly",Drought,E48000008-011,NRR26-077,Direct,,,,,
+E48000008,"Devon, Cornwall & Isles of Scilly",Water infrastructure failure or loss of drinking water,E48000008-012,NRR26-059,Direct,,,,,
+E48000008,"Devon, Cornwall & Isles of Scilly",Storms,E48000008-013,NRR26-071,Direct,,,,,
+E48000008,"Devon, Cornwall & Isles of Scilly",Regional electricity network failure,E48000008-014,,Review / unmatched,,,,,
+E48000008,"Devon, Cornwall & Isles of Scilly",Fuel shortages,E48000008-015,,Review / unmatched,,,,,
+E48000008,"Devon, Cornwall & Isles of Scilly",Simultaneous loss of fixed and mobile communications,E48000008-016,,Review / unmatched,,,,,
+E48000009,Dorset,Failure of the national electricity transmission system (NETS),E48000009-001,,Review / unmatched,,,,,
+E48000009,Dorset,Failure of gas supply infrastructure,E48000009-002,,Review / unmatched,,,,,
+E48000009,Dorset,Severe Space weather,E48000009-003,NRR26-070,Direct,,,,,
+E48000009,Dorset,High temperature and heatwaves,E48000009-004,,Review / unmatched,,,,,
+E48000009,Dorset,Low temperatures and snow,E48000009-005,NRR26-073,Direct,,,,,
+E48000009,Dorset,Coastal flooding,E48000009-006,NRR26-074,Direct,,,,,
+E48000009,Dorset,Fluvial flooding,E48000009-007,NRR26-075,Direct,,,,,
+E48000009,Dorset,Surface water flooding,E48000009-008,NRR26-076,Direct,,,,,
+E48000009,Dorset,Pandemic,E48000009-009,NRR26-079,Direct,,,,,
+E48000009,Dorset,Outbreak of an emerging infectious disease,E48000009-010,NRR26-080,Direct,,,,,
+E48000009,Dorset,Localised flooding caused by groundwater emergence/spring activity,E48000009-011,,Review / unmatched,,,,,
+E48000009,Dorset,"Land Movement (e.g. significant landslips, rockfalls)",E48000009-012,,Review / unmatched,,,,,
+E48000009,Dorset,Simultaneous loss of all fixed and mobile forms of communication,E48000009-013,NRR26-043,Direct,,,,,
+E48000009,Dorset,Regional failure of electricity network,E48000009-014,,Review / unmatched,,,,,
+E48000009,Dorset,Radiation release from overseas nuclear site,E48000009-015,NRR26-048,Direct,,,,,
+E48000009,Dorset,Reservoir / dam collapse,E48000009-016,NRR26-058,Direct,,,,,
+E48000009,Dorset,Wildfire,E48000009-017,NRR26-065,Direct,,,,,
+E48000009,Dorset,Volcanic eruption,E48000009-018,NRR26-066,Direct,,,,,
+E48000009,Dorset,Storms,E48000009-019,NRR26-071,Direct,,,,,
+E48000009,Dorset,Major outbreak of foot and mouth disease,E48000009-020,NRR26-081,Candidate,,,,,
+E48000009,Dorset,Major outbreak of highly pathogenic avian influenza,E48000009-021,NRR26-082,Candidate,,,,,
+E48000009,Dorset,Industrial action - fuel supply,E48000009-022,,Review / unmatched,,,,,
+E48000009,Dorset,Radioactive Release during visit of nuclear-powered vessel (NPV) to Portland Port,E48000009-023,,Review / unmatched,,,,,
+E48000009,Dorset,Bridge Closure due collapse,E48000009-024,,Review / unmatched,,,,,
+E48000009,Dorset,Cyber-attack – government critical systems loss (public),E48000009-025,,Review / unmatched,,,,,
+E48000009,Dorset,Major social care provider failure,E48000009-026,,Review / unmatched,,,,,
+E48000009,Dorset,Insolvency of supplier(s) of critical services to the public sector,E48000009-027,NRR26-032,Direct,,,,,
+E48000009,Dorset,Rail accident,E48000009-028,NRR26-034,Direct,,,,,
+E48000009,Dorset,Large passenger vessel accident,E48000009-029,NRR26-035,Direct,,,,,
+E48000009,Dorset,Accident involving high consequence dangerous goods,E48000009-030,NRR26-038,Direct,,,,,
+E48000009,Dorset,Aviation collision,E48000009-031,NRR26-039,Direct,,,,,
+E48000009,Dorset,Accidental fire or explosion at an onshore major hazard (COMAH) site,E48000009-032,NRR26-052,Direct,,,,,
+E48000009,Dorset,Accidental large toxic chemical release at an onshore major hazard (COMAH) site,E48000009-033,,Review / unmatched,,,,,
+E48000009,Dorset,Fire or explosion at an onshore fuel pipeline,E48000009-034,NRR26-055,Candidate,,,,,
+E48000009,Dorset,Major fire,E48000009-035,NRR26-061,Direct,,,,,
+E48000009,Dorset,Drought,E48000009-036,NRR26-077,Direct,,,,,
+E48000009,Dorset,Public Disorder,E48000009-037,NRR26-087,Direct,,,,,
+E48000009,Dorset,Insolvency affecting fuel supply,E48000009-038,NRR26-033,Direct,,,,,
+E48000009,Dorset,Major Maritime pollution,E48000009-039,NRR26-036,Candidate,,,,,
+E48000009,Dorset,"Radiation exposure from transported, stolen or lost goods",E48000009-040,NRR26-049,Direct,,,,,
+E48000009,Dorset,Water infrastructure failure or loss of drinking water,E48000009-041,NRR26-059,Direct,,,,,
+E48000009,Dorset,Industrial action – public transport,E48000009-042,,Review / unmatched,,,,,
+E48000010,Durham & Darlington,Severe weather,E48000010-001,,Broad / multiple,,,,,
+E48000010,Durham & Darlington,Flooding,E48000010-002,,Broad / multiple,,,,,
+E48000010,Durham & Darlington,Pandemic and infectious disease,E48000010-003,,Review / unmatched,,,,,
+E48000010,Durham & Darlington,Industrial accidents,E48000010-004,,Broad / multiple,,,,,
+E48000010,Durham & Darlington,Transport incidents,E48000010-005,,Review / unmatched,,,,,
+E48000010,Durham & Darlington,Loss of essential services,E48000010-006,,Review / unmatched,,,,,
+E48000010,Durham & Darlington,Animal disease,E48000010-007,,Broad / multiple,,,,,
+E48000011,Essex,Flooding,E48000011-001,,Broad / multiple,,,,,
+E48000011,Essex,Severe weather,E48000011-002,,Broad / multiple,,,,,
+E48000011,Essex,Human infectious diseases,E48000011-003,,Review / unmatched,,,,,
+E48000011,Essex,Animal diseases,E48000011-004,,Review / unmatched,,,,,
+E48000011,Essex,Industrial incidents,E48000011-005,,Review / unmatched,,,,,
+E48000011,Essex,Cyber-attacks,E48000011-006,,Review / unmatched,,,,,
+E48000011,Essex,Infrastructure failures,E48000011-007,,Review / unmatched,,,,,
+E48000011,Essex,Transport incidents,E48000011-008,,Review / unmatched,,,,,
+E48000012,Gloucestershire,Infectious disease,E48000012-001,,Review / unmatched,,,,,
+E48000012,Gloucestershire,Terrorism,E48000012-002,,Review / unmatched,,,,,
+E48000012,Gloucestershire,Electricity supply failure,E48000012-003,,Review / unmatched,,,,,
+E48000012,Gloucestershire,Flooding,E48000012-004,,Broad / multiple,,,,,
+E48000012,Gloucestershire,Fuel supply disruption,E48000012-005,,Review / unmatched,,,,,
+E48000012,Gloucestershire,Extreme weather,E48000012-006,,Broad / multiple,,,,,
+E48000012,Gloucestershire,Cyber attack,E48000012-007,,Broad / multiple,,,,,
+E48000013,Greater Manchester,Flooding,E48000013-001,,Broad / multiple,,,,,
+E48000013,Greater Manchester,Severe weather,E48000013-002,,Broad / multiple,,,,,
+E48000013,Greater Manchester,Pandemic influenza,E48000013-003,,Review / unmatched,,,,,
+E48000013,Greater Manchester,Industrial accidents,E48000013-004,,Broad / multiple,,,,,
+E48000013,Greater Manchester,Transport incidents,E48000013-005,,Review / unmatched,,,,,
+E48000013,Greater Manchester,Loss of utilities,E48000013-006,,Broad / multiple,,,,,
+E48000013,Greater Manchester,Animal disease,E48000013-007,,Broad / multiple,,,,,
+E48000014,Hampshire & Isle of Wight,International Terrorist Attack,E48000014-001,NRR26-001,Direct,,,,,
+E48000014,Hampshire & Isle of Wight,Northern Ireland related Terrorism,E48000014-002,NRR26-002,Direct,,,,,
+E48000014,Hampshire & Isle of Wight,Terrorist attacks in publicly accessible locations,E48000014-003,,Review / unmatched,,,,,
+E48000014,Hampshire & Isle of Wight,Terrorist attacks on transport,E48000014-004,,Review / unmatched,,,,,
+E48000014,Hampshire & Isle of Wight,Strategic hostage taking,E48000014-005,NRR26-008,Direct,,,,,
+E48000014,Hampshire & Isle of Wight,Assassination of a high-profile public figure,E48000014-006,,Review / unmatched,,,,,
+E48000014,Hampshire & Isle of Wight,"CBRN attacks (Small, Medium, Large scale)",E48000014-007,,Review / unmatched,,,,,
+E48000014,Hampshire & Isle of Wight,Conventional Attacks on Infrastructure,E48000014-008,,Review / unmatched,,,,,
+E48000014,Hampshire & Isle of Wight,Cyber Attacks on Infrastructure,E48000014-009,,Review / unmatched,,,,,
+E48000014,Hampshire & Isle of Wight,Deliberate disruption of UK space systems and space based services,E48000014-010,NRR26-091,Direct,,,,,
+E48000014,Hampshire & Isle of Wight,Major Social Care Provider Business Failure,E48000014-011,NRR26-031,Direct,,,,,
+E48000014,Hampshire & Isle of Wight,Insolvency of supplier(s) of critical services to the public sector,E48000014-012,NRR26-032,Direct,,,,,
+E48000014,Hampshire & Isle of Wight,Insolvency affecting fuel supply,E48000014-013,NRR26-033,Direct,,,,,
+E48000014,Hampshire & Isle of Wight,Failure of a supplier of CNI chemicals,E48000014-014,,Review / unmatched,,,,,
+E48000014,Hampshire & Isle of Wight,Railway Accident,E48000014-015,NRR26-034,Direct,,,,,
+E48000014,Hampshire & Isle of Wight,Large passenger vessel accident,E48000014-016,NRR26-035,Direct,,,,,
+E48000014,Hampshire & Isle of Wight,Major Maritime Pollution,E48000014-017,NRR26-036,Candidate,,,,,
+E48000014,Hampshire & Isle of Wight,Incident (grounding / sinking) of a vessel blocking a major port,E48000014-018,,Review / unmatched,,,,,
+E48000014,Hampshire & Isle of Wight,Accident Involving High Consequence Dangerous Goods,E48000014-019,NRR26-038,Direct,,,,,
+E48000014,Hampshire & Isle of Wight,Aviation Collision,E48000014-020,NRR26-039,Direct,,,,,
+E48000014,Hampshire & Isle of Wight,Malicious drone incident,E48000014-021,NRR26-040,Direct,,,,,
+E48000014,Hampshire & Isle of Wight,Disruption of space based services,E48000014-022,,Review / unmatched,,,,,
+E48000014,Hampshire & Isle of Wight,"Loss of Positioning, Navigation and Timing (PNT) services",E48000014-023,NRR26-042,Direct,,,,,
+E48000014,Hampshire & Isle of Wight,Simultaneous loss of all fixed and mobile forms of communication,E48000014-024,NRR26-043,Direct,,,,,
+E48000014,Hampshire & Isle of Wight,Failure of the National Electricity Transmission System (NETS),E48000014-025,,Review / unmatched,,,,,
+E48000014,Hampshire & Isle of Wight,Regional failure of the electricity network,E48000014-026,NRR26-045,Direct,,,,,
+E48000014,Hampshire & Isle of Wight,Failure of Gas Supply Infrastructure,E48000014-027,,Review / unmatched,,,,,
+E48000014,Hampshire & Isle of Wight,Radiation release from overseas nuclear site,E48000014-028,NRR26-048,Direct,,,,,
+E48000014,Hampshire & Isle of Wight,"Radiation exposure from transported, stolen or lost goods",E48000014-029,NRR26-049,Direct,,,,,
+E48000014,Hampshire & Isle of Wight,Technological Failure of a Systemically Important Retail Bank,E48000014-030,,Review / unmatched,,,,,
+E48000014,Hampshire & Isle of Wight,Technological failure of a UK critical Financial Market Infrastructure,E48000014-031,,Review / unmatched,,,,,
+E48000014,Hampshire & Isle of Wight,Accidental fire or explosion at an onshore major hazard (COMAH) site,E48000014-032,NRR26-052,Direct,,,,,
+E48000014,Hampshire & Isle of Wight,Accidental large toxic chemical release from an onshore major hazard (COMAH) site,E48000014-033,NRR26-053,Direct,,,,,
+E48000014,Hampshire & Isle of Wight,Accidental Fire or Explosion at an Onshore Fuel Pipeline,E48000014-034,NRR26-055,Direct,,,,,
+E48000014,Hampshire & Isle of Wight,Accidental Fire or Explosion at an onshore Major Accident Hazard Pipeline,E48000014-035,NRR26-056,Direct,,,,,
+E48000014,Hampshire & Isle of Wight,Accidental work-related (laboratory) release of a hazardous pathogen,E48000014-036,NRR26-057,Direct,,,,,
+E48000014,Hampshire & Isle of Wight,Reservoir/Dam Collapse,E48000014-037,NRR26-058,Direct,,,,,
+E48000014,Hampshire & Isle of Wight,Water infrastructure failure or loss of drinking water,E48000014-038,NRR26-059,Direct,,,,,
+E48000014,Hampshire & Isle of Wight,Food Supply Contamination,E48000014-039,NRR26-060,Direct,,,,,
+E48000014,Hampshire & Isle of Wight,Major Fire,E48000014-040,NRR26-061,Direct,,,,,
+E48000014,Hampshire & Isle of Wight,Wildfire,E48000014-041,NRR26-065,Direct,,,,,
+E48000014,Hampshire & Isle of Wight,Volcanic Eruption,E48000014-042,NRR26-066,Direct,,,,,
+E48000014,Hampshire & Isle of Wight,Earthquake,E48000014-043,NRR26-067,Direct,,,,,
+E48000014,Hampshire & Isle of Wight,Severe Space Weather,E48000014-044,NRR26-070,Direct,,,,,
+E48000014,Hampshire & Isle of Wight,Storms,E48000014-045,NRR26-071,Direct,,,,,
+E48000014,Hampshire & Isle of Wight,High temperatures and heatwaves,E48000014-046,NRR26-072,Direct,,,,,
+E48000014,Hampshire & Isle of Wight,Low Temperatures and Snow,E48000014-047,NRR26-073,Direct,,,,,
+E48000014,Hampshire & Isle of Wight,Coastal Flooding,E48000014-048,NRR26-074,Direct,,,,,
+E48000014,Hampshire & Isle of Wight,Fluvial Flooding,E48000014-049,NRR26-075,Direct,,,,,
+E48000014,Hampshire & Isle of Wight,Surface Water Flooding,E48000014-050,NRR26-076,Direct,,,,,
+E48000014,Hampshire & Isle of Wight,Drought,E48000014-051,NRR26-077,Direct,,,,,
+E48000014,Hampshire & Isle of Wight,Poor Air Quality,E48000014-052,NRR26-078,Direct,,,,,
+E48000014,Hampshire & Isle of Wight,Pandemic,E48000014-053,NRR26-079,Direct,,,,,
+E48000014,Hampshire & Isle of Wight,Outbreak of an emerging infectious disease,E48000014-054,NRR26-080,Direct,,,,,
+E48000014,Hampshire & Isle of Wight,Animal disease - major outbreak of Foot and Mouth disease,E48000014-055,NRR26-081,Direct,,,,,
+E48000014,Hampshire & Isle of Wight,Animal disease - major outbreak of highly pathogenic avian influenza,E48000014-056,NRR26-082,Direct,,,,,
+E48000014,Hampshire & Isle of Wight,Animal disease - major outbreak of African horse sickness,E48000014-057,NRR26-083,Direct,,,,,
+E48000014,Hampshire & Isle of Wight,Animal disease - major outbreak of African Swine Fever,E48000014-058,NRR26-084,Direct,,,,,
+E48000014,Hampshire & Isle of Wight,Major outbreak of plant pest - Xylella fastidiosa,E48000014-059,,Review / unmatched,,,,,
+E48000014,Hampshire & Isle of Wight,Major outbreak of plant pest - Agrilus planipennis,E48000014-060,,Review / unmatched,,,,,
+E48000014,Hampshire & Isle of Wight,Public Disorder,E48000014-061,NRR26-087,Direct,,,,,
+E48000014,Hampshire & Isle of Wight,Industrial Action - Public Transport,E48000014-062,,Review / unmatched,,,,,
+E48000014,Hampshire & Isle of Wight,Industrial Action - firefighters,E48000014-063,,Review / unmatched,,,,,
+E48000014,Hampshire & Isle of Wight,Industrial Action - Prison Staff,E48000014-064,,Review / unmatched,,,,,
+E48000014,Hampshire & Isle of Wight,Industrial action - fuel supply,E48000014-065,,Review / unmatched,,,,,
+E48000014,Hampshire & Isle of Wight,Reception and integration of British Nationals arriving from overseas,E48000014-066,NRR26-089,Direct,,,,,
+E48000014,Hampshire & Isle of Wight,Major Pollution of Surface Waters and Groundwater,E48000014-067,,Broad / multiple,,,,,
+E48000014,Hampshire & Isle of Wight,Local Accident on Motorways and Major Trunk Roads,E48000014-068,,Review / unmatched,,,,,
+E48000014,Hampshire & Isle of Wight,Land Movement,E48000014-069,,Review / unmatched,,,,,
+E48000014,Hampshire & Isle of Wight,Building Collapse or Bridge Closure/Collapse,E48000014-070,,Review / unmatched,,,,,
+E48000014,Hampshire & Isle of Wight,Industrial Action of Emergency Service Workers,E48000014-071,,Review / unmatched,,,,,
+E48000014,Hampshire & Isle of Wight,Groundwater Flooding,E48000014-072,,Broad / multiple,,,,,
+E48000014,Hampshire & Isle of Wight,Removal of Explosive Ordnance (EO),E48000014-073,,Review / unmatched,,,,,
+E48000014,Hampshire & Isle of Wight,Widespread Industrial Action or Disruptive Action Short of a Strike,E48000014-074,,Review / unmatched,,,,,
+E48000014,Hampshire & Isle of Wight,Incidents Involving Piers and Similar Maritime Structures,E48000014-075,,Review / unmatched,,,,,
+E48000014,Hampshire & Isle of Wight,Fire or Pollution at a Waste Site,E48000014-076,,Review / unmatched,,,,,
+E48000014,Hampshire & Isle of Wight,Radioactive release by a visiting nuclear powered vessel to Portsmouth & Southampton Ports,E48000014-077,,Review / unmatched,,,,,
+E48000014,Hampshire & Isle of Wight,Accidental Release of a Biological Substance,E48000014-078,,Review / unmatched,,,,,
+E48000014,Hampshire & Isle of Wight,Off-site emergency for Atomic Weapons Establishment (AWE) / radioactive release by Atomic Weapons Establishment (AWE),E48000014-079,,Review / unmatched,,,,,
+E48000014,Hampshire & Isle of Wight,Loss of a Cross Solent Ferry Route,E48000014-080,,Review / unmatched,,,,,
+E48000015,Hertfordshire,Infectious diseases,E48000015-001,,Review / unmatched,,,,,
+E48000015,Hertfordshire,Extreme temperatures,E48000015-002,,Review / unmatched,,,,,
+E48000015,Hertfordshire,Transport accidents,E48000015-003,,Broad / multiple,,,,,
+E48000015,Hertfordshire,Flooding,E48000015-004,,Broad / multiple,,,,,
+E48000015,Hertfordshire,Infrastructure failure,E48000015-005,,Review / unmatched,,,,,
+E48000016,Humber,Flooding,E48000016-001,,Broad / multiple,,,,,
+E48000016,Humber,Severe weather,E48000016-002,,Broad / multiple,,,,,
+E48000016,Humber,Pandemic influenza,E48000016-003,,Review / unmatched,,,,,
+E48000016,Humber,Emerging infectious diseases,E48000016-004,,Review / unmatched,,,,,
+E48000016,Humber,Industrial accidents,E48000016-005,,Broad / multiple,,,,,
+E48000016,Humber,Transport accidents,E48000016-006,,Broad / multiple,,,,,
+E48000016,Humber,Power supply interruption,E48000016-007,,Review / unmatched,,,,,
+E48000016,Humber,Animal diseases,E48000016-008,,Review / unmatched,,,,,
+E48000017,Kent,Failure of the National Electricity Transmission System (NETS),E48000017-001,,Review / unmatched,,,,,
+E48000017,Kent,Failure of gas supply infrastructure,E48000017-002,,Review / unmatched,,,,,
+E48000017,Kent,Low temperatures and snow,E48000017-003,NRR26-073,Direct,,,,,
+E48000017,Kent,Major coastal and tidal flooding,E48000017-004,,Review / unmatched,,,,,
+E48000017,Kent,Pandemic,E48000017-005,NRR26-079,Direct,,,,,
+E48000017,Kent,Loss of the strategic road network,E48000017-006,,Review / unmatched,,,,,
+E48000017,Kent,"Loss of port — border closure, counterterrorism or infrastructure",E48000017-007,,Review / unmatched,,,,,
+E48000017,Kent,Simultaneous loss of all fixed and mobile forms of communication,E48000017-008,NRR26-043,Direct,,,,,
+E48000017,Kent,Regional failure of the electricity network,E48000017-009,NRR26-045,Direct,,,,,
+E48000017,Kent,Food supply contamination,E48000017-010,NRR26-060,Direct,,,,,
+E48000017,Kent,Severe weather,E48000017-011,,Broad / multiple,,,,,
+E48000017,Kent,Fluvial and surface water flooding,E48000017-012,,Review / unmatched,,,,,
+E48000017,Kent,Localised flash flooding,E48000017-013,,Review / unmatched,,,,,
+E48000017,Kent,Outbreak of an emerging infectious disease,E48000017-014,NRR26-080,Direct,,,,,
+E48000017,Kent,Industrial action by workers providing critical services,E48000017-015,,Review / unmatched,,,,,
+E48000017,Kent,Prolonged disruption to border control locations,E48000017-016,,Review / unmatched,,,,,
+E48000017,Kent,Major adult social care provider failure,E48000017-017,NRR26-031,Direct,,,,,
+E48000017,Kent,Rail accident,E48000017-018,NRR26-034,Direct,,,,,
+E48000017,Kent,Large passenger vessel accident,E48000017-019,NRR26-035,Direct,,,,,
+E48000017,Kent,Major maritime pollution,E48000017-020,NRR26-036,Candidate,,,,,
+E48000017,Kent,Vessel grounding or sinking blocking a major port,E48000017-021,,Review / unmatched,,,,,
+E48000017,Kent,Accident involving high consequence dangerous goods,E48000017-022,NRR26-038,Direct,,,,,
+E48000017,Kent,Aviation collision,E48000017-023,NRR26-039,Direct,,,,,
+E48000017,Kent,Civil nuclear accident,E48000017-024,NRR26-047,Direct,,,,,
+E48000017,Kent,Radiation release from overseas nuclear site,E48000017-025,NRR26-048,Direct,,,,,
+E48000017,Kent,"Impact to chemical, fuel, gas or electricity infrastructure",E48000017-026,,Review / unmatched,,,,,
+E48000017,Kent,Reservoir or dam collapse,E48000017-027,,Review / unmatched,,,,,
+E48000017,Kent,Water infrastructure failure or loss of drinking water,E48000017-028,NRR26-059,Direct,,,,,
+E48000017,Kent,Major fire,E48000017-029,NRR26-061,Direct,,,,,
+E48000017,Kent,Wildfire,E48000017-030,NRR26-065,Direct,,,,,
+E48000017,Kent,Volcanic eruption,E48000017-031,NRR26-066,Direct,,,,,
+E48000017,Kent,Drought,E48000017-032,NRR26-077,Direct,,,,,
+E48000017,Kent,Poor air quality,E48000017-033,NRR26-078,Direct,,,,,
+E48000017,Kent,Major outbreak of foot and mouth disease,E48000017-034,NRR26-081,Candidate,,,,,
+E48000017,Kent,Major outbreak of highly pathogenic avian influenza,E48000017-035,NRR26-082,Candidate,,,,,
+E48000017,Kent,Public disorder,E48000017-036,NRR26-087,Direct,,,,,
+E48000017,Kent,Industrial action affecting fuel supply,E48000017-037,,Review / unmatched,,,,,
+E48000017,Kent,Incident in a road tunnel,E48000017-038,,Review / unmatched,,,,,
+E48000017,Kent,Local accident on motorways and major trunk roads,E48000017-039,,Review / unmatched,,,,,
+E48000017,Kent,Major pollution of inland freshwater and groundwater,E48000017-040,,Review / unmatched,,,,,
+E48000017,Kent,"Land-based marine, coastal and estuary pollution",E48000017-041,,Review / unmatched,,,,,
+E48000017,Kent,Building collapse,E48000017-042,,Review / unmatched,,,,,
+E48000017,Kent,Bridge closure or collapse,E48000017-043,,Review / unmatched,,,,,
+E48000017,Kent,Large toxic chemical release,E48000017-044,,Review / unmatched,,,,,
+E48000017,Kent,Malicious contamination of the food chain,E48000017-045,,Review / unmatched,,,,,
+E48000017,Kent,Cyberattack — transport sector,E48000017-046,,Review / unmatched,,,,,
+E48000017,Kent,Cyberattack — telecommunications systems,E48000017-047,,Review / unmatched,,,,,
+E48000017,Kent,Insolvency affecting fuel supply,E48000017-048,NRR26-033,Direct,,,,,
+E48000017,Kent,"Radiation exposure from transported, stolen or lost goods",E48000017-049,NRR26-049,Direct,,,,,
+E48000017,Kent,Accidental laboratory release of a hazardous pathogen,E48000017-050,,Review / unmatched,,,,,
+E48000017,Kent,Earthquake,E48000017-051,NRR26-067,Direct,,,,,
+E48000017,Kent,Reception and integration of British nationals arriving from overseas,E48000017-052,NRR26-089,Direct,,,,,
+E48000018,Lancashire,Flooding,E48000018-001,,Broad / multiple,,,,,
+E48000018,Lancashire,Severe weather,E48000018-002,,Broad / multiple,,,,,
+E48000018,Lancashire,Human infectious disease,E48000018-003,,Review / unmatched,,,,,
+E48000018,Lancashire,Loss of utilities,E48000018-004,,Broad / multiple,,,,,
+E48000018,Lancashire,Transport incidents,E48000018-005,,Review / unmatched,,,,,
+E48000018,Lancashire,Industrial accidents,E48000018-006,,Broad / multiple,,,,,
+E48000019,Leicestershire,Flooding,E48000019-001,,Broad / multiple,,,,,
+E48000019,Leicestershire,Severe weather,E48000019-002,,Broad / multiple,,,,,
+E48000019,Leicestershire,Loss of utilities,E48000019-003,,Broad / multiple,,,,,
+E48000019,Leicestershire,Disease outbreaks,E48000019-004,,Review / unmatched,,,,,
+E48000019,Leicestershire,Cyber attacks,E48000019-005,,Review / unmatched,,,,,
+E48000019,Leicestershire,Major transport incidents,E48000019-006,,Review / unmatched,,,,,
+E48000019,Leicestershire,Terrorism,E48000019-007,,Review / unmatched,,,,,
+E48000020,Lincolnshire,Coastal flooding,E48000020-001,NRR26-074,Direct,,,,,
+E48000020,Lincolnshire,River and surface water flooding,E48000020-002,NRR26-076,Candidate,,,,,
+E48000020,Lincolnshire,Emerging infectious diseases,E48000020-003,,Review / unmatched,,,,,
+E48000020,Lincolnshire,Cyber attacks,E48000020-004,,Review / unmatched,,,,,
+E48000020,Lincolnshire,Terrorism,E48000020-005,,Review / unmatched,,,,,
+E48000020,Lincolnshire,Loss of gas or electricity,E48000020-006,,Review / unmatched,,,,,
+E48000020,Lincolnshire,Pandemic,E48000020-007,NRR26-079,Direct,,,,,
+E48000020,Lincolnshire,Extreme cold weather,E48000020-008,,Review / unmatched,,,,,
+E48000020,Lincolnshire,Heatwave,E48000020-009,NRR26-072,Direct,,,,,
+E48000021,London,Failure of national electricity transmission system,E48000021-001,NRR26-044,Direct,,,,,
+E48000021,London,Pandemic,E48000021-002,NRR26-079,Direct,,,,,
+E48000021,London,Drought,E48000021-003,NRR26-077,Direct,,,,,
+E48000021,London,Severe space weather,E48000021-004,NRR26-070,Direct,,,,,
+E48000021,London,High temperatures and heatwaves,E48000021-005,NRR26-072,Direct,,,,,
+E48000021,London,Low temperatures and snow,E48000021-006,NRR26-073,Direct,,,,,
+E48000021,London,Fluvial flooding,E48000021-007,NRR26-075,Direct,,,,,
+E48000021,London,Surface water flooding,E48000021-008,NRR26-076,Direct,,,,,
+E48000021,London,Outbreak of emerging infectious disease,E48000021-009,,Review / unmatched,,,,,
+E48000021,London,Coastal flooding,E48000021-010,NRR26-074,Direct,,,,,
+E48000021,London,Storms,E48000021-011,NRR26-071,Direct,,,,,
+E48000021,London,Poor air quality,E48000021-012,NRR26-078,Direct,,,,,
+E48000021,London,Wildfires,E48000021-013,,Review / unmatched,,,,,
+E48000021,London,Earthquake,E48000021-014,NRR26-067,Direct,,,,,
+E48000021,London,Reservoir or dam collapse,E48000021-015,,Review / unmatched,,,,,
+E48000021,London,Water infrastructure failure,E48000021-016,,Review / unmatched,,,,,
+E48000021,London,Gas supply infrastructure failure,E48000021-017,,Review / unmatched,,,,,
+E48000021,London,Regional electricity network failure,E48000021-018,,Review / unmatched,,,,,
+E48000021,London,Fixed and mobile communication failure,E48000021-019,,Review / unmatched,,,,,
+E48000021,London,Rail accident,E48000021-020,NRR26-034,Direct,,,,,
+E48000021,London,Public disorder,E48000021-021,NRR26-087,Direct,,,,,
+E48000021,London,Reception of British nationals from overseas,E48000021-022,,Review / unmatched,,,,,
+E48000021,London,Foot and mouth disease outbreak,E48000021-023,,Review / unmatched,,,,,
+E48000021,London,Food supply contamination,E48000021-024,NRR26-060,Direct,,,,,
+E48000021,London,Critical financial market infrastructure failure,E48000021-025,,Review / unmatched,,,,,
+E48000021,London,Large-scale CBRN attacks,E48000021-026,,Review / unmatched,,,,,
+E48000021,London,Attacks on infrastructure,E48000021-027,,Review / unmatched,,,,,
+E48000021,London,Attacks on transport,E48000021-028,,Review / unmatched,,,,,
+E48000021,London,Attacks on publicly accessible locations,E48000021-029,,Review / unmatched,,,,,
+E48000021,London,Medium-scale CBRN attacks,E48000021-030,,Review / unmatched,,,,,
+E48000021,London,Cyber attacks,E48000021-031,,Review / unmatched,,,,,
+E48000021,London,Smaller-scale CBRN attacks,E48000021-032,,Review / unmatched,,,,,
+E48000022,Merseyside,Flooding,E48000022-001,,Broad / multiple,,,,,
+E48000022,Merseyside,Severe weather,E48000022-002,,Broad / multiple,,,,,
+E48000022,Merseyside,Pandemic infectious disease,E48000022-003,,Review / unmatched,,,,,
+E48000022,Merseyside,Industrial accidents,E48000022-004,,Broad / multiple,,,,,
+E48000022,Merseyside,Transport disruption,E48000022-005,,Review / unmatched,,,,,
+E48000022,Merseyside,Loss of infrastructure,E48000022-006,,Review / unmatched,,,,,
+E48000023,Norfolk,Flooding,E48000023-001,,Broad / multiple,,,,,
+E48000023,Norfolk,Severe weather,E48000023-002,,Broad / multiple,,,,,
+E48000023,Norfolk,Human infectious diseases,E48000023-003,,Review / unmatched,,,,,
+E48000023,Norfolk,Loss of critical infrastructure,E48000023-004,,Review / unmatched,,,,,
+E48000024,North Yorkshire,Flooding,E48000024-001,,Broad / multiple,,,,,
+E48000024,North Yorkshire,Severe weather,E48000024-002,,Broad / multiple,,,,,
+E48000024,North Yorkshire,Pandemics,E48000024-003,,Review / unmatched,,,,,
+E48000024,North Yorkshire,Loss of essential services,E48000024-004,,Review / unmatched,,,,,
+E48000024,North Yorkshire,Industrial incidents,E48000024-005,,Review / unmatched,,,,,
+E48000024,North Yorkshire,Transport accidents,E48000024-006,,Broad / multiple,,,,,
+E48000024,North Yorkshire,Animal disease,E48000024-007,,Broad / multiple,,,,,
+E48000025,Northamptonshire,Flooding,E48000025-001,,Broad / multiple,,,,,
+E48000025,Northamptonshire,Severe weather,E48000025-002,,Broad / multiple,,,,,
+E48000025,Northamptonshire,Pandemic influenza,E48000025-003,,Review / unmatched,,,,,
+E48000025,Northamptonshire,Industrial incidents,E48000025-004,,Review / unmatched,,,,,
+E48000025,Northamptonshire,Transport accidents,E48000025-005,,Broad / multiple,,,,,
+E48000025,Northamptonshire,Loss of critical infrastructure,E48000025-006,,Review / unmatched,,,,,
+E48000025,Northamptonshire,Animal disease,E48000025-007,,Broad / multiple,,,,,
+E48000026,Northumbria,Flooding,E48000026-001,,Broad / multiple,,,,,
+E48000026,Northumbria,Severe weather,E48000026-002,,Broad / multiple,,,,,
+E48000026,Northumbria,Loss of utilities,E48000026-003,,Broad / multiple,,,,,
+E48000026,Northumbria,Human disease outbreak,E48000026-004,,Review / unmatched,,,,,
+E48000026,Northumbria,Industrial accidents,E48000026-005,,Broad / multiple,,,,,
+E48000026,Northumbria,Transport incidents,E48000026-006,,Review / unmatched,,,,,
+E48000026,Northumbria,Animal disease,E48000026-007,,Broad / multiple,,,,,
+E48000027,Nottingham and Nottinghamshire,Flooding,E48000027-001,,Broad / multiple,,,,,
+E48000027,Nottingham and Nottinghamshire,Severe weather,E48000027-002,,Broad / multiple,,,,,
+E48000027,Nottingham and Nottinghamshire,Pandemic and human disease,E48000027-003,,Review / unmatched,,,,,
+E48000027,Nottingham and Nottinghamshire,Loss of utilities,E48000027-004,,Broad / multiple,,,,,
+E48000027,Nottingham and Nottinghamshire,Industrial incidents,E48000027-005,,Review / unmatched,,,,,
+E48000027,Nottingham and Nottinghamshire,Transport accidents,E48000027-006,,Broad / multiple,,,,,
+E48000027,Nottingham and Nottinghamshire,Animal diseases,E48000027-007,,Review / unmatched,,,,,
+E48000028,South Yorkshire,Flooding,E48000028-001,,Broad / multiple,,,,,
+E48000028,South Yorkshire,Severe weather,E48000028-002,,Broad / multiple,,,,,
+E48000028,South Yorkshire,Pandemic and human disease,E48000028-003,,Review / unmatched,,,,,
+E48000029,Staffordshire,International terrorist attack with strategic implications,E48000029-001,,Review / unmatched,,,,,
+E48000029,Staffordshire,Northern Ireland related terrorism,E48000029-002,NRR26-002,Direct,,,,,
+E48000029,Staffordshire,Terrorist attacks in publicly accessible locations,E48000029-003,,Review / unmatched,,,,,
+E48000029,Staffordshire,Terrorist attacks on transport,E48000029-004,,Review / unmatched,,,,,
+E48000029,Staffordshire,Strategic hostage taking,E48000029-005,NRR26-008,Direct,,,,,
+E48000029,Staffordshire,Assassination of high-profile figure,E48000029-006,,Review / unmatched,,,,,
+E48000029,Staffordshire,Smaller-scale CBRN attacks,E48000029-007,,Review / unmatched,,,,,
+E48000029,Staffordshire,Medium-scale CBRN attacks,E48000029-008,,Review / unmatched,,,,,
+E48000029,Staffordshire,Larger-scale CBRN attacks,E48000029-009,,Review / unmatched,,,,,
+E48000029,Staffordshire,Conventional attacks on infrastructure,E48000029-010,,Review / unmatched,,,,,
+E48000029,Staffordshire,Cyber-attacks on infrastructure,E48000029-011,,Review / unmatched,,,,,
+E48000029,Staffordshire,Disruption to global oil trade routes,E48000029-012,NRR26-029,Direct,,,,,
+E48000029,Staffordshire,Insolvency of supplier(s) of critical services to the public sector,E48000029-013,NRR26-032,Direct,,,,,
+E48000029,Staffordshire,Insolvency affecting fuel supply,E48000029-014,NRR26-033,Direct,,,,,
+E48000029,Staffordshire,Rail accident,E48000029-015,NRR26-034,Direct,,,,,
+E48000029,Staffordshire,Aviation collision,E48000029-016,NRR26-039,Direct,,,,,
+E48000029,Staffordshire,Disruption of space-based services,E48000029-017,,Review / unmatched,,,,,
+E48000029,Staffordshire,"Loss of Positioning, Navigation and Timing (PNT) services",E48000029-018,NRR26-042,Direct,,,,,
+E48000029,Staffordshire,Simultaneous loss of all fixed and mobile forms of communication,E48000029-019,NRR26-043,Direct,,,,,
+E48000029,Staffordshire,Failure of the National Electricity Transmission System (NETS),E48000029-020,,Review / unmatched,,,,,
+E48000029,Staffordshire,Regional failure of the electricity network,E48000029-021,NRR26-045,Direct,,,,,
+E48000029,Staffordshire,Failure of gas supply infrastructure,E48000029-022,,Review / unmatched,,,,,
+E48000029,Staffordshire,Civil nuclear accident,E48000029-023,NRR26-047,Direct,,,,,
+E48000029,Staffordshire,Radiation release from overseas nuclear site,E48000029-024,NRR26-048,Direct,,,,,
+E48000029,Staffordshire,"Radiation exposure from transported, stolen or lost goods",E48000029-025,NRR26-049,Direct,,,,,
+E48000029,Staffordshire,Technological failure at a systemically important retail bank,E48000029-026,NRR26-050,Direct,,,,,
+E48000029,Staffordshire,Technological failure at a UK critical financial market infrastructure (FMI),E48000029-027,NRR26-051,Candidate,,,,,
+E48000029,Staffordshire,Accidental fire or explosion at an onshore major hazard (COMAH) site,E48000029-028,NRR26-052,Direct,,,,,
+E48000029,Staffordshire,Accidental large toxic chemical release from an onshore major hazard (COMAH) site,E48000029-029,NRR26-053,Direct,,,,,
+E48000029,Staffordshire,Accidental work- related (laboratory) release of a hazardous pathogen,E48000029-030,NRR26-057,Direct,,,,,
+E48000029,Staffordshire,Reservoir/dam collapse,E48000029-031,NRR26-058,Direct,,,,,
+E48000029,Staffordshire,Water infrastructure failure or loss of drinking water,E48000029-032,NRR26-059,Direct,,,,,
+E48000029,Staffordshire,Food supply contamination,E48000029-033,NRR26-060,Direct,,,,,
+E48000029,Staffordshire,Major fire,E48000029-034,NRR26-061,Direct,,,,,
+E48000029,Staffordshire,Volcanic eruption,E48000029-035,NRR26-066,Direct,,,,,
+E48000029,Staffordshire,Earthquake,E48000029-036,NRR26-067,Direct,,,,,
+E48000029,Staffordshire,Humanitarian crisis overseas - natural hazard event,E48000029-037,NRR26-068,Direct,,,,,
+E48000029,Staffordshire,Disaster response in the Overseas Territories,E48000029-038,,Review / unmatched,,,,,
+E48000029,Staffordshire,Severe space weather,E48000029-039,NRR26-070,Direct,,,,,
+E48000029,Staffordshire,Storms,E48000029-040,NRR26-071,Direct,,,,,
+E48000029,Staffordshire,High temperatures and heatwaves,E48000029-041,NRR26-072,Direct,,,,,
+E48000029,Staffordshire,Low temperatures and snow,E48000029-042,NRR26-073,Direct,,,,,
+E48000029,Staffordshire,Fluvial flooding,E48000029-043,NRR26-075,Direct,,,,,
+E48000029,Staffordshire,Drought,E48000029-044,NRR26-077,Direct,,,,,
+E48000029,Staffordshire,Poor air quality,E48000029-045,NRR26-078,Direct,,,,,
+E48000029,Staffordshire,Pandemic,E48000029-046,NRR26-079,Direct,,,,,
+E48000029,Staffordshire,Outbreak of an emerging infectious disease,E48000029-047,NRR26-080,Direct,,,,,
+E48000029,Staffordshire,Animal disease - major outbreak of Foot and Mouth Disease,E48000029-048,NRR26-081,Direct,,,,,
+E48000029,Staffordshire,Animal disease - major outbreak of highly pathogenic avian influenza,E48000029-049,NRR26-082,Direct,,,,,
+E48000029,Staffordshire,Major outbreak of plant pest - Xylella fastidiosa,E48000029-050,,Review / unmatched,,,,,
+E48000029,Staffordshire,Major outbreak of plant pest - Agrilus planipennis,E48000029-051,,Review / unmatched,,,,,
+E48000029,Staffordshire,Public disorder,E48000029-052,NRR26-087,Direct,,,,,
+E48000029,Staffordshire,Industrial action,E48000029-053,NRR26-088,Direct,,,,,
+E48000029,Staffordshire,Reception and integration of British Nationals arriving from overseas,E48000029-054,NRR26-089,Direct,,,,,
+E48000029,Staffordshire,Deliberate disruption of UK space systems and space-based services,E48000029-055,NRR26-091,Direct,,,,,
+E48000029,Staffordshire,Attack on a UK ally or partner outside NATO or a mutual security agreement requiring international assistance,E48000029-056,,Review / unmatched,,,,,
+E48000029,Staffordshire,Nuclear miscalculation not involving the UK or its allies,E48000029-057,NRR26-095,Direct,,,,,
+E48000030,Suffolk,Flooding,E48000030-001,,Broad / multiple,,,,,
+E48000030,Suffolk,Severe weather,E48000030-002,,Broad / multiple,,,,,
+E48000030,Suffolk,Pandemic and infectious diseases,E48000030-003,,Review / unmatched,,,,,
+E48000030,Suffolk,Industrial accidents,E48000030-004,,Broad / multiple,,,,,
+E48000030,Suffolk,Transport incidents,E48000030-005,,Review / unmatched,,,,,
+E48000030,Suffolk,Failure of essential services,E48000030-006,,Review / unmatched,,,,,
+E48000031,Surrey,Major Social Care Provider Failure,E48000031-001,,Review / unmatched,,,,,
+E48000031,Surrey,Insolvency affecting fuel supply,E48000031-002,NRR26-033,Direct,,,,,
+E48000031,Surrey,Rail accident,E48000031-003,NRR26-034,Direct,,,,,
+E48000031,Surrey,Accident involving high consequence dangerous goods,E48000031-004,NRR26-038,Direct,,,,,
+E48000031,Surrey,Aviation collision,E48000031-005,NRR26-039,Direct,,,,,
+E48000031,Surrey,Malicious drone incident,E48000031-006,NRR26-040,Direct,,,,,
+E48000031,Surrey,Simultaneous loss of all fixed and mobile forms of communication,E48000031-007,NRR26-043,Direct,,,,,
+E48000031,Surrey,Failure of the National Electricity Transmission System (NETS),E48000031-008,,Review / unmatched,,,,,
+E48000031,Surrey,Failure of Gas Supply infrastructure,E48000031-009,,Review / unmatched,,,,,
+E48000031,Surrey,Radiation release from overseas nuclear site,E48000031-010,NRR26-048,Direct,,,,,
+E48000031,Surrey,"Radiation exposure from transported, stolen or lost goods",E48000031-011,NRR26-049,Direct,,,,,
+E48000031,Surrey,Accidental fire or explosion at an onshore major hazard (COMAH) site,E48000031-012,NRR26-052,Direct,,,,,
+E48000031,Surrey,Accidental large toxic chemical release from an onshore major hazard (COMAH) site,E48000031-013,NRR26-053,Direct,,,,,
+E48000031,Surrey,Accidental fire or explosion at an onshore major accident hazard pipeline,E48000031-014,NRR26-056,Direct,,,,,
+E48000031,Surrey,Accidental work- related (laboratory) release of a hazardous pathogen,E48000031-015,NRR26-057,Direct,,,,,
+E48000031,Surrey,Reservoir / Dam Collapse,E48000031-016,NRR26-058,Direct,,,,,
+E48000031,Surrey,Water infrastructure failure or loss of drinking water,E48000031-017,NRR26-059,Direct,,,,,
+E48000031,Surrey,Food supply contamination,E48000031-018,NRR26-060,Direct,,,,,
+E48000031,Surrey,Major Fire,E48000031-019,NRR26-061,Direct,,,,,
+E48000031,Surrey,Wildfire,E48000031-020,NRR26-065,Direct,,,,,
+E48000031,Surrey,Volcanic Eruption,E48000031-021,NRR26-066,Direct,,,,,
+E48000031,Surrey,Earthquake,E48000031-022,NRR26-067,Direct,,,,,
+E48000031,Surrey,Severe space weather,E48000031-023,NRR26-070,Direct,,,,,
+E48000031,Surrey,Storms,E48000031-024,NRR26-071,Direct,,,,,
+E48000031,Surrey,High temperatures and heatwaves,E48000031-025,NRR26-072,Direct,,,,,
+E48000031,Surrey,Low temperatures and snow,E48000031-026,NRR26-073,Direct,,,,,
+E48000031,Surrey,Fluvial Flooding,E48000031-027,NRR26-075,Direct,,,,,
+E48000031,Surrey,Surface Water Flooding,E48000031-028,NRR26-076,Direct,,,,,
+E48000031,Surrey,Drought,E48000031-029,NRR26-077,Direct,,,,,
+E48000031,Surrey,Poor air quality,E48000031-030,NRR26-078,Direct,,,,,
+E48000031,Surrey,Pandemic,E48000031-031,NRR26-079,Direct,,,,,
+E48000031,Surrey,Outbreak of an emerging infectious disease,E48000031-032,NRR26-080,Direct,,,,,
+E48000031,Surrey,Major Outbreak of Foot and Mouth Disease,E48000031-033,NRR26-081,Candidate,,,,,
+E48000031,Surrey,Major Outbreak of highly pathogenic Avian Influenza (HPAI),E48000031-034,,Review / unmatched,,,,,
+E48000031,Surrey,Major Outbreak of African Horse Sickness,E48000031-035,NRR26-083,Candidate,,,,,
+E48000031,Surrey,Major Outbreak of African Swine Fever,E48000031-036,NRR26-084,Candidate,,,,,
+E48000031,Surrey,Major outbreak of plant pest - Xylella fastidiosa,E48000031-037,,Review / unmatched,,,,,
+E48000031,Surrey,Major outbreak of plant pest - Agrilus planipennis,E48000031-038,,Review / unmatched,,,,,
+E48000031,Surrey,Public Disorder,E48000031-039,NRR26-087,Direct,,,,,
+E48000031,Surrey,Industrial action - public transport,E48000031-040,,Review / unmatched,,,,,
+E48000031,Surrey,Industrial Action - firefighters,E48000031-041,,Review / unmatched,,,,,
+E48000031,Surrey,Industrial action - prison staff,E48000031-042,,Review / unmatched,,,,,
+E48000031,Surrey,Industrial Action - fuel supply,E48000031-043,,Review / unmatched,,,,,
+E48000031,Surrey,Reception and integration of British Nationals arriving from overseas,E48000031-044,NRR26-089,Direct,,,,,
+E48000031,Surrey,National Disruption to Data Infrastructure,E48000031-045,NRR26-062,Direct,,,,,
+E48000031,Surrey,Digital Technology Resilience Failure,E48000031-046,,Review / unmatched,,,,,
+E48000031,Surrey,Significant disruption to the operation of the Criminal Justice System,E48000031-047,,Review / unmatched,,,,,
+E48000032,Sussex,Pandemic,E48000032-001,NRR26-079,Direct,,,,,
+E48000032,Sussex,Outbreak of emerging infectious disease,E48000032-002,,Review / unmatched,,,,,
+E48000032,Sussex,Major outbreak of highly pathogenic avian influenza,E48000032-003,NRR26-082,Candidate,,,,,
+E48000032,Sussex,Major outbreak of foot and mouth disease,E48000032-004,NRR26-081,Candidate,,,,,
+E48000032,Sussex,Flooding,E48000032-005,,Broad / multiple,,,,,
+E48000032,Sussex,High temperatures and heatwaves,E48000032-006,NRR26-072,Direct,,,,,
+E48000032,Sussex,Low temperatures and snow,E48000032-007,NRR26-073,Direct,,,,,
+E48000032,Sussex,Storms,E48000032-008,NRR26-071,Direct,,,,,
+E48000032,Sussex,Wildfire,E48000032-009,NRR26-065,Direct,,,,,
+E48000032,Sussex,Coastal pollution,E48000032-010,,Review / unmatched,,,,,
+E48000032,Sussex,Transport accidents,E48000032-011,,Broad / multiple,,,,,
+E48000032,Sussex,Major fire,E48000032-012,NRR26-061,Direct,,,,,
+E48000032,Sussex,Loss of critical national infrastructure,E48000032-013,,Review / unmatched,,,,,
+E48000032,Sussex,Fuel shortages,E48000032-014,,Review / unmatched,,,,,
+E48000032,Sussex,Climate change,E48000032-015,,Review / unmatched,,,,,
+E48000032,Sussex,Industrial accidents,E48000032-016,,Broad / multiple,,,,,
+E48000032,Sussex,Cyber security,E48000032-017,,Review / unmatched,,,,,
+E48000032,Sussex,Terrorism,E48000032-018,,Review / unmatched,,,,,
+E48000033,Thames Valley,Malicious cyber incident - transport,E48000033-001,NRR26-020,Direct,,,,,
+E48000033,Thames Valley,Cyber-attack on the health and social care system,E48000033-002,NRR26-019,Direct,,,,,
+E48000033,Thames Valley,Cyber-attack on the financial services,E48000033-003,NRR26-026,Direct,,,,,
+E48000033,Thames Valley,Cyber-attack on the telecommunications systems,E48000033-004,NRR26-021,Direct,,,,,
+E48000033,Thames Valley,Food supply contamination,E48000033-005,NRR26-060,Direct,,,,,
+E48000033,Thames Valley,Major social care provider business failure,E48000033-006,NRR26-031,Direct,,,,,
+E48000033,Thames Valley,Failure of National Electricity Transmission System,E48000033-007,NRR26-044,Direct,,,,,
+E48000033,Thames Valley,Technical failure at a critical retail bank,E48000033-008,,Review / unmatched,,,,,
+E48000033,Thames Valley,Fluvial flooding,E48000033-009,NRR26-075,Direct,,,,,
+E48000033,Thames Valley,Heatwave,E48000033-010,NRR26-072,Direct,,,,,
+E48000033,Thames Valley,Low temperatures and heavy snow,E48000033-011,NRR26-073,Direct,,,,,
+E48000033,Thames Valley,Severe space weather,E48000033-012,NRR26-070,Direct,,,,,
+E48000033,Thames Valley,Influenza-type disease,E48000033-013,NRR26-079,Direct,,,,,
+E48000033,Thames Valley,Emerging infectious disease,E48000033-014,NRR26-080,Direct,,,,,
+E48000033,Thames Valley,Disruption to fuel distribution by road,E48000033-015,,Broad / multiple,,,,,
+E48000033,Thames Valley,Public disorder,E48000033-016,NRR26-087,Direct,,,,,
+E48000033,Thames Valley,Major pollution of surface waters and groundwater,E48000033-017,,Broad / multiple,,,,,
+E48000033,Thames Valley,Railway accident,E48000033-018,NRR26-034,Direct,,,,,
+E48000033,Thames Valley,Local / urban flooding,E48000033-019,,Broad / multiple,,,,,
+E48000033,Thames Valley,Local fluvial flooding,E48000033-020,NRR26-075,Direct,,,,,
+E48000033,Thames Valley,Localised fire or explosion at an oil refinery,E48000033-021,,Review / unmatched,,,,,
+E48000033,Thames Valley,Industrial action affecting life-critical services,E48000033-022,NRR26-088,Direct,,,,,
+E48000033,Thames Valley,Government critical systems loss,E48000033-023,,Review / unmatched,,,,,
+E48000033,Thames Valley,Explosion at high pressure pipeline,E48000033-024,,Review / unmatched,,,,,
+E48000033,Thames Valley,Accidental release of a biological substance,E48000033-025,,Review / unmatched,,,,,
+E48000033,Thames Valley,Collision of large commercial airliner and business jet,E48000033-026,NRR26-039,Direct,,,,,
+E48000033,Thames Valley,Collapse of major contractor providing key public services,E48000033-027,,Review / unmatched,,,,,
+E48000033,Thames Valley,Disruption or loss of telecommunications systems,E48000033-028,NRR26-043,Direct,,,,,
+E48000033,Thames Valley,Systemic financial failure,E48000033-029,,Broad / multiple,,,,,
+E48000033,Thames Valley,Surface water flooding,E48000033-030,NRR26-076,Direct,,,,,
+E48000033,Thames Valley,Drought,E48000033-031,NRR26-077,Direct,,,,,
+E48000033,Thames Valley,Poor air quality,E48000033-032,NRR26-078,Direct,,,,,
+E48000033,Thames Valley,Volcanic eruption,E48000033-033,NRR26-066,Direct,,,,,
+E48000033,Thames Valley,Storms,E48000033-034,NRR26-071,Direct,,,,,
+E48000033,Thames Valley,Antimicrobial resistance,E48000033-035,,Broad / multiple,,,,,
+E48000033,Thames Valley,Exotic notifiable animal disease outbreak,E48000033-036,,Broad / multiple,,,,,
+E48000033,Thames Valley,Influx of British nationals,E48000033-037,,Review / unmatched,,,,,
+E48000033,Thames Valley,Accident on motorways and trunk roads,E48000033-038,,Broad / multiple,,,,,
+E48000033,Thames Valley,Forest or moorland fire,E48000033-039,NRR26-065,Direct,,,,,
+E48000033,Thames Valley,Groundwater flooding,E48000033-040,,Broad / multiple,,,,,
+E48000033,Thames Valley,Removal of explosive ordnance,E48000033-041,,Review / unmatched,,,,,
+E48000033,Thames Valley,Fire or pollution at a waste site,E48000033-042,,Review / unmatched,,,,,
+E48000034,Warwickshire,Flooding,E48000034-001,,Broad / multiple,,,,,
+E48000034,Warwickshire,Heatwaves,E48000034-002,NRR26-072,Direct,,,,,
+E48000034,Warwickshire,Extreme cold,E48000034-003,NRR26-073,Direct,,,,,
+E48000034,Warwickshire,Pandemics,E48000034-004,,Review / unmatched,,,,,
+E48000034,Warwickshire,Cyberattacks,E48000034-005,,Review / unmatched,,,,,
+E48000034,Warwickshire,Infrastructure failures,E48000034-006,,Review / unmatched,,,,,
+E48000034,Warwickshire,Transport disruption,E48000034-007,,Review / unmatched,,,,,
+E48000034,Warwickshire,Industrial incidents,E48000034-008,,Review / unmatched,,,,,
+E48000034,Warwickshire,Animal disease,E48000034-009,,Broad / multiple,,,,,
+E48000034,Warwickshire,Terrorism,E48000034-010,,Review / unmatched,,,,,
+E48000035,West Mercia,Terrorism,E48000035-001,,Review / unmatched,,,,,
+E48000035,West Mercia,Cyber and fraud,E48000035-002,,Review / unmatched,,,,,
+E48000035,West Mercia,Serious and organised crime,E48000035-003,,Review / unmatched,,,,,
+E48000035,West Mercia,Accidents and system failures,E48000035-004,,Review / unmatched,,,,,
+E48000035,West Mercia,Natural and environmental hazards,E48000035-005,,Review / unmatched,,,,,
+E48000035,West Mercia,Human and animal disease,E48000035-006,,Review / unmatched,,,,,
+E48000035,West Mercia,Societal risks,E48000035-007,,Review / unmatched,,,,,
+E48000036,West Midlands,Industrial accidents,E48000036-001,,Broad / multiple,,,,,
+E48000036,West Midlands,Power failure,E48000036-002,,Broad / multiple,,,,,
+E48000036,West Midlands,Severe weather,E48000036-003,,Broad / multiple,,,,,
+E48000036,West Midlands,Flooding,E48000036-004,,Broad / multiple,,,,,
+E48000036,West Midlands,Fire,E48000036-005,,Review / unmatched,,,,,
+E48000036,West Midlands,Heatwave,E48000036-006,NRR26-072,Direct,,,,,
+E48000036,West Midlands,Cold weather,E48000036-007,,Review / unmatched,,,,,
+E48000036,West Midlands,Social disruption,E48000036-008,,Review / unmatched,,,,,
+E48000036,West Midlands,Health emergencies,E48000036-009,,Review / unmatched,,,,,
+E48000036,West Midlands,Transport disruption,E48000036-010,,Review / unmatched,,,,,
+E48000036,West Midlands,Cyber threat,E48000036-011,,Review / unmatched,,,,,
+E48000036,West Midlands,Fuel shortage,E48000036-012,,Review / unmatched,,,,,
+E48000036,West Midlands,Terrorism,E48000036-013,,Review / unmatched,,,,,
+E48000037,West Yorkshire,Flooding,E48000037-001,,Broad / multiple,,,,,
+E48000037,West Yorkshire,Severe weather,E48000037-002,,Broad / multiple,,,,,
+E48000037,West Yorkshire,Human infectious disease,E48000037-003,,Review / unmatched,,,,,
+E48000037,West Yorkshire,Loss of essential services,E48000037-004,,Review / unmatched,,,,,
+E48000037,West Yorkshire,Transport disruption,E48000037-005,,Review / unmatched,,,,,
+E48000037,West Yorkshire,Industrial incidents,E48000037-006,,Review / unmatched,,,,,
+E48000037,West Yorkshire,Terrorism,E48000037-007,,Review / unmatched,,,,,
+E48000038,Wiltshire & Swindon,Pandemic influenza,E48000038-001,,Review / unmatched,,,,,
+E48000038,Wiltshire & Swindon,Flooding,E48000038-002,,Broad / multiple,,,,,
+E48000038,Wiltshire & Swindon,Severe weather,E48000038-003,,Broad / multiple,,,,,
+E48000038,Wiltshire & Swindon,Utility failure,E48000038-004,,Review / unmatched,,,,,
+W41000001,Dyfed-Powys,Pandemic flu,W41000001-001,NRR26-079,Direct,,,,,
+W41000001,Dyfed-Powys,Flooding,W41000001-002,,Broad / multiple,,,,,
+W41000001,Dyfed-Powys,Severe weather,W41000001-003,,Broad / multiple,,,,,
+W41000001,Dyfed-Powys,Loss of infrastructure,W41000001-004,,Review / unmatched,,,,,
+W41000001,Dyfed-Powys,Pollution,W41000001-005,,Review / unmatched,,,,,
+W41000001,Dyfed-Powys,Animal disease,W41000001-006,,Broad / multiple,,,,,
+W41000001,Dyfed-Powys,Industrial incidents,W41000001-007,,Review / unmatched,,,,,
+W41000001,Dyfed-Powys,Transport incidents,W41000001-008,,Review / unmatched,,,,,
+W41000002,Gwent,Severe weather,W41000002-001,,Broad / multiple,,,,,
+W41000002,Gwent,Flooding,W41000002-002,,Broad / multiple,,,,,
+W41000002,Gwent,Human infectious diseases,W41000002-003,,Review / unmatched,,,,,
+W41000002,Gwent,Loss of critical infrastructure,W41000002-004,,Review / unmatched,,,,,
+W41000002,Gwent,Industrial accidents,W41000002-005,,Broad / multiple,,,,,
+W41000002,Gwent,Animal diseases,W41000002-006,,Review / unmatched,,,,,
+W41000002,Gwent,Transport incidents,W41000002-007,,Review / unmatched,,,,,
+W41000002,Gwent,Land movement,W41000002-008,,Review / unmatched,,,,,
+W41000002,Gwent,Malicious threats,W41000002-009,,Review / unmatched,,,,,
+W41000003,North Wales,Flooding,W41000003-001,,Broad / multiple,,,,,
+W41000003,North Wales,Severe weather,W41000003-002,,Broad / multiple,,,,,
+W41000003,North Wales,A pandemic,W41000003-003,,Review / unmatched,,,,,
+W41000003,North Wales,Terrorist incidents,W41000003-004,,Review / unmatched,,,,,
+W41000003,North Wales,Industrial incidents,W41000003-005,,Review / unmatched,,,,,
+W41000003,North Wales,Loss of critical infrastructure,W41000003-006,,Review / unmatched,,,,,
+W41000003,North Wales,Animal disease,W41000003-007,,Broad / multiple,,,,,
+W41000003,North Wales,Pollution,W41000003-008,,Review / unmatched,,,,,
+W41000003,North Wales,Transport incidents,W41000003-009,,Review / unmatched,,,,,
+W41000004,South Wales,Infectious disease outbreaks,W41000004-001,,Broad / multiple,,,,,
+W41000004,South Wales,Pandemic,W41000004-002,NRR26-079,Direct,,,,,
+W41000004,South Wales,Severe weather,W41000004-003,,Broad / multiple,,,,,
+W41000004,South Wales,Flooding,W41000004-004,,Broad / multiple,,,,,
+W41000004,South Wales,Land movement,W41000004-005,,Review / unmatched,,,,,
+W41000004,South Wales,Industrial accidents,W41000004-006,,Broad / multiple,,,,,
+W41000004,South Wales,Loss of utilities,W41000004-007,,Broad / multiple,,,,,
+W41000004,South Wales,Animal disease,W41000004-008,,Broad / multiple,,,,,
+W41000004,South Wales,Malicious threats,W41000004-009,,Review / unmatched,,,,,
+S43000005,North of Scotland,Pandemic Type Diseases,S43000005-001,NRR26-079,Broad / multiple,"The local pandemic topic covers the same disease family, but does not specify the national reasonable worst-case scale or assumptions.",s43000005-2024,8,190,2026-11-04
+S43000005,North of Scotland,Severe Weather,S43000005-002,NRR26-071,Broad / multiple,The local section explicitly includes high or storm-force winds; the national storm scenario is a narrower event.,s43000005-2024,10,173,2026-11-04
+S43000005,North of Scotland,Severe Weather,S43000005-002,NRR26-072,Broad / multiple,"The local section includes extreme temperatures; this is broad topic coverage, not confirmation of the national heatwave thresholds or geography.",s43000005-2024,10,175,2026-11-04
+S43000005,North of Scotland,Severe Weather,S43000005-002,NRR26-073,Broad / multiple,"The local section explicitly includes snow, ice and cold conditions; the national scenario specifies a narrower duration and extent.",s43000005-2024,10,177,2026-11-04
+S43000005,North of Scotland,Flooding,S43000005-003,NRR26-074,Broad / multiple,"Coastal flooding is explicitly described locally; the national reasonable worst-case scenario is located on the east coast of England, so this is topic coverage only.",s43000005-2024,12,179,2026-11-04
+S43000005,North of Scotland,Flooding,S43000005-003,NRR26-075,Broad / multiple,River flooding is explicitly described locally; the national scenario specifies its own extent and assumptions.,s43000005-2024,12,181,2026-11-04
+S43000005,North of Scotland,National Power Outage,S43000005-004,NRR26-044,Direct,"Both sections describe failure of the national electricity transmission system and a nationwide blackout. Direct describes scenario correspondence, not equivalent local and national scores.",s43000005-2024,14,117,2026-11-04
+S43000005,North of Scotland,Industrial Site Accidents,S43000005-005,NRR26-052,Broad / multiple,The local section describes fires or explosions at industrial sites. It does not restrict these to the national COMAH-site scenario.,s43000005-2024,16,133,2026-11-04
+S43000005,North of Scotland,Industrial Site Accidents,S43000005-005,NRR26-053,Broad / multiple,The local section describes harmful-material releases at industrial sites. The national scenario narrows this to a large toxic release from a COMAH site.,s43000005-2024,16,135,2026-11-04
+S43000005,North of Scotland,Transport Disruptions,S43000005-006,NRR26-034,Broad / multiple,"The local topic includes rail transport and accidents, but also many other causes of disruption. This links a narrower accident scenario within the broader transport topic.",s43000005-2024,18,97,2026-11-04
+S43000005,North of Scotland,Transport Disruptions,S43000005-006,NRR26-035,Broad / multiple,The local topic includes sea transport and accidents; it does not specify a large passenger vessel or the national accident assumptions.,s43000005-2024,18,99,2026-11-04
+S43000005,North of Scotland,Transport Disruptions,S43000005-006,NRR26-039,Broad / multiple,The local topic includes air transport and accidents; it does not specify the national aviation-collision scenario.,s43000005-2024,18,107,2026-11-04
+S43000005,North of Scotland,Pollution and Contamination,S43000005-007,NRR26-036,Broad / multiple,The local section includes marine pollution or releases associated with vessels and maritime activity. Its pollution topic is broader than the national major maritime spill scenario.,s43000005-2024,20,101,2026-11-04
+S43000005,North of Scotland,Animal and Plant Health,S43000005-008,NRR26-081,Broad / multiple,"Foot and mouth disease is explicitly named locally, within a wider animal and plant health topic; the national scenario is a specific major outbreak.",s43000005-2024,22,195,2026-11-04
+S43000005,North of Scotland,Animal and Plant Health,S43000005-008,NRR26-082,Broad / multiple,"Avian flu is explicitly named locally, within a wider animal and plant health topic; the national scenario specifies a major highly pathogenic avian influenza outbreak.",s43000005-2024,22,197,2026-11-04
+S43000005,North of Scotland,Significant Cyber Attack affecting a public sector organisation,S43000005-009,NRR26-019,Broad / multiple,"The local cyber topic describes disruption to organisations and public services without specifying a sector. Health and social care is a narrower public-service example, not an explicitly assessed local sector scenario.",s43000005-2024,24,66,2026-11-04
+S43000005,North of Scotland,Significant Cyber Attack affecting a public sector organisation,S43000005-009,NRR26-024,Broad / multiple,"The local cyber topic describes disruption to organisations and public services without specifying a sector. Police systems are a narrower public-service example, not an explicitly assessed local sector scenario.",s43000005-2024,24,76,2026-11-04
+S43000004,East of Scotland,Pandemic Diseases,S43000004-001,NRR26-079,Broad / multiple,"The local pandemic topic covers the same disease family, but does not specify the national reasonable worst-case scale or assumptions.",s43000004-2024,8,190,2026-11-04
+S43000004,East of Scotland,Severe Weather,S43000004-002,NRR26-071,Broad / multiple,The local section explicitly includes high or storm-force winds; the national storm scenario is a narrower event.,s43000004-2024,10,173,2026-11-04
+S43000004,East of Scotland,Severe Weather,S43000004-002,NRR26-072,Broad / multiple,"The local section includes extreme temperatures; this is broad topic coverage, not confirmation of the national heatwave thresholds or geography.",s43000004-2024,10,175,2026-11-04
+S43000004,East of Scotland,Severe Weather,S43000004-002,NRR26-073,Broad / multiple,"The local section explicitly includes snow, ice and cold conditions; the national scenario specifies a narrower duration and extent.",s43000004-2024,10,177,2026-11-04
+S43000004,East of Scotland,Flooding,S43000004-003,NRR26-074,Broad / multiple,"Coastal flooding is explicitly described locally; the national reasonable worst-case scenario is located on the east coast of England, so this is topic coverage only.",s43000004-2024,12,179,2026-11-04
+S43000004,East of Scotland,Flooding,S43000004-003,NRR26-075,Broad / multiple,River flooding is explicitly described locally; the national scenario specifies its own extent and assumptions.,s43000004-2024,12,181,2026-11-04
+S43000004,East of Scotland,Industrial Site Accidents,S43000004-004,NRR26-052,Broad / multiple,The local section describes fires or explosions at industrial sites. It does not restrict these to the national COMAH-site scenario.,s43000004-2024,14,133,2026-11-04
+S43000004,East of Scotland,Industrial Site Accidents,S43000004-004,NRR26-053,Broad / multiple,The local section describes harmful-material releases at industrial sites. The national scenario narrows this to a large toxic release from a COMAH site.,s43000004-2024,14,135,2026-11-04
+S43000004,East of Scotland,Pollution and Contamination,S43000004-005,NRR26-036,Broad / multiple,The local section includes marine pollution or releases associated with vessels and maritime activity. Its pollution topic is broader than the national major maritime spill scenario.,s43000004-2024,16,101,2026-11-04
+S43000004,East of Scotland,Transport Disruptions,S43000004-006,NRR26-034,Broad / multiple,"The local topic includes rail transport and accidents, but also many other causes of disruption. This links a narrower accident scenario within the broader transport topic.",s43000004-2024,18,97,2026-11-04
+S43000004,East of Scotland,Transport Disruptions,S43000004-006,NRR26-035,Broad / multiple,The local topic includes sea transport and accidents; it does not specify a large passenger vessel or the national accident assumptions.,s43000004-2024,18,99,2026-11-04
+S43000004,East of Scotland,Transport Disruptions,S43000004-006,NRR26-039,Broad / multiple,The local topic includes air transport and accidents; it does not specify the national aviation-collision scenario.,s43000004-2024,18,107,2026-11-04
+S43000004,East of Scotland,National Power Outage,S43000004-007,NRR26-044,Direct,"Both sections describe failure of the national electricity transmission system and a nationwide blackout. Direct describes scenario correspondence, not equivalent local and national scores.",s43000004-2024,20,117,2026-11-04
+S43000004,East of Scotland,Significant Cyber Attack or Incident,S43000004-008,NRR26-019,Broad / multiple,"The local cyber topic describes disruption to organisations and public services without specifying a sector. Health and social care is a narrower public-service example, not an explicitly assessed local sector scenario.",s43000004-2024,22,66,2026-11-04
+S43000004,East of Scotland,Significant Cyber Attack or Incident,S43000004-008,NRR26-024,Broad / multiple,"The local cyber topic describes disruption to organisations and public services without specifying a sector. Police systems are a narrower public-service example, not an explicitly assessed local sector scenario.",s43000004-2024,22,76,2026-11-04
+S43000003,West of Scotland,Pandemic Type Diseases,S43000003-001,NRR26-079,Broad / multiple,"The local pandemic topic covers the same disease family, but does not specify the national reasonable worst-case scale or assumptions.",s43000003-2024,8,190,2026-11-04
+S43000003,West of Scotland,Severe Weather,S43000003-002,NRR26-071,Broad / multiple,The local section explicitly includes high or storm-force winds; the national storm scenario is a narrower event.,s43000003-2024,10,173,2026-11-04
+S43000003,West of Scotland,Severe Weather,S43000003-002,NRR26-072,Broad / multiple,"The local section includes extreme temperatures; this is broad topic coverage, not confirmation of the national heatwave thresholds or geography.",s43000003-2024,10,175,2026-11-04
+S43000003,West of Scotland,Severe Weather,S43000003-002,NRR26-073,Broad / multiple,"The local section explicitly includes snow, ice and cold conditions; the national scenario specifies a narrower duration and extent.",s43000003-2024,10,177,2026-11-04
+S43000003,West of Scotland,Animal and Plant Health,S43000003-003,NRR26-081,Broad / multiple,"Foot and mouth disease is explicitly named locally, within a wider animal and plant health topic; the national scenario is a specific major outbreak.",s43000003-2024,12,195,2026-11-04
+S43000003,West of Scotland,Animal and Plant Health,S43000003-003,NRR26-082,Broad / multiple,"Avian flu is explicitly named locally, within a wider animal and plant health topic; the national scenario specifies a major highly pathogenic avian influenza outbreak.",s43000003-2024,12,197,2026-11-04
+S43000003,West of Scotland,Widespread Electricity Failure,S43000003-004,NRR26-044,Broad / multiple,"The local topic explicitly includes national blackouts, alongside local and regional failures; it is broader than this national scenario.",s43000003-2024,14,117,2026-11-04
+S43000003,West of Scotland,Widespread Electricity Failure,S43000003-004,NRR26-045,Broad / multiple,"The local topic explicitly includes regional electricity failure, alongside local and national outages; it is broader than this national scenario.",s43000003-2024,14,119,2026-11-04
+S43000003,West of Scotland,Flooding,S43000003-005,NRR26-074,Broad / multiple,"Coastal flooding is explicitly described locally; the national reasonable worst-case scenario is located on the east coast of England, so this is topic coverage only.",s43000003-2024,16,179,2026-11-04
+S43000003,West of Scotland,Flooding,S43000003-005,NRR26-075,Broad / multiple,River flooding is explicitly described locally; the national scenario specifies its own extent and assumptions.,s43000003-2024,16,181,2026-11-04
+S43000003,West of Scotland,Industrial Site Accidents,S43000003-006,NRR26-052,Broad / multiple,The local section describes fires or explosions at industrial sites. It does not restrict these to the national COMAH-site scenario.,s43000003-2024,18,133,2026-11-04
+S43000003,West of Scotland,Industrial Site Accidents,S43000003-006,NRR26-053,Broad / multiple,The local section describes harmful-material releases at industrial sites. The national scenario narrows this to a large toxic release from a COMAH site.,s43000003-2024,18,135,2026-11-04
+S43000003,West of Scotland,Pollution and Contamination,S43000003-007,NRR26-036,Broad / multiple,The local section includes marine pollution or releases associated with vessels and maritime activity. Its pollution topic is broader than the national major maritime spill scenario.,s43000003-2024,20,101,2026-11-04
+S43000003,West of Scotland,Transport Disruptions,S43000003-008,NRR26-034,Broad / multiple,"The local topic includes rail transport and accidents, but also many other causes of disruption. This links a narrower accident scenario within the broader transport topic.",s43000003-2024,22,97,2026-11-04
+S43000003,West of Scotland,Transport Disruptions,S43000003-008,NRR26-035,Broad / multiple,The local topic includes sea transport and accidents; it does not specify a large passenger vessel or the national accident assumptions.,s43000003-2024,22,99,2026-11-04
+S43000003,West of Scotland,Transport Disruptions,S43000003-008,NRR26-039,Broad / multiple,The local topic includes air transport and accidents; it does not specify the national aviation-collision scenario.,s43000003-2024,22,107,2026-11-04
+S43000003,West of Scotland,Significant Cyber Attack affecting a public sector organisation,S43000003-009,NRR26-019,Broad / multiple,"The local cyber topic describes disruption to organisations and public services without specifying a sector. Health and social care is a narrower public-service example, not an explicitly assessed local sector scenario.",s43000003-2024,24,66,2026-11-04
+S43000003,West of Scotland,Significant Cyber Attack affecting a public sector organisation,S43000003-009,NRR26-024,Broad / multiple,"The local cyber topic describes disruption to organisations and public services without specifying a sector. Police systems are a narrower public-service example, not an explicitly assessed local sector scenario.",s43000003-2024,24,76,2026-11-04

@@ -1,6 +1,6 @@
 # Climate Resilient UK — Community risk
 
-A static prototype with risk-first and area-first views drawing from shared data. The local collection covers England and Wales.
+A static prototype with risk-first and area-first views drawing from shared data. The local collection covers England and Wales, with a Scotland integration preview of three regional registers and 26 unscored topics.
 
 ## Pages
 
@@ -104,7 +104,7 @@ submission. New shareable addresses contain only route, risk and/or area IDs,
 not postcodes or coordinates. The application does not store postcode searches
 in a database.
 
-Leaflet from unpkg and OpenStreetMap background tiles are optional external map resources. The national map highlights only direct provisional crosswalk matches. Candidate and broad matches are excluded; an unhighlighted area may still face the selected risk. Selecting an LRF zooms to its boundary and adds the basemap. If Leaflet or its stylesheet cannot load, a local Mercator SVG shows the boundaries and any postcode marker. If background tiles fail, the boundary overlay remains usable. A postcode service failure shows an error and removes previous results rather than showing a stale area's risks.
+Leaflet from unpkg and OpenStreetMap background tiles are optional external map resources. The national map distinguishes direct provisional crosswalk matches from reviewed broader topic coverage. A checkbox switches to direct-only. Candidate and unreviewed broad matches are excluded; an unhighlighted area may still face the selected risk. The OpenStreetMap basemap is visible in both the national overview and selected-area views, beneath translucent boundary fills. Selecting an LRF zooms to its boundary. If Leaflet or its stylesheet cannot load, a local Mercator SVG shows the boundaries and any postcode marker. If background tiles fail, the boundary overlay remains usable. A postcode service failure shows an error and removes previous results rather than showing a stale area's risks.
 
 This is a public test prototype. Coverage is incomplete, national excerpts include known PDF extraction defects, national matches are provisional, and sources differ in assessment methods. The common 1–5 navigation rank is not an official score or personal risk estimate. Before public promotion, validate sources, descriptions, scores, links and accessibility. Do not collect household personal data in this prototype.
 

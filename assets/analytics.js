@@ -16,15 +16,15 @@ const events = {
   'open-registers': ['Open risk register dashboard'],
   'open-postcode': ['Open postcode finder'],
   'postcode-started': ['Postcode lookup started'],
-  'postcode-succeeded': ['Postcode lookup succeeded', /^[EW]\d{8}$/],
+  'postcode-succeeded': ['Postcode lookup succeeded', /^[EWS]\d{8}$/],
   'postcode-failed': ['Postcode lookup failed'],
   'postcode-invalid': ['Invalid postcode submitted'],
-  'area-selected': ['Forum area selected', /^[EW]\d{8}$/],
-  'risk-opened': ['Risk details opened', /^[EW]\d{8}-\d{3}$/],
+  'area-selected': ['Forum area selected', /^[EWS]\d{8}$/],
+  'risk-opened': ['Risk details opened', /^[EWS]\d{8}-\d{3}$/],
   'national-selected': ['National risk selected', /^NRR\d{2}-\d{3}$/],
   'view-changed': ['Dashboard view changed', /^(list|plot|risk|area)$/],
-  'forum-website': ['Forum website opened', /^[EW]\d{8}$/],
-  'register-source': ['Original register source opened', /^[EW]\d{8}$/],
+  'forum-website': ['Forum website opened', /^[EWS]\d{8}$/],
+  'register-source': ['Original register source opened', /^[EWS]\d{8}$/],
   'download-matches': ['Local–national matches downloaded']
 };
 

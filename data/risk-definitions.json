@@ -1033,6 +1033,33 @@
       "type": "web",
       "checked_at": "2026-11-03",
       "forum_code": "E48000030"
+    },
+    "s43000005-2024": {
+      "title": "North of Scotland Regional Resilience Partnership Community Risk Register 2024",
+      "url": "https://external-doc-library.s3.eu-west-2.amazonaws.com/PROD/NoSRRPCommunityRiskRegister.pdf",
+      "publication_url": "https://www.firescotland.gov.uk/publications/document/?id=720",
+      "edition": "2024",
+      "type": "pdf",
+      "checked_at": "2026-11-04",
+      "forum_code": "S43000005"
+    },
+    "s43000004-2024": {
+      "title": "East of Scotland Regional Resilience Partnership Community Risk Register 2024",
+      "url": "https://external-doc-library.s3.eu-west-2.amazonaws.com/PROD/EoSRRPCommunityRiskRegister.pdf",
+      "publication_url": "https://www.firescotland.gov.uk/publications/document/?id=722",
+      "edition": "2024",
+      "type": "pdf",
+      "checked_at": "2026-11-04",
+      "forum_code": "S43000004"
+    },
+    "s43000003-2024": {
+      "title": "West of Scotland Regional Resilience Partnership Community Risk Register 2024",
+      "url": "https://external-doc-library.s3.eu-west-2.amazonaws.com/PROD/WoSRRPCommunityRiskRegister.pdf",
+      "publication_url": "https://www.firescotland.gov.uk/publications/document/?id=721",
+      "edition": "2024",
+      "type": "pdf",
+      "checked_at": "2026-11-04",
+      "forum_code": "S43000003"
     }
   },
   "local": {
@@ -3117,6 +3144,162 @@
       "source_id": "e48000030-web-105",
       "section": "Severe weather",
       "format": "summary"
+    },
+    "S43000005-001": {
+      "text": "A widespread outbreak of infectious disease can cause serious illness, deaths and staff absence, putting pressure on health services and disrupting everyday activities and businesses.",
+      "format": "summary",
+      "source_id": "s43000005-2024",
+      "pdf_page": 8
+    },
+    "S43000005-002": {
+      "text": "Severe weather, including strong winds, snow, ice, heavy rain and extreme temperatures, can damage buildings and interrupt travel, utilities and essential services. Impacts can persist and lead to further emergencies.",
+      "format": "summary",
+      "source_id": "s43000005-2024",
+      "pdf_page": 10
+    },
+    "S43000005-003": {
+      "text": "Coastal, river and rapid-onset flooding can threaten lives, damage homes and businesses, isolate communities and disrupt transport and utilities. Evacuation and a lengthy recovery may be needed.",
+      "format": "summary",
+      "source_id": "s43000005-2024",
+      "pdf_page": 12
+    },
+    "S43000005-004": {
+      "text": "A national electricity outage would disrupt lighting, heating, communications, water supply, transport and business operations across the region, with further consequences for health and welfare during restoration.",
+      "format": "summary",
+      "source_id": "s43000005-2024",
+      "pdf_page": 14
+    },
+    "S43000005-005": {
+      "text": "Accidents at industrial sites handling hazardous materials can involve explosions or releases of harmful substances. Nearby people may need to shelter or evacuate, and buildings, services and the environment can be affected.",
+      "format": "summary",
+      "source_id": "s43000005-2024",
+      "pdf_page": 16
+    },
+    "S43000005-006": {
+      "text": "Disruption to roads, railways, ferries and air routes can restrict access to services and supplies. Remote communities are particularly dependent on a small number of lifeline routes, bridges and causeways, with limited alternatives.",
+      "format": "summary",
+      "source_id": "s43000005-2024",
+      "pdf_page": 18
+    },
+    "S43000005-007": {
+      "text": "Releases of harmful substances can contaminate the environment and affect health, water supplies, food production and businesses. Clean-up and recovery can require substantial time and resources.",
+      "format": "summary",
+      "source_id": "s43000005-2024",
+      "pdf_page": 20
+    },
+    "S43000005-008": {
+      "text": "Outbreaks affecting animal or plant health can disrupt farming, food production and rural businesses, with restrictions on movement and access. Some animal diseases can also threaten human health.",
+      "format": "summary",
+      "source_id": "s43000005-2024",
+      "pdf_page": 22
+    },
+    "S43000005-009": {
+      "text": "A significant cyber attack on a public sector organisation can disable IT systems or make essential data unavailable, interrupting public services and business operations and requiring a prolonged recovery.",
+      "format": "summary",
+      "source_id": "s43000005-2024",
+      "pdf_page": 24
+    },
+    "S43000004-001": {
+      "text": "A widespread outbreak of infectious disease can cause serious illness, deaths and staff absence, putting pressure on health services and disrupting everyday activities and businesses.",
+      "format": "summary",
+      "source_id": "s43000004-2024",
+      "pdf_page": 8
+    },
+    "S43000004-002": {
+      "text": "Severe weather, including strong winds, snow, ice, heavy rain and extreme temperatures, can damage buildings and interrupt travel, utilities and essential services. Impacts can persist and lead to further emergencies.",
+      "format": "summary",
+      "source_id": "s43000004-2024",
+      "pdf_page": 10
+    },
+    "S43000004-003": {
+      "text": "Coastal, river and rapid-onset flooding can threaten lives, damage homes and businesses, isolate communities and disrupt transport and utilities. Evacuation and a lengthy recovery may be needed.",
+      "format": "summary",
+      "source_id": "s43000004-2024",
+      "pdf_page": 12
+    },
+    "S43000004-004": {
+      "text": "Accidents at industrial sites handling hazardous materials can involve explosions or releases of harmful substances. Nearby people may need to shelter or evacuate, and buildings, services and the environment can be affected.",
+      "format": "summary",
+      "source_id": "s43000004-2024",
+      "pdf_page": 14
+    },
+    "S43000004-005": {
+      "text": "Releases of harmful substances can contaminate the environment and affect health, water supplies, food production and businesses. Clean-up and recovery can require substantial time and resources.",
+      "format": "summary",
+      "source_id": "s43000004-2024",
+      "pdf_page": 16
+    },
+    "S43000004-006": {
+      "text": "Disruption to road, rail, air or sea transport can interrupt journeys, deliveries and access to services, affecting households and businesses. Causes include accidents, severe weather and failures of transport systems.",
+      "format": "summary",
+      "source_id": "s43000004-2024",
+      "pdf_page": 18
+    },
+    "S43000004-007": {
+      "text": "A national electricity outage would disrupt lighting, heating, communications, water supply, transport and business operations across the region, with further consequences for health and welfare during restoration.",
+      "format": "summary",
+      "source_id": "s43000004-2024",
+      "pdf_page": 20
+    },
+    "S43000004-008": {
+      "text": "Cyber attacks or incidents can interrupt an organisation’s IT systems and services, including through ransomware, data loss or loss of access to connected devices. Recovery can disrupt public services and businesses.",
+      "format": "summary",
+      "source_id": "s43000004-2024",
+      "pdf_page": 22
+    },
+    "S43000003-001": {
+      "text": "A widespread outbreak of infectious disease can cause serious illness, deaths and staff absence, putting pressure on health services and disrupting everyday activities and businesses.",
+      "format": "summary",
+      "source_id": "s43000003-2024",
+      "pdf_page": 8
+    },
+    "S43000003-002": {
+      "text": "Severe weather, including strong winds, snow, ice, heavy rain and extreme temperatures, can damage buildings and interrupt travel, utilities and essential services. Impacts can persist and lead to further emergencies.",
+      "format": "summary",
+      "source_id": "s43000003-2024",
+      "pdf_page": 10
+    },
+    "S43000003-003": {
+      "text": "Outbreaks affecting animal or plant health can disrupt farming, food production and rural businesses, with restrictions on movement and access. Some animal diseases can also threaten human health.",
+      "format": "summary",
+      "source_id": "s43000003-2024",
+      "pdf_page": 12
+    },
+    "S43000003-004": {
+      "text": "Electricity failure may affect a local area, a region or the whole country. Prolonged outages interrupt heating, cooking, refrigeration and communications and can cause further disruption to services and businesses.",
+      "format": "summary",
+      "source_id": "s43000003-2024",
+      "pdf_page": 14
+    },
+    "S43000003-005": {
+      "text": "Coastal, river and rapid-onset flooding can threaten lives, damage homes and businesses, isolate communities and disrupt transport and utilities. Evacuation and a lengthy recovery may be needed.",
+      "format": "summary",
+      "source_id": "s43000003-2024",
+      "pdf_page": 16
+    },
+    "S43000003-006": {
+      "text": "Accidents at industrial sites handling hazardous materials can involve explosions or releases of harmful substances. Nearby people may need to shelter or evacuate, and buildings, services and the environment can be affected.",
+      "format": "summary",
+      "source_id": "s43000003-2024",
+      "pdf_page": 18
+    },
+    "S43000003-007": {
+      "text": "Releases of harmful substances can contaminate the environment and affect health, water supplies, food production and businesses. Clean-up and recovery can require substantial time and resources.",
+      "format": "summary",
+      "source_id": "s43000003-2024",
+      "pdf_page": 20
+    },
+    "S43000003-008": {
+      "text": "Disruption to road, rail, air or sea transport can interrupt journeys, deliveries and access to services, affecting households and businesses. Causes include accidents, severe weather and failures of transport systems.",
+      "format": "summary",
+      "source_id": "s43000003-2024",
+      "pdf_page": 22
+    },
+    "S43000003-009": {
+      "text": "A significant cyber attack on a public sector organisation can disable IT systems or make essential data unavailable, interrupting public services and business operations and requiring a prolonged recovery.",
+      "format": "summary",
+      "source_id": "s43000003-2024",
+      "pdf_page": 24
     }
   },
   "national": {

@@ -12,7 +12,7 @@ export function resolveRiskDefinition(risk, data) {
   if (local?.text && definitions.sources[local.source_id]) {
     return {kind:'local', label:'Local definition', text:local.text, sources:[{...definitions.sources[local.source_id],pdf_page:local.pdf_page,section:local.section}], note:local.scope_note || 'Plain-English summary of the local register or forum risk guidance.'};
   }
-  const match = data.matches.find(record => record.local_id === risk.id);
+  const match = data.matches.find(record => record.local_id === risk.id && record.match_status === 'Direct');
   if (match?.match_status === 'Direct') {
     const definition = definitions?.national?.[match.national_id];
     const source = nationalSource(match.national_id, data);

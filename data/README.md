@@ -54,3 +54,17 @@ Local register PDF: https://media.aspolice.net/uploads/production/20260907120559
 National register PDF: https://assets.publishing.service.gov.uk/media/6a50d66b1228eb26a4cab76c/National_Risk_Register_2026.pdf
 
 PDF page references count from the start of the file and may differ from printed page numbers. The existing raw national excerpts are retained for provenance, but the catalogue displays the new summaries when available. Definitions never alter ratings, likelihood, impact or the national-match status. Adding further local summaries automatically takes precedence in both tools.
+
+## Scotland integration preview — 4 November 2026
+
+The collection now has 45 partnership areas and 657 local entries (initially 657 match records, subsequently expanded to 681 as described below). The original 42 England/Wales areas and 631 entries are retained. Scotland adds East (S43000004, 8 topics), North (S43000005, 9 topics) and West (S43000003, 9 topics), from the 2024 SFRS-hosted regional Community Risk Registers. All 26 entries have local plain-English summaries with PDF page references; scores are null. National links have since been reviewed as documented below. Counts in earlier sections describe the pre-Scotland collection.
+
+Boundaries are from the user-supplied SG_RegionalResiliencePartnerships_2019 shapefile, catalogued at https://www.data.gov.uk/dataset/49a0dd11-e0f6-44dd-962e-f9f1d423edc0/regional-resilience-partnerships . GDAL MakeValid repaired source geometry, followed by a 100 metre topology-preserving simplification, another MakeValid and transformation from EPSG:27700 to EPSG:4326. All three output geometries pass GDAL validity checks. Original source files were not changed. Shared regional boundaries have not been separately audited for tiny simplification gaps; coastal/near-boundary postcode results remain approximate. Spot checks cover Edinburgh, Glasgow, Inverness and Lerwick. The broad three-region footprint agrees with the register regional maps; this is not a full boundary audit.
+
+Required attribution: Copyright Scottish Government, contains Ordnance Survey data © Crown copyright and database right 2026. Catalogue updated 27 February 2025; metadata revision 2 February 2018, distribution filename 2019. Do not interpret those dates as a 2025 boundary revision. Northern Ireland remains outside the local collection.
+
+## Reviewed Scottish national links — 4 November 2026
+
+The crosswalk now supports multiple rows per local risk: the unique key is `(local_id, national_id)`, not `local_id` alone. There are 681 match records for 657 local risks. The 26 Scottish topics have 50 reviewed links: 2 Direct and 48 Broad / multiple. Reviewed links record a rationale, local definition source ID, local and national PDF pages and review date. JSON and CSV contain the same relationships; the CSV adds empty review columns for older unreviewed rows. Existing England/Wales records are unchanged.
+
+The main explorer defaults to direct plus reviewed broader coverage, using green for direct and ochre/dashed for broader. The checkbox switches to direct-only; `matches=direct` preserves that choice in URLs and browser history. Areas and local entries are counted once even when they have multiple links. The retained legacy view continues to filter by direct matches only. Local definitions and ratings never inherit national scores. The full decisions, exclusions and source-page links are in [the Scottish match review](scotland-match-review.md).
