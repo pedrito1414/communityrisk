@@ -86,7 +86,7 @@ def main():
             request(f'/session/{session}/timeouts', {'script':15000,'pageLoad':30000})
             request(f'/session/{session}/window/rect', {'width':1280,'height':1000})
             visit('')
-            assert execute("return document.title.includes('Community risk') && [...document.querySelectorAll('.choice')].length===2")
+            assert execute("return document.title.includes('Climate Resilient UK') && document.querySelectorAll('.card').length===3")
             screenshot('home-desktop')
             print('PASS: home menu and Pages subdirectory hosting')
             visit('devon/')
@@ -238,7 +238,7 @@ def main():
             wait("document.getElementById('resultsTitle')?.textContent==='Find your local risk register'")
             assert execute("return !document.getElementById('region').value && document.getElementById('loadError').hidden")
             visit('')
-            assert execute("return [...document.querySelectorAll('.choice')].map(a=>a.getAttribute('href')).join('|')==='registers/?view=risk|registers/?view=area'")
+            assert execute("return [...document.querySelectorAll('.card')].map(a=>a.getAttribute('href')).join('|')==='bypostcode/|registers/?view=risk|devon/'")
             if '--live' in sys.argv:
                 visit('registers/?view=area')
                 wait("!document.getElementById('postcodeSubmit').disabled")

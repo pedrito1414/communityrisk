@@ -8,14 +8,10 @@
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
   <link rel="stylesheet" href="../assets/shared.css">
   <link rel="stylesheet" href="../assets/explorer.css">
-</head>
+<link rel="stylesheet" href="../assets/unified-nav.css"></head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
-  <nav class="site-nav" aria-label="Main navigation">
-    <a href="../">Climate Resilient UK</a>
-    <a id="navRisk" href="?view=risk" aria-current="page">Explore by risk</a>
-    <a id="navArea" href="?view=area">Explore by area</a>
-  </nav>
+  <nav class="site-nav" aria-label="Main navigation"><a href="../"><span class="mark" aria-hidden="true">◒</span> Climate Resilient UK</a><a id="navRisk" href="../registers/?view=risk">By risk</a><a id="navArea" href="../registers/?view=area">By area</a><a href="../bypostcode/">By postcode</a><a href="../devon/">Devon</a><a href="../about/">About</a><a href="../what-we-do/">What we do</a></nav>
   <div id="loadError" role="alert" hidden></div>
   <main id="main">
     <header class="explorer-heading">
@@ -74,6 +70,7 @@
   <noscript><p class="error">Enable JavaScript to explore the map and risk records. You can also <a href="https://www.gov.uk/guidance/local-resilience-forums-contact-details">find your LRF in the official directory</a>.</p></noscript>
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
   <script type="module" src="../assets/explorer.js"></script>
-  <script type="module" src="../assets/analytics.js"></script>
+
+<script type="module" src="../assets/analytics.js"></script>
 </body>
 </html>
